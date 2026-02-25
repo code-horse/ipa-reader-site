@@ -1,10 +1,24 @@
 ---
 layout: bare
+title: IPA Reader
 ---
+
 # IPA Reader
 
-English IPA pronunciation browser extension.
+An English pronunciation learning tool with IPA annotations.
 
-- [Chrome Extension](https://chromewebstore.google.com/detail/ipa-reader/jpaoglankanpbjbjgpjlhkohokhephfk)
-- [Extension Support](extension/support)
-- [Privacy Policy](extension/privacy-policy)
+## Mobile App
+
+- [Privacy Policy](./privacy-policy)
+- [Support](./support)
+
+## Browser Extension
+
+### Help / User Guide
+
+- [User Guide](./extension/help/en)
+
+### Other
+
+- [Privacy Policy](./extension/privacy-policy)
+- [Support](./extension/support)

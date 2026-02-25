@@ -1,4 +1,3 @@
 title: IPA Reader
-description: IPA Reader - English IPA pronunciation browser extension
-theme: null
-plugins: []
+theme: minima
+header_pages: []
