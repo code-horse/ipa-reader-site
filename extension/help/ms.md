@@ -46,7 +46,7 @@ Tunjuk tetikus ke perkataan untuk melihat tooltip IPA, klik ikon pembesar suara 
 
 ### Langkah 5: Ucapkan Teks yang Dipilih
 
-Pilih mana-mana teks Inggeris dengan tetikus, klik butang pembesar suara terapung untuk mengucapkan; atau klik kanan dan pilih "Speak Selection".
+Pilih mana-mana teks Inggeris dengan tetikus, klik butang 🔊 pembesar suara terapung untuk mengucapkan; atau klik kanan dan pilih "Speak Selection".
 
 > **Petua:** Klik ikon sambungan di bar alat pelayar anda untuk membuka panel tetapan dan laraskan jenis loghat, kadar ucapan, dan lain-lain.
 

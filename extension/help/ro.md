@@ -46,7 +46,7 @@ Treceți mouse-ul peste cuvinte pentru a vedea tooltip-urile IPA, faceți clic p
 
 ### Pasul 5: Rostire text selectat
 
-Selectați orice text englezesc cu mouse-ul, faceți clic pe butonul difuzor flotant pentru a vorbi; sau click dreapta și alegeți „Speak Selection”.
+Selectați orice text englezesc cu mouse-ul, faceți clic pe butonul plutitor 🔊 pentru a vorbi; sau click dreapta și alegeți „Speak Selection”.
 
 > **Sfat:** Faceți clic pe pictograma extensiei în bara de instrumente a browserului pentru a deschide panoul de setări și a ajusta tipul de accent, viteza vorbirii și altele.
 

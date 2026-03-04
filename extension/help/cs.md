@@ -46,7 +46,7 @@ Najděte kurzorem nad slovy pro zobrazení IPA tipů, klikněte na ikonu reprodu
 
 ### Krok 5: Přehrát vybraný text
 
-Vyberte libovolný anglický text myší, klikněte na plovoucí tlačítko reproduktoru pro přehrání; nebo klikněte pravým tlačítkem a zvolte „Speak Selection“.
+Vyberte libovolný anglický text myší, klikněte na plovoucí tlačítko 🔊 pro přehrání; nebo klikněte pravým tlačítkem a zvolte „Speak Selection“.
 
 > **Tip:** Kliknutím na ikonu rozšíření na liště prohlížeče otevřete panel nastavení a upravte typ přízvuku, rychlost přehrávání a další.
 

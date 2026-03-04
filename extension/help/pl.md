@@ -46,7 +46,7 @@ Najedź kursorem na słowa, aby zobaczyć etykiety IPA, kliknij ikonę głośnik
 
 ### Krok 5: Mówienie zaznaczonego tekstu
 
-Zaznacz dowolny angielski tekst myszą, kliknij pływający przycisk głośnika, aby mówić; lub kliknij prawym przyciskiem i wybierz „Speak Selection”.
+Zaznacz dowolny angielski tekst myszą, kliknij pływający przycisk 🔊, aby mówić; lub kliknij prawym przyciskiem i wybierz „Speak Selection”.
 
 > **Wskazówka:** Kliknij ikonę rozszerzenia na pasku narzędzi przeglądarki, aby otworzyć panel ustawień i dostosować typ akcentu, szybkość mowy i inne parametry.
 

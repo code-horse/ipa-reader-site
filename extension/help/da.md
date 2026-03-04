@@ -46,7 +46,7 @@ Hold musen over ord for at se IPA-tooltips, klik på højttalerikonet for at hø
 
 ### Trin 5: Oplæs markeret tekst
 
-Markér enhver engelsk tekst med musen, klik på den flydende højttalerknap for at læse op; eller højreklik og vælg "Speak Selection".
+Markér enhver engelsk tekst med musen, klik på den flydende 🔊-knap for at læse op; eller højreklik og vælg "Speak Selection".
 
 > **Tip:** Klik på udvidelsesikonet i din browsers værktøjslinje for at åbne indstillingspanelet og justere accenttype, talehastighed og mere.
 

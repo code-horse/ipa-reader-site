@@ -46,7 +46,7 @@ Passez la souris sur les mots pour afficher les infobulles IPA, cliquez sur l'ic
 
 ### Étape 5 : Lire le texte sélectionné
 
-Sélectionnez du texte anglais avec la souris, cliquez sur le bouton haut-parleur flottant pour écouter ; ou faites un clic droit et choisissez « Lire la sélection ».
+Sélectionnez du texte anglais avec la souris, cliquez sur le bouton haut-parleur 🔊 flottant pour écouter ; ou faites un clic droit et choisissez « Lire la sélection ».
 
 > **Conseil :** Cliquez sur l'icône de l'extension dans la barre d'outils du navigateur pour ouvrir le panneau des paramètres et ajuster le type d'accent, la vitesse de lecture, etc.
 

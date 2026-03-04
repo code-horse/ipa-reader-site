@@ -46,7 +46,7 @@ Vie hiiren osoitin sanojen päälle nähdäksesi IPA-kohtaisohjeet, napsauta kai
 
 ### Vaihe 5: Lue valittu teksti ääneen
 
-Valitse mitä tahansa englanninkielistä tekstiä hiirellä, napsauta kelluvaa kaiutinpainiketta puhuaksesi; tai napsauta hiiren kakkospainikkeella ja valitse "Speak Selection".
+Valitse mitä tahansa englanninkielistä tekstiä hiirellä, napsauta kelluvaa 🔊 kaiutinpainiketta puhuaksesi; tai napsauta hiiren kakkospainikkeella ja valitse "Speak Selection".
 
 > **Vinkki:** Napsauta laajennuksen kuvaketta selaimen työkalupalkissa avataksesi asetuspanelin ja säädäksesi aksenttityyppiä, puhenopeutta ja muuta.
 

@@ -46,7 +46,7 @@ Passeu el cursor sobre les paraules per veure les eines emergents IPA, feu clic 
 
 ### Pas 5: Parlar el text seleccionat
 
-Seleccioneu qualsevol text en anglès amb el ratolí, feu clic al botó d'altaveu flotant per parlar; o feu clic dret i trieu "Speak Selection".
+Seleccioneu qualsevol text en anglès amb el ratolí, feu clic al botó flotant 🔊 per parlar; o feu clic dret i trieu "Speak Selection".
 
 > **Consell:** Feu clic a la icona de l'extensió a la barra d'eines del navegador per obrir el panell de configuració i ajustar el tipus d'accent, la velocitat de la veu i més.
 

@@ -46,7 +46,7 @@ Hold musen over ord for å se IPA-verktøytips, klikk på høyttaler-ikonet for 
 
 ### Steg 5: Les valgt tekst høyt
 
-Velg vilkårlig engelsk tekst med musen, klikk på den flytende høyttalerknappen for å tale; eller høyreklikk og velg "Speak Selection".
+Velg vilkårlig engelsk tekst med musen, klikk på den flytende 🔊-knappen for å tale; eller høyreklikk og velg "Speak Selection".
 
 > **Tips:** Klikk på utvidelsesikonet i nettleserens verktøylinje for å åpne innstillingspanelet og justere accenttype, tales hastighet og mer.
 

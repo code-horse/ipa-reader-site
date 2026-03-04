@@ -46,7 +46,7 @@ Pasa el cursor sobre las palabras para ver los tooltips de IPA, haz clic en el i
 
 ### Paso 5: Leer el texto seleccionado
 
-Selecciona texto en inglés con el ratón, haz clic en el botón flotante de altavoz para leer; o clic derecho y elige «Leer selección».
+Selecciona texto en inglés con el ratón, haz clic en el botón flotante 🔊 de altavoz para leer; o clic derecho y elige «Leer selección».
 
 > **Consejo:** Haz clic en el icono de la extensión en la barra de herramientas del navegador para abrir el panel de ajustes y configurar el tipo de acento, velocidad de lectura, etc.
 

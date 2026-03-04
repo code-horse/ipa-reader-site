@@ -46,7 +46,7 @@ Hover over woorden om IPA-tooltips te zien, klik op het luidsprekericoon om de u
 
 ### Stap 5: Geselecteerde tekst voorlezen
 
-Selecteer willekeurige Engelse tekst met de muis, klik op de zwevende luidsprekerknop om te spreken; of rechtsklik en kies "Speak Selection".
+Selecteer willekeurige Engelse tekst met de muis, klik op de zwevende 🔊-knop om te spreken; of rechtsklik en kies "Speak Selection".
 
 > **Tip:** Klik op het extensie-icoon in de werkbalk van je browser om het instellingenpaneel te openen en accenttype, spraaksnelheid en meer aan te passen.
 

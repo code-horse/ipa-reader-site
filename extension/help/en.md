@@ -46,7 +46,7 @@ Hover over words to see IPA tooltips, click the speaker icon to hear pronunciati
 
 ### Step 5: Speak Selected Text
 
-Select any English text with mouse, click the floating speaker button to speak; or right-click and choose "Speak Selection".
+Select any English text with mouse, click the 🔊 floating button to speak; or right-click and choose "Speak Selection".
 
 > **Tip:** Click the extension icon in your browser toolbar to open the settings panel and adjust accent type, speech rate, and more.
 
@@ -57,7 +57,7 @@ Select any English text with mouse, click the floating speaker button to speak; 
 The selection speech feature allows you to select any English text and read it aloud with one click — perfect for learning sentence pronunciation and reading practice.
 
 **Method 1: Floating Button**  
-Select English text with your mouse, a speaker button appears at the top right of the selection — click to speak.
+Select English text with your mouse, a green 🔊 button appears at the top right of the selection — click to speak.
 
 **Method 2: Right-Click Menu**  
 After selecting English text, right-click and choose "Speak Selection" from the menu.

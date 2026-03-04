@@ -46,7 +46,7 @@ IPA ipuçlarını görmek için kelimelerin üzerine gelin, telaffuzu duymak iç
 
 ### Adım 5: Seçili Metni Seslendirin
 
-Fareyle herhangi bir İngilizce metni seçin, seslendirmek için yüzen hoparlör düğmesine tıklayın; veya sağ tıklayıp "Speak Selection" seçeneğini belirleyin.
+Fareyle herhangi bir İngilizce metni seçin, seslendirmek için yüzen 🔊 düğmesine tıklayın; veya sağ tıklayıp "Speak Selection" seçeneğini belirleyin.
 
 > **İpucu:** Aksen türü, konuşma hızı ve daha fazlasını ayarlamak için ayarlar panelini açmak üzere tarayıcı araç çubuğundaki eklenti simgesine tıklayın.
 

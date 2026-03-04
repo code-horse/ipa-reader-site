@@ -46,7 +46,7 @@ Prijeđite mišem preko riječi da vidite IPA tooltipove, kliknite ikonu zvučni
 
 ### Korak 5: Govor odabranog teksta
 
-Odaberite bilo koji engleski text mišem, kliknite plutajući gumb zvučnika za govor; ili desnim klikom odaberite "Speak Selection".
+Odaberite bilo koji engleski text mišem, kliknite plutajući gumb 🔊 za govor; ili desnim klikom odaberite "Speak Selection".
 
 > **Savjet:** Kliknite na ikonu proširenja u alatnoj traci preglednika da otvorite ploču postavki i prilagodite vrstu naglaska, brzinu govora i drugo.
 

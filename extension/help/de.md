@@ -46,7 +46,7 @@ Fahren Sie mit der Maus über Wörter, um IPA-Tooltips zu sehen, klicken Sie auf
 
 ### Schritt 5: Ausgewählten Text vorlesen
 
-Wählen Sie englischen Text mit der Maus aus, klicken Sie auf den schwebenden Lautsprecher-Button zum Vorlesen; oder rechtsklicken Sie und wählen Sie „Auswahl vorlesen".
+Wählen Sie englischen Text mit der Maus aus, klicken Sie auf den schwebenden 🔊-Button zum Vorlesen; oder rechtsklicken Sie und wählen Sie „Auswahl vorlesen".
 
 > **Tipp:** Klicken Sie auf das Erweiterungssymbol in der Browser-Symbolleiste, um das Einstellungsfenster zu öffnen und Akzenttyp, Sprechgeschwindigkeit und mehr anzupassen.
 

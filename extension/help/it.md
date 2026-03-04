@@ -46,7 +46,7 @@ Passa il mouse sulle parole per vedere i tooltip IPA, clicca l'icona altoparlant
 
 ### Passo 5: Leggere il testo selezionato
 
-Seleziona testo in inglese con il mouse, clicca il pulsante altoparlante flottante per leggere; oppure tasto destro e scegli «Leggi selezione».
+Seleziona testo in inglese con il mouse, clicca il pulsante 🔊 flottante per leggere; oppure tasto destro e scegli «Leggi selezione».
 
 > **Suggerimento:** Clicca l'icona dell'estensione nella barra degli strumenti del browser per aprire il pannello impostazioni e regolare tipo di accento, velocità di lettura e altro.
 

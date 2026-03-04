@@ -46,7 +46,7 @@ Arahkan kursor ke kata untuk melihat tooltip IPA, klik ikon speaker untuk menden
 
 ### Langkah 5: Ucapkan Teks yang Dipilih
 
-Pilih teks bahasa Inggris apa pun dengan mouse, klik tombol speaker mengambang untuk mengucapkan; atau klik kanan dan pilih "Speak Selection".
+Pilih teks bahasa Inggris apa pun dengan mouse, klik tombol mengambang 🔊 untuk mengucapkan; atau klik kanan dan pilih "Speak Selection".
 
 > **Tip:** Klik ikon ekstensi di bilah alat browser Anda untuk membuka panel pengaturan dan menyesuaikan jenis aksen, kecepatan bicara, dan lainnya.
 

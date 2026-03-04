@@ -46,7 +46,7 @@ Vigye az egeret a szavak fölé az IPA tooltipek megtekintéséhez, kattintson a
 
 ### 5. lépés: Kijelölt szöveg felolvasása
 
-Jelöljön ki bármilyen angol szöveget az egérrel, kattintson a lebegő hangszóró gombra; vagy jobb klikk és válassza a „Speak Selection” opciót.
+Jelöljön ki bármilyen angol szöveget az egérrel, kattintson a lebegő 🔊 hangszóró gombra; vagy jobb klikk és válassza a „Speak Selection” opciót.
 
 > **Tipp:** Kattintson a bővítmény ikonjára a böngésző eszköztárán a beállítások panel megnyitásához az akcentus típus, beszédsebesség és egyéb beállítások módosításához.
 

@@ -46,7 +46,7 @@ Passe o rato sobre as palavras para ver os tooltips IPA, clique no ícone do alt
 
 ### Passo 5: Ler o Texto Selecionado
 
-Selecione qualquer texto em inglês com o rato, clique no botão flutuante do altifalante para falar; ou clique com o botão direito e escolha "Speak Selection".
+Selecione qualquer texto em inglês com o rato, clique no botão flutuante 🔊 para falar; ou clique com o botão direito e escolha "Speak Selection".
 
 > **Dica:** Clique no ícone da extensão na barra de ferramentas do navegador para abrir o painel de definições e ajustar o tipo de sotaque, velocidade de fala e mais.
 

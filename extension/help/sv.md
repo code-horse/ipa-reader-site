@@ -46,7 +46,7 @@ Håll muspekaren över ord för att se IPA-verktygstips, klicka på högtalariko
 
 ### Steg 5: Tala markerad text
 
-Markera valfri engelsk text med musen, klicka på den flytande högtalarknappen för att tala; eller högerklicka och välj "Speak Selection".
+Markera valfri engelsk text med musen, klicka på den flytande 🔊-knappen för att tala; eller högerklicka och välj "Speak Selection".
 
 > **Tips:** Klicka på tilläggsikonen i webbläsarens verktygsfält för att öppna inställningspanelen och justera accenttyp, talhastighet och mer.
 
