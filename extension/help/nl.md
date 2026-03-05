@@ -6,7 +6,7 @@ lang: nl
 
 # IPA Reader - Gebruikershandleiding
 
-> Versie: v1.1.0
+> Versie: v1.1.1
 
 ## Introductie
 

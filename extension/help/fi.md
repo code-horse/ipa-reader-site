@@ -6,7 +6,7 @@ lang: fi
 
 # IPA Reader - Käyttöopas
 
-> Versio: v1.1.0
+> Versio: v1.1.1
 
 ## Johdanto
 

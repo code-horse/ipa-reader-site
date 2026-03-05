@@ -6,7 +6,7 @@ lang: ro
 
 # IPA Reader - Ghid utilizator
 
-> Versiune: v1.1.0
+> Versiune: v1.1.1
 
 ## Introducere
 
