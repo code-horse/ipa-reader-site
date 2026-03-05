@@ -17,11 +17,13 @@ IPA Reader je proširenje preglednika dizajnirano za učenike engleskog jezika. 
 ## Glavne značajke
 
 - **Napomena pri odabiru teksta** — Odaberite engleski text na web stranicama za automatski prikaz IPA i gumba za govor
-- **IPA na cijeloj stranici** — Dodajte IPA napomene svim engleskim riječima na stranici jednim klikom
+- **IPA na cijeloj stranici** — Dodajte IPA napomene svim engleskim riječima na stranici jednim klikom, s IPA simbolima kodiranim bojama (samoglasnici, suglasnici, naglasci) za lako čitanje
 - **Američki i britanski naglasak** — Prelazite između američkog engleskog (en-US) i britanskog engleskog (en-GB) IPA
 - **Text-to-Speech** — Kliknite na gumb zvučnika da biste čuli izgovor prema odabranom naglasku
 - **Govor odabira** — Odaberite bilo koji engleski text, kliknite plutajući gumb ili desnim klikom odaberite "Speak Selection" za čitanje naglas
 - **Tooltipovi pri prelasku** — Prijeđite mišem preko označenih riječi da vidite IPA i gumbe za izgovor
+- **Slabi/jaki oblici** — Automatski prikaz slabih i jakih izgovornih varijanti funkcijskih riječi (npr. the, to, can) za svladavanje prirodnog povezanog govora
+- **Prepoznavanje homografa** — Automatska identifikacija riječi s više izgovora (npr. read, live) i odabir ispravnog prema kontekstu
 - **Višejezično sučelje** — Podržava 38 jezika sučelja
 
 ---
@@ -74,6 +76,7 @@ Nakon odabira engleskog teksta, desnim klikom odaberite "Speak Selection" iz izb
 | **IPA na cijeloj stranici** | Kada je omogućeno, prikazuje IPA za sve engleske riječi (može utjecati na raspored stranice) |
 | **Vrsta naglaska** | Odaberite između američkog i britanskog engleskog IPA i izgovora |
 | **Brzina govora rečenica** | Prilagodite brzinu čitanja rečenica (govor pojedinačnih riječi nije zahvaćen) |
+| **Slabi/jaki oblici** | Prikaz slabih i jakih izgovornih varijanti funkcijskih riječi |
 | **Tooltipovi pri prelasku** | Prikažite IPA tooltip pri prelasku mišem |
 
 ---
@@ -84,13 +87,17 @@ Nakon odabira engleskog teksta, desnim klikom odaberite "Speak Selection" iz izb
 O: Iz sigurnosnih razloga, proširenja preglednika ne mogu se pokretati na posebnim stranicama poput `chrome://`, postavki preglednika ili Chrome Web Store.
 
 **P: Što ako nedostaje IPA za neke riječi?**  
-O: IPA rječnik pokriva uobičajene engleske riječi. Neke rijetke ili specijalizirane riječi možda nemaju IPA unose. Kontinuirano proširujemo rječnik.
+O: IPA rječnik pokriva uobičajene engleske riječi. Za riječi izvan rječnika, proširenje generira približni IPA putem lematizacije i G2P, označen s ≈ ili ~ u savjetu.
 
 **P: Nema zvuka iz text-to-speech?**  
 O: Provjerite postavke glasnoće sustava i osigurajte da su instalirani engleski glasovni paketi. Podrška za govor varira među preglednicima i operacijskim sustavima.
 
 **P: Način cijele stranice utječe na raspored?**  
 O: IPA napomene zahtijevaju dodatni prostor, što može utjecati na izvorni raspored stranice. Ako utječe na čitanje, onemogućite način cijele stranice i koristite tooltipove pri prelasku.
+
+
+**P: Što znače simboli ~ i ≈ u savjetima?**  
+O: ~ znači da je IPA generiran pravilima (G2P), a ≈ da je izveden iz srodne osnovne riječi. Mogu biti manje točni od rječničkih unosa.
 
 ---
 

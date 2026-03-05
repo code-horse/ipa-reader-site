@@ -16,12 +16,13 @@ IPA Reader is a browser extension designed for English learners. It adds IPA (In
 
 ## Main Features
 
-- **Text Selection Annotation** — Select English text on web pages to automatically display IPA and speech buttons
-- **Whole Page IPA Mode** — Add IPA annotations to all English words on the page with one click
+- **Whole Page IPA Mode** — Add IPA annotations to all English words on the page with one click; IPA symbols are color-coded by type (vowels, consonants, stress marks) for easy reading
+- **Weak/Strong Forms** — Automatically display weak and strong pronunciation variants for common function words (e.g. "the", "to", "can"), helping you master natural connected speech
 - **American & British Accents** — Switch between American English (en-US) and British English (en-GB) IPA
 - **Text-to-Speech** — Click the speaker button to hear pronunciation matching your selected accent
 - **Selection Speech** — Select any English text, click the floating button or right-click "Speak Selection" to read aloud
-- **Hover Tooltips** — Hover over annotated words to see IPA and pronunciation buttons
+- **Hover Tooltips** — Hover over annotated words to see IPA with color-coded symbols and pronunciation buttons
+- **Heteronym Disambiguation** — Automatically identifies words with multiple pronunciations (e.g. "read", "live") and selects the correct one based on context
 - **Multilingual Interface** — Supports 38 interface languages
 
 ---
@@ -36,19 +37,45 @@ Install **IPA Reader** from the [Chrome Web Store](https://chromewebstore.google
 
 Visit any web page containing English content.
 
-### Step 3: Select Text or Use Floating Button
+### Step 3: Enable IPA
 
-Select English text you want to annotate, or click the floating button at the bottom right to enable whole page IPA mode.
+Click the extension icon in your browser toolbar. Toggle "Enable IPA" on, then toggle "Whole Page IPA" to annotate all words on the page. You can also click the floating button at the bottom right.
 
 ### Step 4: View IPA
 
-Hover over words to see IPA tooltips, click the speaker icon to hear pronunciation.
+Hover over words to see IPA tooltips with color-coded phonetic symbols. Click the speaker icon to hear pronunciation. For words with weak/strong forms, the tooltip shows both variants.
 
 ### Step 5: Speak Selected Text
 
 Select any English text with mouse, click the 🔊 floating button to speak; or right-click and choose "Speak Selection".
 
 > **Tip:** Click the extension icon in your browser toolbar to open the settings panel and adjust accent type, speech rate, and more.
+
+---
+
+## Whole Page IPA Mode
+
+When whole page IPA mode is enabled, every English word on the page gets an IPA annotation displayed above it using ruby text. The IPA symbols are color-coded for easy reading:
+
+- **Vowels** — highlighted in blue
+- **Consonants** — displayed in gray
+- **Stress marks** (ˈ ˌ) — highlighted in red
+- **Length marks** (ː) — highlighted in purple
+
+The extension automatically adjusts line height to prevent annotations from overlapping with text, and scales IPA font size based on word length for a clean layout.
+
+---
+
+## Weak/Strong Forms
+
+Many common English function words have two pronunciations:
+
+- **Weak form** — the reduced pronunciation used in natural connected speech (e.g. "the" → /ðə/)
+- **Strong form** — the full pronunciation used for emphasis or in isolation (e.g. "the" → /ðiː/)
+
+When "Show weak/strong forms" is enabled, hovering over these words shows both variants in the tooltip, labeled as "WEAK" and "STRONG". This helps you understand how pronunciation changes in natural speech.
+
+Covered words include: articles (the, a, an), prepositions (to, for, of, from, at, as, than), conjunctions (and, or, but), pronouns (you, your, her, him, his, them, us, our, there), auxiliary verbs (am, is, are, was, were, been, can, could, would, should, must, shall, will, do, does, have, has, had), and more.
 
 ---
 
@@ -71,10 +98,11 @@ After selecting English text, right-click and choose "Speak Selection" from the 
 | Setting | Description |
 |---------|-------------|
 | **Enable IPA** | Master switch to enable or disable the IPA annotation feature |
-| **Whole Page IPA** | When enabled, displays IPA for all English words (may affect page layout) |
-| **Accent Type** | Choose between American English and British English IPA and pronunciation |
+| **Whole Page IPA** | When enabled, displays color-coded IPA for all English words above the text |
+| **IPA Style** | Choose between American English and British English IPA and pronunciation |
+| **Show hover tooltip** | Show IPA tooltip with pronunciation button on mouse hover |
+| **Show weak/strong forms** | Display weak and strong pronunciation variants for common function words |
 | **Sentence Speech Rate** | Adjust the speed of sentence reading (single word speech is not affected) |
-| **Hover Tooltips** | Show IPA tooltip on mouse hover |
 
 ---
 
@@ -84,13 +112,16 @@ After selecting English text, right-click and choose "Speak Selection" from the 
 A: For security reasons, browser extensions cannot run on special pages like `chrome://`, browser settings, or the Chrome Web Store.
 
 **Q: What if IPA is missing for some words?**  
-A: The IPA dictionary covers common English words. Some rare or specialized words may not have IPA entries. We're continuously expanding the dictionary.
+A: The IPA dictionary covers common English words. For words not in the dictionary, the extension uses lemmatization and rule-based G2P (grapheme-to-phoneme) conversion to generate approximate IPA. These are marked with ≈ or ~ in the tooltip.
 
 **Q: No sound from text-to-speech?**  
 A: Please check your system volume settings and ensure English voice packs are installed. Speech support varies across browsers and operating systems.
 
 **Q: Whole page mode affects layout?**  
-A: IPA annotations require extra space, which may affect the original page layout. If it affects reading, disable whole page mode and use hover tooltips instead.
+A: IPA annotations require extra space. The extension automatically adjusts line height to minimize layout impact. If it still affects reading, disable whole page mode and use hover tooltips instead.
+
+**Q: What do the ~ and ≈ symbols in the tooltip mean?**  
+A: The ~ symbol indicates the IPA was generated by rule-based conversion (G2P) rather than from the dictionary. The ≈ symbol indicates the IPA was derived from a related base word through lemmatization. These may be less accurate than dictionary entries.
 
 ---
 

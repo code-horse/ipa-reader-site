@@ -17,11 +17,13 @@ IPA Reader je rozšírenie prehliadača určené pre študentov angličtiny. Pri
 ## Hlavné funkcie
 
 - **Anotácia výberom textu** — Vyberte anglický text na webových stránkach pre automatické zobrazenie IPA a tlačidiel pre prehrávanie
-- **Režim IPA celej stránky** — Pridajte IPA anotácie ku všetkým anglickým slovám na stránke jedným kliknutím
+- **Režim IPA celej stránky** — Pridajte IPA anotácie ku všetkým anglickým slovám na stránke jedným kliknutím, s farebne kódovanými IPA symbolmi (samohlásky, spoluhlásky, prízvuky) pre ľahké čítanie
 - **Americký a britský prízvuk** — Prepínajte medzi americkou angličtinou (en-US) a britskou angličtinou (en-GB) IPA
 - **Text-to-Speech** — Kliknite na tlačidlo reproduktora pre prehranie výslovnosti podľa zvoleného prízvuku
 - **Prehrávanie výberu** — Vyberte ľubovoľný anglický text, kliknite na plávajúce tlačidlo alebo pravým tlačidlom zvoľte „Speak Selection“ pre hlasité predčítanie
 - **Tipy pri najetí kurzorom** — Najetím kurzora nad anotované slová zobrazíte IPA a tlačidlá pre výslovnosť
+- **Slabé/silné formy** — Automatické zobrazenie slabých a silných variantov výslovnosti funkčných slov (napr. the, to, can) na zvládnutie prirodzenej plynulej reči
+- **Rozlíšenie homografov** — Automatická identifikácia slov s viacerými výslovnosťami (napr. read, live) a výber správnej podľa kontextu
 - **Viacjazyčné rozhranie** — Podporuje 38 jazykov rozhrania
 
 ---
@@ -74,6 +76,7 @@ Po výbere anglického textu kliknite pravým tlačidlom a zvoľte „Speak Sele
 | **IPA celej stránky** | Pri zapnutí zobrazuje IPA pre všetky anglické slová (môže ovplyvniť rozloženie stránky) |
 | **Typ prízvuku** | Voľba medzi americkou a britskou angličtinou IPA a výslovnosťou |
 | **Rýchlosť prehrávania viet** | Úprava rýchlosti čítania viet (prehrávanie jednotlivých slov nie je ovplyvnené) |
+| **Slabé/silné formy** | Zobrazenie slabých a silných variantov výslovnosti funkčných slov |
 | **Tipy pri najetí kurzorom** | Zobrazenie IPA tipu pri najetí kurzorom myši |
 
 ---
@@ -91,6 +94,10 @@ Odp: Skontrolujte nastavenia hlasitosti systému a overte, že máte nainštalov
 
 **O: Režim celej stránky ovplyvňuje rozloženie?**  
 Odp: IPA anotácie vyžadujú dodatočný priestor, čo môže ovplyvniť pôvodné rozloženie stránky. Ak to ovplyvňuje čítanie, vypnite režim celej stránky a namiesto toho použite tipy pri najetí kurzorom.
+
+
+**O: Čo znamenajú symboly ~ a ≈ v nápovediach?**  
+O: ~ znamená, že IPA bola vygenerovaná pravidlami (G2P), a ≈, že bola odvodená z príbuzného základného slova. Môžu byť menej presné ako slovníkové záznamy.
 
 ---
 

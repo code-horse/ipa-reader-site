@@ -17,11 +17,13 @@ IPA Reader to rozszerzenie przeglądarki stworzone dla osób uczących się jęz
 ## Główne funkcje
 
 - **Adnotacja przy zaznaczeniu tekstu** — Zaznacz angielski tekst na stronach internetowych, aby automatycznie wyświetlić IPA i przyciski odtwarzania
-- **Tryb IPA na całej stronie** — Dodaj adnotacje IPA do wszystkich angielskich słów na stronie jednym kliknięciem
+- **Tryb IPA na całej stronie** — Dodaj adnotacje IPA do wszystkich angielskich słów na stronie jednym kliknięciem, z kolorowanymi symbolami IPA (samogłoski, spółgłoski, znaki akcentu) dla łatwego czytania
 - **Akcent amerykański i brytyjski** — Przełączaj między IPA angielskiego amerykańskiego (en-US) i brytyjskiego (en-GB)
 - **Text-to-Speech** — Kliknij przycisk głośnika, aby usłyszeć wymowę dopasowaną do wybranego akcentu
 - **Mówienie zaznaczenia** — Zaznacz dowolny angielski tekst, kliknij pływający przycisk lub kliknij prawym przyciskiem „Speak Selection”, aby odczytać na głos
 - **Etykiety po najechaniu** — Najedź kursorem na adnotowane słowa, aby zobaczyć IPA i przyciski wymowy
+- **Formy słabe/mocne** — Automatyczne wyświetlanie słabych i mocnych wariantów wymowy wyrazów funkcyjnych (np. the, to, can) do opanowania naturalnej mowy
+- **Rozpoznawanie homografów** — Automatyczna identyfikacja wyrazów o wielu wymowach (np. read, live) i wybór właściwej na podstawie kontekstu
 - **Wielojęzyczny interfejs** — Obsługuje 38 języków interfejsu
 
 ---
@@ -74,6 +76,7 @@ Po zaznaczeniu angielskiego tekstu kliknij prawym przyciskiem i wybierz „Speak
 | **IPA na całej stronie** | Po włączeniu wyświetla IPA dla wszystkich angielskich słów (może wpłynąć na układ strony) |
 | **Typ akcentu** | Wybór między IPA i wymową angielskiego amerykańskiego i brytyjskiego |
 | **Szybkość mówienia zdań** | Dostosuj szybkość czytania zdań (na wymowę pojedynczych słów nie wpływa) |
+| **Formy słabe/mocne** | Wyświetlanie słabych i mocnych wariantów wymowy wyrazów funkcyjnych |
 | **Etykiety po najechaniu** | Pokazuj etykietę IPA przy najechaniu myszą |
 
 ---
@@ -84,13 +87,17 @@ Po zaznaczeniu angielskiego tekstu kliknij prawym przyciskiem i wybierz „Speak
 O: Ze względów bezpieczeństwa rozszerzenia przeglądarki nie mogą działać na specjalnych stronach, takich jak `chrome://`, ustawienia przeglądarki lub Chrome Web Store.
 
 **P: Co zrobić, jeśli brakuje IPA dla niektórych słów?**  
-O: Słownik IPA obejmuje popularne angielskie słowa. Niektóre rzadkie lub specjalistyczne słowa mogą nie mieć wpisów IPA. Ciągle rozszerzamy słownik.
+O: Słownik IPA obejmuje popularne angielskie słowa. Dla słów spoza słownika rozszerzenie generuje przybliżone IPA przez lematyzację i G2P, oznaczone ≈ lub ~ w podpowiedzi.
 
 **P: Brak dźwięku z text-to-speech?**  
 O: Sprawdź ustawienia głośności systemu i upewnij się, że zainstalowane są pakiety głosowe angielskie. Obsługa mowy różni się w zależności od przeglądarek i systemów operacyjnych.
 
 **P: Tryb całej strony wpływa na układ?**  
 O: Adnotacje IPA wymagają dodatkowej przestrzeni, co może wpłynąć na oryginalny układ strony. Jeśli wpływa to na czytanie, wyłącz tryb całej strony i użyj etykiet po najechaniu.
+
+
+**P: Co oznaczają symbole ~ i ≈ w podpowiedziach?**  
+O: ~ oznacza, że IPA zostało wygenerowane przez reguły (G2P), a ≈, że zostało wyprowadzone z pokrewnego wyrazu podstawowego. Mogą być mniej dokładne niż wpisy słownikowe.
 
 ---
 

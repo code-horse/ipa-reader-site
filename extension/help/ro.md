@@ -22,6 +22,8 @@ IPA Reader este o extensie pentru browser concepută pentru elevii de engleză. 
 - **Text-to-Speech** — Faceți clic pe butonul difuzor pentru a auzi pronunția în funcție de accentul selectat
 - **Vorbire selecție** — Selectați orice text englezesc, faceți clic pe butonul flotant sau click dreapta „Speak Selection” pentru citire cu voce tare
 - **Tooltip-uri la trecere** — Treceti mouse-ul peste cuvintele adnotate pentru a vedea IPA și butoanele de pronunție
+- **Forme slabe/puternice** — Afișarea automată a variantelor de pronunție slabe și puternice ale cuvintelor funcționale (de ex. the, to, can) pentru a stăpâni vorbirea naturală
+- **Dezambiguizare omografe** — Identificarea automată a cuvintelor cu pronunții multiple (de ex. read, live) și selectarea celei corecte în funcție de context
 - **Interfață multilingvă** — Suportă 38 de limbi de interfață
 
 ---
@@ -74,6 +76,7 @@ După selectarea textului englezesc, faceți click dreapta și alegeți „Speak
 | **IPA pagină întreagă** | Când este activată, afișează IPA pentru toate cuvintele englezești (poate afecta layout-ul paginii) |
 | **Tip accent** | Alegeți între engleza americană și engleza britanică IPA și pronunție |
 | **Viteza vorbirii propoziții** | Ajustați viteza citirii propozițiilor (vorbirea cuvintelor individuale nu este afectată) |
+| **Forme slabe/puternice** | Afișarea variantelor de pronunție slabe și puternice ale cuvintelor funcționale |
 | **Tooltip-uri la trecere** | Afișați tooltip IPA la trecerea mouse-ului |
 
 ---
@@ -84,13 +87,17 @@ După selectarea textului englezesc, faceți click dreapta și alegeți „Speak
 R: Din motive de securitate, extensiile pentru browser nu pot rula pe pagini speciale precum `chrome://`, setări browser sau Chrome Web Store.
 
 **Î: Ce se întâmplă dacă lipsește IPA pentru unele cuvinte?**  
-R: Dicționarul IPA acoperă cuvintele englezești comune. Unele cuvinte rare sau specializate s-ar putea să nu aibă intrări IPA. Extindem continuu dicționarul.
+R: Dicționarul IPA acoperă cuvintele engleze comune. Pentru cuvintele din afara dicționarului, extensia generează IPA aproximativ prin lematizare și G2P, marcat cu ≈ sau ~ în indiciu.
 
 **Î: Fără sunet de la text-to-speech?**  
 R: Vă rugăm să verificați setările de volum ale sistemului și să vă asigurați că sunt instalate pachete de voci englezești. Suportul vocal variază în funcție de browser și sistem de operare.
 
 **Î: Modul pagină întreagă afectează layout-ul?**  
 R: Adnotările IPA necesită spațiu suplimentar, ceea ce poate afecta layout-ul original al paginii. Dacă afectează citirea, dezactivați modul pagină întreagă și folosiți în schimb tooltip-urile la trecere.
+
+
+**Î: Ce înseamnă simbolurile ~ și ≈ din indicii?**  
+R: ~ înseamnă că IPA a fost generat prin reguli (G2P), iar ≈ că a fost derivat dintr-un cuvânt de bază înrudit. Pot fi mai puțin precise decât intrările din dicționar.
 
 ---
 

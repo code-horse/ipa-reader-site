@@ -17,11 +17,13 @@ IPA Reader er en nettleserutvidelse designet for engelskelever. Den legger til I
 ## Hovedfunksjoner
 
 - **Tekstvalg-anmerkning** — Velg engelsk tekst på nettsider for automatisk å vise IPA og tale-knapper
-- **Hele siden IPA-modus** — Legg til IPA-anmerkninger til alle engelske ord på siden med ett klikk
+- **Hele siden IPA-modus** — Legg til IPA-anmerkninger til alle engelske ord på siden med ett klikk, med fargekodede IPA-symbol (vokalar, konsonantar, trykkmerke) for enkel lesing
 - **Amerikansk & britisk accent** — Bytt mellom amerikansk engelsk (en-US) og britisk engelsk (en-GB) IPA
 - **Text-to-Speech** — Klikk på høyttalerknappen for å høre uttale som matcher din valgte accent
 - **Valg-tale** — Velg vilkårlig engelsk tekst, klikk på den flytende knappen eller høyreklikk "Speak Selection" for å lese høyt
 - **Hover-verktøytips** — Hold musen over anmerkede ord for å se IPA og uttaleknapper
+- **Svake/sterke former** — Vis automatisk svake og sterke uttalevariantar av funksjonsord (f.eks. the, to, can) for å meistre naturleg samanhengjande tale
+- **Homografgjenkjenning** — Automatisk identifisering av ord med fleire uttaler (f.eks. read, live) og val av riktig uttale basert på kontekst
 - **Fler språk grensesnitt** — Støtter 38 grensesnittspråk
 
 ---
@@ -74,6 +76,7 @@ Etter å ha valgt engelsk tekst, høyreklikk og velg "Speak Selection" fra menye
 | **Hele siden IPA** | Når aktivert viser IPA for alle engelske ord (kan påvirke sidelayout) |
 | **Accenttype** | Velg mellom amerikansk engelsk og britisk engelsk IPA og uttale |
 | **Setnings-talehastighet** | Juster hastigheten for setningslesing (enkeltsordsuttale påvirkes ikke) |
+| **Svake/sterke former** | Vis svake og sterke uttalevariantar av funksjonsord |
 | **Hover-verktøytips** | Vis IPA-verktøytips ved musebevægelse |
 
 ---
@@ -84,13 +87,17 @@ Etter å ha valgt engelsk tekst, høyreklikk og velg "Speak Selection" fra menye
 S: Av sikkerhetsgrunner kan nettleserutvidelser ikke kjøre på spesielle sider som `chrome://`, nettleserinnstillinger eller Chrome Web Store.
 
 **S: Hva hvis IPA mangler for noen ord?**  
-S: IPA-ordboken dekker vanlige engelske ord. Noen sjeldne eller spesialiserte ord har kanskje ingen IPA-oppføringer. Vi utvider ordboken kontinuerlig.
+S: IPA-ordboka dekker vanlege engelske ord. For ord utanfor ordboka genererer utvidinga tilnærma IPA via lemmatisering og G2P, merka med ≈ eller ~ i verktøytipset.
 
 **S: Ingen lyd fra text-to-speech?**  
 S: Sjekk systemlydinnstillingene dine og sørg for at engelske stemmepakker er installert. Talestøtte varierer mellom nettlesere og operativsystemer.
 
 **S: Hele siden-modus påvirker layout?**  
 S: IPA-anmerkninger krever ekstra plass, noe som kan påvirke den opprinnelige sidelayouten. Hvis det påvirker lesingen, deaktiver hele siden-modus og bruk hover-verktøytips i stedet.
+
+
+**S: Kva betyr symbola ~ og ≈ i verktøytipsa?**  
+S: ~ betyr at IPA er generert av reglar (G2P), og ≈ betyr at det er avleidd frå eit relatert grunnord. Desse kan vere mindre nøyaktige enn ordbokmerknadar.
 
 ---
 

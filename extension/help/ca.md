@@ -22,6 +22,8 @@ IPA Reader és una extensió del navegador dissenyada per a estudiants d'anglès
 - **Text-to-Speech** — Feu clic al botó d'altaveu per escoltar la pronunciació segons l'accent seleccionat
 - **Veu per selecció** — Seleccioneu qualsevol text en anglès, feu clic al botó flotant o feu clic dret "Speak Selection" per llegir en veu alta
 - **Eines emergents a la passa** — Passeu el cursor sobre les paraules anotades per veure IPA i botons de pronunciació
+- **Formes febles/fortes** — Mostra automàticament les variants de pronunciació feble i forta de les paraules funcionals (p. ex. the, to, can) per dominar la parla natural
+- **Desambiguació d'homògrafs** — Identifica automàticament paraules amb múltiples pronunciacions (p. ex. read, live) i selecciona la correcta segons el context
 - **Interfície multilingüe** — Suporta 38 idiomes d'interfície
 
 ---
@@ -74,6 +76,7 @@ Després de seleccionar text en anglès, feu clic dret i trieu "Speak Selection"
 | **IPA a tota la pàgina** | Quan s'activa, mostra IPA per a tots els mots en anglès (pot afectar el disseny de la pàgina) |
 | **Tipus d'accent** | Trieu entre anglès americà i anglès britànic IPA i pronunciació |
 | **Velocitat de veu per frases** | Ajusteu la velocitat de lectura de frases (la veu de paraules individuals no s'afegeix) |
+| **Formes febles/fortes** | Mostra les variants de pronunciació feble i forta de les paraules funcionals |
 | **Eines emergents a la passa** | Mostra l'eina emergent IPA en passar el cursor del ratolí |
 
 ---
@@ -84,13 +87,17 @@ Després de seleccionar text en anglès, feu clic dret i trieu "Speak Selection"
 R: Per motius de seguretat, les extensions del navegador no poden executar-se en pàgines especials com `chrome://`, configuració del navegador o el Chrome Web Store.
 
 **P: Què passa si falta IPA per algunes paraules?**  
-R: El diccionari IPA cobreix els mots anglesos comuns. Alguns mots rars o especialitzats poden no tenir entrades IPA. Continuem ampliant el diccionari.
+R: El diccionari IPA cobreix paraules angleses comunes. Per a les paraules no incloses, l'extensió genera IPA aproximat mitjançant lematització i G2P, marcat amb ≈ o ~ a l'indicador.
 
 **P: No hi ha so del text-to-speech?**  
 R: Si us plau, comproveu la configuració del volum del sistema i assegureu-vos que teniu instal·lats els paquets de veu en anglès. El suport de veu varia segons navegadors i sistemes operatius.
 
 **P: El mode de tota la pàgina afecta el disseny?**  
 R: Les anotacions IPA requereixen espai addicional, la qual cosa pot afectar el disseny original de la pàgina. Si afecta la lectura, desactiveu el mode de tota la pàgina i utilitzeu les eines emergents a la passa.
+
+
+**P: Què signifiquen els símbols ~ i ≈ als indicadors?**  
+R: ~ indica que l'IPA s'ha generat per regles (G2P), i ≈ que s'ha derivat d'una paraula base relacionada. Poden ser menys precisos que les entrades del diccionari.
 
 ---
 

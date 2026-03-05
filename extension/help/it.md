@@ -22,6 +22,8 @@ IPA Reader è un'estensione per browser progettata per chi studia l'inglese. Agg
 - **Testo-to-Speech** — Clicca il pulsante altoparlante per ascoltare la pronuncia corrispondente all'accento selezionato
 - **Lettura selezione** — Seleziona testo in inglese, clicca il pulsante flottante o tasto destro «Leggi selezione» per riprodurre
 - **Tooltip al passaggio** — Passa il mouse sulle parole annotate per vedere IPA e pulsanti di pronuncia
+- **Forme deboli/forti** — Visualizzazione automatica delle varianti di pronuncia debole e forte delle parole funzionali (es. the, to, can) per padroneggiare il parlato naturale
+- **Disambiguazione omografi** — Identificazione automatica delle parole con più pronunce (es. read, live) e selezione corretta in base al contesto
 - **Interfaccia multilingue** — Supporta 38 lingue dell'interfaccia
 
 ---
@@ -74,6 +76,7 @@ Dopo aver selezionato testo in inglese, tasto destro e scegli «Leggi selezione�
 | **IPA pagina intera** | Quando attivo, mostra IPA per tutte le parole in inglese (può influire sul layout della pagina) |
 | **Tipo accento** | Scegli tra inglese americano e britannico per IPA e pronuncia |
 | **Velocità frasi** | Regola la velocità di lettura delle frasi (la pronuncia delle singole parole non è influenzata) |
+| **Forme deboli/forti** | Mostra le varianti di pronuncia debole e forte delle parole funzionali |
 | **Tooltip al passaggio** | Mostra tooltip IPA al passaggio del mouse |
 
 ---
@@ -84,13 +87,17 @@ Dopo aver selezionato testo in inglese, tasto destro e scegli «Leggi selezione�
 R: Per motivi di sicurezza, le estensioni del browser non possono essere eseguite su pagine speciali come `chrome://`, impostazioni del browser o Chrome Web Store.
 
 **D: E se manca l'IPA per alcune parole?**  
-R: Il dizionario IPA copre parole inglesi comuni. Alcune parole rare o specializzate potrebbero non avere voci IPA. Stiamo ampliando continuamente il dizionario.
+R: Il dizionario IPA copre le parole inglesi comuni. Per le parole non presenti, l'estensione genera un IPA approssimativo tramite lemmatizzazione e G2P, contrassegnato con ≈ o ~ nel tooltip.
 
 **D: Nessun suono con text-to-speech?**  
 R: Controlla le impostazioni del volume di sistema e assicurati che i pacchetti vocali in inglese siano installati. Il supporto vocale varia tra browser e sistemi operativi.
 
 **D: La modalità pagina intera influenza il layout?**  
 R: Le annotazioni IPA richiedono spazio extra, che può influire sul layout originale della pagina. Se influisce sulla lettura, disattiva la modalità pagina intera e usa invece i tooltip al passaggio.
+
+
+**D: Cosa significano i simboli ~ e ≈ nei tooltip?**  
+R: ~ significa che l'IPA è stato generato da regole (G2P), e ≈ che è stato derivato da una parola base correlata. Possono essere meno precisi delle voci del dizionario.
 
 ---
 

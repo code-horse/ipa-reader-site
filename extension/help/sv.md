@@ -22,6 +22,8 @@ IPA Reader är ett webbläsartillägg utformat för engelsklärande. Det lägger
 - **Text-to-Speech** — Klicka på högtalarknappen för att höra uttal som matchar din valda accent
 - **Markeringstaland** — Markera valfri engelsk text, klicka på den flytande knappen eller högerklicka "Speak Selection" för att läsa högt
 - **Hover-verktygstips** — Håll muspekaren över annoterade ord för att se IPA och uttalsknappar
+- **Svaga/starka former** — Visa automatiskt svaga och starka uttalsvarianter av funktionsord (t.ex. the, to, can) för att bemästra naturligt sammanhängande tal
+- **Homografigenkänning** — Automatisk identifiering av ord med flera uttal (t.ex. read, live) och val av rätt uttal baserat på kontext
 - **Flerspråkigt gränssnitt** — Stödjer 38 gränssnittsspråk
 
 ---
@@ -74,6 +76,7 @@ Efter att ha markerat engelsk text, högerklicka och välj "Speak Selection" i m
 | **Hela sidan IPA** | När aktiverat visar IPA för alla engelska ord (kan påverka sidlayout) |
 | **Accenttyp** | Välj mellan amerikansk engelska och brittisk engelska IPA och uttal |
 | **Meningsuppläsningshastighet** | Justera hastigheten för meningsläsning (enskilde ordutal påverkas inte) |
+| **Svaga/starka former** | Visa svaga och starka uttalsvarianter av funktionsord |
 | **Hover-verktygstips** | Visa IPA-verktygstips vid muspekare |
 
 ---
@@ -84,13 +87,17 @@ Efter att ha markerat engelsk text, högerklicka och välj "Speak Selection" i m
 S: Av säkerhetsskäl kan webbläsartillägg inte köras på specialsidor som `chrome://`, webbläsarinställningar eller Chrome Web Store.
 
 **F: Vad om IPA saknas för vissa ord?**  
-S: IPA-ordboken täcker vanliga engelska ord. Vissa sällsynta eller specialiserade ord kan sakna IPA-poster. Vi utökar kontinuerligt ordboken.
+S: IPA-ordboken täcker vanliga engelska ord. För ord utanför ordboken genererar tillägget ungefärlig IPA via lemmatisering och G2P, markerad med ≈ eller ~ i verktygstipset.
 
 **F: Inget ljud från text-to-speech?**  
 S: Kontrollera dina systemvolyminställningar och se till att engelska röstpaket är installerade. Talstöd varierar mellan webbläsare och operativsystem.
 
 **F: Hela sidan-läge påverkar layout?**  
 S: IPA-annotationer kräver extra utrymme, vilket kan påverka den ursprungliga sidlayouten. Om det påverkar läsningen, inaktivera hela sidan-läge och använd hover-verktygstips istället.
+
+
+**F: Vad betyder symbolerna ~ och ≈ i verktygstipsen?**  
+S: ~ betyder att IPA har genererats av regler (G2P), och ≈ att den har härletts från ett relaterat basord. Dessa kan vara mindre exakta än ordboksuppgifter.
 
 ---
 

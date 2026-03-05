@@ -17,11 +17,13 @@ IPA Reader is een browserextensie ontworpen voor mensen die Engels leren. Het vo
 ## Belangrijkste functies
 
 - **Tekstselectie-annotatie** — Selecteer Engelse tekst op webpagina's om automatisch IPA en spraakknoppen te tonen
-- **Hele pagina IPA-modus** — Voeg IPA-annotaties toe aan alle Engelse woorden op de pagina met één klik
+- **Hele pagina IPA-modus** — Voeg IPA-annotaties toe aan alle Engelse woorden op de pagina met één klik, met kleurgecodeerde IPA-symbolen (klinkers, medeklinkers, klemtoontekens) voor eenvoudig lezen
 - **Amerikaans & Brits accent** — Schakel tussen Amerikaans Engels (en-US) en Brits Engels (en-GB) IPA
 - **Text-to-Speech** — Klik op de luidsprekerknop om de uitspraak te horen die overeenkomt met je gekozen accent
 - **Selectiespraak** — Selecteer willekeurige Engelse tekst, klik op de zwevende knop of rechtsklik op "Speak Selection" om voor te lezen
 - **Hover-tooltips** — Hover over geannoteerde woorden om IPA en uitspraakknoppen te zien
+- **Zwakke/sterke vormen** — Automatisch de zwakke en sterke uitspraakvarianten van functiewoorden (bijv. the, to, can) weergeven om natuurlijk vloeiend spreken te beheersen
+- **Homograafherkenning** — Automatische identificatie van woorden met meerdere uitspraken (bijv. read, live) en selectie van de juiste op basis van context
 - **Meertalige interface** — Ondersteunt 38 interfacetalen
 
 ---
@@ -74,6 +76,7 @@ Na het selecteren van Engelse tekst, rechtsklik en kies "Speak Selection" in het
 | **Hele pagina IPA** | Wanneer ingeschakeld, toont IPA voor alle Engelse woorden (kan de paginalay-out beïnvloeden) |
 | **Accenttype** | Kies tussen Amerikaans Engels en Brits Engels IPA en uitspraak |
 | **Zinspraaksnelheid** | Pas de snelheid van zinsvoorlezing aan (uitspraak van losse woorden wordt niet beïnvloed) |
+| **Zwakke/sterke vormen** | Zwakke en sterke uitspraakvarianten van functiewoorden weergeven |
 | **Hover-tooltips** | Toon IPA-tooltip bij muishover |
 
 ---
@@ -84,13 +87,17 @@ Na het selecteren van Engelse tekst, rechtsklik en kies "Speak Selection" in het
 A: Om veiligheidsredenen kunnen browserextensies niet draaien op speciale pagina's zoals `chrome://`, browserinstellingen of de Chrome Web Store.
 
 **V: Wat als IPA ontbreekt voor sommige woorden?**  
-A: Het IPA-woordenboek bevat veelvoorkomende Engelse woorden. Sommige zeldzame of gespecialiseerde woorden hebben mogelijk geen IPA-vermeldingen. We breiden het woordenboek voortdurend uit.
+A: Het IPA-woordenboek dekt veelgebruikte Engelse woorden. Voor woorden buiten het woordenboek genereert de extensie een benaderde IPA via lemmatisering en G2P, gemarkeerd met ≈ of ~ in de tooltip.
 
 **V: Geen geluid bij text-to-speech?**  
 A: Controleer je systeemvolume-instellingen en zorg ervoor dat Engelse stempakketten zijn geïnstalleerd. Spraakondersteuning verschilt per browser en besturingssysteem.
 
 **V: Hele-paginamodus beïnvloedt lay-out?**  
 A: IPA-annotaties vereisen extra ruimte, wat de oorspronkelijke paginalay-out kan beïnvloeden. Als het het lezen beïnvloedt, schakel de hele-paginamodus uit en gebruik in plaats daarvan hover-tooltips.
+
+
+**V: Wat betekenen de symbolen ~ en ≈ in de tooltips?**  
+A: ~ betekent dat de IPA is gegenereerd door regels (G2P), en ≈ dat deze is afgeleid van een gerelateerd basiswoord. Deze kunnen minder nauwkeurig zijn dan woordenboekitems.
 
 ---
 

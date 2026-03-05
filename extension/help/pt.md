@@ -17,11 +17,13 @@ O IPA Reader é uma extensão de navegador concebida para estudantes de inglês.
 ## Principais Funcionalidades
 
 - **Anotação por Seleção de Texto** — Selecione texto em inglês em páginas web para exibir automaticamente IPA e botões de voz
-- **Modo IPA em Toda a Página** — Adicione anotações IPA a todas as palavras em inglês na página com um clique
+- **Modo IPA em Toda a Página** — Adicione anotações IPA a todas as palavras em inglês na página com um clique, com símbolos IPA codificados por cor (vogais, consoantes, acentos) para leitura fácil
 - **Sotaques Americano e Britânico** — Alterne entre IPA em inglês americano (en-US) e britânico (en-GB)
 - **Text-to-Speech** — Clique no botão do altifalante para ouvir a pronúncia conforme o sotaque selecionado
 - **Fala de Seleção** — Selecione qualquer texto em inglês, clique no botão flutuante ou clique com o botão direito em "Speak Selection" para ler em voz alta
 - **Tooltips ao Passar o Rato** — Passe o rato sobre palavras anotadas para ver IPA e botões de pronúncia
+- **Formas fracas/fortes** — Exibição automática das variantes de pronúncia fraca e forte de palavras funcionais (ex. the, to, can) para dominar a fala natural
+- **Desambiguação de homógrafos** — Identificação automática de palavras com múltiplas pronúncias (ex. read, live) e seleção da correta com base no contexto
 - **Interface Multilingue** — Suporta 38 idiomas de interface
 
 ---
@@ -74,6 +76,7 @@ Após selecionar texto em inglês, clique com o botão direito e escolha "Speak 
 | **IPA em Toda a Página** | Quando ativado, exibe IPA para todas as palavras em inglês (pode afetar o layout da página) |
 | **Tipo de Sotaque** | Escolha entre IPA e pronúncia em inglês americano e britânico |
 | **Velocidade de Fala de Frases** | Ajuste a velocidade de leitura de frases (a fala de palavra única não é afetada) |
+| **Formas fracas/fortes** | Exibir variantes de pronúncia fraca e forte de palavras funcionais |
 | **Tooltips ao Passar o Rato** | Mostrar tooltip IPA ao passar o rato |
 
 ---
@@ -84,13 +87,17 @@ Após selecionar texto em inglês, clique com o botão direito e escolha "Speak 
 R: Por razões de segurança, as extensões de navegador não podem executar em páginas especiais como `chrome://`, definições do navegador ou a Chrome Web Store.
 
 **P: E se faltar IPA para algumas palavras?**  
-R: O dicionário IPA cobre palavras comuns em inglês. Algumas palavras raras ou especializadas podem não ter entradas IPA. Estamos a expandir continuamente o dicionário.
+R: O dicionário IPA cobre palavras comuns em inglês. Para palavras fora do dicionário, a extensão gera IPA aproximado por lematização e G2P, marcado com ≈ ou ~ na dica.
 
 **P: Sem som no text-to-speech?**  
 R: Verifique as definições de volume do sistema e certifique-se de que os pacotes de voz em inglês estão instalados. O suporte de voz varia entre navegadores e sistemas operativos.
 
 **P: O modo de página inteira afeta o layout?**  
 R: As anotações IPA requerem espaço extra, o que pode afetar o layout original da página. Se afetar a leitura, desative o modo de página inteira e use os tooltips ao passar o rato.
+
+
+**P: O que significam os símbolos ~ e ≈ nas dicas?**  
+R: ~ significa que o IPA foi gerado por regras (G2P) e ≈ que foi derivado de uma palavra base relacionada. Podem ser menos precisos que as entradas do dicionário.
 
 ---
 

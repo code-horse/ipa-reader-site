@@ -17,11 +17,13 @@ IPA Reader ialah sambungan pelayar yang direka untuk pelajar bahasa Inggeris. Ia
 ## Ciri Utama
 
 - **Penjelasan Pilihan Teks** — Pilih teks Inggeris di halaman web untuk memaparkan IPA dan butang suara secara automatik
-- **Mod IPA Seluruh Halaman** — Tambah penjelasan IPA pada semua perkataan Inggeris di halaman dengan satu klik
+- **Mod IPA Seluruh Halaman** — Tambah penjelasan IPA pada semua perkataan Inggeris di halaman dengan satu klik, dengan simbol IPA berkod warna (vokal, konsonan, tanda tekanan) untuk bacaan mudah
 - **Loghat Amerika & British** — Tukar antara IPA Inggeris Amerika (en-US) dan Inggeris British (en-GB)
 - **Teks-ke-Suara** — Klik butang pembesar suara untuk mendengar sebutan yang sepadan dengan loghat pilihan anda
 - **Ucapan Pilihan** — Pilih mana-mana teks Inggeris, klik butang terapung atau klik kanan "Speak Selection" untuk membaca dengan kuat
 - **Tooltip Hover** — Tunjuk tetikus ke perkataan yang diterangkan untuk melihat IPA dan butang sebutan
+- **Bentuk Lemah/Kuat** — Paparkan secara automatik varian sebutan lemah dan kuat kata fungsi (cth. the, to, can) untuk menguasai pertuturan semula jadi
+- **Nyahkesamaran Homograf** — Kenal pasti secara automatik perkataan dengan pelbagai sebutan (cth. read, live) dan pilih yang betul berdasarkan konteks
 - **Antaramuka Pelbagai Bahasa** — Menyokong 38 bahasa antaramuka
 
 ---
@@ -74,6 +76,7 @@ Selepas memilih teks Inggeris, klik kanan dan pilih "Speak Selection" dari menu.
 | **Whole Page IPA** | Apabila didayakan, memaparkan IPA untuk semua perkataan Inggeris (boleh menjejaskan susun atur halaman) |
 | **Accent Type** | Pilih antara IPA dan sebutan Inggeris Amerika dan British |
 | **Sentence Speech Rate** | Laraskan kelajuan bacaan ayat (ucapan perkataan tunggal tidak terjejas) |
+| **Bentuk Lemah/Kuat** | Paparkan varian sebutan lemah dan kuat kata fungsi |
 | **Hover Tooltips** | Tunjuk tooltip IPA apabila menunjuk tetikus |
 
 ---
@@ -84,13 +87,17 @@ Selepas memilih teks Inggeris, klik kanan dan pilih "Speak Selection" dari menu.
 J: Atas sebab keselamatan, sambungan pelayar tidak boleh berjalan pada halaman khas seperti `chrome://`, tetapan pelayar, atau Chrome Web Store.
 
 **S: Bagaimana jika IPA hilang untuk sesetengah perkataan?**  
-J: Kamus IPA merangkumi perkataan Inggeris yang biasa. Sesetengah perkataan jarang atau khusus mungkin tidak mempunyai entri IPA. Kami sentiasa memperluas kamus.
+J: Kamus IPA merangkumi perkataan Bahasa Inggeris biasa. Untuk perkataan di luar kamus, sambungan menjana IPA anggaran melalui lematisasi dan G2P, ditanda dengan ≈ atau ~ dalam petua.
 
 **S: Tiada bunyi dari teks-ke-suara?**  
 J: Sila semak tetapan volum sistem anda dan pastikan pakej suara Inggeris telah dipasang. Sokongan ucapan berbeza mengikut pelayar dan sistem pengendalian.
 
 **S: Mod seluruh halaman menjejaskan susun atur?**  
 J: Penjelasan IPA memerlukan ruang tambahan, yang boleh menjejaskan susun atur halaman asal. Jika menjejaskan bacaan, nyahdayakan mod seluruh halaman dan gunakan tooltip hover sebagai gantinya.
+
+
+**S: Apakah maksud simbol ~ dan ≈ dalam petua?**  
+J: ~ bermaksud IPA dijana oleh peraturan (G2P), dan ≈ bermaksud ia diperoleh daripada kata asas berkaitan. Ini mungkin kurang tepat berbanding entri kamus.
 
 ---
 

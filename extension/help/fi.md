@@ -22,6 +22,8 @@ IPA Reader on selainlaajennus, joka on suunniteltu englannin oppijoille. Se lis�
 - **Tekstistä puheeksi** — Napsauta kaiutinpainiketta kuullaksesi ääntämisen valitsemasi aksentin mukaan
 - **Valitun tekstin puhe** — Valitse mitä tahansa englanninkielistä tekstiä, napsauta kelluvaa painiketta tai napsauta hiiren kakkospainikkeella "Speak Selection" lukeaksesi ääneen
 - **Kohdistetyökalut** — Vie hiiren osoitin merkityn sanan päälle nähdäksesi IPA:n ja ääntämispainikkeet
+- **Heikot/vahvat muodot** — Näyttää automaattisesti funktiosanojen heikot ja vahvat ääntämisvariantit (esim. the, to, can) luonnollisen puheen hallitsemiseksi
+- **Homografien tunnistus** — Tunnistaa automaattisesti sanat, joilla on useita ääntämyksiä (esim. read, live), ja valitsee oikean kontekstin perusteella
 - **Monikielinen käyttöliittymä** — Tukee 38 käyttöliittymän kieltä
 
 ---
@@ -74,6 +76,7 @@ Valitse englanninkielinen teksti, napsauta hiiren kakkospainikkeella ja valitse 
 | **Whole Page IPA** | Käytössä näyttää IPA:n kaikille englanninkielisille sanoille (voi vaikuttaa sivun asetteluun) |
 | **Accent Type** | Valitse amerikanenglannin ja brittienglannin IPA ja ääntämisen välillä |
 | **Sentence Speech Rate** | Säädä lauselukemisen nopeutta (yhden sanan puhe ei vaikutu) |
+| **Heikot/vahvat muodot** | Näytä funktiosanojen heikot ja vahvat ääntämisvariantit |
 | **Hover Tooltips** | Näytä IPA-kohtaisohje hiiren osoittamisen yhteydessä |
 
 ---
@@ -84,13 +87,17 @@ Valitse englanninkielinen teksti, napsauta hiiren kakkospainikkeella ja valitse 
 V: Tietoturvasyistä selainlaajennukset eivät voi toimia erikoissivuilla kuten `chrome://`, selaimen asetukset tai Chrome Web Store.
 
 **K: Mitä jos IPA puuttuu joistakin sanoista?**  
-V: IPA-sanakirja kattaa yleiset englanninkieliset sanat. Jotkut harvinaiset tai erikoiset sanat eivät ehkä ole IPA-merkintöjä. Laajennamme sanakirjaa jatkuvasti.
+V: IPA-sanakirja kattaa yleiset englannin sanat. Sanakirjan ulkopuolisille sanoille laajennus luo likimääräisen IPA:n lemmauksen ja G2P:n avulla, merkittynä ≈ tai ~ työkaluvihjeessä.
 
 **K: Ei ääntä tekstistä puheeksi -ominaisuudesta?**  
 V: Tarkista järjestelmän äänenvoimakkuusasetukset ja varmista, että englanninkieliset äänipaketit on asennettu. Puhetuki vaihtelee selaimittain ja käyttöjärjestelmittäin.
 
 **K: Koko sivun tila vaikuttaa asetteluun?**  
 V: IPA-merkinnät vaativat lisätilaa, mikä voi vaikuttaa alkuperäiseen sivun asetteluun. Jos se vaikuttaa lukemiseen, poista koko sivun tila käytöstä ja käytä sen sijaan kohdistetyökaluja.
+
+
+**K: Mitä symbolit ~ ja ≈ tarkoittavat työkaluvihjeissä?**  
+V: ~ tarkoittaa, että IPA on luotu sääntöpohjaisesti (G2P), ja ≈, että se on johdettu liittyvästä perusmuodosta. Ne voivat olla vähemmän tarkkoja kuin sanakirjamerkinnät.
 
 ---
 

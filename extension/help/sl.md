@@ -22,7 +22,9 @@ IPA Reader je razširitev brskalnika, zasnovana za učence angleščine. Na sple
 - **Izgovorjava** — Kliknite gumb zvočnika za poslušanje izgovorjave, ki ustreza vašemu izbranemu poudarku
 - **Branje izbire** — Izberite poljubno angleško besedilo, kliknite lebdeči gumb ali z desnim klikom izberite »Preberi izbrano«
 - **Namigi ob lebdenju** — Premaknite miško nad označene besede za prikaz IPA in gumbov za izgovorjavo
-- **Večjezični vmesnik** — Podpira 41 jezikov vmesnika
+- **Šibke/močne oblike** — Samodejni prikaz šibkih in močnih izgovornih različic funkcijskih besed (npr. the, to, can) za obvladovanje naravnega povezanega govora
+- **Prepoznavanje homografov** — Samodejna identifikacija besed z več izgovorjavami (npr. read, live) in izbira pravilne glede na kontekst
+- **Večjezični vmesnik** — Podpira 38 jezikov vmesnika
 
 ---
 
@@ -60,6 +62,7 @@ Izberite poljubno angleško besedilo z miško, kliknite lebdeči 🔊 gumb za br
 | **IPA celotne strani** | Ko je omogočeno, prikaže IPA za vse angleške besede (lahko vpliva na postavitev strani) |
 | **Vrsta poudarka** | Izberite med ameriško angleščino in britansko angleščino IPA in izgovorjavo |
 | **Hitrost branja stavkov** | Prilagodite hitrost branja stavkov (izgovorjava posameznih besed ni prizadeta) |
+| **Prikaži šibke/močne oblike** | Prikaz šibkih in močnih izgovornih različic funkcijskih besed |
 | **Namigi ob lebdenju** | Prikaz IPA namiga ob premiku miške |
 
 ---
@@ -70,13 +73,17 @@ Izberite poljubno angleško besedilo z miško, kliknite lebdeči 🔊 gumb za br
 O: Iz varnostnih razlogov razširitve brskalnika ne morejo delovati na posebnih straneh, kot so `chrome://`, nastavitve brskalnika ali Chrome Web Store.
 
 **V: Kaj če IPA manjka za nekatere besede?**  
-O: Slovar IPA pokriva pogoste angleške besede. Nekatere redke ali specializirane besede morda nimajo IPA vnosov. Slovar nenehno širimo.
+O: IPA slovar pokriva pogoste angleške besede. Za besede zunaj slovarja razširitev ustvari približni IPA s pomočjo lematizacije in G2P, označen z ≈ ali ~ v namigu.
 
 **V: Ni zvoka iz besedilno-govornega sistema?**  
 O: Preverite nastavitve glasnosti sistema in se prepričajte, da so nameščeni angleški glasovni paketi. Podpora govoru se razlikuje med brskalniki in operacijskimi sistemi.
 
 **V: Ali način celotne strani vpliva na postavitev?**  
 O: IPA oznake zahtevajo dodaten prostor, kar lahko vpliva na prvotno postavitev strani. Če vpliva na branje, onemogočite način celotne strani in namesto tega uporabite namige ob lebdenju.
+
+
+**V: Kaj pomenijo simboli ~  in ≈ v namigih?**  
+O: ~ pomeni, da je IPA ustvarjen s pravili (G2P), ≈ pa, da je izpeljan iz sorodne osnovne besede. Morda so manj natančni kot slovarski vnosi.
 
 ---
 

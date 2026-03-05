@@ -17,11 +17,13 @@ IPA Reader là tiện ích mở rộng trình duyệt được thiết kế cho 
 ## Tính năng chính
 
 - **Chú thích văn bản được chọn** — Chọn văn bản tiếng Anh trên trang web để tự động hiển thị IPA và nút phát âm
-- **Chế độ IPA toàn trang** — Thêm chú thích IPA cho tất cả từ tiếng Anh trên trang chỉ với một cú nhấp chuột
+- **Chế độ IPA toàn trang** — Thêm chú thích IPA cho tất cả từ tiếng Anh trên trang chỉ với một cú nhấp chuột, với ký hiệu IPA được mã hóa màu (nguyên âm, phụ âm, dấu trọng âm) để dễ đọc
 - **Giọng Mỹ và Anh** — Chuyển đổi giữa IPA tiếng Anh Mỹ (en-US) và tiếng Anh Anh (en-GB)
 - **Chuyển văn bản thành giọng nói** — Nhấp vào nút loa để nghe phát âm phù hợp với giọng bạn đã chọn
 - **Đọc văn bản được chọn** — Chọn bất kỳ văn bản tiếng Anh nào, nhấp nút nổi hoặc nhấp chuột phải "Speak Selection" để đọc to
 - **Chú giải khi di chuột** — Di chuột qua từ được chú thích để xem IPA và nút phát âm
+- **Dạng yếu/mạnh** — Tự động hiển thị các biến thể phát âm yếu và mạnh của từ chức năng (ví dụ: the, to, can) để làm chủ lời nói tự nhiên
+- **Phân biệt từ đồng tự** — Tự động nhận diện các từ có nhiều cách phát âm (ví dụ: read, live) và chọn cách đúng dựa trên ngữ cảnh
 - **Giao diện đa ngôn ngữ** — Hỗ trợ 38 ngôn ngữ giao diện
 
 ---
@@ -74,6 +76,7 @@ Sau khi chọn văn bản tiếng Anh, nhấp chuột phải và chọn "Speak S
 | **Whole Page IPA** | Khi bật, hiển thị IPA cho tất cả từ tiếng Anh (có thể ảnh hưởng đến bố cục trang) |
 | **Accent Type** | Chọn giữa IPA và phát âm tiếng Anh Mỹ và Anh |
 | **Sentence Speech Rate** | Điều chỉnh tốc độ đọc câu (phát âm từ đơn không bị ảnh hưởng) |
+| **Dạng yếu/mạnh** | Hiển thị các biến thể phát âm yếu và mạnh của từ chức năng |
 | **Hover Tooltips** | Hiển thị chú giải IPA khi di chuột qua |
 
 ---
@@ -84,13 +87,17 @@ Sau khi chọn văn bản tiếng Anh, nhấp chuột phải và chọn "Speak S
 Đ: Vì lý do bảo mật, tiện ích trình duyệt không thể chạy trên các trang đặc biệt như `chrome://`, cài đặt trình duyệt hoặc Chrome Web Store.
 
 **H: Nếu thiếu IPA cho một số từ thì sao?**  
-Đ: Từ điển IPA bao gồm các từ tiếng Anh phổ biến. Một số từ hiếm hoặc chuyên ngành có thể không có mục IPA. Chúng tôi không ngừng mở rộng từ điển.
+Đ: Từ điển IPA bao gồm các từ tiếng Anh phổ biến. Đối với các từ ngoài từ điển, tiện ích mở rộng tạo IPA gần đúng thông qua lemmatization và G2P, được đánh dấu bằng ≈ hoặc ~ trong tooltip.
 
 **H: Không có âm thanh từ chuyển văn bản thành giọng nói?**  
 Đ: Vui lòng kiểm tra cài đặt âm lượng hệ thống và đảm bảo đã cài đặt gói giọng tiếng Anh. Hỗ trợ giọng nói khác nhau tùy theo trình duyệt và hệ điều hành.
 
 **H: Chế độ toàn trang ảnh hưởng đến bố cục?**  
 Đ: Chú thích IPA cần thêm không gian, có thể ảnh hưởng đến bố cục trang gốc. Nếu ảnh hưởng đến việc đọc, hãy tắt chế độ toàn trang và dùng chú giải khi di chuột thay thế.
+
+
+**H: Ký hiệu ~ và ≈ trong tooltip có nghĩa gì?**  
+Đ: ~ nghĩa là IPA được tạo bằng quy tắc (G2P), và ≈ nghĩa là được suy ra từ một từ gốc liên quan. Chúng có thể kém chính xác hơn so với mục từ điển.
 
 ---
 

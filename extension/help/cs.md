@@ -17,11 +17,13 @@ IPA Reader je rozšíření prohlížeče určené pro studenty angličtiny. Př
 ## Hlavní funkce
 
 - **Anotace výběrem textu** — Vyberte anglický text na webových stránkách pro automatické zobrazení IPA a tlačítek pro přehrání
-- **Režim IPA celé stránky** — Přidejte IPA anotace ke všem anglickým slovům na stránce jedním kliknutím
+- **Režim IPA celé stránky** — Přidejte IPA anotace ke všem anglickým slovům na stránce jedním kliknutím, s barevně kódovanými IPA symboly (samohlásky, souhlásky, přízvuky) pro snadné čtení
 - **Americký a britský přízvuk** — Přepínejte mezi americkou angličtinou (en-US) a britskou angličtinou (en-GB) IPA
 - **Text-to-Speech** — Klikněte na tlačítko reproduktoru pro přehrání výslovnosti podle zvoleného přízvuku
 - **Přehrání výběru** — Vyberte libovolný anglický text, klikněte na plovoucí tlačítko nebo pravým tlačítkem zvolte „Speak Selection“ pro hlasité předčítání
 - **Tipy při najetí kurzorem** — Najetím kurzoru nad anotovaná slova zobrazíte IPA a tlačítka pro výslovnost
+- **Slabé/silné formy** — Automatické zobrazení slabých a silných variant výslovnosti funkčních slov (např. the, to, can) pro zvládnutí přirozené plynulé řeči
+- **Rozlišení homografů** — Automatická identifikace slov s více výslovnostmi (např. read, live) a výběr správné podle kontextu
 - **Vícejazyčné rozhraní** — Podporuje 38 jazyků rozhraní
 
 ---
@@ -74,6 +76,7 @@ Po výběru anglického textu klikněte pravým tlačítkem a zvolte „Speak Se
 | **IPA celé stránky** | Při zapnutí zobrazuje IPA pro všechna anglická slova (může ovlivnit rozložení stránky) |
 | **Typ přízvuku** | Volba mezi americkou a britskou angličtinou IPA a výslovností |
 | **Rychlost přehrávání vět** | Úprava rychlosti čtení vět (přehrání jednotlivých slov není ovlivněno) |
+| **Slabé/silné formy** | Zobrazení slabých a silných variant výslovnosti funkčních slov |
 | **Tipy při najetí kurzorem** | Zobrazení IPA tipu při najetí kurzorem myši |
 
 ---
@@ -84,13 +87,17 @@ Po výběru anglického textu klikněte pravým tlačítkem a zvolte „Speak Se
 A: Z bezpečnostních důvodů se rozšíření prohlížeče nemohou spouštět na speciálních stránkách jako `chrome://`, nastavení prohlížeče nebo Chrome Web Store.
 
 **Q: Co když IPA chybí u některých slov?**  
-A: Slovník IPA pokrývá běžná anglická slova. U některých vzácných nebo specializovaných slov nemusí být záznamy IPA. Slovník průběžně rozšiřujeme.
+O: IPA slovník pokrývá běžná anglická slova. Pro slova mimo slovník rozšíření generuje přibližnou IPA pomocí lematizace a G2P, označenou ≈ nebo ~ v nápovědě.
 
 **Q: Žádný zvuk z text-to-speech?**  
 A: Zkontrolujte nastavení hlasitosti systému a ověřte, že máte nainstalované anglické hlasové balíčky. Podpora řeči se liší v různých prohlížečích a operačních systémech.
 
 **Q: Režim celé stránky ovlivňuje rozložení?**  
 A: IPA anotace vyžadují dodatečný prostor, což může ovlivnit původní rozložení stránky. Pokud to ovlivňuje čtení, vypněte režim celé stránky a místo toho použijte tipy při najetí kurzorem.
+
+
+**O: Co znamenají symboly ~ a ≈ v nápovědách?**  
+O: ~ znamená, že IPA byla vygenerována pravidly (G2P), a ≈, že byla odvozena z příbuzného základního slova. Mohou být méně přesné než slovníkové záznamy.
 
 ---
 

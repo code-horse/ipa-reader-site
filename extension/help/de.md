@@ -17,11 +17,13 @@ IPA Reader ist eine Browsererweiterung für Englischlernende. Sie fügt englisch
 ## Hauptfunktionen
 
 - **Textauswahl-Annotation** — Wählen Sie englischen Text auf Webseiten aus, um automatisch IPA und Sprach-Buttons anzuzeigen
-- **Ganzseiten-IPA-Modus** — Fügen Sie mit einem Klick IPA-Annotationen zu allen englischen Wörtern auf der Seite hinzu
+- **Ganzseiten-IPA-Modus** — Fügen Sie mit einem Klick IPA-Annotationen zu allen englischen Wörtern auf der Seite hinzu, mit farbcodierten IPA-Symbolen (Vokale, Konsonanten, Betonungszeichen) für einfaches Lesen
 - **Amerikanischer & Britischer Akzent** — Wechseln Sie zwischen amerikanischem (en-US) und britischem (en-GB) IPA
 - **Text-zu-Sprache** — Klicken Sie auf den Lautsprecher-Button, um die Aussprache passend zu Ihrem gewählten Akzent zu hören
 - **Auswahl-Vorlesen** — Wählen Sie englischen Text aus, klicken Sie auf den schwebenden Button oder rechtsklicken Sie auf „Auswahl vorlesen"
 - **Hover-Tooltips** — Fahren Sie mit der Maus über annotierte Wörter, um IPA und Aussprache-Buttons zu sehen
+- **Schwache/starke Formen** — Automatische Anzeige der schwachen und starken Aussprachevarianten von Funktionswörtern (z. B. the, to, can) für natürliches Sprechen
+- **Homographen-Erkennung** — Automatische Erkennung von Wörtern mit mehreren Aussprachen (z. B. read, live) und Auswahl der richtigen je nach Kontext
 - **Mehrsprachige Oberfläche** — Unterstützt 38 Oberflächensprachen
 
 ---
@@ -74,6 +76,7 @@ Nach Auswahl von englischem Text rechtsklicken Sie und wählen Sie „Auswahl vo
 | **Ganzseiten-IPA** | Wenn aktiviert, zeigt IPA für alle englischen Wörter an (kann das Seitenlayout beeinflussen) |
 | **Akzenttyp** | Wählen Sie zwischen amerikanischem und britischem Englisch für IPA und Aussprache |
 | **Satz-Sprechgeschwindigkeit** | Passen Sie die Geschwindigkeit des Satz-Vorlesens an (Einzelwort-Aussprache nicht betroffen) |
+| **Schwache/starke Formen** | Schwache und starke Aussprachevarianten von Funktionswörtern anzeigen |
 | **Hover-Tooltips** | IPA-Tooltip bei Maus-Hover anzeigen |
 
 ---
@@ -84,13 +87,17 @@ Nach Auswahl von englischem Text rechtsklicken Sie und wählen Sie „Auswahl vo
 A: Aus Sicherheitsgründen können Browsererweiterungen nicht auf speziellen Seiten wie `chrome://`, Browser-Einstellungen oder dem Chrome Web Store ausgeführt werden.
 
 **F: Was, wenn für einige Wörter kein IPA vorhanden ist?**  
-A: Das IPA-Wörterbuch deckt gängige englische Wörter ab. Einige seltene oder Fachwörter haben möglicherweise keine IPA-Einträge. Wir erweitern das Wörterbuch kontinuierlich.
+A: Das IPA-Wörterbuch deckt gängige englische Wörter ab. Für Wörter außerhalb des Wörterbuchs generiert die Erweiterung näherungsweise IPA durch Lemmatisierung und G2P, markiert mit ≈ oder ~ im Tooltip.
 
 **F: Kein Ton bei Text-zu-Sprache?**  
 A: Bitte überprüfen Sie Ihre System-Lautstärkeeinstellungen und stellen Sie sicher, dass englische Sprachpakete installiert sind. Die Sprachunterstützung variiert je nach Browser und Betriebssystem.
 
 **F: Ganzseiten-Modus beeinflusst das Layout?**  
 A: IPA-Annotationen benötigen zusätzlichen Platz, was das ursprüngliche Seitenlayout beeinflussen kann. Wenn es das Lesen beeinträchtigt, deaktivieren Sie den Ganzseiten-Modus und verwenden Sie stattdessen Hover-Tooltips.
+
+
+**F: Was bedeuten die Symbole ~ und ≈ in den Tooltips?**  
+A: ~ bedeutet, dass die IPA durch Regeln (G2P) generiert wurde, und ≈, dass sie von einem verwandten Grundwort abgeleitet wurde. Diese können weniger genau sein als Wörterbucheinträge.
 
 ---
 

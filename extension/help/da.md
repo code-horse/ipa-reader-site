@@ -17,11 +17,13 @@ IPA Reader er en browserudvidelse designet til engelskstuderende. Den tilføjer 
 ## Hovedfunktioner
 
 - **Tekstmarkeringsannotering** — Markér engelsk tekst på websider for automatisk at vise IPA og taleknapper
-- **Helsides IPA-tilstand** — Tilføj IPA-annoteringer til alle engelske ord på siden med ét klik
+- **Helsides IPA-tilstand** — Tilføj IPA-annoteringer til alle engelske ord på siden med ét klik, med farvekodede IPA-symboler (vokaler, konsonanter, trykmarkeringer) for let læsning
 - **Amerikansk og britisk accent** — Skift mellem amerikansk engelsk (en-US) og britisk engelsk (en-GB) IPA
 - **Tekst-til-tale** — Klik på højttalerknappen for at høre udtale, der matcher din valgte accent
 - **Markeringstale** — Markér enhver engelsk tekst, klik på den flydende knap eller højreklik "Speak Selection" for at læse højt
 - **Svævetooltips** — Hold musen over annoterede ord for at se IPA og udtaleknapper
+- **Svage/stærke former** — Vis automatisk svage og stærke udtalevarianter af funktionsord (f.eks. the, to, can) for at mestre naturlig sammenhængende tale
+- **Homograf-disambiguation** — Identificerer automatisk ord med flere udtaler (f.eks. read, live) og vælger den korrekte baseret på kontekst
 - **Flersproget grænseflade** — Understøtter 38 grænsefladesprog
 
 ---
@@ -74,6 +76,7 @@ Når du har markeret engelsk tekst, højreklik og vælg "Speak Selection" fra me
 | **Helsides IPA** | Når aktiveret, vises IPA for alle engelske ord (kan påvirke sidelayout) |
 | **Accenttype** | Vælg mellem amerikansk engelsk og britisk engelsk IPA og udtale |
 | **Sætningstalehasighed** | Justér hastigheden for sætningsoplæsning (enkelordstale påvirkes ikke) |
+| **Svage/stærke former** | Vis svage og stærke udtalevarianter af funktionsord |
 | **Svævetooltips** | Vis IPA-tooltip ved museover |
 
 ---
@@ -84,13 +87,16 @@ Når du har markeret engelsk tekst, højreklik og vælg "Speak Selection" fra me
 Sv: Af sikkerhedsmæssige årsager kan browserudvidelser ikke køre på specialsider som `chrome://`, browserindstillinger eller Chrome Web Store.
 
 **Sp: Hvad hvis IPA mangler for nogle ord?**  
-Sv: IPA-ordbogen dækker almindelige engelske ord. Nogle sjældne eller specialiserede ord har muligvis ikke IPA-opslag. Vi udvider løbende ordbogen.
+Sv: IPA-ordbogen dækker almindelige engelske ord. For ord uden for ordbogen genererer udvidelsen tilnærmelsesvis IPA via lemmatisering og G2P, markeret med ≈ eller ~ i tooltip.
 
 **Sp: Ingen lyd fra tekst-til-tale?**  
 Sv: Kontrollér venligst dine systemlydindstillinger og sørg for, at engelske stemmepakker er installeret. Taleunderstøttelse varierer på tværs af browsere og operativsystemer.
 
 **Sp: Helsidestilstand påvirker layout?**  
 Sv: IPA-annoteringer kræver ekstra plads, hvilket kan påvirke det originale sidelayout. Hvis det påvirker læsningen, deaktivér helsidestilstand og brug svævetooltips i stedet.
+
+**Sp: Hvad betyder symbolerne ~ og ≈ i tooltips?**  
+Sv: ~ betyder, at IPA er genereret af regler (G2P), og ≈ betyder, at den er afledt af et beslægtet grundord. Disse kan være mindre præcise end ordbogsopslag.
 
 ---
 

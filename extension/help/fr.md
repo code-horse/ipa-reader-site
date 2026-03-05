@@ -17,11 +17,13 @@ IPA Reader est une extension de navigateur conçue pour les apprenants d'anglais
 ## Fonctionnalités principales
 
 - **Annotation de sélection** — Sélectionnez du texte anglais sur les pages web pour afficher automatiquement l'IPA et les boutons de parole
-- **Mode IPA page entière** — Ajoutez des annotations IPA à tous les mots anglais de la page en un clic
+- **Mode IPA page entière** — Ajoutez des annotations IPA à tous les mots anglais de la page en un clic, avec des symboles IPA codés par couleur (voyelles, consonnes, accents) pour une lecture facile
 - **Accents américain et britannique** — Basculez entre l'IPA américain (en-US) et britannique (en-GB)
 - **Synthèse vocale** — Cliquez sur le bouton haut-parleur pour entendre la prononciation correspondant à l'accent choisi
 - **Lecture de sélection** — Sélectionnez du texte anglais, cliquez sur le bouton flottant ou faites un clic droit sur « Lire la sélection » pour écouter
 - **Infobulles au survol** — Passez la souris sur les mots annotés pour voir l'IPA et les boutons de prononciation
+- **Formes faibles/fortes** — Affichage automatique des variantes de prononciation faible et forte des mots fonctionnels (ex. the, to, can) pour maîtriser la parole naturelle
+- **Désambiguïsation des homographes** — Identification automatique des mots ayant plusieurs prononciations (ex. read, live) et sélection de la bonne selon le contexte
 - **Interface multilingue** — Prend en charge 38 langues d'interface
 
 ---
@@ -74,6 +76,7 @@ Après avoir sélectionné du texte anglais, faites un clic droit et choisissez 
 | **IPA page entière** | Quand activé, affiche l'IPA pour tous les mots anglais (peut affecter la mise en page) |
 | **Type d'accent** | Choisir entre l'anglais américain et britannique pour l'IPA et la prononciation |
 | **Vitesse lecture phrases** | Ajuster la vitesse de lecture des phrases (la lecture des mots individuels n'est pas affectée) |
+| **Formes faibles/fortes** | Afficher les variantes de prononciation faible et forte des mots fonctionnels |
 | **Infobulles au survol** | Afficher l'infobulle IPA au survol de la souris |
 
 ---
@@ -84,13 +87,16 @@ Après avoir sélectionné du texte anglais, faites un clic droit et choisissez 
 R : Pour des raisons de sécurité, les extensions de navigateur ne peuvent pas s'exécuter sur les pages spéciales comme `chrome://`, les paramètres du navigateur ou le Chrome Web Store.
 
 **Q : Que faire si l'IPA manque pour certains mots ?**  
-R : Le dictionnaire IPA couvre les mots anglais courants. Certains mots rares ou spécialisés peuvent ne pas avoir d'entrée IPA. Nous élargissons continuellement le dictionnaire.
+R : Le dictionnaire IPA couvre les mots anglais courants. Pour les mots absents du dictionnaire, l'extension génère un IPA approximatif par lemmatisation et G2P, marqué ≈ ou ~ dans l'info-bulle.
 
 **Q : Pas de son avec la synthèse vocale ?**  
 R : Vérifiez les paramètres de volume de votre système et assurez-vous que les packs vocaux anglais sont installés. Le support de la parole varie selon les navigateurs et les systèmes d'exploitation.
 
 **Q : Le mode page entière affecte-t-il la mise en page ?**  
 R : Les annotations IPA nécessitent un espace supplémentaire, ce qui peut affecter la mise en page d'origine. Si cela gêne la lecture, désactivez le mode page entière et utilisez les infobulles au survol.
+
+**Q : Que signifient les symboles ~ et ≈ dans les info-bulles ?**  
+R : ~ signifie que l'IPA a été généré par des règles (G2P), et ≈ qu'il a été dérivé d'un mot de base apparenté. Ils peuvent être moins précis que les entrées du dictionnaire.
 
 ---
 
