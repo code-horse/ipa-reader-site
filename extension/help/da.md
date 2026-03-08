@@ -6,7 +6,7 @@ lang: da
 
 # IPA Reader — Brugervejledning
 
-> Version: v1.1.1
+> Version: v1.1.2
 
 ## Introduktion
 

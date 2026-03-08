@@ -6,7 +6,7 @@ lang: ca
 
 # IPA Reader - Guia d'ús
 
-> Versió: v1.1.1
+> Versió: v1.1.2
 
 ## Introducció
 

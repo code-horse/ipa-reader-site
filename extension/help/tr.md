@@ -6,7 +6,7 @@ lang: tr
 
 # IPA Reader - Kullanıcı Kılavuzu
 
-> Sürüm: v1.1.1
+> Sürüm: v1.1.2
 
 ## Giriş
 

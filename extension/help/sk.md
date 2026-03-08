@@ -6,7 +6,7 @@ lang: sk
 
 # IPA Reader - Používateľská príručka
 
-> Verzia: v1.1.1
+> Verzia: v1.1.2
 
 ## Úvod
 
