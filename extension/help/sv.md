@@ -6,7 +6,7 @@ lang: sv
 
 # IPA Reader - Användarhandbok
 
-> Version: v1.1.2
+> Version: v1.2.0
 
 ## Introduktion
 
