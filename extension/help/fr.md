@@ -6,7 +6,7 @@ lang: fr
 
 # IPA Reader - Guide utilisateur
 
-> Version : v1.2.0
+> Version : v1.2.1
 
 ## Introduction
 

@@ -6,7 +6,7 @@ lang: hr
 
 # IPA Reader - Korisnički vodič
 
-> Verzija: v1.2.0
+> Verzija: v1.2.1
 
 ## Uvod
 
