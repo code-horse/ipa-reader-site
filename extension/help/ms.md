@@ -6,7 +6,7 @@ lang: ms
 
 # IPA Reader - Panduan Pengguna
 
-> Versi: v1.2.1
+> Versi: v1.3.0
 
 ## Pengenalan
 
@@ -16,14 +16,15 @@ IPA Reader ialah sambungan pelayar yang direka untuk pelajar bahasa Inggeris. Ia
 
 ## Ciri Utama
 
-- **Penjelasan Pilihan Teks** — Pilih teks Inggeris di halaman web untuk memaparkan IPA dan butang suara secara automatik
-- **Mod IPA Seluruh Halaman** — Tambah penjelasan IPA pada semua perkataan Inggeris di halaman dengan satu klik, dengan simbol IPA berkod warna (vokal, konsonan, tanda tekanan) untuk bacaan mudah
+- **Mod IPA Seluruh Halaman** — Tambah penjelasan IPA pada semua perkataan Inggeris di halaman dengan satu klik; simbol IPA berkod warna mengikut jenis (vokal, konsonan, tanda tekanan) untuk bacaan mudah
+- **Bentuk Lemah/Kuat** — Paparkan secara automatik varian sebutan lemah dan kuat untuk kata fungsi biasa (cth. "the", "to", "can"), membantu anda menguasai pertuturan semula jadi
 - **Loghat Amerika & British** — Tukar antara IPA Inggeris Amerika (en-US) dan Inggeris British (en-GB)
 - **Teks-ke-Suara** — Klik butang pembesar suara untuk mendengar sebutan yang sepadan dengan loghat pilihan anda
-- **Ucapan Pilihan** — Pilih mana-mana teks Inggeris, klik butang terapung atau klik kanan "Speak Selection" untuk membaca dengan kuat
-- **Tooltip Hover** — Tunjuk tetikus ke perkataan yang diterangkan untuk melihat IPA dan butang sebutan
-- **Bentuk Lemah/Kuat** — Paparkan secara automatik varian sebutan lemah dan kuat kata fungsi (cth. the, to, can) untuk menguasai pertuturan semula jadi
-- **Nyahkesamaran Homograf** — Kenal pasti secara automatik perkataan dengan pelbagai sebutan (cth. read, live) dan pilih yang betul berdasarkan konteks
+- **Ucapan Pilihan dengan Kesan Karaoke** — Pilih mana-mana teks Inggeris, bar alat padat muncul dengan butang bercakap dan terjemah; ucapan dimainkan dengan penyerlahan perkataan demi perkataan masa nyata (kesan karaoke) disegerakkan dengan audio
+- **Terjemahan Pilihan** — Pilih mana-mana teks, klik butang terjemah di bar alat untuk mendapat terjemahan serta-merta melalui Bing atau Google Translate, dipaparkan dalam gelembung sebaris
+- **Tooltip Hover** — Tunjuk tetikus ke perkataan yang diterangkan untuk melihat IPA dengan simbol berkod warna dan butang sebutan
+- **Nyahkesamaran Homograf** — Kenal pasti secara automatik perkataan dengan pelbagai sebutan (cth. "read", "live") dan pilih yang betul berdasarkan konteks
+- **Pintasan Papan Kekunci** — Akses pantas kepada ciri teras melalui pintasan papan kekunci yang boleh disesuaikan
 - **Antaramuka Pelbagai Bahasa** — Menyokong 38 bahasa antaramuka
 
 ---
@@ -38,33 +39,101 @@ Pasang **IPA Reader** dari [Chrome Web Store](https://chromewebstore.google.com/
 
 Lawati mana-mana halaman web yang mengandungi kandungan Inggeris.
 
-### Langkah 3: Pilih Teks atau Gunakan Butang Terapung
+### Langkah 3: Dayakan IPA
 
-Pilih teks Inggeris yang ingin anda terangkan, atau klik butang terapung di kanan bawah untuk mendayakan mod IPA seluruh halaman.
+Klik ikon sambungan di bar alat pelayar anda. Hidupkan "Enable IPA", kemudian hidupkan "Whole Page IPA" untuk menerangkan semua perkataan di halaman. Anda juga boleh klik butang terapung di kanan bawah.
 
 ### Langkah 4: Lihat IPA
 
-Tunjuk tetikus ke perkataan untuk melihat tooltip IPA, klik ikon pembesar suara untuk mendengar sebutan.
+Tunjuk tetikus ke perkataan untuk melihat tooltip IPA dengan simbol fonetik berkod warna. Klik ikon pembesar suara untuk mendengar sebutan. Untuk perkataan dengan bentuk lemah/kuat, tooltip menunjukkan kedua-dua varian.
 
-### Langkah 5: Ucapkan Teks yang Dipilih
+### Langkah 5: Bercakap dan Terjemah Teks yang Dipilih
 
-Pilih mana-mana teks Inggeris dengan tetikus, klik butang 🔊 pembesar suara terapung untuk mengucapkan; atau klik kanan dan pilih "Speak Selection".
+Pilih mana-mana teks Inggeris dengan tetikus. Bar alat padat muncul berhampiran pilihan dengan dua butang:
+- **🔊 Bercakap** — Membaca teks yang dipilih dengan penyerlahan perkataan gaya karaoke
+- **🌐 Terjemah** — Menunjukkan gelembung terjemahan sebaris di bawah bar alat
 
-> **Petua:** Klik ikon sambungan di bar alat pelayar anda untuk membuka panel tetapan dan laraskan jenis loghat, kadar ucapan, dan lain-lain.
+Anda juga boleh klik kanan dan pilih "IPA Reader > Speak Selection" atau "IPA Reader > Translate Selection".
+
+> **Petua:** Klik ikon sambungan di bar alat pelayar anda untuk membuka panel tetapan dan laraskan jenis loghat, kadar ucapan, enjin terjemahan, dan banyak lagi.
 
 ---
 
-## Ucapan Pilihan
+## Mod IPA Seluruh Halaman
 
-Ciri ucapan pilihan membolehkan anda memilih mana-mana teks Inggeris dan membacanya dengan kuat dengan satu klik — sempurna untuk belajar sebutan ayat dan latihan membaca.
+Apabila mod IPA seluruh halaman didayakan, setiap perkataan Inggeris di halaman mendapat penjelasan IPA dipaparkan di atasnya menggunakan teks ruby. Simbol IPA berkod warna untuk bacaan mudah:
 
-**Kaedah 1: Butang Terapung**  
-Pilih teks Inggeris dengan tetikus anda, butang pembesar suara muncul di kanan atas pilihan — klik untuk mengucapkan.
+- **Vokal** — diserlahkan dalam biru
+- **Konsonan** — dipaparkan dalam kelabu
+- **Tanda tekanan** (ˈ ˌ) — diserlahkan dalam merah
+- **Tanda panjang** (ː) — diserlahkan dalam ungu
+
+Sambungan secara automatik melaraskan ketinggian baris untuk mengelakkan penjelasan bertindih dengan teks, dan menskala saiz fon IPA berdasarkan panjang perkataan untuk susun atur yang kemas.
+
+---
+
+## Bentuk Lemah/Kuat
+
+Banyak kata fungsi Inggeris biasa mempunyai dua sebutan:
+
+- **Bentuk lemah** — sebutan tereduksi dalam pertuturan semula jadi (cth. "the" → /ðə/)
+- **Bentuk kuat** — sebutan penuh untuk penekanan atau secara berasingan (cth. "the" → /ðiː/)
+
+Apabila "Show weak/strong forms" didayakan, menunjuk tetikus ke perkataan ini menunjukkan kedua-dua varian dalam tooltip, dilabel sebagai "WEAK" dan "STRONG". Ini membantu anda memahami bagaimana sebutan berubah dalam pertuturan semula jadi.
+
+Perkataan yang diliputi termasuk: artikel (the, a, an), preposisi (to, for, of, from, at, as, than), konjungsi (and, or, but), kata ganti (you, your, her, him, his, them, us, our, there), kata kerja bantu (am, is, are, was, were, been, can, could, would, should, must, shall, will, do, does, have, has, had), dan banyak lagi.
+
+---
+
+## Ucapan Pilihan & Karaoke
+
+Ciri ucapan pilihan membolehkan anda memilih mana-mana teks Inggeris dan membacanya dengan kuat dengan satu klik — sesuai untuk belajar sebutan ayat dan latihan membaca.
+
+**Kaedah 1: Bar Alat Pilihan**  
+Pilih teks Inggeris dengan tetikus. Bar alat padat muncul berhampiran pilihan dengan butang 🔊 bercakap dan butang 🌐 terjemah. Klik butang bercakap untuk main. Semasa teks dibaca, setiap perkataan diserlahkan secara masa nyata (kesan karaoke), membantu anda mengikuti.
 
 **Kaedah 2: Menu Klik Kanan**  
-Selepas memilih teks Inggeris, klik kanan dan pilih "Speak Selection" dari menu.
+Selepas memilih teks Inggeris, klik kanan dan pilih "IPA Reader > Speak Selection".
 
-> **Petua:** Ucapan pilihan menggunakan kadar ucapan ayat yang dikonfigurasi dalam tetapan anda. Sebutan perkataan tunggal menggunakan kadar lalai. Suara TTS sepadan dengan jenis loghat yang anda pilih (Amerika atau British).
+**Kaedah 3: Pintasan Papan Kekunci**  
+Pilih teks dan tekan `Alt+Shift+S` (Mac: `Ctrl+Shift+S`) untuk bercakap.
+
+> **Petua:** Penyerlahan karaoke berfungsi paling baik apabila pelayar anda menyokong peristiwa sempadan perkataan TTS. Jika tidak disokong, sambungan menggunakan sandaran berasaskan masa untuk penyerlahan lancar.
+
+---
+
+## Terjemahan
+
+Pilih mana-mana teks di halaman dan gunakan ciri terjemahan untuk mendapat terjemahan serta-merta.
+
+**Kaedah 1: Bar Alat Pilihan**  
+Pilih teks, kemudian klik butang 🌐 terjemah di bar alat. Gelembung terjemahan muncul di bawah menunjukkan hasil, dengan butang salin.
+
+**Kaedah 2: Menu Klik Kanan**  
+Pilih teks, klik kanan dan pilih "IPA Reader > Translate Selection".
+
+**Kaedah 3: Pintasan Papan Kekunci**  
+Pilih teks dan tekan `Alt+Shift+T` (Mac: `Ctrl+Shift+T`) untuk terjemah.
+
+**Enjin Terjemahan:**
+- **Bing Translate** (lalai) — Dikuasakan oleh Microsoft Translator
+- **Google Translate** — Dikuasakan oleh Google
+
+Anda boleh menukar enjin terjemahan dan bahasa sasaran dalam tetapan sambungan. Bahasa sasaran dikesan secara automatik daripada bahasa pelayar anda.
+
+> **Petua:** Klik di mana-mana di luar bar alat atau gelembung untuk menutupnya.
+
+---
+
+## Pintasan Papan Kekunci
+
+| Pintasan | Pintasan Mac | Tindakan |
+|----------|--------------|----------|
+| `Alt+Shift+I` | `Ctrl+Shift+I` | Togol penjelasan IPA hidup/mati |
+| `Alt+Shift+S` | `Ctrl+Shift+S` | Bercakap teks yang dipilih |
+| `Alt+Shift+T` | `Ctrl+Shift+T` | Terjemah teks yang dipilih |
+
+> **Petua:** Anda boleh menyesuaikan pintasan ini dalam Chrome di `chrome://extensions/shortcuts`.
 
 ---
 
@@ -73,11 +142,13 @@ Selepas memilih teks Inggeris, klik kanan dan pilih "Speak Selection" dari menu.
 | Tetapan | Penerangan |
 |---------|------------|
 | **Enable IPA** | Suis induk untuk mendayakan atau menyahdayakan ciri penjelasan IPA |
-| **Whole Page IPA** | Apabila didayakan, memaparkan IPA untuk semua perkataan Inggeris (boleh menjejaskan susun atur halaman) |
-| **Accent Type** | Pilih antara IPA dan sebutan Inggeris Amerika dan British |
+| **Whole Page IPA** | Apabila didayakan, memaparkan IPA berkod warna untuk semua perkataan Inggeris di atas teks |
+| **IPA Style** | Pilih antara IPA dan sebutan Inggeris Amerika dan British |
+| **Show hover tooltip** | Tunjuk tooltip IPA dengan butang sebutan apabila menunjuk tetikus |
+| **Show weak/strong forms** | Paparkan varian sebutan lemah dan kuat untuk kata fungsi biasa |
 | **Sentence Speech Rate** | Laraskan kelajuan bacaan ayat (ucapan perkataan tunggal tidak terjejas) |
-| **Bentuk Lemah/Kuat** | Paparkan varian sebutan lemah dan kuat kata fungsi |
-| **Hover Tooltips** | Tunjuk tooltip IPA apabila menunjuk tetikus |
+| **Translation Engine** | Pilih antara Bing Translate dan Google Translate |
+| **Target Language** | Tetapkan bahasa sasaran terjemahan (dikesan automatik daripada bahasa pelayar) |
 
 ---
 
@@ -87,17 +158,19 @@ Selepas memilih teks Inggeris, klik kanan dan pilih "Speak Selection" dari menu.
 J: Atas sebab keselamatan, sambungan pelayar tidak boleh berjalan pada halaman khas seperti `chrome://`, tetapan pelayar, atau Chrome Web Store.
 
 **S: Bagaimana jika IPA hilang untuk sesetengah perkataan?**  
-J: Kamus IPA merangkumi perkataan Bahasa Inggeris biasa. Untuk perkataan di luar kamus, sambungan menjana IPA anggaran melalui lematisasi dan G2P, ditanda dengan ≈ atau ~ dalam petua.
+J: Kamus IPA merangkumi perkataan Bahasa Inggeris biasa. Untuk perkataan di luar kamus, sambungan menggunakan lematisasi dan penukaran G2P berasaskan peraturan untuk menjana IPA anggaran. Ini ditanda dengan ≈ atau ~ dalam tooltip.
 
 **S: Tiada bunyi dari teks-ke-suara?**  
 J: Sila semak tetapan volum sistem anda dan pastikan pakej suara Inggeris telah dipasang. Sokongan ucapan berbeza mengikut pelayar dan sistem pengendalian.
 
 **S: Mod seluruh halaman menjejaskan susun atur?**  
-J: Penjelasan IPA memerlukan ruang tambahan, yang boleh menjejaskan susun atur halaman asal. Jika menjejaskan bacaan, nyahdayakan mod seluruh halaman dan gunakan tooltip hover sebagai gantinya.
-
+J: Penjelasan IPA memerlukan ruang tambahan. Sambungan secara automatik melaraskan ketinggian baris untuk mengurangkan kesan susun atur. Jika masih menjejaskan bacaan, nyahdayakan mod seluruh halaman dan gunakan tooltip hover sebagai gantinya.
 
 **S: Apakah maksud simbol ~ dan ≈ dalam petua?**  
-J: ~ bermaksud IPA dijana oleh peraturan (G2P), dan ≈ bermaksud ia diperoleh daripada kata asas berkaitan. Ini mungkin kurang tepat berbanding entri kamus.
+J: Simbol ~ menunjukkan IPA dijana oleh penukaran berasaskan peraturan (G2P) dan bukan daripada kamus. Simbol ≈ menunjukkan IPA diperoleh daripada kata asas berkaitan melalui lematisasi. Ini mungkin kurang tepat berbanding entri kamus.
+
+**S: Terjemahan tidak berfungsi?**  
+J: Terjemahan memerlukan sambungan internet. Jika Bing Translate gagal, cuba tukar kepada Google Translate dalam tetapan. Sesetengah persekitaran rangkaian mungkin menyekat akses kepada perkhidmatan terjemahan.
 
 ---
 

@@ -6,7 +6,7 @@ lang: en
 
 # IPA Reader - User Guide
 
-> Version: v1.2.1
+> Version: v1.3.0
 
 ## Introduction
 
@@ -20,9 +20,11 @@ IPA Reader is a browser extension designed for English learners. It adds IPA (In
 - **Weak/Strong Forms** — Automatically display weak and strong pronunciation variants for common function words (e.g. "the", "to", "can"), helping you master natural connected speech
 - **American & British Accents** — Switch between American English (en-US) and British English (en-GB) IPA
 - **Text-to-Speech** — Click the speaker button to hear pronunciation matching your selected accent
-- **Selection Speech** — Select any English text, click the floating button or right-click "Speak Selection" to read aloud
+- **Selection Speech with Karaoke Effect** — Select any English text, a compact toolbar appears with speak and translate buttons; speech plays with real-time word-by-word highlighting (karaoke effect) synced to the audio
+- **Selection Translation** — Select any text, click the translate button in the toolbar to get instant translation via Bing or Google Translate, displayed in an inline bubble
 - **Hover Tooltips** — Hover over annotated words to see IPA with color-coded symbols and pronunciation buttons
 - **Heteronym Disambiguation** — Automatically identifies words with multiple pronunciations (e.g. "read", "live") and selects the correct one based on context
+- **Keyboard Shortcuts** — Quick access to core features via customizable keyboard shortcuts
 - **Multilingual Interface** — Supports 38 interface languages
 
 ---
@@ -45,11 +47,15 @@ Click the extension icon in your browser toolbar. Toggle "Enable IPA" on, then t
 
 Hover over words to see IPA tooltips with color-coded phonetic symbols. Click the speaker icon to hear pronunciation. For words with weak/strong forms, the tooltip shows both variants.
 
-### Step 5: Speak Selected Text
+### Step 5: Speak and Translate Selected Text
 
-Select any English text with mouse, click the 🔊 floating button to speak; or right-click and choose "Speak Selection".
+Select any English text with your mouse. A compact toolbar appears near the selection with two buttons:
+- **🔊 Speak** — Reads the selected text aloud with karaoke-style word-by-word highlighting
+- **🌐 Translate** — Shows an inline translation bubble below the toolbar
 
-> **Tip:** Click the extension icon in your browser toolbar to open the settings panel and adjust accent type, speech rate, and more.
+You can also right-click and choose "IPA Reader > Speak Selection" or "IPA Reader > Translate Selection".
+
+> **Tip:** Click the extension icon in your browser toolbar to open the settings panel and adjust accent type, speech rate, translation engine, and more.
 
 ---
 
@@ -79,17 +85,55 @@ Covered words include: articles (the, a, an), prepositions (to, for, of, from, a
 
 ---
 
-## Selection Speech
+## Selection Speech & Karaoke
 
 The selection speech feature allows you to select any English text and read it aloud with one click — perfect for learning sentence pronunciation and reading practice.
 
-**Method 1: Floating Button**  
-Select English text with your mouse, a green 🔊 button appears at the top right of the selection — click to speak.
+**Method 1: Selection Toolbar**  
+Select English text with your mouse. A compact toolbar appears near the selection with a 🔊 speak button and a 🌐 translate button. Click the speak button to play. As the text is read aloud, each word is highlighted in real time (karaoke effect), helping you follow along.
 
 **Method 2: Right-Click Menu**  
-After selecting English text, right-click and choose "Speak Selection" from the menu.
+After selecting English text, right-click and choose "IPA Reader > Speak Selection".
 
-> **Tip:** Selection speech uses the sentence speech rate configured in your settings. Single word pronunciation uses the default rate. TTS voice matches your selected accent type (American or British).
+**Method 3: Keyboard Shortcut**  
+Select text and press `Alt+Shift+S` (Mac: `Ctrl+Shift+S`) to speak.
+
+> **Tip:** The karaoke highlighting effect works best when your browser supports TTS word boundary events. If not supported, the extension uses a timing-based fallback for smooth highlighting.
+
+---
+
+## Translation
+
+Select any text on the page and use the translation feature to get instant translations.
+
+**Method 1: Selection Toolbar**  
+Select text, then click the 🌐 translate button in the toolbar. A translation bubble appears below showing the result, with a copy button.
+
+**Method 2: Right-Click Menu**  
+Select text, right-click and choose "IPA Reader > Translate Selection".
+
+**Method 3: Keyboard Shortcut**  
+Select text and press `Alt+Shift+T` (Mac: `Ctrl+Shift+T`) to translate.
+
+**Translation Engines:**
+- **Bing Translate** (default) — Powered by Microsoft Translator
+- **Google Translate** — Powered by Google
+
+You can switch the translation engine and target language in the extension settings. The target language is automatically detected from your browser language.
+
+> **Tip:** Click anywhere outside the toolbar or bubble to dismiss them.
+
+---
+
+## Keyboard Shortcuts
+
+| Shortcut | Mac Shortcut | Action |
+|----------|-------------|--------|
+| `Alt+Shift+I` | `Ctrl+Shift+I` | Toggle IPA annotations on/off |
+| `Alt+Shift+S` | `Ctrl+Shift+S` | Speak selected text |
+| `Alt+Shift+T` | `Ctrl+Shift+T` | Translate selected text |
+
+> **Tip:** You can customize these shortcuts in Chrome at `chrome://extensions/shortcuts`.
 
 ---
 
@@ -103,6 +147,8 @@ After selecting English text, right-click and choose "Speak Selection" from the 
 | **Show hover tooltip** | Show IPA tooltip with pronunciation button on mouse hover |
 | **Show weak/strong forms** | Display weak and strong pronunciation variants for common function words |
 | **Sentence Speech Rate** | Adjust the speed of sentence reading (single word speech is not affected) |
+| **Translation Engine** | Choose between Bing Translate and Google Translate |
+| **Target Language** | Set the translation target language (auto-detected from browser language) |
 
 ---
 
@@ -122,6 +168,9 @@ A: IPA annotations require extra space. The extension automatically adjusts line
 
 **Q: What do the ~ and ≈ symbols in the tooltip mean?**  
 A: The ~ symbol indicates the IPA was generated by rule-based conversion (G2P) rather than from the dictionary. The ≈ symbol indicates the IPA was derived from a related base word through lemmatization. These may be less accurate than dictionary entries.
+
+**Q: Translation not working?**  
+A: Translation requires an internet connection. If Bing Translate fails, try switching to Google Translate in the settings. Some network environments may block access to translation services.
 
 ---
 

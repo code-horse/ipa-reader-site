@@ -6,7 +6,7 @@ lang: de
 
 # IPA Reader - Benutzerhandbuch
 
-> Version: v1.2.1
+> Version: v1.3.0
 
 ## Einführung
 
@@ -16,14 +16,15 @@ IPA Reader ist eine Browsererweiterung für Englischlernende. Sie fügt englisch
 
 ## Hauptfunktionen
 
-- **Textauswahl-Annotation** — Wählen Sie englischen Text auf Webseiten aus, um automatisch IPA und Sprach-Buttons anzuzeigen
 - **Ganzseiten-IPA-Modus** — Fügen Sie mit einem Klick IPA-Annotationen zu allen englischen Wörtern auf der Seite hinzu, mit farbcodierten IPA-Symbolen (Vokale, Konsonanten, Betonungszeichen) für einfaches Lesen
+- **Schwache/starke Formen** — Automatische Anzeige der schwachen und starken Aussprachevarianten von Funktionswörtern (z. B. the, to, can) für natürliches Sprechen
 - **Amerikanischer & Britischer Akzent** — Wechseln Sie zwischen amerikanischem (en-US) und britischem (en-GB) IPA
 - **Text-zu-Sprache** — Klicken Sie auf den Lautsprecher-Button, um die Aussprache passend zu Ihrem gewählten Akzent zu hören
-- **Auswahl-Vorlesen** — Wählen Sie englischen Text aus, klicken Sie auf den schwebenden Button oder rechtsklicken Sie auf „Auswahl vorlesen"
+- **Auswahl-Vorlesen mit Karaoke-Effekt** — Wählen Sie englischen Text: Eine kompakte Symbolleiste mit Vorlesen- und Übersetzen-Buttons erscheint; die Wiedergabe erfolgt mit Echtzeit-Wort-für-Wort-Hervorhebung (Karaoke-Effekt), synchron zum Audio
+- **Auswahl-Übersetzung** — Wählen Sie beliebigen Text, klicken Sie auf den Übersetzen-Button in der Symbolleiste für sofortige Übersetzung über Bing oder Google Translate, angezeigt in einer eingebetteten Blase
 - **Hover-Tooltips** — Fahren Sie mit der Maus über annotierte Wörter, um IPA und Aussprache-Buttons zu sehen
-- **Schwache/starke Formen** — Automatische Anzeige der schwachen und starken Aussprachevarianten von Funktionswörtern (z. B. the, to, can) für natürliches Sprechen
 - **Homographen-Erkennung** — Automatische Erkennung von Wörtern mit mehreren Aussprachen (z. B. read, live) und Auswahl der richtigen je nach Kontext
+- **Tastenkürzel** — Schneller Zugriff auf Kernfunktionen über anpassbare Tastenkürzel
 - **Mehrsprachige Oberfläche** — Unterstützt 38 Oberflächensprachen
 
 ---
@@ -38,33 +39,101 @@ Installieren Sie **IPA Reader** aus dem [Chrome Web Store](https://chromewebstor
 
 Besuchen Sie eine beliebige Webseite mit englischem Inhalt.
 
-### Schritt 3: Text auswählen oder schwebenden Button verwenden
+### Schritt 3: IPA aktivieren
 
-Wählen Sie den zu annotierenden englischen Text aus oder klicken Sie auf den schwebenden Button unten rechts, um den Ganzseiten-IPA-Modus zu aktivieren.
+Klicken Sie auf das Erweiterungssymbol in der Browser-Symbolleiste. Schalten Sie „IPA aktivieren“ ein, dann „Ganzseiten-IPA“, um alle Wörter auf der Seite zu annotieren. Sie können auch den schwebenden Button unten rechts verwenden.
 
 ### Schritt 4: IPA anzeigen
 
-Fahren Sie mit der Maus über Wörter, um IPA-Tooltips zu sehen, klicken Sie auf das Lautsprecher-Symbol, um die Aussprache zu hören.
+Fahren Sie mit der Maus über Wörter, um IPA-Tooltips zu sehen, klicken Sie auf das Lautsprecher-Symbol, um die Aussprache zu hören. Bei Wörtern mit schwachen/starken Formen zeigt der Tooltip beide Varianten.
 
-### Schritt 5: Ausgewählten Text vorlesen
+### Schritt 5: Ausgewählten Text vorlesen und übersetzen
 
-Wählen Sie englischen Text mit der Maus aus, klicken Sie auf den schwebenden 🔊-Button zum Vorlesen; oder rechtsklicken Sie und wählen Sie „Auswahl vorlesen".
+Wählen Sie englischen Text mit der Maus aus. In der Nähe der Auswahl erscheint eine kompakte Symbolleiste mit zwei Buttons:
+- **🔊 Vorlesen** — Liest den ausgewählten Text mit Karaoke-artiger Wort-für-Wort-Hervorhebung vor
+- **🌐 Übersetzen** — Zeigt eine eingebettete Übersetzungsblase unter der Symbolleiste
 
-> **Tipp:** Klicken Sie auf das Erweiterungssymbol in der Browser-Symbolleiste, um das Einstellungsfenster zu öffnen und Akzenttyp, Sprechgeschwindigkeit und mehr anzupassen.
+Sie können auch rechtsklicken und „IPA Reader > Speak Selection“ oder „IPA Reader > Translate Selection“ wählen.
+
+> **Tipp:** Klicken Sie auf das Erweiterungssymbol in der Browser-Symbolleiste, um das Einstellungsfenster zu öffnen und Akzenttyp, Sprechgeschwindigkeit, Übersetzungs-Engine und mehr anzupassen.
 
 ---
 
-## Auswahl-Vorlesen
+## Ganzseiten-IPA-Modus
 
-Die Auswahl-Vorlesen-Funktion ermöglicht es Ihnen, beliebigen englischen Text auszuwählen und mit einem Klick vorlesen zu lassen — ideal zum Lernen der Satzaussprache und für Leseübungen.
+Wenn der Ganzseiten-IPA-Modus aktiv ist, erhält jedes englische Wort auf der Seite eine IPA-Annotation darüber als Ruby-Text. Die IPA-Symbole sind farbcodiert:
 
-**Methode 1: Schwebender Button**  
-Wählen Sie englischen Text mit der Maus aus, ein Lautsprecher-Button erscheint oben rechts neben der Auswahl — klicken Sie zum Vorlesen.
+- **Vokale** — blau hervorgehoben
+- **Konsonanten** — grau dargestellt
+- **Betonungszeichen** (ˈ ˌ) — rot hervorgehoben
+- **Längenzeichen** (ː) — violett hervorgehoben
+
+Die Erweiterung passt den Zeilenabstand automatisch an und skaliert die IPA-Schriftgröße je nach Wortlänge.
+
+---
+
+## Schwache/starke Formen
+
+Viele häufige englische Funktionswörter haben zwei Aussprachen:
+
+- **Schwache Form** — die reduzierte Aussprache in natürlicher Rede (z. B. „the“ → /ðə/)
+- **Starke Form** — die volle Aussprache bei Betonung oder isoliert (z. B. „the“ → /ðiː/)
+
+Ist „Schwache/starke Formen anzeigen“ aktiviert, zeigen Tooltips bei diesen Wördern beide Varianten mit den Labels „WEAK“ und „STRONG“.
+
+Erfasst sind u. a.: Artikel (the, a, an), Präpositionen (to, for, of, from, at, as, than), Konjunktionen (and, or, but), Pronomen (you, your, her, him, his, them, us, our, there), Hilfsverben (am, is, are, was, were, been, can, could, would, should, must, shall, will, do, does, have, has, had) und mehr.
+
+---
+
+## Auswahl-Vorlesen & Karaoke
+
+Mit der Auswahl-Vorlesen-Funktion wählen Sie englischen Text und lesen ihn mit einem Klick vor — ideal für Satzaussprache und Leseübung.
+
+**Methode 1: Auswahl-Symbolleiste**  
+Wählen Sie englischen Text mit der Maus. Eine kompakte Symbolleiste mit 🔊 Vorlesen und 🌐 Übersetzen erscheint. Klicken Sie auf Vorlesen. Während der Wiedergabe wird jedes Wort in Echtzeit hervorgehoben (Karaoke-Effekt).
 
 **Methode 2: Rechtsklick-Menü**  
-Nach Auswahl von englischem Text rechtsklicken Sie und wählen Sie „Auswahl vorlesen" aus dem Menü.
+Nach Auswahl von englischem Text rechtsklicken Sie und wählen „IPA Reader > Speak Selection“.
 
-> **Tipp:** Auswahl-Vorlesen verwendet die in Ihren Einstellungen konfigurierte Satz-Sprechgeschwindigkeit. Einzelwort-Aussprache verwendet die Standardgeschwindigkeit. Die TTS-Stimme entspricht Ihrem gewählten Akzenttyp (Amerikanisch oder Britisch).
+**Methode 3: Tastenkürzel**  
+Wählen Sie Text und drücken Sie `Alt+Shift+S` (Mac: `Ctrl+Shift+S`).
+
+> **Tipp:** Der Karaoke-Effekt funktioniert am besten, wenn der Browser TTS-Wortgrenzen-Ereignisse unterstützt. Andernfalls nutzt die Erweiterung einen zeitbasierten Fallback für flüssige Hervorhebung.
+
+---
+
+## Übersetzung
+
+Wählen Sie beliebigen Text auf der Seite und nutzen Sie die Übersetzungsfunktion für sofortige Übersetzungen.
+
+**Methode 1: Auswahl-Symbolleiste**  
+Wählen Sie Text, klicken Sie auf 🌐 Übersetzen in der Symbolleiste. Darunter erscheint eine Übersetzungsblase mit Ergebnis und Kopier-Button.
+
+**Methode 2: Rechtsklick-Menü**  
+Wählen Sie Text, rechtsklicken Sie und wählen „IPA Reader > Translate Selection“.
+
+**Methode 3: Tastenkürzel**  
+Wählen Sie Text und drücken Sie `Alt+Shift+T` (Mac: `Ctrl+Shift+T`).
+
+**Übersetzungs-Engines:**
+- **Bing Übersetzen** (Standard) — von Microsoft Translator
+- **Google Übersetzen** — von Google
+
+Engine und Zielsprache stellen Sie in den Erweiterungseinstellungen ein. Die Zielsprache wird aus der Browsersprache erkannt.
+
+> **Tipp:** Klicken Sie außerhalb der Symbolleiste oder Blase, um sie zu schließen.
+
+---
+
+## Tastenkürzel
+
+| Tastenkürzel | Mac-Tastenkürzel | Aktion |
+|----------|-------------|--------|
+| `Alt+Shift+I` | `Ctrl+Shift+I` | IPA-Annotationen ein/aus |
+| `Alt+Shift+S` | `Ctrl+Shift+S` | Auswahl vorlesen |
+| `Alt+Shift+T` | `Ctrl+Shift+T` | Auswahl übersetzen |
+
+> **Tipp:** Sie können diese Tastenkürzel in Chrome unter `chrome://extensions/shortcuts` anpassen.
 
 ---
 
@@ -73,11 +142,13 @@ Nach Auswahl von englischem Text rechtsklicken Sie und wählen Sie „Auswahl vo
 | Einstellung | Beschreibung |
 |-------------|--------------|
 | **IPA aktivieren** | Hauptschalter zum Aktivieren oder Deaktivieren der IPA-Annotation |
-| **Ganzseiten-IPA** | Wenn aktiviert, zeigt IPA für alle englischen Wörter an (kann das Seitenlayout beeinflussen) |
+| **Ganzseiten-IPA** | Wenn aktiviert, farbcodiertes IPA über allen englischen Wörtern |
 | **Akzenttyp** | Wählen Sie zwischen amerikanischem und britischem Englisch für IPA und Aussprache |
-| **Satz-Sprechgeschwindigkeit** | Passen Sie die Geschwindigkeit des Satz-Vorlesens an (Einzelwort-Aussprache nicht betroffen) |
+| **Hover-Tooltips** | IPA-Tooltip mit Aussprache-Button bei Maus-Hover anzeigen |
 | **Schwache/starke Formen** | Schwache und starke Aussprachevarianten von Funktionswörtern anzeigen |
-| **Hover-Tooltips** | IPA-Tooltip bei Maus-Hover anzeigen |
+| **Satz-Sprechgeschwindigkeit** | Passen Sie die Geschwindigkeit des Satz-Vorlesens an (Einzelwort-Aussprache nicht betroffen) |
+| **Übersetzungs-Engine** | Wählen Sie zwischen Bing Übersetzen und Google Übersetzen |
+| **Zielsprache** | Zielsprache für Übersetzungen festlegen (automatisch aus der Browsersprache) |
 
 ---
 
@@ -93,11 +164,13 @@ A: Das IPA-Wörterbuch deckt gängige englische Wörter ab. Für Wörter außerh
 A: Bitte überprüfen Sie Ihre System-Lautstärkeeinstellungen und stellen Sie sicher, dass englische Sprachpakete installiert sind. Die Sprachunterstützung variiert je nach Browser und Betriebssystem.
 
 **F: Ganzseiten-Modus beeinflusst das Layout?**  
-A: IPA-Annotationen benötigen zusätzlichen Platz, was das ursprüngliche Seitenlayout beeinflussen kann. Wenn es das Lesen beeinträchtigt, deaktivieren Sie den Ganzseiten-Modus und verwenden Sie stattdessen Hover-Tooltips.
-
+A: IPA-Annotationen benötigen zusätzlichen Platz. Die Erweiterung passt den Zeilenabstand an. Wenn es stört, deaktivieren Sie den Ganzseiten-Modus und nutzen Sie Hover-Tooltips.
 
 **F: Was bedeuten die Symbole ~ und ≈ in den Tooltips?**  
 A: ~ bedeutet, dass die IPA durch Regeln (G2P) generiert wurde, und ≈, dass sie von einem verwandten Grundwort abgeleitet wurde. Diese können weniger genau sein als Wörterbucheinträge.
+
+**F: Übersetzung funktioniert nicht?**  
+A: Übersetzung erfordert eine Internetverbindung. Wenn Bing Übersetzen fehlschlägt, wechseln Sie in den Einstellungen zu Google Übersetzen. Manche Netzwerke blockieren Übersetzungsdienste.
 
 ---
 

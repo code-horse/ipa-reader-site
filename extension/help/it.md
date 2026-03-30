@@ -6,7 +6,7 @@ lang: it
 
 # IPA Reader - Guida utente
 
-> Versione: v1.2.1
+> Versione: v1.3.0
 
 ## Introduzione
 
@@ -16,14 +16,15 @@ IPA Reader è un'estensione per browser progettata per chi studia l'inglese. Agg
 
 ## Funzionalità principali
 
-- **Annotazione selezione** — Seleziona testo in inglese nelle pagine web per mostrare automaticamente IPA e pulsanti vocali
-- **Modalità IPA pagina intera** — Aggiunge annotazioni IPA a tutte le parole in inglese della pagina con un clic
+- **Modalità IPA pagina intera** — Aggiunge annotazioni IPA a tutte le parole in inglese della pagina con un clic; i simboli IPA sono codificati a colori per tipo (vocali, consonanti, segni d'accento) per una lettura più chiara
+- **Forme deboli/forti** — Mostra automaticamente le varianti di pronuncia debole e forte delle parole funzionali comuni (es. "the", "to", "can"), per padroneggiare il parlato naturale collegato
 - **Accento americano e britannico** — Passa tra IPA americano (en-US) e britannico (en-GB)
 - **Testo-to-Speech** — Clicca il pulsante altoparlante per ascoltare la pronuncia corrispondente all'accento selezionato
-- **Lettura selezione** — Seleziona testo in inglese, clicca il pulsante flottante o tasto destro «Leggi selezione» per riprodurre
-- **Tooltip al passaggio** — Passa il mouse sulle parole annotate per vedere IPA e pulsanti di pronuncia
-- **Forme deboli/forti** — Visualizzazione automatica delle varianti di pronuncia debole e forte delle parole funzionali (es. the, to, can) per padroneggiare il parlato naturale
-- **Disambiguazione omografi** — Identificazione automatica delle parole con più pronunce (es. read, live) e selezione corretta in base al contesto
+- **Lettura selezione con effetto karaoke** — Seleziona testo in inglese: compare una barra compatta con pulsanti per parlare e tradurre; la lettura evidenzia le parole in tempo reale (effetto karaoke) sincronizzata all'audio
+- **Traduzione della selezione** — Seleziona qualsiasi testo, clicca traduci nella barra per ottenere una traduzione istantanea tramite Bing o Google Translate, mostrata in un fumetto inline
+- **Tooltip al passaggio** — Passa il mouse sulle parole annotate per vedere IPA con simboli a colori e pulsanti di pronuncia
+- **Disambiguazione omografi** — Identifica automaticamente le parole con più pronunce (es. "read", "live") e sceglie quella corretta in base al contesto
+- **Scorciatoie da tastiera** — Accesso rapido alle funzioni principali tramite scorciatoie personalizzabili
 - **Interfaccia multilingue** — Supporta 38 lingue dell'interfaccia
 
 ---
@@ -38,33 +39,103 @@ Installa **IPA Reader** da [Chrome Web Store](https://chromewebstore.google.com/
 
 Visita una pagina web che contenga contenuti in inglese.
 
-### Passo 3: Selezionare testo o usare il pulsante flottante
+### Passo 3: Attivare l'IPA
 
-Seleziona il testo in inglese da annotare, oppure clicca il pulsante flottante in basso a destra per attivare la modalità IPA pagina intera.
+Clicca l'icona dell'estensione nella barra degli strumenti del browser. Attiva "Attiva IPA", poi "IPA pagina intera" per annotare tutte le parole della pagina. Puoi anche usare il pulsante flottante in basso a destra.
 
-### Passo 4: Visualizzare IPA
+### Passo 4: Visualizzare l'IPA
 
-Passa il mouse sulle parole per vedere i tooltip IPA, clicca l'icona altoparlante per sentire la pronuncia.
+Passa il mouse sulle parole per vedere i tooltip IPA con simboli fonetici a colori. Clicca l'icona altoparlante per sentire la pronuncia. Per le parole con forme deboli/forti, il tooltip mostra entrambe le varianti.
 
-### Passo 5: Leggere il testo selezionato
+### Passo 5: Leggere e tradurre il testo selezionato
 
-Seleziona testo in inglese con il mouse, clicca il pulsante 🔊 flottante per leggere; oppure tasto destro e scegli «Leggi selezione».
+Seleziona testo in inglese con il mouse. Vicino alla selezione compare una barra compatta con due pulsanti:
 
-> **Suggerimento:** Clicca l'icona dell'estensione nella barra degli strumenti del browser per aprire il pannello impostazioni e regolare tipo di accento, velocità di lettura e altro.
+- **🔊 Parla** — Legge il testo selezionato ad alta voce con evidenziazione parola per parola in stile karaoke
+- **🌐 Traduci** — Mostra un fumetto di traduzione inline sotto la barra
+
+Puoi anche fare clic destro e scegliere "IPA Reader > Leggi selezione" o "IPA Reader > Traduci selezione".
+
+> **Suggerimento:** Clicca l'icona dell'estensione nella barra degli strumenti per aprire il pannello impostazioni e regolare tipo di accento, velocità di lettura, motore di traduzione e altro.
 
 ---
 
-## Lettura selezione
+## Modalità IPA pagina intera
 
-La funzione di lettura selezione permette di selezionare testo in inglese e leggerlo ad alta voce con un clic — perfetta per imparare la pronuncia delle frasi e fare esercizi di lettura.
+Con la modalità IPA pagina intera attiva, ogni parola in inglese sulla pagina riceve un'annotazione IPA sopra il testo tramite ruby text. I simboli IPA sono codificati a colori:
 
-**Metodo 1: Pulsante flottante**  
-Seleziona testo in inglese con il mouse, compare un pulsante altoparlante in alto a destra della selezione — clicca per leggere.
+- **Vocali** — evidenziate in blu
+- **Consonanti** — in grigio
+- **Segni d'accento** (ˈ ˌ) — in rosso
+- **Segni di lunghezza** (ː) — in viola
+
+L'estensione regola automaticamente l'altezza delle righe per evitare sovrapposizioni e scala la dimensione del font IPA in base alla lunghezza della parola.
+
+---
+
+## Forme deboli/forti
+
+Molte parole funzionali comuni in inglese hanno due pronunce:
+
+- **Forma debole** — la pronuncia ridotta nel parlato naturale collegato (es. "the" → /ðə/)
+- **Forma forte** — la pronuncia piena per enfasi o da sola (es. "the" → /ðiː/)
+
+Con "Mostra forme deboli/forti" attivo, passando il mouse su queste parole il tooltip mostra entrambe le varianti, etichettate "WEAK" e "STRONG". Così capisci come cambia la pronuncia nel parlato naturale.
+
+Le parole coperte includono: articoli (the, a, an), preposizioni (to, for, of, from, at, as, than), congiunzioni (and, or, but), pronomi (you, your, her, him, his, them, us, our, there), verbi ausiliari (am, is, are, was, were, been, can, could, would, should, must, shall, will, do, does, have, has, had) e altro.
+
+---
+
+## Lettura selezione e karaoke
+
+La lettura della selezione consente di selezionare testo in inglese e leggerlo ad alta voce con un clic — ideale per la pronuncia delle frasi e la pratica di lettura.
+
+**Metodo 1: Barra della selezione**  
+Seleziona testo in inglese con il mouse. Compare una barra compatta vicino alla selezione con pulsanti 🔊 parla e 🌐 traduci. Clicca parla per riprodurre. Durante la lettura ogni parola viene evidenziata in tempo reale (effetto karaoke).
 
 **Metodo 2: Menu contestuale**  
-Dopo aver selezionato testo in inglese, tasto destro e scegli «Leggi selezione» dal menu.
+Dopo aver selezionato testo in inglese, clic destro e scegli "IPA Reader > Leggi selezione".
 
-> **Suggerimento:** La lettura selezione usa la velocità delle frasi configurata nelle impostazioni. La pronuncia delle singole parole usa la velocità predefinita. La voce TTS corrisponde al tipo di accento selezionato (americano o britannico).
+**Metodo 3: Scorciatoia da tastiera**  
+Seleziona il testo e premi `Alt+Shift+S` (Mac: `Ctrl+Shift+S`) per parlare.
+
+> **Suggerimento:** L'evidenziazione karaoke funziona al meglio se il browser supporta gli eventi di confine delle parole TTS. In caso contrario, l'estensione usa un fallback basato sul tempo per un'evidenziazione fluida.
+
+---
+
+## Traduzione
+
+Seleziona qualsiasi testo sulla pagina e usa la traduzione per ottenere risultati immediati.
+
+**Metodo 1: Barra della selezione**  
+Seleziona il testo, poi clicca il pulsante 🌐 traduci nella barra. Sotto compare un fumetto con il risultato e un pulsante copia.
+
+**Metodo 2: Menu contestuale**  
+Seleziona il testo, clic destro e scegli "IPA Reader > Traduci selezione".
+
+**Metodo 3: Scorciatoia da tastiera**  
+Seleziona il testo e premi `Alt+Shift+T` (Mac: `Ctrl+Shift+T`) per tradurre.
+
+**Motori di traduzione:**
+
+- **Bing Translate** (predefinito) — basato su Microsoft Translator
+- **Google Translate** — basato su Google
+
+Puoi cambiare motore e lingua di destinazione nelle impostazioni dell'estensione. La lingua di destinazione viene rilevata automaticamente dalla lingua del browser.
+
+> **Suggerimento:** Clicca fuori dalla barra o dal fumetto per chiuderli.
+
+---
+
+## Scorciatoie da tastiera
+
+| Scorciatoia | Scorciatoia Mac | Azione |
+|-------------|-----------------|--------|
+| `Alt+Shift+I` | `Ctrl+Shift+I` | Attiva/disattiva annotazioni IPA |
+| `Alt+Shift+S` | `Ctrl+Shift+S` | Leggi il testo selezionato |
+| `Alt+Shift+T` | `Ctrl+Shift+T` | Traduci il testo selezionato |
+
+> **Suggerimento:** Puoi personalizzare queste scorciatoie in Chrome in `chrome://extensions/shortcuts`.
 
 ---
 
@@ -72,32 +143,36 @@ Dopo aver selezionato testo in inglese, tasto destro e scegli «Leggi selezione�
 
 | Impostazione | Descrizione |
 |--------------|-------------|
-| **Attiva IPA** | Interruttore principale per attivare o disattivare la funzione di annotazione IPA |
-| **IPA pagina intera** | Quando attivo, mostra IPA per tutte le parole in inglese (può influire sul layout della pagina) |
-| **Tipo accento** | Scegli tra inglese americano e britannico per IPA e pronuncia |
-| **Velocità frasi** | Regola la velocità di lettura delle frasi (la pronuncia delle singole parole non è influenzata) |
-| **Forme deboli/forti** | Mostra le varianti di pronuncia debole e forte delle parole funzionali |
-| **Tooltip al passaggio** | Mostra tooltip IPA al passaggio del mouse |
+| **Attiva IPA** | Interruttore principale per attivare o disattivare le annotazioni IPA |
+| **IPA pagina intera** | Se attivo, mostra IPA a colori per tutte le parole in inglese sopra il testo |
+| **Stile IPA** | Scegli tra inglese americano e britannico per IPA e pronuncia |
+| **Tooltip al passaggio** | Mostra tooltip IPA con pulsante pronuncia al passaggio del mouse |
+| **Forme deboli/forti** | Mostra varianti debole e forte per le parole funzionali comuni |
+| **Velocità lettura frasi** | Regola la velocità della lettura delle frasi (le singole parole non sono influenzate) |
+| **Motore di traduzione** | Scegli tra Bing Translate e Google Translate |
+| **Lingua di destinazione** | Imposta la lingua di destinazione della traduzione (rilevata automaticamente dalla lingua del browser) |
 
 ---
 
 ## FAQ
 
 **D: Perché non funziona su alcune pagine?**  
-R: Per motivi di sicurezza, le estensioni del browser non possono essere eseguite su pagine speciali come `chrome://`, impostazioni del browser o Chrome Web Store.
+R: Per motivi di sicurezza, le estensioni non possono essere eseguite su pagine speciali come `chrome://`, impostazioni del browser o Chrome Web Store.
 
 **D: E se manca l'IPA per alcune parole?**  
-R: Il dizionario IPA copre le parole inglesi comuni. Per le parole non presenti, l'estensione genera un IPA approssimativo tramite lemmatizzazione e G2P, contrassegnato con ≈ o ~ nel tooltip.
+R: Il dizionario IPA copre le parole inglesi comuni. Per le parole assenti, l'estensione usa lemmatizzazione e G2P basato su regole per generare IPA approssimativo, contrassegnato con ≈ o ~ nel tooltip.
 
 **D: Nessun suono con text-to-speech?**  
-R: Controlla le impostazioni del volume di sistema e assicurati che i pacchetti vocali in inglese siano installati. Il supporto vocale varia tra browser e sistemi operativi.
+R: Controlla il volume di sistema e assicurati che i pacchetti vocali in inglese siano installati. Il supporto varia tra browser e sistemi operativi.
 
 **D: La modalità pagina intera influenza il layout?**  
-R: Le annotazioni IPA richiedono spazio extra, che può influire sul layout originale della pagina. Se influisce sulla lettura, disattiva la modalità pagina intera e usa invece i tooltip al passaggio.
-
+R: Le annotazioni IPA richiedono spazio extra. L'estensione regola l'altezza delle righe per ridurre l'impatto. Se disturba ancora, disattiva la modalità pagina intera e usa i tooltip al passaggio.
 
 **D: Cosa significano i simboli ~ e ≈ nei tooltip?**  
-R: ~ significa che l'IPA è stato generato da regole (G2P), e ≈ che è stato derivato da una parola base correlata. Possono essere meno precisi delle voci del dizionario.
+R: ~ indica IPA generato da conversione basata su regole (G2P) anziché dal dizionario. ≈ indica IPA derivato da una parola base correlata tramite lemmatizzazione. Possono essere meno precisi delle voci del dizionario.
+
+**D: La traduzione non funziona?**  
+R: Serve una connessione Internet. Se Bing Translate fallisce, prova Google Translate nelle impostazioni. Alcune reti possono bloccare l'accesso ai servizi di traduzione.
 
 ---
 

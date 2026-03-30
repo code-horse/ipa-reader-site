@@ -6,7 +6,7 @@ lang: da
 
 # IPA Reader — Brugervejledning
 
-> Version: v1.2.1
+> Version: v1.3.0
 
 ## Introduktion
 
@@ -16,14 +16,15 @@ IPA Reader er en browserudvidelse designet til engelskstuderende. Den tilføjer 
 
 ## Hovedfunktioner
 
-- **Tekstmarkeringsannotering** — Markér engelsk tekst på websider for automatisk at vise IPA og taleknapper
-- **Helsides IPA-tilstand** — Tilføj IPA-annoteringer til alle engelske ord på siden med ét klik, med farvekodede IPA-symboler (vokaler, konsonanter, trykmarkeringer) for let læsning
+- **Helsides IPA-tilstand** — Tilføj IPA-annoteringer til alle engelske ord på siden med ét klik; IPA-symboler er farvekodet efter type (vokaler, konsonanter, trykmarkeringer) for let læsning
+- **Svage/stærke former** — Vis automatisk svage og stærke udtalevarianter af almindelige funktionsord (f.eks. "the", "to", "can") for at mestre naturlig sammenhængende tale
 - **Amerikansk og britisk accent** — Skift mellem amerikansk engelsk (en-US) og britisk engelsk (en-GB) IPA
 - **Tekst-til-tale** — Klik på højttalerknappen for at høre udtale, der matcher din valgte accent
-- **Markeringstale** — Markér enhver engelsk tekst, klik på den flydende knap eller højreklik "Speak Selection" for at læse højt
-- **Svævetooltips** — Hold musen over annoterede ord for at se IPA og udtaleknapper
-- **Svage/stærke former** — Vis automatisk svage og stærke udtalevarianter af funktionsord (f.eks. the, to, can) for at mestre naturlig sammenhængende tale
-- **Homograf-disambiguation** — Identificerer automatisk ord med flere udtaler (f.eks. read, live) og vælger den korrekte baseret på kontekst
+- **Markeringstale med karaokeeffekt** — Markér enhver engelsk tekst; en kompakt værktøjslinje vises med tale- og oversættelsesknapper; tale afspilles med ord-for-ord-fremhævelse i realtid (karaokeeffekt) synkroniseret med lyden
+- **Markeringsoversættelse** — Markér enhver tekst, klik på oversættelsesknappen på værktøjslinjen for øjeblikkelig oversættelse via Bing eller Google Translate vist i en inline-boble
+- **Svævetooltips** — Hold musen over annoterede ord for at se IPA med farvekodede symboler og udtaleknapper
+- **Homograf-disambiguation** — Identificerer automatisk ord med flere udtaler (f.eks. "read", "live") og vælger den korrekte baseret på kontekst
+- **Tastaturgenveje** — Hurtig adgang til kernefunktioner via tilpasselige tastaturgenveje
 - **Flersproget grænseflade** — Understøtter 38 grænsefladesprog
 
 ---
@@ -38,33 +39,101 @@ Installér **IPA Reader** fra [Chrome Web Store](https://chromewebstore.google.c
 
 Besøg en hvilken som helst webside med engelsk indhold.
 
-### Trin 3: Markér tekst eller brug den flydende knap
+### Trin 3: Aktivér IPA
 
-Markér den engelske tekst, du vil annotere, eller klik på den flydende knap nederst til højre for at aktivere helsides IPA-tilstand.
+Klik på udvidelsesikonet i din browsers værktøjslinje. Slå "Enable IPA" til, og slå derefter "Whole Page IPA" til for at annotere alle ord på siden. Du kan også klikke på den flydende knap nederst til højre.
 
 ### Trin 4: Se IPA
 
-Hold musen over ord for at se IPA-tooltips, klik på højttalerikonet for at høre udtalen.
+Hold musen over ord for at se IPA-tooltips med farvekodede fonetiske symboler. Klik på højttalerikonet for at høre udtalen. For ord med svage/stærke former viser tooltip begge varianter.
 
-### Trin 5: Oplæs markeret tekst
+### Trin 5: Læs og oversæt markeret tekst
 
-Markér enhver engelsk tekst med musen, klik på den flydende 🔊-knap for at læse op; eller højreklik og vælg "Speak Selection".
+Markér enhver engelsk tekst med musen. En kompakt værktøjslinje vises nær markeringen med to knapper:
+- **🔊 Tal** — Læser den markerede tekst højt med karaoke-lignende ord-for-ord-fremhævelse
+- **🌐 Oversæt** — Viser en inline-oversættelsesboble under værktøjslinjen
 
-> **Tip:** Klik på udvidelsesikonet i din browsers værktøjslinje for at åbne indstillingspanelet og justere accenttype, talehastighed og mere.
+Du kan også højreklikke og vælge "IPA Reader > Speak Selection" eller "IPA Reader > Translate Selection".
+
+> **Tip:** Klik på udvidelsesikonet i din browsers værktøjslinje for at åbne indstillingspanelet og justere accenttype, talehastighed, oversættelsesmotor og mere.
 
 ---
 
-## Markeringstale
+## Helsides IPA-tilstand
+
+Når helsides IPA-tilstand er aktiveret, får hvert engelske ord på siden en IPA-annotering over sig med ruby-tekst. IPA-symbolerne er farvekodede for let læsning:
+
+- **Vokaler** — fremhævet i blåt
+- **Konsonanter** — vist i gråt
+- **Trykmarkeringer** (ˈ ˌ) — fremhævet i rødt
+- **Længdemarkeringer** (ː) — fremhævet i lilla
+
+Udvidelsen justerer automatisk linjehøjde for at forhindre overlap mellem annoteringer og tekst og skalerer IPA-skriftstørrelse baseret på ordlængde for et rent layout.
+
+---
+
+## Svage/stærke former
+
+Mange almindelige engelske funktionsord har to udtaler:
+
+- **Svag form** — den reducerede udtale i naturlig sammenhængende tale (f.eks. "the" → /ðə/)
+- **Stærk form** — den fulde udtale til betoning eller isoleret (f.eks. "the" → /ðiː/)
+
+Når "Show weak/strong forms" er aktiveret, viser hovering over disse ord begge varianter i tooltip mærket "WEAK" og "STRONG". Det hjælper dig med at forstå, hvordan udtale ændrer sig i naturlig tale.
+
+Dækkede ord omfatter: artikler (the, a, an), præpositioner (to, for, of, from, at, as, than), konjunktioner (and, or, but), pronomen (you, your, her, him, his, them, us, our, there), hjælpeverber (am, is, are, was, were, been, can, could, would, should, must, shall, will, do, does, have, has, had) og mere.
+
+---
+
+## Markeringstale og karaoke
 
 Markeringstalefunktionen giver dig mulighed for at markere enhver engelsk tekst og læse den højt med ét klik — perfekt til at lære sætningsudtale og læsepraksis.
 
-**Metode 1: Flydende knap**  
-Markér engelsk tekst med musen, en højttalerknap vises øverst til højre for markeringen — klik for at tale.
+**Metode 1: Markeringens værktøjslinje**  
+Markér engelsk tekst med musen. En kompakt værktøjslinje vises med 🔊 tale- og 🌐 oversættelsesknap. Klik på tale for at afspille. Mens teksten læses, fremhæves hvert ord i realtid (karaokeeffekt).
 
 **Metode 2: Højrekliksmenu**  
-Når du har markeret engelsk tekst, højreklik og vælg "Speak Selection" fra menuen.
+Når du har markeret engelsk tekst, højreklik og vælg "IPA Reader > Speak Selection".
 
-> **Tip:** Markeringstale bruger den sætningstalehasighed, der er konfigureret i dine indstillinger. Enkelordudtale bruger standardhastigheden. TTS-stemmen matcher din valgte accenttype (amerikansk eller britisk).
+**Metode 3: Tastaturgenvej**  
+Markér tekst og tryk `Alt+Shift+S` (Mac: `Ctrl+Shift+S`) for at tale.
+
+> **Tip:** Karaoke-fremhævelse fungerer bedst, når din browser understøtter TTS ordgrænse-hændelser. Hvis ikke understøttet, bruger udvidelsen et tidsbaseret fallback for jævn fremhævelse.
+
+---
+
+## Oversættelse
+
+Markér enhver tekst på siden og brug oversættelsesfunktionen til øjeblikkelige oversættelser.
+
+**Metode 1: Markeringens værktøjslinje**  
+Markér tekst, og klik derefter på 🌐 oversættelsesknappen på værktøjslinjen. En oversættelsesboble vises nedenfor med resultatet og en kopier-knap.
+
+**Metode 2: Højrekliksmenu**  
+Markér tekst, højreklik og vælg "IPA Reader > Translate Selection".
+
+**Metode 3: Tastaturgenvej**  
+Markér tekst og tryk `Alt+Shift+T` (Mac: `Ctrl+Shift+T`) for at oversætte.
+
+**Oversættelsesmotorer:**
+- **Bing Translate** (standard) — Drevet af Microsoft Translator
+- **Google Translate** — Drevet af Google
+
+Du kan skifte oversættelsesmotor og målsprog i udvidelsesindstillingerne. Målsprog detekteres automatisk fra browserens sprog.
+
+> **Tip:** Klik et vilkårligt sted uden for værktøjslinjen eller boblen for at lukke dem.
+
+---
+
+## Tastaturgenveje
+
+| Genvej | Mac-genvej | Handling |
+|--------|------------|----------|
+| `Alt+Shift+I` | `Ctrl+Shift+I` | Slå IPA-annoteringer til/fra |
+| `Alt+Shift+S` | `Ctrl+Shift+S` | Læs markeret tekst højt |
+| `Alt+Shift+T` | `Ctrl+Shift+T` | Oversæt markeret tekst |
+
+> **Tip:** Du kan tilpasse disse genveje i Chrome på `chrome://extensions/shortcuts`.
 
 ---
 
@@ -73,11 +142,13 @@ Når du har markeret engelsk tekst, højreklik og vælg "Speak Selection" fra me
 | Indstilling | Beskrivelse |
 |-------------|-------------|
 | **Aktivér IPA** | Hovedkontakt til at aktivere eller deaktivere IPA-annoteringsfunktionen |
-| **Helsides IPA** | Når aktiveret, vises IPA for alle engelske ord (kan påvirke sidelayout) |
-| **Accenttype** | Vælg mellem amerikansk engelsk og britisk engelsk IPA og udtale |
+| **Helsides IPA** | Når aktiveret, vises farvekodet IPA for alle engelske ord over teksten |
+| **IPA Style** | Vælg mellem amerikansk og britisk engelsk IPA og udtale |
+| **Show hover tooltip** | Vis IPA-tooltip med udtaleknap ved museover |
+| **Show weak/strong forms** | Vis svage og stærke udtalevarianter af almindelige funktionsord |
 | **Sætningstalehasighed** | Justér hastigheden for sætningsoplæsning (enkelordstale påvirkes ikke) |
-| **Svage/stærke former** | Vis svage og stærke udtalevarianter af funktionsord |
-| **Svævetooltips** | Vis IPA-tooltip ved museover |
+| **Translation Engine** | Vælg mellem Bing Translate og Google Translate |
+| **Target Language** | Angiv oversættelsens målsprog (autodetekteret fra browsersprog) |
 
 ---
 
@@ -87,16 +158,19 @@ Når du har markeret engelsk tekst, højreklik og vælg "Speak Selection" fra me
 Sv: Af sikkerhedsmæssige årsager kan browserudvidelser ikke køre på specialsider som `chrome://`, browserindstillinger eller Chrome Web Store.
 
 **Sp: Hvad hvis IPA mangler for nogle ord?**  
-Sv: IPA-ordbogen dækker almindelige engelske ord. For ord uden for ordbogen genererer udvidelsen tilnærmelsesvis IPA via lemmatisering og G2P, markeret med ≈ eller ~ i tooltip.
+Sv: IPA-ordbogen dækker almindelige engelske ord. For ord uden for ordbogen bruger udvidelsen lemmatisering og regelbaseret G2P til at generere omtrentlig IPA markeret med ≈ eller ~ i tooltip.
 
 **Sp: Ingen lyd fra tekst-til-tale?**  
 Sv: Kontrollér venligst dine systemlydindstillinger og sørg for, at engelske stemmepakker er installeret. Taleunderstøttelse varierer på tværs af browsere og operativsystemer.
 
 **Sp: Helsidestilstand påvirker layout?**  
-Sv: IPA-annoteringer kræver ekstra plads, hvilket kan påvirke det originale sidelayout. Hvis det påvirker læsningen, deaktivér helsidestilstand og brug svævetooltips i stedet.
+Sv: IPA-annoteringer kræver ekstra plads. Udvidelsen justerer automatisk linjehøjde for at minimere layoutpåvirkning. Hvis det stadig påvirker læsningen, deaktivér helsidestilstand og brug svævetooltips i stedet.
 
 **Sp: Hvad betyder symbolerne ~ og ≈ i tooltips?**  
-Sv: ~ betyder, at IPA er genereret af regler (G2P), og ≈ betyder, at den er afledt af et beslægtet grundord. Disse kan være mindre præcise end ordbogsopslag.
+Sv: ~ betyder, at IPA er genereret af regelbaseret konvertering (G2P) snarere end fra ordbogen. ≈ betyder, at IPA er afledt af et beslægtet grundord via lemmatisering. Disse kan være mindre præcise end ordbogsopslag.
+
+**Sp: Oversættelse virker ikke?**  
+Sv: Oversættelse kræver internetforbindelse. Hvis Bing Translate fejler, kan du prøve at skifte til Google Translate i indstillingerne. Nogle netværksmiljøer kan blokere adgang til oversættelsestjenester.
 
 ---
 
