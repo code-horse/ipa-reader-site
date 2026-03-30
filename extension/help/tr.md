@@ -119,6 +119,8 @@ Metni seçin ve çevirmek için `Alt+Shift+T` (Mac: `Ctrl+Shift+T`) tuşlarına 
 - **Bing Translate** (varsayılan) — Microsoft Translator
 - **Google Translate** — Google
 
+Her iki motor da **108 hedef dili** destekler.
+
 Çeviri motorunu ve hedef dili eklenti ayarlarından değiştirebilirsiniz. Hedef dil varsayılan olarak tarayıcı dilinizden algılanır.
 
 > **İpucu:** Kapatmak için araç çubuğunun veya balonun dışına tıklayın.

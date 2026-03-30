@@ -119,6 +119,8 @@ Velg tekst og trykk `Alt+Shift+T` (Mac: `Ctrl+Shift+T`) for å oversette.
 - **Bing Translate** (standard) — drevet av Microsoft Translator
 - **Google Translate** — drevet av Google
 
+Begge motorene støtter **108 målspråk**.
+
 Du kan bytte oversettelsesmotor og målspråk i utvidelsesinnstillingene. Målspråket oppdages automatisk fra nettleserspråket ditt.
 
 > **Tips:** Klikk utenfor verktøylinjen eller boblen for å lukke dem.

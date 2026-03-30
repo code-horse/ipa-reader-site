@@ -119,6 +119,8 @@ Jelöljön ki szöveget, majd nyomja meg az `Alt+Shift+T` (Mac: `Ctrl+Shift+T`) 
 - **Bing Translate** (alapértelmezett) — Microsoft Translator
 - **Google Translate** — Google
 
+Mindkét motor **108 célnyelvet** támogat.
+
 A fordítómotort és a célnyelvet a bővítmény beállításaiban válthatja. A célnyelvet a böngésző nyelve alapján automatikusan felismeri a rendszer.
 
 > **Tipp:** Kattintson az eszköztár vagy buborék kívülére a bezáráshoz.

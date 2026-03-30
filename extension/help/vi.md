@@ -119,6 +119,8 @@ Chọn văn bản và nhấn `Alt+Shift+T` (Mac: `Ctrl+Shift+T`) để dịch.
 - **Bing Translate** (mặc định) — Microsoft Translator
 - **Google Translate** — Google
 
+Cả hai công cụ đều hỗ trợ **108 ngôn ngữ đích**.
+
 Bạn có thể đổi công cụ dịch và ngôn ngữ đích trong cài đặt tiện ích. Ngôn ngữ đích mặc định được suy ra từ ngôn ngữ trình duyệt.
 
 > **Mẹo:** Nhấp ra ngoài thanh công cụ hoặc bong bóng để đóng.

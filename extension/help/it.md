@@ -121,6 +121,8 @@ Seleziona il testo e premi `Alt+Shift+T` (Mac: `Ctrl+Shift+T`) per tradurre.
 - **Bing Translate** (predefinito) — basato su Microsoft Translator
 - **Google Translate** — basato su Google
 
+Entrambi i motori supportano **108 lingue di destinazione**.
+
 Puoi cambiare motore e lingua di destinazione nelle impostazioni dell'estensione. La lingua di destinazione viene rilevata automaticamente dalla lingua del browser.
 
 > **Suggerimento:** Clicca fuori dalla barra o dal fumetto per chiuderli.

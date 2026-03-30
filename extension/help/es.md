@@ -119,6 +119,8 @@ Selecciona texto y pulsa `Alt+Shift+T` (Mac: `Ctrl+Shift+T`).
 - **Bing Traductor** (predeterminado) — con tecnología de Microsoft Translator
 - **Google Traductor** — con tecnología de Google
 
+Ambos motores admiten **108 idiomas de destino**.
+
 Puedes cambiar el motor y el idioma de destino en los ajustes de la extensión. El idioma de destino se detecta automáticamente desde el idioma del navegador.
 
 > **Consejo:** Haz clic fuera de la barra o la burbuja para cerrarlas.

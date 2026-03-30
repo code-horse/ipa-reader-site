@@ -119,6 +119,8 @@ Selecteer tekst en druk op `Alt+Shift+T` (Mac: `Ctrl+Shift+T`) om te vertalen.
 - **Bing Translate** (standaard) — Microsoft Translator
 - **Google Translate** — Google
 
+Beide engines ondersteunen **108 doeltalen**.
+
 Je kunt de vertaalengine en doeltaal wijzigen in de extensie-instellingen. De doeltaal wordt standaard afgeleid van je browsertaal.
 
 > **Tip:** Klik buiten de werkbalk of bubbel om ze te sluiten.

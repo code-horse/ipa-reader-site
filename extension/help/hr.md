@@ -119,6 +119,8 @@ Odaberite tekst i pritisnite `Alt+Shift+T` (Mac: `Ctrl+Shift+T`) za prijevod.
 - **Bing Translate** (zadano) — pokreće Microsoft Translator
 - **Google Translate** — pokreće Google
 
+Oba motora podržavaju **108 ciljnih jezika**.
+
 Mehanizam prijevoda i ciljni jezik možete promijeniti u postavkama proširenja. Ciljni jezik se automatski prepoznaje iz jezika preglednika.
 
 > **Savjet:** Kliknite izvan alatne trake ili balončića da ih zatvorite.

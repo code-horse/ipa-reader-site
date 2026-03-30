@@ -119,6 +119,8 @@ Pilih teks dan tekan `Alt+Shift+T` (Mac: `Ctrl+Shift+T`) untuk menerjemahkan.
 - **Bing Translate** (default) — Microsoft Translator
 - **Google Translate** — Google
 
+Kedua mesin mendukung **108 bahasa target**.
+
 Anda dapat mengganti mesin terjemahan dan bahasa target di pengaturan ekstensi. Bahasa target secara default terdeteksi dari bahasa browser.
 
 > **Tip:** Klik di luar bilah atau gelembung untuk menutupnya.

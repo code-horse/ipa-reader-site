@@ -119,6 +119,8 @@ Select text and press `Alt+Shift+T` (Mac: `Ctrl+Shift+T`) to translate.
 - **Bing Translate** (default) — Powered by Microsoft Translator
 - **Google Translate** — Powered by Google
 
+Both engines support **108 target languages**.
+
 You can switch the translation engine and target language in the extension settings. The target language is automatically detected from your browser language.
 
 > **Tip:** Click anywhere outside the toolbar or bubble to dismiss them.

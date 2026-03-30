@@ -119,6 +119,8 @@ Valitse teksti ja paina `Alt+Shift+T` (Mac: `Ctrl+Shift+T`) kääntääksesi.
 - **Bing Translate** (oletus) — Microsoft Translator
 - **Google Translate** — Google
 
+Molemmat moottorit tukevat **108 kohdekieltä**.
+
 Voit vaihtaa käännösmoottorin ja kohdekielen laajennuksen asetuksissa. Kohdekieli tunnistetaan automaattisesti selaimen kielestä.
 
 > **Vinkki:** Napsauta työkalupalkin tai kuplan ulkopuolella sulkeaksesi ne.

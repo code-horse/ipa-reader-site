@@ -121,6 +121,8 @@ Sélectionnez le texte et appuyez sur `Alt+Shift+T` (Mac : `Ctrl+Shift+T`) pour 
 - **Bing Translate** (par défaut) — fourni par Microsoft Translator
 - **Google Translate** — fourni par Google
 
+Les deux moteurs prennent en charge **108 langues cibles**.
+
 Vous pouvez changer le moteur et la langue cible dans les paramètres de l’extension. La langue cible est détectée automatiquement à partir de la langue du navigateur.
 
 > **Conseil :** Cliquez en dehors de la barre ou de la bulle pour les fermer.

@@ -119,6 +119,8 @@ Pumili ng text at pindutin ang `Alt+Shift+T` (Mac: `Ctrl+Shift+T`) para magsalin
 - **Bing Translate** (default) — Pinapagana ng Microsoft Translator
 - **Google Translate** — Pinapagana ng Google
 
+Parehong engine ay sumusuporta ng **108 target languages**.
+
 Maaari mong palitan ang translation engine at target language sa extension settings. Awtomatikong natutukoy ang target language mula sa wika ng browser mo.
 
 > **Tip:** Mag-click kahit saan sa labas ng toolbar o bubble para isara ang mga ito.

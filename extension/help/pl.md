@@ -119,6 +119,8 @@ Zaznacz tekst i naciśnij `Alt+Shift+T` (na Mac: `Ctrl+Shift+T`), aby przetłuma
 - **Bing Translate** (domyślnie) — Microsoft Translator
 - **Google Translate** — Google
 
+Oba silniki obsługują **108 języków docelowych**.
+
 Silnik i język docelowy można zmienić w ustawieniach rozszerzenia. Język docelowy jest domyślnie wykrywany z języka przeglądarki.
 
 > **Wskazówka:** Kliknij poza paskiem lub dymkiem, aby je zamknąć.

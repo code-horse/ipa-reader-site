@@ -119,6 +119,8 @@ Vyberte text a stlačte `Alt+Shift+T` (Mac: `Ctrl+Shift+T`) na preklad.
 - **Bing Translate** (predvolené) — poháňaný Microsoft Translatorom
 - **Google Translate** — poháňaný Googlom
 
+Oba motory podporujú **108 cieľových jazykov**.
+
 Prekladový engine a cieľový jazyk môžete prepnúť v nastaveniach rozšírenia. Cieľový jazyk sa automaticky zistí z jazyka prehliadača.
 
 > **Tip:** Kliknite mimo panel alebo bubliny na zatvorenie.

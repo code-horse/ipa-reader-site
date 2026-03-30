@@ -119,6 +119,8 @@ Pilih teks dan tekan `Alt+Shift+T` (Mac: `Ctrl+Shift+T`) untuk terjemah.
 - **Bing Translate** (lalai) — Dikuasakan oleh Microsoft Translator
 - **Google Translate** — Dikuasakan oleh Google
 
+Kedua-dua enjin menyokong **108 bahasa sasaran**.
+
 Anda boleh menukar enjin terjemahan dan bahasa sasaran dalam tetapan sambungan. Bahasa sasaran dikesan secara automatik daripada bahasa pelayar anda.
 
 > **Petua:** Klik di mana-mana di luar bar alat atau gelembung untuk menutupnya.

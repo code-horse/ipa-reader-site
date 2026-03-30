@@ -119,6 +119,8 @@ Selectați textul și apăsați `Alt+Shift+T` (Mac: `Ctrl+Shift+T`) pentru tradu
 - **Bing Translate** (implicit) — oferit de Microsoft Translator
 - **Google Translate** — oferit de Google
 
+Ambele motoare suportă **108 limbi țintă**.
+
 Puteți schimba motorul de traducere și limba țintă în setările extensiei. Limba țintă este detectată automat din limba browserului.
 
 > **Sfat:** Faceți clic oriunde în afara barei sau a bulei pentru a le închide.

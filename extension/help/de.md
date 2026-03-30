@@ -119,6 +119,8 @@ Wählen Sie Text und drücken Sie `Alt+Shift+T` (Mac: `Ctrl+Shift+T`).
 - **Bing Übersetzen** (Standard) — von Microsoft Translator
 - **Google Übersetzen** — von Google
 
+Beide Engines unterstützen **108 Zielsprachen**.
+
 Engine und Zielsprache stellen Sie in den Erweiterungseinstellungen ein. Die Zielsprache wird aus der Browsersprache erkannt.
 
 > **Tipp:** Klicken Sie außerhalb der Symbolleiste oder Blase, um sie zu schließen.
