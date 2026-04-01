@@ -10,6 +10,7 @@ An English pronunciation learning tool with IPA annotations.
 ## Mobile App
 
 - [Privacy Policy](./privacy-policy)
+- [Terms of Service](./terms-of-service)
 - [Support](./support)
 
 ## Browser Extension
