@@ -17,7 +17,7 @@ IPA Reader je proširenje preglednika dizajnirano za učenike engleskog jezika. 
 ## Glavne značajke
 
 - **IPA na cijeloj stranici** — Dodajte IPA napomene svim engleskim riječima na stranici jednim klikom; IPA simboli su kodirani bojama prema vrsti (samoglasnici, suglasnici, naglasni znakovi) za lako čitanje
-- **Rječnik pri prelasku (WordNet)** — Prijeđite mišem preko riječi da vidite engleske definicije (82 000+ riječi iz WordNeta), IPA s bojom kodiranim simbolima i gumbe za izgovor; odaberite način Rječnik, Tooltip, Samo govor ili Isključeno
+- **Rječnik pri prelasku (WordNet)** — Prijeđite mišem preko riječi da vidite engleske definicije (82 000+ riječi iz WordNeta), IPA s bojom kodiranim simbolima i gumbe za izgovor; odaberite način Rječnik, Tooltip ili Isključeno
 - **Čitač PDF-a** — Ugrađeni čitač PDF-a s IPA napomenama, rječnikom, govorom i prijevodom; podržava povuci i ispusti, učitavanje URL-a te automatsku detekciju PDF-a sa pametnim preusmjeravanjem
 - **Slabi/jaki oblici** — Automatski prikaz slabih i jakih izgovornih varijanti uobičajenih funkcijskih riječi (npr. "the", "to", "can") za svladavanje prirodnog povezanog govora
 - **Američki i britanski naglasak** — Prelazite između američkog engleskog (en-US) i britanskog engleskog (en-GB) IPA
@@ -81,7 +81,6 @@ Proširenje uključuje ugrađeni engleski rječnik temeljen na WordNetu (82 000+
 |-------|-----------|
 | **Rječnik** | Pri prelasku: IPA + engleska definicija + gumb za izgovor |
 | **Tooltip** | Pri prelasku: IPA + gumb za izgovor (bez definicija) |
-| **Samo govor** | Klik na riječ za izgovor (bez tooltipa) |
 | **Isključeno** | Nema efekta pri prelasku |
 
 U **načinu Rječnik**, tooltip prikazuje:
@@ -195,7 +194,7 @@ Mehanizam prijevoda i ciljni jezik možete promijeniti u postavkama proširenja.
 | **Omogući IPA** | Glavni prekidač za omogućavanje ili onemogućavanje značajke IPA napomena |
 | **IPA na cijeloj stranici** | Kada je omogućeno, prikazuje bojom kodirani IPA za sve engleske riječi iznad teksta |
 | **Stil IPA** | Odaberite između američkog i britanskog engleskog IPA i izgovora |
-| **Način pri prelasku** | Odaberite ponašanje: Rječnik (IPA + definicije + audio), Tooltip (IPA + audio), Samo govor (klik za slušanje) ili Isključeno |
+| **Način pri prelasku** | Odaberite ponašanje: Rječnik (IPA + definicije + audio), Tooltip (IPA + audio) ili Isključeno |
 | **Prikaži slabe/jake oblike** | Prikažite slabe i jake izgovorne varijante uobičajenih funkcijskih riječi |
 | **Brzina govora rečenica** | Prilagodite brzinu čitanja rečenica (govor pojedinačnih riječi nije zahvaćen) |
 | **Mehanizam prijevoda** | Odaberite između Bing Translate i Google Translate |

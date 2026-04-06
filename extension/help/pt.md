@@ -17,7 +17,7 @@ O IPA Reader é uma extensão de navegador concebida para estudantes de inglês.
 ## Principais Funcionalidades
 
 - **Modo IPA em toda a página** — Adicione anotações IPA a todas as palavras em inglês na página com um clique; os símbolos IPA estão codificados por cor (vogais, consoantes, marcas de acento) para leitura fácil
-- **Dicionário ao passar o rato** — Passe o rato sobre palavras para ver definições em inglês (mais de 82 mil palavras do WordNet), IPA com símbolos codificados por cor e botões de pronúncia; escolha entre modo Dicionário, modo Tooltip, modo Apenas falar ou Desligado
+- **Dicionário ao passar o rato** — Passe o rato sobre palavras para ver definições em inglês (mais de 82 mil palavras do WordNet), IPA com símbolos codificados por cor e botões de pronúncia; escolha entre modo Dicionário, modo Tooltip ou Desligado
 - **Leitor de PDF** — Leitor de PDF integrado com anotações IPA, dicionário, voz e tradução; suporta arrastar e largar, carregamento por URL e deteção automática de PDF com redirecionamento inteligente
 - **Formas fracas/fortes** — Exibição automática das variantes de pronúncia fraca e forte de palavras funcionais (ex. «the», «to», «can»), para dominar a fala natural
 - **Sotaques Americano e Britânico** — Alterne entre IPA em inglês americano (en-US) e britânico (en-GB)
@@ -81,7 +81,6 @@ A extensão inclui um dicionário de inglês integrado baseado no WordNet (mais 
 |------|---------------|
 | **Dicionário** | Ao passar o rato: IPA + definição em inglês + botão de pronúncia |
 | **Tooltip** | Ao passar o rato: IPA + botão de pronúncia (sem definições) |
-| **Apenas falar** | Clique numa palavra para ouvir a pronúncia (sem tooltip) |
 | **Desligado** | Sem efeito ao passar o rato |
 
 No **modo Dicionário**, o tooltip mostra:
@@ -195,7 +194,7 @@ Pode alterar o motor e a língua de destino nas definições da extensão. A lí
 | **Ativar IPA** | Interruptor principal para ativar ou desativar a funcionalidade de anotação IPA |
 | **IPA em Toda a Página** | Quando ativado, mostra IPA codificado por cor acima de todas as palavras em inglês |
 | **Tipo de Sotaque** | Escolha entre IPA e pronúncia em inglês americano e britânico |
-| **Modo ao passar o rato** | Escolha o comportamento ao passar o rato: Dicionário (IPA + definições + áudio), Tooltip (IPA + áudio), Apenas falar (clique para ouvir) ou Desligado |
+| **Modo ao passar o rato** | Escolha o comportamento ao passar o rato: Dicionário (IPA + definições + áudio), Tooltip (IPA + áudio) ou Desligado |
 | **Formas fracas/fortes** | Exibir variantes de pronúncia fraca e forte de palavras funcionais |
 | **Velocidade de Fala de Frases** | Ajuste a velocidade de leitura de frases (a fala de palavra única não é afetada) |
 | **Motor de tradução** | Escolha entre Bing Tradutor e Google Tradutor |

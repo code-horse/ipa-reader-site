@@ -17,7 +17,7 @@ IPA Reader este o extensie pentru browser concepută pentru elevii de engleză. 
 ## Caracteristici principale
 
 - **Mod IPA pagină întreagă** — Adăugați adnotări IPA la toate cuvintele englezești de pe pagină cu un singur clic; simbolurile IPA sunt codificate prin culori după tip (vocale, consoane, semne de accent) pentru o lectură ușoară
-- **Dicționar la trecere** — Treceți mouse-ul peste cuvinte pentru a vedea definiții în engleză (peste 82 000 de cuvinte din WordNet), IPA cu simboluri codificate prin culori și butoane de pronunție; alegeți între modul Dicționar, modul Tooltip, modul Doar vorbire sau Dezactivat
+- **Dicționar la trecere** — Treceți mouse-ul peste cuvinte pentru a vedea definiții în engleză (peste 82 000 de cuvinte din WordNet), IPA cu simboluri codificate prin culori și butoane de pronunție; alegeți între modul Dicționar, modul Tooltip sau Dezactivat
 - **Cititor PDF** — Cititor PDF integrat cu adnotări IPA, dicționar, vorbire și traducere; suportă drag & drop, încărcare din URL și detectare automată PDF cu redirecționare inteligentă
 - **Forme slabe/puternice** — Afișarea automată a variantelor slabe și puternice de pronunție pentru cuvintele funcționale uzuale (ex. „the”, „to”, „can”), pentru a stăpâni vorbirea naturală legată
 - **Accente americane și britanice** — Comutați între engleza americană (en-US) și engleza britanică (en-GB) IPA
@@ -81,7 +81,6 @@ Extensia include un dicționar englezesc integrat bazat pe WordNet (peste 82 000
 |------|----------------|
 | **Dicționar** | La trecere: IPA + definiție în engleză + buton de pronunție |
 | **Tooltip** | La trecere: IPA + buton de pronunție (fără definiții) |
-| **Doar vorbire** | Faceți clic pe un cuvânt pentru a auzi pronunția (fără tooltip) |
 | **Dezactivat** | Fără efect la trecere |
 
 În **modul Dicționar**, tooltip-ul afișează:
@@ -195,7 +194,7 @@ Puteți schimba motorul de traducere și limba țintă în setările extensiei. 
 | **Activați IPA** | Comutator principal pentru activarea sau dezactivarea funcției de adnotare IPA |
 | **IPA pagină întreagă** | Când este activată, afișează IPA codificat prin culori pentru toate cuvintele englezești deasupra textului |
 | **Stil IPA** | Alegeți între engleza americană și engleza britanică IPA și pronunție |
-| **Mod la trecere** | Alegeți comportamentul la trecere: Dicționar (IPA + definiții + audio), Tooltip (IPA + audio), Doar vorbire (clic pentru a asculta) sau Dezactivat |
+| **Mod la trecere** | Alegeți comportamentul la trecere: Dicționar (IPA + definiții + audio), Tooltip (IPA + audio) sau Dezactivat |
 | **Afișare forme slabe/puternice** | Afișați variantele slabe și puternice de pronunție pentru cuvintele funcționale uzuale |
 | **Viteza vorbirii propoziții** | Ajustați viteza citirii propozițiilor (vorbirea cuvintelor individuale nu este afectată) |
 | **Motor de traducere** | Alegeți între Bing Translate și Google Translate |

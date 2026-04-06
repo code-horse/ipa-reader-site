@@ -17,7 +17,7 @@ IPA Reader adalah ekstensi browser yang dirancang untuk pelajar bahasa Inggris. 
 ## Fitur Utama
 
 - **Mode IPA seluruh halaman** — Tambahkan anotasi IPA ke semua kata bahasa Inggris di halaman dengan satu klik; simbol IPA dikode warna menurut jenis (vokal, konsonan, tanda tekanan) agar mudah dibaca
-- **Kamus hover** — Arahkan kursor ke kata untuk melihat definisi bahasa Inggris (82.000+ kata dari WordNet), IPA dengan simbol berkode warna, dan tombol pengucapan; pilih mode Kamus, Tooltip, Hanya bicara, atau Mati
+- **Kamus hover** — Arahkan kursor ke kata untuk melihat definisi bahasa Inggris (82.000+ kata dari WordNet), IPA dengan simbol berkode warna, dan tombol pengucapan; pilih mode Kamus, Tooltip, atau Mati
 - **Pembaca PDF** — Pembaca PDF bawaan dengan anotasi IPA, kamus, ucapan, dan terjemahan; mendukung seret & lepas, muat URL, dan deteksi PDF otomatis dengan pengalihan cerdas
 - **Bentuk lemah/kuat** — Tampilkan otomatis varian pelafalan lemah dan kuat kata fungsi (mis. „the”, „to”, „can”) untuk menguasai percakapan alami
 - **Aksen Amerika & Inggris** — Beralih antara IPA bahasa Inggris Amerika (en-US) dan Inggris (en-GB)
@@ -81,7 +81,6 @@ Ekstensi menyertakan kamus bahasa Inggris bawaan berbasis WordNet (82.000+ kata)
 |------|----------|
 | **Kamus** | Hover menampilkan IPA + definisi bahasa Inggris + tombol pengucapan |
 | **Tooltip** | Hover menampilkan IPA + tombol pengucapan (tanpa definisi) |
-| **Hanya bicara** | Klik kata untuk mendengar pengucapan (tanpa tooltip) |
 | **Mati** | Tidak ada efek hover |
 
 Dalam **mode Kamus**, tooltip menampilkan:
@@ -195,7 +194,7 @@ Anda dapat mengganti mesin terjemahan dan bahasa target di pengaturan ekstensi. 
 | **Aktifkan IPA** | Saklar utama untuk mengaktifkan atau menonaktifkan fitur anotasi IPA |
 | **IPA seluruh halaman** | Saat diaktifkan, menampilkan IPA berkode warna untuk semua kata bahasa Inggris di atas teks |
 | **Gaya IPA** | Pilih antara IPA dan pengucapan bahasa Inggris Amerika dan Inggris |
-| **Mode hover** | Pilih perilaku hover: Kamus (IPA + definisi + audio), Tooltip (IPA + audio), Hanya bicara (klik untuk mendengar), atau Mati |
+| **Mode hover** | Pilih perilaku hover: Kamus (IPA + definisi + audio), Tooltip (IPA + audio), atau Mati |
 | **Tampilkan bentuk lemah/kuat** | Varian pelafalan lemah dan kuat kata fungsi |
 | **Kecepatan ucapan kalimat** | Sesuaikan kecepatan pembacaan kalimat (ucapan satu kata tidak terpengaruh) |
 | **Mesin terjemahan** | Pilih antara Bing Translate dan Google Translate |

@@ -17,7 +17,7 @@ Ang IPA Reader ay isang browser extension na dinisenyo para sa mga nag-aaral ng 
 ## Mga Pangunahing Feature
 
 - **Whole Page IPA Mode** — Magdagdag ng IPA annotation sa lahat ng English na salita sa page sa isang click; ang mga IPA symbol ay may kulay ayon sa uri (vowels, consonants, stress marks) para madaling basahin
-- **Hover Dictionary** — Mag-hover sa mga salita para makita ang English definitions (82K+ na salita mula sa WordNet), IPA na may color-coded na symbols, at pronunciation buttons; pumili sa pagitan ng Dictionary mode, Tooltip mode, Speak-only mode, o Off
+- **Hover Dictionary** — Mag-hover sa mga salita para makita ang English definitions (82K+ na salita mula sa WordNet), IPA na may color-coded na symbols, at pronunciation buttons; pumili sa pagitan ng Dictionary mode, Tooltip mode, o Off
 - **PDF Reader** — Built-in PDF reader na may IPA annotations, dictionary, speech, at translation; sumusuporta sa drag & drop, URL loading, at automatic PDF detection na may smart redirect
 - **Weak/Strong Forms** — Awtomatikong ipakita ang mahina at malakas na mga variant ng pronunciation para sa mga karaniwang function word (hal. "the", "to", "can"), para matutunan mo ang natural na connected speech
 - **American at British Accent** — Lumipat sa pagitan ng American English (en-US) at British English (en-GB) IPA
@@ -81,7 +81,6 @@ Kasama sa extension ang built-in English dictionary na pinapagana ng WordNet (82
 |------|-------|
 | **Dictionary** | Ang hover ay nagpapakita ng IPA + English definition + pronunciation button |
 | **Tooltip** | Ang hover ay nagpapakita ng IPA + pronunciation button (walang definitions) |
-| **Speak only** | I-click ang salita para marinig ang pronunciation (walang tooltip) |
 | **Off** | Walang hover effect |
 
 Sa **Dictionary mode**, ang tooltip ay nagpapakita ng:
@@ -195,7 +194,7 @@ Maaari mong palitan ang translation engine at target language sa extension setti
 | **Enable IPA** | Master switch para i-enable o i-disable ang IPA annotation feature |
 | **Whole Page IPA** | Kapag naka-enable, nagpapakita ng color-coded IPA para sa lahat ng English na salita sa ibabaw ng text |
 | **IPA Style** | Pumili sa pagitan ng American English at British English IPA at pronunciation |
-| **Hover Mode** | Piliin ang hover behavior: Dictionary (IPA + definitions + audio), Tooltip (IPA + audio), Speak only (click para marinig), o Off |
+| **Hover Mode** | Piliin ang hover behavior: Dictionary (IPA + definitions + audio), Tooltip (IPA + audio), o Off |
 | **Show weak/strong forms** | Ipakita ang weak at strong pronunciation variants para sa karaniwang function words |
 | **Sentence Speech Rate** | I-adjust ang bilis ng pagbasa ng pangungusap (hindi apektado ang single word speech) |
 | **Translation Engine** | Pumili sa pagitan ng Bing Translate at Google Translate |

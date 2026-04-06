@@ -17,7 +17,7 @@ IPA Reader je rozšírenie prehliadača určené pre študentov angličtiny. Pri
 ## Hlavné funkcie
 
 - **Režim IPA celej stránky** — Pridajte IPA anotácie ku všetkým anglickým slovám na stránke jedným kliknutím; IPA symboly sú farebne kódované podľa typu (samohlásky, spoluhlásky, prízvuky) pre ľahké čítanie
-- **Slovník pri najetí** — Najedením kurzora nad slová zobrazíte anglické definície (viac ako 82 000 slov z WordNet), IPA s farebne kódovanými symbolmi a tlačidlá výslovnosti; vyberte režim Slovník, Tooltip, Len prehrať alebo Vypnuté
+- **Slovník pri najetí** — Najedením kurzora nad slová zobrazíte anglické definície (viac ako 82 000 slov z WordNet), IPA s farebne kódovanými symbolmi a tlačidlá výslovnosti; vyberte režim Slovník, Tooltip alebo Vypnuté
 - **Čítačka PDF** — Vstavaná čítačka PDF s IPA anotáciami, slovníkom, rečou a prekladom; podporuje pretiahnutie súborov, načítanie z URL a automatickú detekciu PDF so smart presmerovaním
 - **Slabé/silné formy** — Automatické zobrazenie slabých a silných variantov výslovnosti bežných funkčných slov (napr. „the“, „to“, „can“) na zvládnutie prirodzenej plynulej reči
 - **Americký a britský prízvuk** — Prepínajte medzi americkou angličtinou (en-US) a britskou angličtinou (en-GB) IPA
@@ -81,7 +81,6 @@ Rozšírenie obsahuje vstavaný anglický slovník založený na WordNet (viac a
 |-------|-----------|
 | **Slovník** | Pri najetí: IPA + anglická definícia + tlačidlo výslovnosti |
 | **Tooltip** | Pri najetí: IPA + tlačidlo výslovnosti (bez definícií) |
-| **Len prehrať** | Kliknutím na slovo počujete výslovnosť (bez tooltipu) |
 | **Vypnuté** | Žiadny efekt pri najetí |
 
 V **režime Slovník** tooltip zobrazuje:
@@ -195,7 +194,7 @@ Prekladový engine a cieľový jazyk môžete prepnúť v nastaveniach rozšíre
 | **Povoliť IPA** | Hlavný prepínač pre zapnutie alebo vypnutie funkcie IPA anotácie |
 | **IPA celej stránky** | Pri zapnutí zobrazuje farebne kódované IPA pre všetky anglické slová nad textom |
 | **Štýl IPA** | Voľba medzi americkou a britskou angličtinou IPA a výslovnosťou |
-| **Režim pri najetí** | Správanie pri najetí: Slovník (IPA + definície + zvuk), Tooltip (IPA + zvuk), Len prehrať (klik pre počutie) alebo Vypnuté |
+| **Režim pri najetí** | Správanie pri najetí: Slovník (IPA + definície + zvuk), Tooltip (IPA + zvuk) alebo Vypnuté |
 | **Zobraziť slabé/silné formy** | Zobrazenie slabých a silných variantov výslovnosti bežných funkčných slov |
 | **Rýchlosť prehrávania viet** | Úprava rýchlosti čítania viet (prehrávanie jednotlivých slov nie je ovplyvnené) |
 | **Prekladový engine** | Voľba medzi Bing Translate a Google Translate |

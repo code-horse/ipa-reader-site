@@ -50,7 +50,7 @@ A: For security reasons, browser extensions cannot run on special pages like `ch
 A: The extension includes a built-in English dictionary powered by WordNet (82,000+ words). Set the "Hover Mode" to "Dictionary" in the settings, then hover over any annotated word to see its English definition, IPA, and pronunciation button.
 
 **Q: What are the hover mode options?**  
-A: You can choose from four modes: Dictionary (IPA + definitions + audio), Tooltip (IPA + audio), Speak only (click to hear), or Off (no hover effect).
+A: You can choose from three modes: Dictionary (IPA + definitions + audio), Tooltip (IPA + audio), or Off (no hover effect).
 
 **Q: Does the dictionary work offline?**  
 A: Yes. The WordNet dictionary is fully bundled within the extension. All lookups are performed locally without any network connection.

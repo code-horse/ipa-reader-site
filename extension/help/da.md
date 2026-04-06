@@ -17,7 +17,7 @@ IPA Reader er en browserudvidelse designet til engelskstuderende. Den tilføjer 
 ## Hovedfunktioner
 
 - **Helsides IPA-tilstand** — Tilføj IPA-annoteringer til alle engelske ord på siden med ét klik; IPA-symboler er farvekodet efter type (vokaler, konsonanter, trykmarkeringer) for let læsning
-- **Svæveordbog** — Hold musen over ord for at se engelske definitioner (82.000+ ord fra WordNet), IPA med farvekodede symboler og udtaleknapper; vælg mellem tilstandene Ordbog, Tooltip, Kun tale eller Fra
+- **Svæveordbog** — Hold musen over ord for at se engelske definitioner (82.000+ ord fra WordNet), IPA med farvekodede symboler og udtaleknapper; vælg mellem tilstandene Ordbog, Tooltip eller Fra
 - **PDF-læser** — Indbygget PDF-læser med IPA-annoteringer, ordbog, tale og oversættelse; understøtter træk-og-slip, URL-indlæsning og automatisk PDF-detektion med smart omdirigering
 - **Svage/stærke former** — Vis automatisk svage og stærke udtalevarianter af almindelige funktionsord (f.eks. "the", "to", "can") for at mestre naturlig sammenhængende tale
 - **Amerikansk og britisk accent** — Skift mellem amerikansk engelsk (en-US) og britisk engelsk (en-GB) IPA
@@ -81,7 +81,6 @@ Udvidelsen indeholder en indbygget engelsk ordbog baseret på WordNet (mere end 
 |----------|--------|
 | **Ordbog** | Svæv viser IPA + engelsk definition + udtaleknap |
 | **Tooltip** | Svæv viser IPA + udtaleknap (ingen definitioner) |
-| **Kun tale** | Klik på et ord for at høre udtalen (ingen tooltip) |
 | **Fra** | Ingen svæveeffekt |
 
 I **Ordbog**-tilstand viser tooltip:
@@ -195,7 +194,7 @@ Du kan skifte oversættelsesmotor og målsprog i udvidelsesindstillingerne. Mål
 | **Aktivér IPA** | Hovedkontakt til at aktivere eller deaktivere IPA-annoteringsfunktionen |
 | **Helsides IPA** | Når aktiveret, vises farvekodet IPA for alle engelske ord over teksten |
 | **IPA Style** | Vælg mellem amerikansk og britisk engelsk IPA og udtale |
-| **Svævetilstand** | Vælg adfærd ved svæv: Ordbog (IPA + definitioner + lyd), Tooltip (IPA + lyd), Kun tale (klik for at høre), eller Fra |
+| **Svævetilstand** | Vælg adfærd ved svæv: Ordbog (IPA + definitioner + lyd), Tooltip (IPA + lyd), eller Fra |
 | **Show weak/strong forms** | Vis svage og stærke udtalevarianter af almindelige funktionsord |
 | **Sætningstalehasighed** | Justér hastigheden for sætningsoplæsning (enkelordstale påvirkes ikke) |
 | **Translation Engine** | Vælg mellem Bing Translate og Google Translate |

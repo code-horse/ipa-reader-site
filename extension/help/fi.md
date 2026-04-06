@@ -17,7 +17,7 @@ IPA Reader on selainlaajennus, joka on suunniteltu englannin oppijoille. Se lis�
 ## Pääominaisuudet
 
 - **Koko sivun IPA-tila** — Lisää IPA-merkinnät kaikkiin englanninkielisiin sanoihin sivulla yhdellä napsautuksella; IPA-symbolit on värikoodattu tyypin mukaan (vokaalit, konsonantit, painot) helppoa lukemista varten
-- **Sanakirja hiiren osoittamalla** — Vie hiiren osoitin sanojen päälle nähdäksesi englanninkieliset määritelmät (yli 82 000 sanaa WordNetistä), IPA:n värikoodatuilla symboleilla ja ääntämispainikkeilla; valitse tila: Sanakirja, Työkaluvihje, Vain puhe tai Pois käytöstä
+- **Sanakirja hiiren osoittamalla** — Vie hiiren osoitin sanojen päälle nähdäksesi englanninkieliset määritelmät (yli 82 000 sanaa WordNetistä), IPA:n värikoodatuilla symboleilla ja ääntämispainikkeilla; valitse tila: Sanakirja, Työkaluvihje tai Pois käytöstä
 - **PDF-lukija** — Sisäänrakennettu PDF-lukija IPA-merkinnöillä, sanakirjalla, puheella ja käännöksellä; tukee vetämällä ja pudottamalla, URL-latausta ja automaattista PDF-tunnistusta älykkäällä uudelleenohjauksella
 - **Heikot/vahvat muodot** — Näyttää automaattisesti tavallisten funktiosanojen (esim. "the", "to", "can") heikot ja vahvat ääntämisvariantit luonnollisen puheen hallitsemiseksi
 - **Amerikkalainen ja brittiläinen aksentti** — Vaihda amerikanenglannin (en-US) ja brittienglannin (en-GB) IPA:n välillä
@@ -81,7 +81,6 @@ Laajennuksessa on sisäänrakennettu englannin sanakirja WordNetin pohjalta (yli
 |------|----------|
 | **Sanakirja** | Osoittaminen näyttää IPA:n + englanninkielisen määritelmän + ääntämispainikkeen |
 | **Työkaluvihje** | Osoittaminen näyttää IPA:n + ääntämispainikkeen (ei määritelmiä) |
-| **Vain puhe** | Napsauta sanaa kuullaksesi ääntämisen (ei työkaluvihjettä) |
 | **Pois** | Ei vaikutusta osoittamiseen |
 
 **Sanakirja**-tilassa työkaluvihje näyttää:
@@ -195,7 +194,7 @@ Voit vaihtaa käännösmoottorin ja kohdekielen laajennuksen asetuksissa. Kohdek
 | **Enable IPA** | Pääkytkin IPA-merkintäominaisuuden käyttöön tai pois käytöstä |
 | **Whole Page IPA** | Käytössä näyttää värikoodatun IPA:n kaikille englanninkielisille sanoille tekstin yläpuolella |
 | **IPA Style** | Valitse amerikanenglannin ja brittienglannin IPA ja ääntämisen välillä |
-| **Hover Mode** | Valitse hiiren osoittamisen käyttäytyminen: Sanakirja (IPA + määritelmät + audio), Työkaluvihje (IPA + audio), Vain puhe (napsauta kuunnellaksesi) tai Pois |
+| **Hover Mode** | Valitse hiiren osoittamisen käyttäytyminen: Sanakirja (IPA + määritelmät + audio), Työkaluvihje (IPA + audio) tai Pois |
 | **Show weak/strong forms** | Näytä tavallisten funktiosanojen heikot ja vahvat ääntämisvariantit |
 | **Sentence Speech Rate** | Säädä lauselukemisen nopeutta (yhden sanan puhe ei vaikutu) |
 | **Translation Engine** | Valitse Bing Translate tai Google Translate |

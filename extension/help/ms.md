@@ -17,7 +17,7 @@ IPA Reader ialah sambungan pelayar yang direka untuk pelajar bahasa Inggeris. Ia
 ## Ciri Utama
 
 - **Mod IPA Seluruh Halaman** — Tambah penjelasan IPA pada semua perkataan Inggeris di halaman dengan satu klik; simbol IPA berkod warna mengikut jenis (vokal, konsonan, tanda tekanan) untuk bacaan mudah
-- **Kamus Hover** — Tunjuk tetikus ke perkataan untuk melihat takrif Inggeris (82K+ perkataan daripada WordNet), IPA dengan simbol berkod warna, dan butang sebutan; pilih antara mod Kamus, mod Tooltip, mod Hanya sebut, atau Mati
+- **Kamus Hover** — Tunjuk tetikus ke perkataan untuk melihat takrif Inggeris (82K+ perkataan daripada WordNet), IPA dengan simbol berkod warna, dan butang sebutan; pilih antara mod Kamus, mod Tooltip, atau Mati
 - **Pembaca PDF** — Pembaca PDF terbina dalam dengan penjelasan IPA, kamus, pertuturan, dan terjemahan; menyokong seret & lepas, pemuatan URL, dan pengesanan PDF automatik dengan pengalihan pintar
 - **Bentuk Lemah/Kuat** — Paparkan secara automatik varian sebutan lemah dan kuat untuk kata fungsi biasa (cth. "the", "to", "can"), membantu anda menguasai pertuturan semula jadi
 - **Loghat Amerika & British** — Tukar antara IPA Inggeris Amerika (en-US) dan Inggeris British (en-GB)
@@ -81,7 +81,6 @@ Sambungan merangkumi kamus Inggeris terbina dalam dikuasakan oleh WordNet (82,00
 |-----|----------|
 | **Kamus** | Hover menunjukkan IPA + takrif Inggeris + butang sebutan |
 | **Tooltip** | Hover menunjukkan IPA + butang sebutan (tiada takrif) |
-| **Hanya sebut** | Klik pada perkataan untuk mendengar sebutan (tiada tooltip) |
 | **Mati** | Tiada kesan hover |
 
 Dalam **mod Kamus**, tooltip memaparkan:
@@ -195,7 +194,7 @@ Anda boleh menukar enjin terjemahan dan bahasa sasaran dalam tetapan sambungan. 
 | **Enable IPA** | Suis induk untuk mendayakan atau menyahdayakan ciri penjelasan IPA |
 | **Whole Page IPA** | Apabila didayakan, memaparkan IPA berkod warna untuk semua perkataan Inggeris di atas teks |
 | **IPA Style** | Pilih antara IPA dan sebutan Inggeris Amerika dan British |
-| **Hover Mode** | Pilih kelakuan hover: Kamus (IPA + takrif + audio), Tooltip (IPA + audio), Hanya sebut (klik untuk mendengar), atau Mati |
+| **Hover Mode** | Pilih kelakuan hover: Kamus (IPA + takrif + audio), Tooltip (IPA + audio), atau Mati |
 | **Show weak/strong forms** | Paparkan varian sebutan lemah dan kuat untuk kata fungsi biasa |
 | **Sentence Speech Rate** | Laraskan kelajuan bacaan ayat (ucapan perkataan tunggal tidak terjejas) |
 | **Translation Engine** | Pilih antara Bing Translate dan Google Translate |

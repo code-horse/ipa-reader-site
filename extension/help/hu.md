@@ -17,7 +17,7 @@ Az IPA Reader egy böngészőbővítmény angol tanulóknak készítve. IPA (Nem
 ## Főbb funkciók
 
 - **Teljes oldal IPA mód** — Egy kattintással IPA megjegyzéseket adhat minden angol szóhoz az oldalon; az IPA szimbólumok típus szerint színkódoltak (magánhangzók, mássalhangzók, hangsúlyjelek) a könnyű olvashatóság érdekében
-- **Lebegő szótár** — Vigye az egeret a szavak fölé az angol definíciók (82 000+ szó a WordNetből), a színkódolt IPA és a kiejtésgombok megjelenítéséhez; válasszon Szótár, Tooltip, Csak beszéd vagy Ki módot
+- **Lebegő szótár** — Vigye az egeret a szavak fölé az angol definíciók (82 000+ szó a WordNetből), a színkódolt IPA és a kiejtésgombok megjelenítéséhez; válasszon Szótár, Tooltip vagy Ki módot
 - **PDF-olvasó** — Beépített PDF-olvasó IPA megjegyzésekkel, szótárral, beszéddel és fordítással; támogatja a húzd és ejtsd megnyitást, URL-ből betöltést és az intelligens PDF-észlelést átirányítással
 - **Gyenge/erős alakok** — Funkciószavak (pl. „the”, „to”, „can”) gyenge és erős kiejtési változatainak automatikus megjelenítése a természetes összefüggő beszéd elsajátításához
 - **Amerikai és brit akcentus** — Válthat amerikai angol (en-US) és brit angol (en-GB) IPA között
@@ -81,7 +81,6 @@ A bővítmény beépített angol szótárat tartalmaz, amely a WordNetre épül 
 |------|------------|
 | **Szótár** | Az egér fölé vitelkor IPA + angol definíció + kiejtésgomb |
 | **Tooltip** | Az egér fölé vitelkor IPA + kiejtésgomb (definíciók nélkül) |
-| **Csak beszéd** | Szóra kattintva hallható a kiejtés (nincs tooltip) |
 | **Ki** | Nincs lebegő effekt |
 
 **Szótár** módban a tooltip tartalmazza:
@@ -195,7 +194,7 @@ A fordítómotort és a célnyelvet a bővítmény beállításaiban válthatja.
 | **IPA engedélyezése** | Főkapcsoló az IPA megjegyzés funkció be- vagy kikapcsolásához |
 | **Teljes oldal IPA** | Bekapcsolva színkódolt IPA jelenik meg minden angol szó fölött |
 | **IPA stílus** | Válasszon amerikai és brit angol IPA és kiejtés között |
-| **Lebegő mód** | Válasszon viselkedést: Szótár (IPA + definíciók + hang), Tooltip (IPA + hang), Csak beszéd (kattintásra hallgatás), Ki |
+| **Lebegő mód** | Válasszon viselkedést: Szótár (IPA + definíciók + hang), Tooltip (IPA + hang) vagy Ki |
 | **Gyenge/erős alakok megjelenítése** | Gyenge és erős kiejtési változatok gyakori funkciószavaknál |
 | **Mondat beszédsebesség** | A mondat felolvasás sebességének beállítása (az egyéni szó beszéd nem érintett) |
 | **Fordítómotor** | Válasszon Bing Translate és Google Translate között |

@@ -17,7 +17,7 @@ IPA Reader là tiện ích mở rộng trình duyệt được thiết kế cho 
 ## Tính năng chính
 
 - **Chế độ IPA toàn trang** — Thêm chú thích IPA cho tất cả từ tiếng Anh trên trang chỉ với một cú nhấp; ký hiệu IPA được mã màu theo loại (nguyên âm, phụ âm, dấu trọng âm) để dễ đọc
-- **Từ điển khi di chuột** — Di chuột qua từ để xem nghĩa tiếng Anh (hơn 82 nghìn từ từ WordNet), IPA với ký hiệu mã màu và nút phát âm; chọn Chế độ từ điển, Chế độ chú giải, Chỉ đọc hoặc Tắt
+- **Từ điển khi di chuột** — Di chuột qua từ để xem nghĩa tiếng Anh (hơn 82 nghìn từ từ WordNet), IPA với ký hiệu mã màu và nút phát âm; chọn Chế độ từ điển, Chế độ chú giải hoặc Tắt
 - **Trình đọc PDF** — Trình đọc PDF tích hợp với chú thích IPA, từ điển, đọc và dịch; hỗ trợ kéo thả, tải bằng URL và tự phát hiện PDF với chuyển hướng thông minh
 - **Dạng yếu/mạnh** — Tự động hiển thị các biến thể phát âm yếu và mạnh của từ chức năng (ví dụ: „the”, „to”, „can”) để làm chủ lời nói tự nhiên
 - **Giọng Mỹ và Anh** — Chuyển đổi giữa IPA tiếng Anh Mỹ (en-US) và tiếng Anh Anh (en-GB)
@@ -81,7 +81,6 @@ Tiện ích có từ điển tiếng Anh tích hợp dựa trên WordNet (hơn 8
 |--------|---------|
 | **Từ điển** | Di chuột hiển thị IPA + nghĩa tiếng Anh + nút phát âm |
 | **Chú giải** | Di chuột hiển thị IPA + nút phát âm (không có nghĩa) |
-| **Chỉ đọc** | Nhấp vào từ để nghe phát âm (không có chú giải) |
 | **Tắt** | Không có hiệu ứng khi di chuột |
 
 Ở **chế độ Từ điển**, chú giải hiển thị:
@@ -195,7 +194,7 @@ Bạn có thể đổi công cụ dịch và ngôn ngữ đích trong cài đặ
 | **Bật IPA** | Công tắc chính để bật hoặc tắt tính năng chú thích IPA |
 | **IPA toàn trang** | Khi bật, hiển thị IPA mã màu cho mọi từ tiếng Anh phía trên chữ |
 | **Kiểu IPA** | Chọn giữa IPA và phát âm tiếng Anh Mỹ và Anh |
-| **Chế độ khi di chuột** | Chọn hành vi khi di chuột: Từ điển (IPA + nghĩa + âm thanh), Chú giải (IPA + âm thanh), Chỉ đọc (nhấp để nghe) hoặc Tắt |
+| **Chế độ khi di chuột** | Chọn hành vi khi di chuột: Từ điển (IPA + nghĩa + âm thanh), Chú giải (IPA + âm thanh) hoặc Tắt |
 | **Hiển thị dạng yếu/mạnh** | Biến thể phát âm yếu và mạnh của từ chức năng |
 | **Tốc độ đọc câu** | Điều chỉnh tốc độ đọc câu (phát âm từ đơn không đổi) |
 | **Công cụ dịch** | Chọn giữa Bing Translate và Google Translate |

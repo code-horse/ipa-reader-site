@@ -17,7 +17,7 @@ IPA Reader és una extensió del navegador dissenyada per a estudiants d'anglès
 ## Característiques principals
 
 - **Mode IPA a tota la pàgina** — Afegeix anotacions IPA a tots els mots en anglès amb un sol clic; els símbols IPA tenen color segons el tipus (vocals, consonants, accents) per facilitar la lectura
-- **Diccionari al passar el cursor** — Passeu el cursor sobre les paraules per veure definicions en anglès (més de 82 mil mots de WordNet), IPA amb símbols codificats per colors i botons de pronunciació; trieu mode Diccionari, Indicador emergent, Només parlar o Desactivat
+- **Diccionari al passar el cursor** — Passeu el cursor sobre les paraules per veure definicions en anglès (més de 82 mil mots de WordNet), IPA amb símbols codificats per colors i botons de pronunciació; trieu mode Diccionari, Indicador emergent o Desactivat
 - **Lector PDF** — Lector PDF integrat amb anotacions IPA, diccionari, veu i traducció; admet arrossegar i deixar anar, càrrega per URL i detecció automàtica de PDF amb redirecció intel·ligent
 - **Formes febles/fortes** — Mostra automàticament les variants de pronunciació feble i forta de paraules funcionals habituals (p. ex. «the», «to», «can»), per dominar el discurs enllaçat natural
 - **Accents americà i britànic** — Canvieu entre IPA d'anglès americà (en-US) i anglès britànic (en-GB)
@@ -82,7 +82,6 @@ L'extensió inclou un diccionari anglès integrat basat en WordNet (més de 82.0
 |------|--------------|
 | **Diccionari** | Al passar el cursor: IPA + definició en anglès + botó de pronunciació |
 | **Indicador emergent** | Al passar el cursor: IPA + botó de pronunciació (sense definicions) |
-| **Només parlar** | Feu clic a la paraula per escoltar la pronunciació (sense indicador emergent) |
 | **Desactivat** | Sense efecte al passar el cursor |
 
 En el **mode Diccionari**, l'indicador emergent mostra:
@@ -197,7 +196,7 @@ Podeu canviar el motor i l'idioma de destinació a la configuració de l'extensi
 | **Activar IPA** | Interruptor principal per activar o desactivar les anotacions IPA |
 | **IPA a tota la pàgina** | Si està activat, mostra IPA codificat per colors per a tots els mots en anglès per sobre del text |
 | **Estil IPA** | Trieu entre anglès americà i britànic per a IPA i pronunciació |
-| **Mode al passar el cursor** | Trieu el comportament: Diccionari (IPA + definicions + àudio), Indicador emergent (IPA + àudio), Només parlar (clic per escoltar) o Desactivat |
+| **Mode al passar el cursor** | Trieu el comportament: Diccionari (IPA + definicions + àudio), Indicador emergent (IPA + àudio) o Desactivat |
 | **Formes febles/fortes** | Mostra variants feble i forta per a paraules funcionals habituals |
 | **Velocitat de lectura de frases** | Ajusteu la velocitat de lectura de frases (les paraules individuals no es veuen afectades) |
 | **Motor de traducció** | Trieu entre Bing Translate i Google Translate |

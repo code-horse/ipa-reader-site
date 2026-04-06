@@ -17,7 +17,7 @@ IPA Reader to rozszerzenie przeglądarki stworzone dla osób uczących się jęz
 ## Główne funkcje
 
 - **Tryb IPA na całej stronie** — Dodaj adnotacje IPA do wszystkich angielskich słów na stronie jednym kliknięciem; symbole IPA są kolorowo oznaczone według typu (samogłoski, spółgłoski, akcenty) dla łatwiejszego czytania
-- **Słownik po najechaniu** — Najedź na słowo, aby zobaczyć definicje po angielsku (82 tys.+ wyrazów z WordNet), IPA z kolorowymi symbolami i przyciski wymowy; wybierz tryb Słownik, Dymek, Tylko mowa lub Wyłączone
+- **Słownik po najechaniu** — Najedź na słowo, aby zobaczyć definicje po angielsku (82 tys.+ wyrazów z WordNet), IPA z kolorowymi symbolami i przyciski wymowy; wybierz tryb Słownik, Dymek lub Wyłączone
 - **Czytnik PDF** — Wbudowany czytnik PDF z adnotacjami IPA, słownikiem, mową i tłumaczeniem; obsługa przeciągnij i upuść, wczytywanie z adresu URL oraz automatyczne wykrywanie PDF z inteligentnym przekierowaniem
 - **Formy słabe/mocne** — Automatyczne wyświetlanie słabych i mocnych wariantów wymowy wyrazów funkcyjnych (np. „the”, „to”, „can”) do opanowania naturalnej mowy
 - **Akcent amerykański i brytyjski** — Przełączaj między IPA angielskiego amerykańskiego (en-US) i brytyjskiego (en-GB)
@@ -81,7 +81,6 @@ Rozszerzenie zawiera wbudowany słownik angielski oparty na WordNet (ponad 82 00
 |------|------------|
 | **Słownik** | Po najechaniu: IPA + definicja po angielsku + przycisk wymowy |
 | **Dymek** | Po najechaniu: IPA + przycisk wymowy (bez definicji) |
-| **Tylko mowa** | Kliknij słowo, aby usłyszeć wymowę (bez dymka) |
 | **Wyłączone** | Brak efektu po najechaniu |
 
 W **trybie Słownik** dymek pokazuje:
@@ -195,7 +194,7 @@ Silnik i język docelowy można zmienić w ustawieniach rozszerzenia. Język doc
 | **Włącz IPA** | Główny przełącznik do włączania lub wyłączania funkcji adnotacji IPA |
 | **IPA na całej stronie** | Po włączeniu wyświetla kolorowe IPA dla wszystkich angielskich słów nad tekstem |
 | **Styl IPA** | Wybór między amerykańskim i brytyjskim angielskim IPA oraz wymową |
-| **Tryb po najechaniu** | Zachowanie po najechaniu: Słownik (IPA + definicje + audio), Dymek (IPA + audio), Tylko mowa (klik, aby usłyszeć) lub Wyłączone |
+| **Tryb po najechaniu** | Zachowanie po najechaniu: Słownik (IPA + definicje + audio), Dymek (IPA + audio) lub Wyłączone |
 | **Pokaż formy słabe/mocne** | Słabe i mocne warianty wymowy wyrazów funkcyjnych |
 | **Szybkość mówienia zdań** | Szybkość odczytu zdań (pojedyncze słowa bez zmian) |
 | **Silnik tłumaczenia** | Wybór między Bing Translate a Google Translate |

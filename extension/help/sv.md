@@ -17,7 +17,7 @@ IPA Reader är ett webbläsartillägg utformat för engelsklärande. Det lägger
 ## Huvudfunktioner
 
 - **Hela sidan IPA-läge** — Lägg till IPA-annotationer till alla engelska ord på sidan med ett klick; IPA-symbolerna är färgkodade efter typ (vokaler, konsonanter, betoningstecken) för enkel läsning
-- **Ordbok vid hovring** — Håll muspekaren över ord för att se engelska definitioner (över 82 000 ord från WordNet), IPA med färgkodade symboler och uttalsknappar; välj mellan Ordboksläge, Verktygstipsläge, Endast tal-läge eller Av
+- **Ordbok vid hovring** — Håll muspekaren över ord för att se engelska definitioner (över 82 000 ord från WordNet), IPA med färgkodade symboler och uttalsknappar; välj mellan Ordboksläge, Verktygstipsläge eller Av
 - **PDF-läsare** — Inbyggd PDF-läsare med IPA-annotationer, ordbok, tal och översättning; stöd för dra och släpp, URL-inläsning och automatisk PDF-detektering med smart omdirigering
 - **Svaga/starka former** — Visa automatiskt svaga och starka uttalsvarianter av vanliga funktionsord (t.ex. „the“, „to“, „can“) för att bemästra naturligt sammanhängande tal
 - **Amerikansk & brittisk accent** — Växla mellan amerikansk engelska (en-US) och brittisk engelska (en-GB) IPA
@@ -81,7 +81,6 @@ Tillägget inkluderar en inbyggd engelsk ordbok baserad på WordNet (över 82 00
 |------|----------|
 | **Ordbok** | Hover visar IPA + engelsk definition + uttalsknapp |
 | **Verktygstips** | Hover visar IPA + uttalsknapp (inga definitioner) |
-| **Endast tal** | Klicka på ett ord för att höra uttal (inget verktygstips) |
 | **Av** | Ingen hover-effekt |
 
 I **Ordboksläge** visar verktygstipset:
@@ -195,7 +194,7 @@ Du kan byta översättningsmotor och målspråk i tilläggsinställningarna. Må
 | **Aktivera IPA** | Huvudströmbrytare för att aktivera eller inaktivera IPA-annotationsfunktionen |
 | **Hela sidan IPA** | När aktiverat visas färgkodad IPA för alla engelska ord ovanför texten |
 | **IPA-stil** | Välj mellan amerikansk engelska och brittisk engelska IPA och uttal |
-| **Hover-läge** | Välj hover-beteende: Ordbok (IPA + definitioner + ljud), Verktygstips (IPA + ljud), Endast tal (klicka för att höra) eller Av |
+| **Hover-läge** | Välj hover-beteende: Ordbok (IPA + definitioner + ljud), Verktygstips (IPA + ljud) eller Av |
 | **Visa svaga/starka former** | Visa svaga och starka uttalsvarianter av vanliga funktionsord |
 | **Meningsuppläsningshastighet** | Justera hastigheten för meningsläsning (enskilde ordutal påverkas inte) |
 | **Översättningsmotor** | Välj mellan Bing Translate och Google Translate |

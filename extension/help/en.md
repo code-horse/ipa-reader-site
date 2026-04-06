@@ -17,7 +17,7 @@ IPA Reader is a browser extension designed for English learners. It adds IPA (In
 ## Main Features
 
 - **Whole Page IPA Mode** — Add IPA annotations to all English words on the page with one click; IPA symbols are color-coded by type (vowels, consonants, stress marks) for easy reading
-- **Hover Dictionary** — Hover over words to see English definitions (82K+ words from WordNet), IPA with color-coded symbols, and pronunciation buttons; choose between Dictionary mode, Tooltip mode, Speak-only mode, or Off
+- **Hover Dictionary** — Hover over words to see English definitions (82K+ words from WordNet), IPA with color-coded symbols, and pronunciation buttons; choose between Dictionary mode, Tooltip mode, or Off
 - **PDF Reader** — Built-in PDF reader with IPA annotations, dictionary, speech, and translation; supports drag & drop, URL loading, and automatic PDF detection with smart redirect
 - **Weak/Strong Forms** — Automatically display weak and strong pronunciation variants for common function words (e.g. "the", "to", "can"), helping you master natural connected speech
 - **American & British Accents** — Switch between American English (en-US) and British English (en-GB) IPA
@@ -81,7 +81,6 @@ The extension includes a built-in English dictionary powered by WordNet (82,000+
 |------|----------|
 | **Dictionary** | Hover shows IPA + English definition + pronunciation button |
 | **Tooltip** | Hover shows IPA + pronunciation button (no definitions) |
-| **Speak only** | Click on a word to hear pronunciation (no tooltip) |
 | **Off** | No hover effect |
 
 In **Dictionary mode**, the tooltip displays:
@@ -195,7 +194,7 @@ You can switch the translation engine and target language in the extension setti
 | **Enable IPA** | Master switch to enable or disable the IPA annotation feature |
 | **Whole Page IPA** | When enabled, displays color-coded IPA for all English words above the text |
 | **IPA Style** | Choose between American English and British English IPA and pronunciation |
-| **Hover Mode** | Choose hover behavior: Dictionary (IPA + definitions + audio), Tooltip (IPA + audio), Speak only (click to hear), or Off |
+| **Hover Mode** | Choose hover behavior: Dictionary (IPA + definitions + audio), Tooltip (IPA + audio), or Off |
 | **Show weak/strong forms** | Display weak and strong pronunciation variants for common function words |
 | **Sentence Speech Rate** | Adjust the speed of sentence reading (single word speech is not affected) |
 | **Translation Engine** | Choose between Bing Translate and Google Translate |

@@ -17,7 +17,7 @@ IPA Reader er en nettleserutvidelse designet for engelskelever. Den legger til I
 ## Hovedfunksjoner
 
 - **Hele siden IPA-modus** — Legg til IPA-anmerkninger til alle engelske ord på siden med ett klikk; IPA-symbolene er fargekodet etter type (vokaler, konsonanter, trykkmerker) for enkel lesing
-- **Ordbok ved musepeker** — Hold musen over ord for å se engelske definisjoner (82 000+ ord fra WordNet), IPA med fargekodede symboler og uttaleknapper; velg mellom Ordbok-modus, Verktøytips-modus, Kun tale-modus eller Av
+- **Ordbok ved musepeker** — Hold musen over ord for å se engelske definisjoner (82 000+ ord fra WordNet), IPA med fargekodede symboler og uttaleknapper; velg mellom Ordbok-modus, Verktøytips-modus eller Av
 - **PDF-leser** — Innebygd PDF-leser med IPA-anmerkninger, ordbok, tale og oversettelse; støtter dra-og-slipp, lasting fra URL og automatisk PDF-gjenkjenning med smart omdirigering
 - **Svake/sterke former** — Vis automatisk svake og sterke uttalevarianter av vanlige funksjonsord (f.eks. «the», «to», «can») for å mestre naturlig sammenhengende tale
 - **Amerikansk & britisk accent** — Bytt mellom amerikansk engelsk (en-US) og britisk engelsk (en-GB) IPA
@@ -81,7 +81,6 @@ Utvidelsen har en innebygd engelsk ordbok basert på WordNet (82 000+ ord). Du k
 |-------|-----------|
 | **Ordbok** | Musepeker viser IPA + engelsk definisjon + uttaleknapp |
 | **Verktøytips** | Musepeker viser IPA + uttaleknapp (ingen definisjoner) |
-| **Kun tale** | Klikk på et ord for å høre uttalen (ingen verktøytips) |
 | **Av** | Ingen musepeker-effekt |
 
 I **Ordbok**-modus viser verktøytipset:
@@ -195,7 +194,7 @@ Du kan bytte oversettelsesmotor og målspråk i utvidelsesinnstillingene. Målsp
 | **Aktiver IPA** | Hovedbryter for å aktivere eller deaktivere IPA-anmerkningsfunksjonen |
 | **Hele siden IPA** | Når aktivert, vises fargekodet IPA for alle engelske ord over teksten |
 | **IPA-stil** | Velg mellom amerikansk engelsk og britisk engelsk IPA og uttale |
-| **Musepeker-modus** | Velg oppførsel: Ordbok (IPA + definisjoner + lyd), Verktøytips (IPA + lyd), Kun tale (klikk for å høre), eller Av |
+| **Musepeker-modus** | Velg oppførsel: Ordbok (IPA + definisjoner + lyd), Verktøytips (IPA + lyd) eller Av |
 | **Vis svake/sterke former** | Vis svake og sterke uttalevarianter av vanlige funksjonsord |
 | **Setnings-talehastighet** | Juster hastigheten for setningslesing (enkeltsordsuttale påvirkes ikke) |
 | **Oversettelsesmotor** | Velg mellom Bing Translate og Google Translate |

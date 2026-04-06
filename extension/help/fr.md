@@ -17,7 +17,7 @@ IPA Reader est une extension de navigateur conçue pour les apprenants d’angla
 ## Fonctionnalités principales
 
 - **Mode IPA page entière** — Ajoutez des annotations IPA à tous les mots anglais de la page en un clic ; les symboles IPA sont codés par couleur (voyelles, consonnes, accents) pour une lecture facile
-- **Dictionnaire au survol** — Passez la souris sur les mots pour voir les définitions en anglais (plus de 82 000 entrées WordNet), l’IPA avec symboles colorés et les boutons de prononciation ; choisissez le mode Dictionnaire, Infobulle, Lecture seule ou Désactivé
+- **Dictionnaire au survol** — Passez la souris sur les mots pour voir les définitions en anglais (plus de 82 000 entrées WordNet), l’IPA avec symboles colorés et les boutons de prononciation ; choisissez le mode Dictionnaire, Infobulle ou Désactivé
 - **Lecteur PDF** — Lecteur PDF intégré avec IPA, dictionnaire, parole et traduction ; glisser-déposer, ouverture par URL et détection intelligente des PDF avec redirection automatique
 - **Formes faibles/fortes** — Affiche automatiquement les variantes de prononciation faible et forte des mots fonctionnels courants (ex. « the », « to », « can »), pour maîtriser l’enchaînement naturel
 - **Accents américain et britannique** — Basculez entre l’IPA américain (en-US) et britannique (en-GB)
@@ -82,7 +82,6 @@ L’extension inclut un dictionnaire anglais intégré basé sur WordNet (plus d
 |------|--------------|
 | **Dictionnaire** | Le survol affiche IPA + définition en anglais + bouton de prononciation |
 | **Infobulle** | Le survol affiche IPA + bouton de prononciation (sans définitions) |
-| **Lecture seule** | Cliquez sur un mot pour entendre la prononciation (sans infobulle) |
 | **Désactivé** | Aucun effet au survol |
 
 En mode **Dictionnaire**, l’infobulle affiche :
@@ -197,7 +196,7 @@ Vous pouvez changer le moteur et la langue cible dans les paramètres de l’ext
 | **Activer IPA** | Interrupteur principal pour activer ou désactiver les annotations IPA |
 | **IPA page entière** | Si activé, affiche l’IPA coloré pour tous les mots anglais au-dessus du texte |
 | **Style IPA** | Choisir entre anglais américain et britannique pour l’IPA et la prononciation |
-| **Mode au survol** | Comportement au survol : Dictionnaire (IPA + définitions + audio), Infobulle (IPA + audio), Lecture seule (clic pour écouter), ou Désactivé |
+| **Mode au survol** | Comportement au survol : Dictionnaire (IPA + définitions + audio), Infobulle (IPA + audio) ou Désactivé |
 | **Formes faibles/fortes** | Afficher les variantes faible et forte pour les mots fonctionnels courants |
 | **Vitesse lecture phrases** | Ajuster la vitesse de lecture des phrases (la lecture des mots isolés n’est pas affectée) |
 | **Moteur de traduction** | Choisir entre Bing Translate et Google Translate |

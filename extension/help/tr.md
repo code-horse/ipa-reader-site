@@ -17,7 +17,7 @@ IPA Reader, İngilizce öğrenenler için tasarlanmış bir tarayıcı eklentisi
 ## Ana Özellikler
 
 - **Tüm Sayfa IPA Modu** — Tek tıklamayla sayfadaki tüm İngilizce kelimelere IPA açıklamaları ekleyin; IPA sembolleri türe göre renk kodludur (ünlüler, ünsüzler, vurgu işaretleri) ve okumayı kolaylaştırır
-- **Üzerinde Sözlük** — Kelimelerin üzerine geldiğinizde İngilizce tanımları (WordNet’ten 82 binden fazla kelime), renk kodlu sembollerle IPA ve telaffuz düğmelerini görün; Sözlük, İpucu, Yalnızca konuş veya Kapalı arasında seçim yapın
+- **Üzerinde Sözlük** — Kelimelerin üzerine geldiğinizde İngilizce tanımları (WordNet’ten 82 binden fazla kelime), renk kodlu sembollerle IPA ve telaffuz düğmelerini görün; Sözlük, İpucu veya Kapalı arasında seçim yapın
 - **PDF Okuyucu** — IPA açıklamaları, sözlük, konuşma ve çeviri ile yerleşik PDF okuyucu; sürükle-bırak, URL ile yükleme ve akıllı yönlendirme ile otomatik PDF algılamayı destekler
 - **Zayıf/Güçlü Formlar** — İşlev sözcüklerinin (örn. „the”, „to”, „can”) zayıf ve güçlü telaffuz varyantlarını otomatik göstererek doğal bağlı konuşmayı öğrenin
 - **Amerikan ve Britanya Aksanları** — Amerikan İngilizcesi (en-US) ve Britanya İngilizcesi (en-GB) IPA arasında geçiş yapın
@@ -81,7 +81,6 @@ Eklenti, WordNet tabanlı yerleşik bir İngilizce sözlük içerir (82 binden f
 |------|----------|
 | **Sözlük** | Üzerine gelindiğinde IPA + İngilizce tanım + telaffuz düğmesi |
 | **İpucu** | Üzerine gelindiğinde IPA + telaffuz düğmesi (tanım yok) |
-| **Yalnızca konuş** | Telaffuzu duymak için kelimeye tıklayın (ipucu yok) |
 | **Kapalı** | Üzerine gelme etkisi yok |
 
 **Sözlük** modunda ipucu şunları gösterir:
@@ -195,7 +194,7 @@ Her iki motor da **108 hedef dili** destekler.
 | **IPA'yı Etkinleştir** | IPA açıklama özelliğini açmak veya kapatmak için ana anahtar |
 | **Tüm Sayfa IPA** | Etkinleştirildiğinde tüm İngilizce kelimelerin üzerinde renk kodlu IPA gösterir |
 | **IPA Stili** | Amerikan ve Britanya İngilizcesi IPA ve telaffuz arasında seçim |
-| **Üzerine gelme modu** | Üzerine gelme davranışı: Sözlük (IPA + tanımlar + ses), İpucu (IPA + ses), Yalnızca konuş (duymak için tıklama) veya Kapalı |
+| **Üzerine gelme modu** | Üzerine gelme davranışı: Sözlük (IPA + tanımlar + ses), İpucu (IPA + ses) veya Kapalı |
 | **Zayıf/güçlü formları göster** | İşlev sözcüklerinin zayıf ve güçlü telaffuz varyantları |
 | **Cümle Konuşma Hızı** | Cümle okuma hızı (tek kelime konuşması etkilenmez) |
 | **Çeviri Motoru** | Bing Translate ve Google Translate arasında seçim |

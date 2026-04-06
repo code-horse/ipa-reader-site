@@ -17,7 +17,7 @@ IPA Reader is een browserextensie ontworpen voor mensen die Engels leren. Het vo
 ## Belangrijkste functies
 
 - **Hele pagina IPA-modus** — Voeg IPA-annotaties toe aan alle Engelse woorden op de pagina met één klik; IPA-symbolen zijn kleurgecodeerd per type (klinkers, medeklinkers, klemtoontekens) voor eenvoudig lezen
-- **Hover-woordenboek** — Beweeg over woorden om Engelse definities te zien (82K+ woorden uit WordNet), IPA met kleurgecodeerde symbolen en uitspraakknoppen; kies tussen Woordenboekmodus, Tooltipmodus, Alleen spreken of Uit
+- **Hover-woordenboek** — Beweeg over woorden om Engelse definities te zien (82K+ woorden uit WordNet), IPA met kleurgecodeerde symbolen en uitspraakknoppen; kies tussen Woordenboekmodus, Tooltipmodus of Uit
 - **PDF-lezer** — Ingebouwde PDF-lezer met IPA-annotaties, woordenboek, spraak en vertaling; ondersteunt slepen en neerzetten, laden via URL en automatische PDF-detectie met slimme omleiding
 - **Zwakke/sterke vormen** — Automatisch de zwakke en sterke uitspraakvarianten van functiewoorden (bijv. „the”, „to”, „can”) weergeven om natuurlijk vloeiend spreken te beheersen
 - **Amerikaans & Brits accent** — Schakel tussen Amerikaans Engels (en-US) en Brits Engels (en-GB) IPA
@@ -81,7 +81,6 @@ De extensie bevat een ingebouwd Engels woordenboek op basis van WordNet (82.000+
 |-------|--------|
 | **Woordenboek** | Hover toont IPA + Engelse definitie + uitspraakknop |
 | **Tooltip** | Hover toont IPA + uitspraakknop (geen definities) |
-| **Alleen spreken** | Klik op een woord om de uitspraak te horen (geen tooltip) |
 | **Uit** | Geen hover-effect |
 
 In **woordenboekmodus** toont de tooltip:
@@ -195,7 +194,7 @@ Je kunt de vertaalengine en doeltaal wijzigen in de extensie-instellingen. De do
 | **IPA inschakelen** | Hoofdschakelaar om de IPA-annotatiefunctie in of uit te schakelen |
 | **Hele pagina IPA** | Toont kleurgecodeerde IPA voor alle Engelse woorden boven de tekst |
 | **IPA-stijl** | Keuze tussen Amerikaans en Brits Engels IPA en uitspraak |
-| **Hovermodus** | Kies hovergedrag: Woordenboek (IPA + definities + audio), Tooltip (IPA + audio), Alleen spreken (klik om te horen) of Uit |
+| **Hovermodus** | Kies hovergedrag: Woordenboek (IPA + definities + audio), Tooltip (IPA + audio) of Uit |
 | **Zwakke/sterke vormen tonen** | Zwakke en sterke uitspraakvarianten van functiewoorden |
 | **Zinspraaksnelheid** | Snelheid van zinsvoorlezing (losse woorden niet beïnvloed) |
 | **Vertaalengine** | Keuze tussen Bing Translate en Google Translate |

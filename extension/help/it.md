@@ -17,7 +17,7 @@ IPA Reader è un'estensione per browser progettata per chi studia l'inglese. Agg
 ## Funzionalità principali
 
 - **Modalità IPA pagina intera** — Aggiunge annotazioni IPA a tutte le parole in inglese della pagina con un clic; i simboli IPA sono codificati a colori per tipo (vocali, consonanti, segni d'accento) per una lettura più chiara
-- **Dizionario al passaggio (WordNet)** — Passa il mouse sulle parole per vedere le definizioni in inglese (oltre 82.000 parole da WordNet), IPA con simboli a colori e pulsanti di pronuncia; scegli tra modalità Dizionario, Tooltip, Solo lettura o Disattivato
+- **Dizionario al passaggio (WordNet)** — Passa il mouse sulle parole per vedere le definizioni in inglese (oltre 82.000 parole da WordNet), IPA con simboli a colori e pulsanti di pronuncia; scegli tra modalità Dizionario, Tooltip o Disattivato
 - **Lettore PDF** — Lettore PDF integrato con annotazioni IPA, dizionario, sintesi vocale e traduzione; supporta trascinamento, caricamento da URL e rilevamento automatico dei PDF con reindirizzamento intelligente
 - **Forme deboli/forti** — Mostra automaticamente le varianti di pronuncia debole e forte delle parole funzionali comuni (es. "the", "to", "can"), per padroneggiare il parlato naturale collegato
 - **Accento americano e britannico** — Passa tra IPA americano (en-US) e britannico (en-GB)
@@ -82,7 +82,6 @@ L'estensione include un dizionario inglese integrato basato su WordNet (oltre 82
 |----------|----------------|
 | **Dizionario** | Al passaggio: IPA + definizione in inglese + pulsante pronuncia |
 | **Tooltip** | Al passaggio: IPA + pulsante pronuncia (senza definizioni) |
-| **Solo lettura** | Clic sulla parola per ascoltare (nessun tooltip) |
 | **Disattivato** | Nessun effetto al passaggio |
 
 In **modalità Dizionario**, il tooltip mostra:
@@ -197,7 +196,7 @@ Puoi cambiare motore e lingua di destinazione nelle impostazioni dell'estensione
 | **Attiva IPA** | Interruttore principale per attivare o disattivare le annotazioni IPA |
 | **IPA pagina intera** | Se attivo, mostra IPA a colori per tutte le parole in inglese sopra il testo |
 | **Stile IPA** | Scegli tra inglese americano e britannico per IPA e pronuncia |
-| **Modalità al passaggio** | Comportamento al passaggio del mouse: Dizionario (IPA + definizioni + audio), Tooltip (IPA + audio), Solo lettura (clic per ascoltare) o Disattivato |
+| **Modalità al passaggio** | Comportamento al passaggio del mouse: Dizionario (IPA + definizioni + audio), Tooltip (IPA + audio) o Disattivato |
 | **Forme deboli/forti** | Mostra varianti debole e forte per le parole funzionali comuni |
 | **Velocità lettura frasi** | Regola la velocità della lettura delle frasi (le singole parole non sono influenzate) |
 | **Motore di traduzione** | Scegli tra Bing Translate e Google Translate |

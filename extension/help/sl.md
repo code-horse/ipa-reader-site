@@ -17,7 +17,7 @@ IPA Reader je razširitev brskalnika, zasnovana za učence angleščine. Na sple
 ## Glavne funkcije
 
 - **IPA celotne strani** — Z enim klikom dodajte IPA oznake vsem angleškim besedam na strani; IPA simboli so barvno kodirani po vrsti (samoglasniki, soglasniki, poudarki) za enostavno branje
-- **Slovar ob lebdenju** — Ob lebdenju nad besedami vidite angleške definicije (več kot 82 000 besed iz WordNeta), IPA z barvno kodiranimi simboli in gumbe za izgovorjavo; izberete lahko način Slovar, Način namiga, Samo govor ali Izklopljeno
+- **Slovar ob lebdenju** — Ob lebdenju nad besedami vidite angleške definicije (več kot 82 000 besed iz WordNeta), IPA z barvno kodiranimi simboli in gumbe za izgovorjavo; izberete lahko način Slovar, Način namiga ali Izklopljeno
 - **Bralnik PDF** — Vgrajen bralnik PDF z IPA oznakami, slovarjem, govorom in prevodom; podpira povleci-in-spusti, nalaganje z URL in samodejno zaznavanje PDF s pametnim preusmerjanjem
 - **Šibke/močne oblike** — Samodejni prikaz šibkih in močnih izgovornih različic običajnih funkcijskih besed (npr. „the“, „to“, „can“) za obvladovanje naravnega povezanega govora
 - **Ameriški in britanski poudarek** — Preklapljanje med ameriško angleščino (en-US) in britansko angleščino (en-GB) IPA
@@ -81,7 +81,6 @@ Razširitev vključuje vgrajen angleški slovar na osnovi WordNeta (več kot 82 
 |------|----------|
 | **Slovar** | Ob lebdenju: IPA + angleška definicija + gumb za izgovorjavo |
 | **Namig** | Ob lebdenju: IPA + gumb za izgovorjavo (brez definicij) |
-| **Samo govor** | Klik na besedo za poslušanje izgovorjave (brez namiga) |
 | **Izklopljeno** | Brez učinka ob lebdenju |
 
 V **načinu Slovar** namig prikaže:
@@ -195,7 +194,7 @@ Prevajalski mehanizem in ciljni jezik lahko zamenjate v nastavitvah razširitve.
 | **Omogoči IPA** | Glavno stikalo za vklop ali izklop funkcije IPA označevanja |
 | **IPA celotne strani** | Ko je omogočeno, prikaže barvno kodiran IPA za vse angleške besede nad besedilom |
 | **Slog IPA** | Izberite med ameriško angleščino in britansko angleščino IPA in izgovorjavo |
-| **Način lebdenja** | Izberite obnašanje ob lebdenju: Slovar (IPA + definicije + zvok), Namig (IPA + zvok), Samo govor (klik za poslušanje) ali Izklopljeno |
+| **Način lebdenja** | Izberite obnašanje ob lebdenju: Slovar (IPA + definicije + zvok), Namig (IPA + zvok) ali Izklopljeno |
 | **Prikaži šibke/močne oblike** | Prikažite šibke in močne izgovorne različice običajnih funkcijskih besed |
 | **Hitrost branja stavkov** | Prilagodite hitrost branja stavkov (izgovorjava posameznih besed ni prizadeta) |
 | **Prevajalski mehanizem** | Izberite med Bing Translate in Google Translate |

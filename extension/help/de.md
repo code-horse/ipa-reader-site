@@ -17,7 +17,7 @@ IPA Reader ist eine Browsererweiterung für Englischlernende. Sie fügt englisch
 ## Hauptfunktionen
 
 - **Ganzseiten-IPA-Modus** — Fügen Sie mit einem Klick IPA-Annotationen zu allen englischen Wörtern auf der Seite hinzu, mit farbcodierten IPA-Symbolen (Vokale, Konsonanten, Betonungszeichen) für einfaches Lesen
-- **Hover-Wörterbuch** — Fahren Sie mit der Maus über Wörter, um englische Definitionen (über 82.000 Einträge aus WordNet), IPA mit farbcodierten Symbolen und Aussprache-Buttons zu sehen; wählen Sie zwischen Modus Wörterbuch, Tooltip, Nur sprechen oder Aus
+- **Hover-Wörterbuch** — Fahren Sie mit der Maus über Wörter, um englische Definitionen (über 82.000 Einträge aus WordNet), IPA mit farbcodierten Symbolen und Aussprache-Buttons zu sehen; wählen Sie zwischen Modus Wörterbuch, Tooltip oder Aus
 - **PDF-Leser** — Integrierter PDF-Leser mit IPA, Wörterbuch, Sprachausgabe und Übersetzung; Drag & Drop, URL-Laden und automatische PDF-Erkennung mit intelligenter Weiterleitung
 - **Schwache/starke Formen** — Automatische Anzeige der schwachen und starken Aussprachevarianten von Funktionswörtern (z. B. the, to, can) für natürliches Sprechen
 - **Amerikanischer & Britischer Akzent** — Wechseln Sie zwischen amerikanischem (en-US) und britischem (en-GB) IPA
@@ -81,7 +81,6 @@ Die Erweiterung enthält ein integriertes englisches Wörterbuch auf Basis von W
 |-------|-----------|
 | **Wörterbuch** | Hover zeigt IPA + englische Definition + Aussprache-Button |
 | **Tooltip** | Hover zeigt IPA + Aussprache-Button (ohne Definitionen) |
-| **Nur sprechen** | Klick auf ein Wort spielt die Aussprache ab (ohne Tooltip) |
 | **Aus** | Kein Hover-Effekt |
 
 Im Modus **Wörterbuch** zeigt der Tooltip:
@@ -195,7 +194,7 @@ Engine und Zielsprache stellen Sie in den Erweiterungseinstellungen ein. Die Zie
 | **IPA aktivieren** | Hauptschalter zum Aktivieren oder Deaktivieren der IPA-Annotation |
 | **Ganzseiten-IPA** | Wenn aktiviert, farbcodiertes IPA über allen englischen Wörtern |
 | **Akzenttyp** | Wählen Sie zwischen amerikanischem und britischem Englisch für IPA und Aussprache |
-| **Hover-Modus** | Hover-Verhalten: Wörterbuch (IPA + Definitionen + Audio), Tooltip (IPA + Audio), Nur sprechen (Klick zum Hören), oder Aus |
+| **Hover-Modus** | Hover-Verhalten: Wörterbuch (IPA + Definitionen + Audio), Tooltip (IPA + Audio) oder Aus |
 | **Schwache/starke Formen** | Schwache und starke Aussprachevarianten von Funktionswörtern anzeigen |
 | **Satz-Sprechgeschwindigkeit** | Passen Sie die Geschwindigkeit des Satz-Vorlesens an (Einzelwort-Aussprache nicht betroffen) |
 | **Übersetzungs-Engine** | Wählen Sie zwischen Bing Übersetzen und Google Übersetzen |

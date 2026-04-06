@@ -17,7 +17,7 @@ IPA Reader es una extensión de navegador diseñada para estudiantes de inglés.
 ## Características principales
 
 - **Modo IPA página completa** — Añade anotaciones IPA a todas las palabras en inglés de la página con un solo clic, con símbolos IPA codificados por color (vocales, consonantes, acentos) para una lectura fácil
-- **Diccionario al pasar el cursor** — Pasa el cursor sobre las palabras para ver definiciones en inglés (más de 82 000 palabras de WordNet), IPA con símbolos codificados por color y botones de pronunciación; elige entre modo Diccionario, modo Tooltip, solo Hablar o Desactivado
+- **Diccionario al pasar el cursor** — Pasa el cursor sobre las palabras para ver definiciones en inglés (más de 82 000 palabras de WordNet), IPA con símbolos codificados por color y botones de pronunciación; elige entre modo Diccionario, modo Tooltip o Desactivado
 - **Lector PDF** — Lector PDF integrado con anotaciones IPA, diccionario, voz y traducción; admite arrastrar y soltar, carga por URL y detección automática de PDF con redirección inteligente
 - **Formas débiles/fuertes** — Muestra automáticamente las variantes de pronunciación débil y fuerte de palabras funcionales (p. ej. the, to, can) para dominar el habla natural
 - **Acentos americano y británico** — Alterna entre IPA americano (en-US) y británico (en-GB)
@@ -81,7 +81,6 @@ La extensión incluye un diccionario de inglés integrado basado en WordNet (má
 |------|----------------|
 | **Diccionario** | Al pasar el cursor: IPA + definición en inglés + botón de pronunciación |
 | **Tooltip** | Al pasar el cursor: IPA + botón de pronunciación (sin definiciones) |
-| **Solo hablar** | Clic en una palabra para oír la pronunciación (sin tooltip) |
 | **Desactivado** | Sin efecto al pasar el cursor |
 
 En el modo **Diccionario**, el tooltip muestra:
@@ -195,7 +194,7 @@ Puedes cambiar el motor y el idioma de destino en los ajustes de la extensión. 
 | **Activar IPA** | Interruptor principal para activar o desactivar la función de anotación IPA |
 | **IPA página completa** | Cuando está activado, muestra IPA codificado por color encima de todas las palabras en inglés |
 | **Tipo de acento** | Elige entre inglés americano y británico para IPA y pronunciación |
-| **Modo al pasar el cursor** | Elige el comportamiento al pasar el cursor: Diccionario (IPA + definiciones + audio), Tooltip (IPA + audio), Solo hablar (clic para escuchar) o Desactivado |
+| **Modo al pasar el cursor** | Elige el comportamiento al pasar el cursor: Diccionario (IPA + definiciones + audio), Tooltip (IPA + audio) o Desactivado |
 | **Formas débiles/fuertes** | Mostrar las variantes de pronunciación débil y fuerte de palabras funcionales |
 | **Velocidad de frases** | Ajusta la velocidad de lectura de frases (la pronunciación de palabras individuales no se ve afectada) |
 | **Motor de traducción** | Elige entre Bing Traductor y Google Traductor |
