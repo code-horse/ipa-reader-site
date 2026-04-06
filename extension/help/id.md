@@ -26,7 +26,7 @@ IPA Reader adalah ekstensi browser yang dirancang untuk pelajar bahasa Inggris. 
 - **Terjemahan pilihan** — Pilih teks apa pun, klik tombol terjemahan di bilah alat untuk terjemahan instan melalui Bing atau Google Translate, ditampilkan dalam gelembung inline
 - **Disambiguasi homograf** — Identifikasi otomatis kata dengan beberapa pelafalan (mis. read, live) dan pilihan yang tepat berdasarkan konteks
 - **Pintasan keyboard** — Akses cepat ke fitur inti melalui pintasan yang dapat disesuaikan
-- **Antarmuka multibahasa** — Mendukung 38 bahasa antarmuka
+- **Antarmuka multibahasa** — Mendukung 41 bahasa antarmuka
 
 ---
 
@@ -114,7 +114,7 @@ Saat „Deteksi PDF cerdas” diaktifkan di pengaturan, ekstensi secara otomatis
 - **Kamus klik** — Klik kata apa pun untuk melihat definisinya (di PDF, klik dipakai alih-alih hover agar membaca lebih fokus)
 - **Bilah pilihan** — Pilih teks untuk berbicara, menerjemahkan, atau menyalin
 - **Bilah sisi** — Kerangka isi dan gambar mini halaman
-- **Cari** — Cari teks dalam PDF, termasuk pencarian pinyin-ke-hanzi untuk PDF berbahasa Tionghoa
+- **Cari** — Cari teks dalam PDF
 - **Tema** — Tema baca Gelap, Terang, dan Sepia
 - **Zoom** — Beberapa tingkat zoom termasuk Otomatis, Pas Halaman, dan Lebar Halaman
 - **Pintasan keyboard** — Panah untuk navigasi, +/- untuk zoom, Ctrl/Cmd+F untuk mencari

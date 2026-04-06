@@ -26,7 +26,7 @@ IPA Reader är ett webbläsartillägg utformat för engelsklärande. Det lägger
 - **Markeringsöversättning** — Markera valfri text, klicka på översättningsknappen i verktygsraden för omedelbar översättning via Bing eller Google Translate, visad i en inline-bubbla
 - **Homografigenkänning** — Automatisk identifiering av ord med flera uttal (t.ex. „read“, „live“) och val av rätt uttal baserat på kontext
 - **Tangentbordsgenvägar** — Snabb åtkomst till kärnfunktioner via anpassningsbara genvägar
-- **Flerspråkigt gränssnitt** — Stödjer 38 gränssnittsspråk
+- **Flerspråkigt gränssnitt** — Stödjer 41 gränssnittsspråk
 
 ---
 
@@ -114,7 +114,7 @@ När „Smart PDF-detektering“ är aktiverat i inställningarna omdirigerar ti
 - **Klickordbok** — Klicka på ett ord för att se definitionen (i PDF används klick i stället för hover för störningsfri läsning)
 - **Markeringsverktygsrad** — Markera text för att tala, översätta eller kopiera
 - **Sidopanel** — Innehållsförteckning och miniatyrer av sidor
-- **Sök** — Sök text i PDF, inklusive pinyin-till-tecken-sökning för kinesiska PDF
+- **Sök** — Sök text i PDF
 - **Teman** — Mörkt, ljust och sepia-lästeman
 - **Zoom** — Flera zoomnivåer inklusive Auto, Anpassa sida och Sidbredd
 - **Tangentbordsgenvägar** — Piltangenter för navigering, +/- för zoom, Ctrl/Cmd+F för sökning

@@ -26,7 +26,7 @@ Az IPA Reader egy böngészőbővítmény angol tanulóknak készítve. IPA (Nem
 - **Kijelölés fordítása** — Jelöljön ki bármilyen szöveget, kattintson az eszköztár fordítás gombjára az azonnali Bing vagy Google Fordítás eredményéhez, beágyazott buborékban
 - **Homográfok felismerése** — Több kiejtéssel rendelkező szavak (pl. „read”, „live”) automatikus azonosítása és a helyes kiejtés kiválasztása a szövegkörnyezet alapján
 - **Billentyűparancsok** — Gyors hozzáférés a fő funkciókhoz testreszabható billentyűparancsokkal
-- **Többnyelvű felület** — 38 felületi nyelvet támogat
+- **Többnyelvű felület** — 41 felületi nyelvet támogat
 
 ---
 

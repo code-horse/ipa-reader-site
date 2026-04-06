@@ -26,7 +26,7 @@ IPA Reader er en nettleserutvidelse designet for engelskelever. Den legger til I
 - **Valg-oversettelse** — Velg vilkårlig tekst, klikk oversettelsesknappen i verktøylinjen for øyeblikkelig oversettelse via Bing eller Google Translate, vist i en inline-boble
 - **Homografgjenkjenning** — Automatisk identifisering av ord med flere uttaler (f.eks. «read», «live») og valg av riktig uttale basert på kontekst
 - **Hurtigtaster** — Rask tilgang til kjernefunksjoner via tilpassbare hurtigtaster
-- **Fler språk grensesnitt** — Støtter 38 grensesnittspråk
+- **Fler språk grensesnitt** — Støtter 41 grensesnittspråk
 
 ---
 
@@ -114,7 +114,7 @@ Når «PDF Smart Detection» er aktivert i innstillingene, omdirigerer utvidelse
 - **Klikk-ordbok** — Klikk et ord for å se definisjonen (i PDF brukes klikk i stedet for musepeker for mindre forstyrrende lesing)
 - **Valg-verktøylinje** — Velg tekst for å tale, oversette eller kopiere
 - **Sidefelt** — Innholdsfortegnelse og miniatyrbilder av sider
-- **Søk** — Søk i PDF-teksten, inkludert pinyin-til-tegn-søk for kinesiske PDF-er
+- **Søk** — Søk i PDF-teksten
 - **Temaer** — Mørkt, lyst og sepia lesetema
 - **Zoom** — Flere zoomnivåer, inkludert Auto, Tilpass side og Sidbredde
 - **Hurtigtaster** — Piltaster for navigasjon, +/- for zoom, Ctrl/Cmd+F for søk

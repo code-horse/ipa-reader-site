@@ -26,7 +26,7 @@ Ang IPA Reader ay isang browser extension na dinisenyo para sa mga nag-aaral ng 
 - **Selection Translation** — Pumili ng anumang text, i-click ang translate button sa toolbar para sa instant translation sa pamamagitan ng Bing o Google Translate, ipinapakita sa inline bubble
 - **Heteronym Disambiguation** — Awtomatikong kilalanin ang mga salitang may maraming pronunciation (hal. "read", "live") at piliin ang tamang isa batay sa konteksto
 - **Keyboard Shortcuts** — Mabilis na access sa core features sa pamamagitan ng customizable keyboard shortcuts
-- **Multilingual Interface** — Sumasuporta sa 38 na wika ng interface
+- **Multilingual Interface** — Sumasuporta sa 41 na wika ng interface
 
 ---
 
@@ -114,7 +114,7 @@ Kapag naka-enable ang "PDF Smart Detection" sa settings, awtomatikong nire-redir
 - **Click Dictionary** — I-click ang anumang salita para makita ang definition (sa PDF, click ang ginagamit sa halip na hover para distraction-free na pagbabasa)
 - **Selection Toolbar** — Pumili ng text para magsalita, magsalin, o kopyahin
 - **Sidebar** — Outline ng table of contents at page thumbnails
-- **Search** — Maghanap ng text sa PDF, kasama ang pinyin-to-character search para sa Chinese PDFs
+- **Search** — Maghanap ng text sa PDF
 - **Themes** — Dark, Light, at Sepia reading themes
 - **Zoom** — Maraming zoom level kasama ang Auto, Page Fit, at Page Width
 - **Keyboard Shortcuts** — Arrow keys para sa navigation, +/- para sa zoom, Ctrl/Cmd+F para sa search

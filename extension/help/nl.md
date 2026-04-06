@@ -26,7 +26,7 @@ IPA Reader is een browserextensie ontworpen voor mensen die Engels leren. Het vo
 - **Selectievertaling** — Selecteer willekeurige tekst, klik op de vertaalknop in de werkbalk voor directe vertaling via Bing of Google Translate in een inline-bubbel
 - **Homograafherkenning** — Automatische identificatie van woorden met meerdere uitspraken (bijv. read, live) en selectie van de juiste op basis van context
 - **Sneltoetsen** — Snelle toegang tot kernfuncties via aanpasbare sneltoetsen
-- **Meertalige interface** — Ondersteunt 38 interfacetalen
+- **Meertalige interface** — Ondersteunt 41 interfacetalen
 
 ---
 
@@ -114,7 +114,7 @@ Als „PDF Smart Detection” in de instellingen aan staat, leidt de extensie `.
 - **Klik-woordenboek** — Klik op een woord om de definitie te zien (in PDF wordt klikken gebruikt in plaats van hover voor rustiger lezen)
 - **Selectiewerkbalk** — Selecteer tekst om voor te lezen, te vertalen of te kopiëren
 - **Zijbalk** — Inhoudsopgave en paginaminiaturen
-- **Zoeken** — Zoeken in de PDF, inclusief pinyin-naar-teken voor Chinese PDF's
+- **Zoeken** — Zoeken in de PDF
 - **Thema's** — Donker, licht en sepia leesthema's
 - **Zoom** — Meerdere zoomniveaus, waaronder Auto, Pagina passend en Paginabreedte
 - **Sneltoetsen** — Pijltoetsen voor navigatie, +/- voor zoom, Ctrl/Cmd+F voor zoeken

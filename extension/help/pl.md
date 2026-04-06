@@ -26,7 +26,7 @@ IPA Reader to rozszerzenie przeglądarki stworzone dla osób uczących się jęz
 - **Tłumaczenie zaznaczenia** — Zaznacz dowolny tekst, kliknij przycisk tłumaczenia na pasku — natychmiastowe tłumaczenie przez Bing lub Google Translate w dymku pod paskiem
 - **Rozpoznawanie homografów** — Automatyczna identyfikacja wyrazów o wielu wymowach (np. read, live) i wybór właściwej na podstawie kontekstu
 - **Skróty klawiszowe** — Szybki dostęp do głównych funkcji dzięki konfigurowalnym skrótom
-- **Wielojęzyczny interfejs** — Obsługuje 38 języków interfejsu
+- **Wielojęzyczny interfejs** — Obsługuje 41 języków interfejsu
 
 ---
 
@@ -114,7 +114,7 @@ Gdy w ustawieniach włączone jest „PDF Smart Detection”, rozszerzenie autom
 - **Słownik po kliknięciu** — Kliknij dowolne słowo, aby zobaczyć definicję (w PDF zamiast najechania używane jest kliknięcie — wygodniejsze czytanie)
 - **Pasek zaznaczenia** — Zaznacz tekst, aby mówić, tłumaczyć lub kopiować
 - **Panel boczny** — Spis treści i miniatury stron
-- **Wyszukiwanie** — Szukanie tekstu w PDF, także pinyin → znaki dla chińskich PDF-ów
+- **Wyszukiwanie** — Szukanie tekstu w PDF
 - **Motywy** — Ciemny, jasny i sepia do czytania
 - **Powiększenie** — Wiele poziomów, m.in. Auto, Dopasuj stronę, Szerokość strony
 - **Skróty klawiszowe** — Strzałki do nawigacji, +/- do powiększenia, Ctrl/Cmd+F do wyszukiwania

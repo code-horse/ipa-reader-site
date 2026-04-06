@@ -26,7 +26,7 @@ IPA Reader este o extensie pentru browser concepută pentru elevii de engleză. 
 - **Traducere selecție** — Selectați orice text, faceți clic pe butonul de traducere din bară pentru traducere instantanee prin Bing sau Google Translate, afișată într-o bulă inline
 - **Dezambiguizare omografe** — Identificarea automată a cuvintelor cu pronunții multiple (ex. „read”, „live”) și selectarea celei corecte în funcție de context
 - **Scurtături de tastatură** — Acces rapid la funcțiile principale prin scurtături personalizabile
-- **Interfață multilingvă** — Suportă 38 de limbi de interfață
+- **Interfață multilingvă** — Suportă 41 de limbi de interfață
 
 ---
 
@@ -114,7 +114,7 @@ Când „Detectare inteligentă PDF” este activată în setări, extensia redi
 - **Dicționar la clic** — Faceți clic pe orice cuvânt pentru a vedea definiția (în PDF se folosește clicul în locul trecerii, pentru lectură fără distrageri)
 - **Bară selecție** — Selectați text pentru vorbire, traducere sau copiere
 - **Panou lateral** — Cuprins și miniaturi de pagină
-- **Căutare** — Căutare text în PDF, inclusiv căutare pinyin–caracter pentru PDF-uri în chineză
+- **Căutare** — Căutare text în PDF
 - **Teme** — Teme de lectură Întunecat, Luminos și Sepia
 - **Zoom** — Mai multe niveluri de zoom, inclusiv Automat, Potrivire pagină și Lățime pagină
 - **Scurtături de tastatură** — Săgeți pentru navigare, +/- pentru zoom, Ctrl/Cmd+F pentru căutare

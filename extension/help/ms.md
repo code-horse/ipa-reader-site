@@ -26,7 +26,7 @@ IPA Reader ialah sambungan pelayar yang direka untuk pelajar bahasa Inggeris. Ia
 - **Terjemahan Pilihan** — Pilih mana-mana teks, klik butang terjemah di bar alat untuk mendapat terjemahan serta-merta melalui Bing atau Google Translate, dipaparkan dalam gelembung sebaris
 - **Nyahkesamaran Homograf** — Kenal pasti secara automatik perkataan dengan pelbagai sebutan (cth. "read", "live") dan pilih yang betul berdasarkan konteks
 - **Pintasan Papan Kekunci** — Akses pantas kepada ciri teras melalui pintasan papan kekunci yang boleh disesuaikan
-- **Antaramuka Pelbagai Bahasa** — Menyokong 38 bahasa antaramuka
+- **Antaramuka Pelbagai Bahasa** — Menyokong 41 bahasa antaramuka
 
 ---
 
@@ -114,7 +114,7 @@ Apabila "PDF Smart Detection" didayakan dalam tetapan, sambungan secara automati
 - **Kamus Klik** — Klik pada mana-mana perkataan untuk melihat takrifnya (dalam PDF, klik digunakan berbanding hover untuk pengalaman membaca tanpa gangguan)
 - **Bar Alat Pilihan** — Pilih teks untuk bercakap, terjemah, atau salin
 - **Bar Sisi** — Garis besar kandungan dan lakaran kecil halaman
-- **Carian** — Cari teks dalam PDF, termasuk carian pinyin-ke-aksara untuk PDF bahasa Cina
+- **Carian** — Cari teks dalam PDF
 - **Tema** — Tema membaca Gelap, Cerah, dan Sepia
 - **Zum** — Pelbagai tahap zum termasuk Automatik, Muat Halaman, dan Lebar Halaman
 - **Pintasan Papan Kekunci** — Kekunci anak panah untuk navigasi, +/- untuk zum, Ctrl/Cmd+F untuk carian

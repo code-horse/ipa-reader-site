@@ -26,7 +26,7 @@ IPA Reader, İngilizce öğrenenler için tasarlanmış bir tarayıcı eklentisi
 - **Seçim Çevirisi** — Herhangi bir metni seçin, araç çubuğundaki çevir düğmesine tıklayın; Bing veya Google Translate ile anında çeviri, satır içi bir balon içinde gösterilir
 - **Eşyazımlı Sözcük Tanıma** — Birden fazla telaffuzu olan sözcükleri (örn. read, live) otomatik tanıyarak bağlama göre doğru olanı seçer
 - **Klavye Kısayolları** — Özelleştirilebilir kısayollarla temel özelliklere hızlı erişim
-- **Çokdilli Arayüz** — 38 arayüz dilini destekler
+- **Çokdilli Arayüz** — 41 arayüz dilini destekler
 
 ---
 
@@ -114,7 +114,7 @@ Ayarda „PDF Akıllı Algılama” etkinse, eklenti `.pdf` URL’lerini yerleş
 - **Tıklamalı sözlük** — Tanımı görmek için herhangi bir kelimeye tıklayın (PDF’de dikkat dağıtmayan okuma için üzerine gelme yerine tıklama kullanılır)
 - **Seçim araç çubuğu** — Konuşmak, çevirmek veya kopyalamak için metin seçin
 - **Kenar çubuğu** — İçindekiler özeti ve sayfa küçük resimleri
-- **Arama** — PDF içinde metin arama; Çince PDF’ler için pinyin–karakter araması dahil
+- **Arama** — PDF içinde metin arama
 - **Temalar** — Koyu, açık ve sepia okuma temaları
 - **Yakınlaştırma** — Otomatik, Sayfaya sığdır ve Sayfa genişliği dahil birden fazla yakınlaştırma düzeyi
 - **Klavye kısayolları** — Gezinme için ok tuşları, yakınlaştırma için +/-, arama için Ctrl/Cmd+F

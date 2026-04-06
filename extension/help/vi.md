@@ -26,7 +26,7 @@ IPA Reader là tiện ích mở rộng trình duyệt được thiết kế cho 
 - **Dịch vùng chọn** — Chọn bất kỳ văn bản nào, nhấp nút dịch trên thanh công cụ để dịch tức thì qua Bing hoặc Google Translate, hiển thị trong bong bóng nội tuyến
 - **Phân biệt từ đồng tự** — Tự động nhận diện các từ có nhiều cách phát âm (ví dụ: read, live) và chọn cách đúng dựa trên ngữ cảnh
 - **Phím tắt** — Truy cập nhanh các tính năng cốt lõi qua phím tắt tùy chỉnh
-- **Giao diện đa ngôn ngữ** — Hỗ trợ 38 ngôn ngữ giao diện
+- **Giao diện đa ngôn ngữ** — Hỗ trợ 41 ngôn ngữ giao diện
 
 ---
 
@@ -114,7 +114,7 @@ Khi bật „Phát hiện PDF thông minh” trong cài đặt, tiện ích tự
 - **Từ điển bằng cú nhấp** — Nhấp vào từ để xem nghĩa (trong PDF dùng nhấp thay vì di chuột để đọc ít gây xao nhãng)
 - **Thanh công cụ vùng chọn** — Chọn văn bản để đọc, dịch hoặc sao chép
 - **Thanh bên** — Mục lục và hình thu nhỏ trang
-- **Tìm kiếm** — Tìm chữ trong PDF, gồm tìm pinyin–chữ Hán cho PDF tiếng Trung
+- **Tìm kiếm** — Tìm chữ trong PDF
 - **Giao diện** — Chủ đề đọc Tối, Sáng và Sepia
 - **Thu phóng** — Nhiều mức thu phóng gồm Tự động, Vừa trang và Rộng theo trang
 - **Phím tắt** — Phím mũi tên điều hướng, +/- thu phóng, Ctrl/Cmd+F tìm kiếm

@@ -26,7 +26,7 @@ O IPA Reader é uma extensão de navegador concebida para estudantes de inglês.
 - **Tradução da seleção** — Selecione qualquer texto, clique em traduzir na barra para obter tradução instantânea via Bing ou Google Tradutor, mostrada numa bolha integrada
 - **Desambiguação de homógrafos** — Identificação automática de palavras com múltiplas pronúncias (ex. «read», «live») e seleção da correta com base no contexto
 - **Atalhos de teclado** — Acesso rápido às funções principais através de atalhos personalizáveis
-- **Interface Multilingue** — Suporta 38 idiomas de interface
+- **Interface Multilingue** — Suporta 41 idiomas de interface
 
 ---
 
@@ -114,7 +114,7 @@ Quando «Deteção inteligente de PDF» está ativa nas definições, a extensã
 - **Dicionário por clique** — Clique em qualquer palavra para ver a definição (no PDF usa-se o clique em vez do hover para leitura sem distrações)
 - **Barra de seleção** — Selecione texto para falar, traduzir ou copiar
 - **Barra lateral** — Índice e miniaturas das páginas
-- **Pesquisa** — Pesquisa de texto no PDF, incluindo pesquisa pinyin–carácter em PDFs em chinês
+- **Pesquisa** — Pesquisa de texto no PDF
 - **Temas** — Temas de leitura Escuro, Claro e Sépia
 - **Zoom** — Vários níveis de zoom, incluindo Automático, Ajustar à página e Largura da página
 - **Atalhos de teclado** — Setas para navegar, +/- para zoom, Ctrl/Cmd+F para pesquisar

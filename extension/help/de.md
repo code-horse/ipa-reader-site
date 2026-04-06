@@ -26,7 +26,7 @@ IPA Reader ist eine Browsererweiterung für Englischlernende. Sie fügt englisch
 - **Auswahl-Übersetzung** — Wählen Sie beliebigen Text, klicken Sie auf den Übersetzen-Button in der Symbolleiste für sofortige Übersetzung über Bing oder Google Translate, angezeigt in einer eingebetteten Blase
 - **Homographen-Erkennung** — Automatische Erkennung von Wörtern mit mehreren Aussprachen (z. B. read, live) und Auswahl der richtigen je nach Kontext
 - **Tastenkürzel** — Schneller Zugriff auf Kernfunktionen über anpassbare Tastenkürzel
-- **Mehrsprachige Oberfläche** — Unterstützt 38 Oberflächensprachen
+- **Mehrsprachige Oberfläche** — Unterstützt 41 Oberflächensprachen
 
 ---
 
@@ -114,7 +114,7 @@ Ist „PDF Smart Detection“ in den Einstellungen aktiviert, leitet die Erweite
 - **Klick-Wörterbuch** — Klicken Sie auf ein Wort für die Definition (im PDF wird Klick statt Hover genutzt, um Ablenkung zu vermeiden)
 - **Auswahl-Symbolleiste** — Text auswählen zum Vorlesen, Übersetzen oder Kopieren
 - **Seitenleiste** — Inhaltsverzeichnis und Seitenminiaturen
-- **Suche** — Textsuche im PDF, einschließlich Pinyin-zu-Zeichen-Suche für chinesische PDFs
+- **Suche** — Textsuche im PDF
 - **Designs** — Dunkel, Hell und Sepia als Lesethemen
 - **Zoom** — Mehrere Stufen, u. a. Auto, Seite anpassen und Seitenbreite
 - **Tastenkürzel** — Pfeiltasten zur Navigation, +/- zum Zoomen, Strg/Cmd+F für die Suche

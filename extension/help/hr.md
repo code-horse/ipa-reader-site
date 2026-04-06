@@ -26,7 +26,7 @@ IPA Reader je proširenje preglednika dizajnirano za učenike engleskog jezika. 
 - **Prijevod odabira** — Odaberite bilo koji tekst, kliknite gumb za prijevod na alatnoj traci za trenutni prijevod putem Binga ili Google Translatea, prikazan u ugrađenom balončiću
 - **Prepoznavanje homografa** — Automatska identifikacija riječi s više izgovora (npr. "read", "live") i odabir ispravnog prema kontekstu
 - **Tipkovni prečaci** — Brz pristup glavnim značajkama putem prilagodljivih tipkovnih prečaca
-- **Višejezično sučelje** — Podržava 38 jezika sučelja
+- **Višejezično sučelje** — Podržava 41 jezika sučelja
 
 ---
 
@@ -114,7 +114,7 @@ Kada je u postavkama omogućeno "PDF Smart Detection", proširenje automatski pr
 - **Rječnik klikom** — Kliknite na bilo koju riječ za definiciju (u PDF-u se umjesto prijelaza mišem koristi klik radi čitanja bez ometanja)
 - **Alatna traka odabira** — Odaberite tekst za govor, prijevod ili kopiranje
 - **Bočna traka** — Pregled sadržaja i minijature stranica
-- **Pretraga** — Pretraživanje teksta u PDF-u, uključujući pretragu pinyin–znak za kineske PDF-ove
+- **Pretraga** — Pretraživanje teksta u PDF-u
 - **Teme** — Tamna, svijetla i sepija tema za čitanje
 - **Zumiranje** — Više razina zumiranja uključujući Automatski, Prilagodba stranice i Širina stranice
 - **Tipkovni prečaci** — Strelicama za navigaciju, +/- za zum, Ctrl/Cmd+F za pretragu

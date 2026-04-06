@@ -26,7 +26,7 @@ IPA Reader je rozšírenie prehliadača určené pre študentov angličtiny. Pri
 - **Preklad výberu** — Vyberte ľubovoľný text, kliknite na tlačidlo prekladu na paneli pre okamžitý preklad cez Bing alebo Google Translate zobrazený v inline bublinke
 - **Rozlíšenie homografov** — Automatická identifikácia slov s viacerými výslovnosťami (napr. „read“, „live“) a výber správnej podľa kontextu
 - **Klávesové skratky** — Rýchly prístup k hlavným funkciám cez prispôsobiteľné klávesové skratky
-- **Viacjazyčné rozhranie** — Podporuje 38 jazykov rozhrania
+- **Viacjazyčné rozhranie** — Podporuje 41 jazykov rozhrania
 
 ---
 
@@ -114,7 +114,7 @@ Keď je v nastaveniach zapnutá „Inteligentná detekcia PDF“, rozšírenie a
 - **Slovník kliknutím** — Kliknutím na ľubovoľné slovo zobrazíte definíciu (v PDF sa namiesto hover používa klik pre nerušené čítanie)
 - **Panel výberu** — Vyberte text na prehratie, preklad alebo kopírovanie
 - **Bočný panel** — Obsah a miniatúry strán
-- **Vyhľadávanie** — Vyhľadávanie textu v PDF vrátane vyhľadávania pinyin–znak pre čínske PDF
+- **Vyhľadávanie** — Vyhľadávanie textu v PDF
 - **Motívy** — Čítacie motívy Tmavý, Svetlý a Sépiový
 - **Priblíženie** — Viaceré úrovne vrátane Automaticky, Prispôsobiť stránku a Šírka stránky
 - **Klávesové skratky** — Šípky na navigáciu, +/- na zoom, Ctrl/Cmd+F na vyhľadávanie

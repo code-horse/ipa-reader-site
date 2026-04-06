@@ -26,7 +26,7 @@ IPA Reader je razširitev brskalnika, zasnovana za učence angleščine. Na sple
 - **Prevod izbire** — Izberite poljubno besedilo, kliknite gumb za prevod na orodni vrstici za takojšen prevod prek Binga ali Google Translate, prikazan v vgradni mehurčku
 - **Prepoznavanje homografov** — Samodejna identifikacija besed z več izgovorjavami (npr. „read“, „live“) in izbira pravilne glede na kontekst
 - **Bližnjice na tipkovnici** — Hiter dostop do osnovnih funkcij prek prilagodljivih bližnjic
-- **Večjezični vmesnik** — Podpira 38 jezikov vmesnika
+- **Večjezični vmesnik** — Podpira 41 jezikov vmesnika
 
 ---
 
