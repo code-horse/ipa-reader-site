@@ -6,23 +6,24 @@ lang: nl
 
 # IPA Reader - Gebruikershandleiding
 
-> Versie: v1.3.0
+> Versie: v1.4.0
 
 ## Introductie
 
-IPA Reader is een browserextensie ontworpen voor mensen die Engels leren. Het voegt IPA (Internationaal Fonetisch Alfabet) uitspraakannotaties toe aan Engelse woorden op webpagina's, met ondersteuning voor zowel Amerikaans als Brits Engels, zodat je de Engelse uitspraak makkelijker kunt leren.
+IPA Reader is een browserextensie ontworpen voor mensen die Engels leren. Het voegt IPA (Internationaal Fonetisch Alfabet) uitspraakannotaties toe aan Engelse woorden op webpagina's en in PDF's, met ondersteuning voor zowel Amerikaans als Brits Engels. Het bevat ook een ingebouwd Engels woordenboek, tekst-naar-spraak en vertaalfuncties — zodat je de Engelse uitspraak makkelijker kunt leren.
 
 ---
 
 ## Belangrijkste functies
 
 - **Hele pagina IPA-modus** — Voeg IPA-annotaties toe aan alle Engelse woorden op de pagina met één klik; IPA-symbolen zijn kleurgecodeerd per type (klinkers, medeklinkers, klemtoontekens) voor eenvoudig lezen
+- **Hover-woordenboek** — Beweeg over woorden om Engelse definities te zien (82K+ woorden uit WordNet), IPA met kleurgecodeerde symbolen en uitspraakknoppen; kies tussen Woordenboekmodus, Tooltipmodus, Alleen spreken of Uit
+- **PDF-lezer** — Ingebouwde PDF-lezer met IPA-annotaties, woordenboek, spraak en vertaling; ondersteunt slepen en neerzetten, laden via URL en automatische PDF-detectie met slimme omleiding
 - **Zwakke/sterke vormen** — Automatisch de zwakke en sterke uitspraakvarianten van functiewoorden (bijv. „the”, „to”, „can”) weergeven om natuurlijk vloeiend spreken te beheersen
 - **Amerikaans & Brits accent** — Schakel tussen Amerikaans Engels (en-US) en Brits Engels (en-GB) IPA
 - **Text-to-Speech** — Klik op de luidsprekerknop om de uitspraak te horen die overeenkomt met je gekozen accent
 - **Selectiespraak met karaoke-effect** — Selecteer willekeurige Engelse tekst: er verschijnt een compacte werkbalk met knoppen voor voorlezen en vertalen; spraak wordt afgespeeld met woord-voor-woord markering in realtime (karaoke-effect), gesynchroniseerd met de audio
 - **Selectievertaling** — Selecteer willekeurige tekst, klik op de vertaalknop in de werkbalk voor directe vertaling via Bing of Google Translate in een inline-bubbel
-- **Hover-tooltips** — Hover over geannoteerde woorden om IPA met kleurgecodeerde symbolen en uitspraakknoppen te zien
 - **Homograafherkenning** — Automatische identificatie van woorden met meerdere uitspraken (bijv. read, live) en selectie van de juiste op basis van context
 - **Sneltoetsen** — Snelle toegang tot kernfuncties via aanpasbare sneltoetsen
 - **Meertalige interface** — Ondersteunt 38 interfacetalen
@@ -55,7 +56,7 @@ Selecteer willekeurige Engelse tekst met de muis. Er verschijnt een compacte wer
 
 Je kunt ook rechtsklikken en „IPA Reader > Speak Selection” of „IPA Reader > Translate Selection” kiezen.
 
-> **Tip:** Klik op het extensie-icoon in de werkbalk om het instellingenpaneel te openen: accenttype, spraaksnelheid, vertaalengine en meer.
+> **Tip:** Klik op het extensie-icoon in de werkbalk om het instellingenpaneel te openen: accenttype, spraaksnelheid, hovermodus, vertaalengine en meer.
 
 ---
 
@@ -69,6 +70,54 @@ Wanneer de hele-pagina IPA-modus is ingeschakeld, krijgt elk Engels woord een IP
 - **Lengtetekens** (ː) — paars gemarkeerd
 
 De extensie past automatisch de regelhoogte aan om overlapping te voorkomen en schaalt de IPA-lettergrootte op basis van de woordlengte.
+
+---
+
+## Hover-woordenboek
+
+De extensie bevat een ingebouwd Engels woordenboek op basis van WordNet (82.000+ woorden). Je kunt in de instellingen meerdere hovermodi kiezen:
+
+| Modus | Gedrag |
+|-------|--------|
+| **Woordenboek** | Hover toont IPA + Engelse definitie + uitspraakknop |
+| **Tooltip** | Hover toont IPA + uitspraakknop (geen definities) |
+| **Alleen spreken** | Klik op een woord om de uitspraak te horen (geen tooltip) |
+| **Uit** | Geen hover-effect |
+
+In **woordenboekmodus** toont de tooltip:
+- Het woord en de IPA-transcriptie
+- Een uitspraakknop (klik om te horen)
+- Engelse definities uit WordNet
+
+> **Tip:** De woordenboekgegevens worden op aanvraag geladen als woordenboekmodus aan staat en uit het geheugen gehaald bij andere modi om geheugen te besparen.
+
+---
+
+## PDF-lezer
+
+IPA Reader bevat een ingebouwde PDF-lezer waarmee je PDF-documenten kunt lezen met IPA-annotaties, woordenboek, spraak en vertaling — alle functies die je op webpagina's hebt, nu ook voor PDF's.
+
+### Een PDF openen
+
+**Methode 1: Via de popup**  
+Klik op het extensie-icoon en daarna op „Open PDF Reader”. Sleep een PDF-bestand naar het venster of klik op „Choose File” om een lokale PDF te openen. Je kunt ook een PDF-URL plakken.
+
+**Methode 2: Contextmenu**  
+Rechtsklik op een `.pdf`-link op een webpagina en kies „Open PDF with IPA Reader”.
+
+**Methode 3: Automatische detectie**  
+Als „PDF Smart Detection” in de instellingen aan staat, leidt de extensie `.pdf`-URL's automatisch om naar de ingebouwde lezer. Wordt een PDF wel gedetecteerd maar niet omgeleid (bijv. in de ingebouwde Chrome-viewer), dan zie je meldingen en aanwijzingen om deze in IPA Reader te openen.
+
+### Functies van de PDF-lezer
+
+- **IPA-annotaties** — Alle IPA-functies werken op PDF-tekst, inclusief hele-paginamodus en hover-tooltips
+- **Klik-woordenboek** — Klik op een woord om de definitie te zien (in PDF wordt klikken gebruikt in plaats van hover voor rustiger lezen)
+- **Selectiewerkbalk** — Selecteer tekst om voor te lezen, te vertalen of te kopiëren
+- **Zijbalk** — Inhoudsopgave en paginaminiaturen
+- **Zoeken** — Zoeken in de PDF, inclusief pinyin-naar-teken voor Chinese PDF's
+- **Thema's** — Donker, licht en sepia leesthema's
+- **Zoom** — Meerdere zoomniveaus, waaronder Auto, Pagina passend en Paginabreedte
+- **Sneltoetsen** — Pijltoetsen voor navigatie, +/- voor zoom, Ctrl/Cmd+F voor zoeken
 
 ---
 
@@ -146,11 +195,12 @@ Je kunt de vertaalengine en doeltaal wijzigen in de extensie-instellingen. De do
 | **IPA inschakelen** | Hoofdschakelaar om de IPA-annotatiefunctie in of uit te schakelen |
 | **Hele pagina IPA** | Toont kleurgecodeerde IPA voor alle Engelse woorden boven de tekst |
 | **IPA-stijl** | Keuze tussen Amerikaans en Brits Engels IPA en uitspraak |
-| **Hover-tooltip tonen** | IPA-tooltip met uitspraakknop bij muishover |
+| **Hovermodus** | Kies hovergedrag: Woordenboek (IPA + definities + audio), Tooltip (IPA + audio), Alleen spreken (klik om te horen) of Uit |
 | **Zwakke/sterke vormen tonen** | Zwakke en sterke uitspraakvarianten van functiewoorden |
 | **Zinspraaksnelheid** | Snelheid van zinsvoorlezing (losse woorden niet beïnvloed) |
 | **Vertaalengine** | Keuze tussen Bing Translate en Google Translate |
 | **Doeltaal** | Doeltaal voor vertaling (standaard afgeleid van browsertaal) |
+| **PDF Smart Detection** | Schakel in om PDF-URL's automatisch naar de ingebouwde lezer om te leiden en meldingen te tonen bij gedetecteerde PDF's |
 
 ---
 
@@ -160,7 +210,7 @@ Je kunt de vertaalengine en doeltaal wijzigen in de extensie-instellingen. De do
 A: Om veiligheidsredenen kunnen browserextensies niet draaien op speciale pagina's zoals `chrome://`, browserinstellingen of de Chrome Web Store.
 
 **V: Wat als IPA ontbreekt voor sommige woorden?**  
-A: Het IPA-woordenboek dekt veelgebruikte Engelse woorden. Voor woorden buiten het woordenboek genereert de extensie benaderde IPA via lemmatisering en regelgebaseerde G2P, gemarkeerd met ≈ of ~ in de tooltip.
+A: Het IPA-woordenboek dekt 134.000+ Amerikaanse en 67.000+ Britse Engelse woorden. Voor woorden buiten het woordenboek genereert de extensie benaderde IPA via lemmatisering en regelgebaseerde G2P, gemarkeerd met ≈ of ~ in de tooltip.
 
 **V: Geen geluid bij text-to-speech?**  
 A: Controleer je systeemvolume en of Engelse stemmen zijn geïnstalleerd. Spraakondersteuning verschilt per browser en besturingssysteem.
@@ -173,6 +223,15 @@ A: ~ betekent dat de IPA regelgebaseerd (G2P) is gegenereerd, niet uit het woord
 
 **V: Vertaling werkt niet?**  
 A: Vertaling vereist internet. Als Bing Translate faalt, probeer in de instellingen over te schakelen op Google Translate. In sommige netwerken kan toegang tot vertaaldiensten geblokkeerd zijn.
+
+**V: Hoe open ik een PDF in IPA Reader?**  
+A: Je kunt PDF's op meerdere manieren openen: klik op „Open PDF Reader” in de popup, rechtsklik op een PDF-link en kies „Open PDF with IPA Reader”, of schakel „PDF Smart Detection” in de instellingen in om PDF-URL's automatisch naar de ingebouwde lezer om te leiden.
+
+**V: PDF Smart Detection staat aan maar sommige PDF's worden niet omgeleid?**  
+A: Automatische omleiding werkt voor URL's die eindigen op `.pdf`. Voor PDF's zonder `.pdf` in de URL of die in de ingebouwde Chrome-viewer openen, zie je een melding en badge om ze in IPA Reader te openen.
+
+**V: Kan ik het woordenboek offline gebruiken?**  
+A: Ja. Het WordNet-woordenboek (82.000+ woorden) zit volledig in de extensie. Alle opzoekacties gebeuren lokaal, zonder netwerkverbinding.
 
 ---
 

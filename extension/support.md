@@ -7,7 +7,7 @@ title: IPA Reader Extension - Support
 
 ## About IPA Reader Extension
 
-IPA Reader is a Chrome browser extension that adds IPA (International Phonetic Alphabet) pronunciation annotations to English words on any web page. It features American and British accent support, whole-page IPA mode with color-coded phonetic symbols, weak/strong form display for function words, heteronym disambiguation, hover tooltips, text-to-speech, and selection speech.
+IPA Reader is a Chrome browser extension that adds IPA (International Phonetic Alphabet) pronunciation annotations to English words on any web page and PDF. It features American and British accent support, whole-page IPA mode with color-coded phonetic symbols, a built-in English dictionary (WordNet, 82K+ words), weak/strong form display for function words, heteronym disambiguation, hover tooltips, text-to-speech, selection speech with karaoke highlighting, translation, and a built-in PDF reader.
 
 ---
 
@@ -19,7 +19,7 @@ IPA Reader is a Chrome browser extension that adds IPA (International Phonetic A
 A: No. IPA Reader Extension works entirely locally and does not require any account registration.
 
 **Q: Is my data stored on a server?**  
-A: No. All your settings are stored locally in your browser. We do not operate any servers.
+A: No. All your settings are stored locally in your browser. We do not operate any servers. The only exception is the optional translation feature, which sends selected text to Bing or Google Translate when you explicitly use it.
 
 **Q: Does the extension contain ads?**  
 A: No. IPA Reader Extension is ad-free.
@@ -44,13 +44,38 @@ A: Many common English function words (like "the", "to", "can") have two pronunc
 **Q: Why doesn't it work on some pages?**  
 A: For security reasons, browser extensions cannot run on special pages like `chrome://`, `edge://`, browser settings, or the Chrome Web Store.
 
+### Dictionary
+
+**Q: How does the hover dictionary work?**  
+A: The extension includes a built-in English dictionary powered by WordNet (82,000+ words). Set the "Hover Mode" to "Dictionary" in the settings, then hover over any annotated word to see its English definition, IPA, and pronunciation button.
+
+**Q: What are the hover mode options?**  
+A: You can choose from four modes: Dictionary (IPA + definitions + audio), Tooltip (IPA + audio), Speak only (click to hear), or Off (no hover effect).
+
+**Q: Does the dictionary work offline?**  
+A: Yes. The WordNet dictionary is fully bundled within the extension. All lookups are performed locally without any network connection.
+
+### PDF Reader
+
+**Q: How do I open a PDF with IPA Reader?**  
+A: There are several ways: click "Open PDF Reader" in the popup, right-click a PDF link and choose "Open PDF with IPA Reader", or enable "PDF Smart Detection" in settings to automatically redirect PDF URLs.
+
+**Q: What is PDF Smart Detection?**  
+A: When enabled, the extension automatically redirects `.pdf` URLs to the built-in reader. For PDFs that aren't auto-redirected (e.g. Chrome's built-in viewer), you'll see notifications and badge prompts.
+
+**Q: What features does the PDF reader have?**  
+A: The PDF reader supports IPA annotations, click-to-lookup dictionary, text-to-speech, translation, sidebar with table of contents and thumbnails, text search, three reading themes (dark/light/sepia), and multiple zoom levels.
+
+**Q: Can I open local PDF files?**  
+A: Yes. Click "Open PDF Reader" in the popup, then drag & drop a PDF file or click "Choose File" to open a local PDF.
+
 ### Text-to-Speech
 
 **Q: How do I hear the pronunciation of a word?**  
 A: Hover over an annotated word to see the tooltip, then click the speaker button. In whole-page IPA mode, you can also click directly on the IPA text above any word.
 
 **Q: How do I read aloud a sentence?**  
-A: Select any English text on the page. A floating speaker button will appear — click it to read aloud. You can also right-click and choose "Speak Selection".
+A: Select any English text on the page. A floating toolbar will appear with a speaker button — click it to read aloud with karaoke-style word highlighting. You can also right-click and choose "Speak Selection".
 
 **Q: Can I adjust the speech rate?**  
 A: Yes. The "Sentence Speech Rate" setting in the popup controls the speed for sentence reading. Single word pronunciation always uses the default rate for clarity.
@@ -60,6 +85,17 @@ A: Please check your system volume. TTS quality depends on your operating system
 
 **Q: Does TTS use the selected accent?**  
 A: Yes. When you select "American English", TTS uses an American English voice (en-US). When you select "British English", TTS uses a British English voice (en-GB).
+
+### Translation
+
+**Q: How do I translate text?**  
+A: Select any text, then click the translate button in the selection toolbar, right-click and choose "Translate Selection", or press Alt+Shift+T (Mac: Ctrl+Shift+T).
+
+**Q: Which translation engines are available?**  
+A: Bing Translate (default) and Google Translate. Both support 108 target languages.
+
+**Q: Translation not working?**  
+A: Translation requires an internet connection. If Bing Translate fails, try switching to Google Translate in the settings.
 
 ### Troubleshooting
 

@@ -6,23 +6,24 @@ lang: ms
 
 # IPA Reader - Panduan Pengguna
 
-> Versi: v1.3.0
+> Versi: v1.4.0
 
 ## Pengenalan
 
-IPA Reader ialah sambungan pelayar yang direka untuk pelajar bahasa Inggeris. Ia menambah penjelasan sebutan IPA (Abjad Fonetik Antarabangsa) pada perkataan Inggeris di halaman web, menyokong kedua-dua loghat Amerika dan British, membantu anda belajar sebutan Inggeris dengan lebih mudah.
+IPA Reader ialah sambungan pelayar yang direka untuk pelajar bahasa Inggeris. Ia menambah penjelasan sebutan IPA (Abjad Fonetik Antarabangsa) pada perkataan Inggeris di halaman web dan PDF, menyokong kedua-dua loghat Amerika dan British. Ia juga merangkumi kamus Inggeris terbina dalam, teks-ke-suara, dan ciri terjemahan — membantu anda belajar sebutan Inggeris dengan lebih mudah.
 
 ---
 
 ## Ciri Utama
 
 - **Mod IPA Seluruh Halaman** — Tambah penjelasan IPA pada semua perkataan Inggeris di halaman dengan satu klik; simbol IPA berkod warna mengikut jenis (vokal, konsonan, tanda tekanan) untuk bacaan mudah
+- **Kamus Hover** — Tunjuk tetikus ke perkataan untuk melihat takrif Inggeris (82K+ perkataan daripada WordNet), IPA dengan simbol berkod warna, dan butang sebutan; pilih antara mod Kamus, mod Tooltip, mod Hanya sebut, atau Mati
+- **Pembaca PDF** — Pembaca PDF terbina dalam dengan penjelasan IPA, kamus, pertuturan, dan terjemahan; menyokong seret & lepas, pemuatan URL, dan pengesanan PDF automatik dengan pengalihan pintar
 - **Bentuk Lemah/Kuat** — Paparkan secara automatik varian sebutan lemah dan kuat untuk kata fungsi biasa (cth. "the", "to", "can"), membantu anda menguasai pertuturan semula jadi
 - **Loghat Amerika & British** — Tukar antara IPA Inggeris Amerika (en-US) dan Inggeris British (en-GB)
 - **Teks-ke-Suara** — Klik butang pembesar suara untuk mendengar sebutan yang sepadan dengan loghat pilihan anda
 - **Ucapan Pilihan dengan Kesan Karaoke** — Pilih mana-mana teks Inggeris, bar alat padat muncul dengan butang bercakap dan terjemah; ucapan dimainkan dengan penyerlahan perkataan demi perkataan masa nyata (kesan karaoke) disegerakkan dengan audio
 - **Terjemahan Pilihan** — Pilih mana-mana teks, klik butang terjemah di bar alat untuk mendapat terjemahan serta-merta melalui Bing atau Google Translate, dipaparkan dalam gelembung sebaris
-- **Tooltip Hover** — Tunjuk tetikus ke perkataan yang diterangkan untuk melihat IPA dengan simbol berkod warna dan butang sebutan
 - **Nyahkesamaran Homograf** — Kenal pasti secara automatik perkataan dengan pelbagai sebutan (cth. "read", "live") dan pilih yang betul berdasarkan konteks
 - **Pintasan Papan Kekunci** — Akses pantas kepada ciri teras melalui pintasan papan kekunci yang boleh disesuaikan
 - **Antaramuka Pelbagai Bahasa** — Menyokong 38 bahasa antaramuka
@@ -55,7 +56,7 @@ Pilih mana-mana teks Inggeris dengan tetikus. Bar alat padat muncul berhampiran 
 
 Anda juga boleh klik kanan dan pilih "IPA Reader > Speak Selection" atau "IPA Reader > Translate Selection".
 
-> **Petua:** Klik ikon sambungan di bar alat pelayar anda untuk membuka panel tetapan dan laraskan jenis loghat, kadar ucapan, enjin terjemahan, dan banyak lagi.
+> **Petua:** Klik ikon sambungan di bar alat pelayar anda untuk membuka panel tetapan dan laraskan jenis loghat, kadar ucapan, mod hover, enjin terjemahan, dan banyak lagi.
 
 ---
 
@@ -69,6 +70,54 @@ Apabila mod IPA seluruh halaman didayakan, setiap perkataan Inggeris di halaman 
 - **Tanda panjang** (ː) — diserlahkan dalam ungu
 
 Sambungan secara automatik melaraskan ketinggian baris untuk mengelakkan penjelasan bertindih dengan teks, dan menskala saiz fon IPA berdasarkan panjang perkataan untuk susun atur yang kemas.
+
+---
+
+## Kamus Hover
+
+Sambungan merangkumi kamus Inggeris terbina dalam dikuasakan oleh WordNet (82,000+ perkataan). Anda boleh memilih daripada pelbagai mod hover dalam tetapan:
+
+| Mod | Kelakuan |
+|-----|----------|
+| **Kamus** | Hover menunjukkan IPA + takrif Inggeris + butang sebutan |
+| **Tooltip** | Hover menunjukkan IPA + butang sebutan (tiada takrif) |
+| **Hanya sebut** | Klik pada perkataan untuk mendengar sebutan (tiada tooltip) |
+| **Mati** | Tiada kesan hover |
+
+Dalam **mod Kamus**, tooltip memaparkan:
+- Perkataan dan transkripsi IPA
+- Butang sebutan (klik untuk mendengar)
+- Takrif Inggeris daripada WordNet
+
+> **Petua:** Data kamus dimuat secara atas permintaan apabila mod Kamus didayakan, dan dibuang apabila ditukar kepada mod lain untuk menjimatkan memori.
+
+---
+
+## Pembaca PDF
+
+IPA Reader merangkumi pembaca PDF terbina dalam yang membolehkan anda membaca dokumen PDF dengan penjelasan IPA, kamus, pertuturan, dan terjemahan — semua ciri yang anda nikmati di halaman web, kini tersedia untuk PDF.
+
+### Membuka PDF
+
+**Kaedah 1: Dari Popup**  
+Klik ikon sambungan, kemudian klik "Open PDF Reader". Seret & lepas fail PDF atau klik "Choose File" untuk membuka PDF tempatan. Anda juga boleh tampal URL PDF.
+
+**Kaedah 2: Menu Konteks**  
+Klik kanan mana-mana pautan `.pdf` di halaman web dan pilih "Open PDF with IPA Reader".
+
+**Kaedah 3: Pengesanan Automatik**  
+Apabila "PDF Smart Detection" didayakan dalam tetapan, sambungan secara automatik mengalihkan URL `.pdf` ke pembaca terbina dalam. Apabila PDF dikesan tetapi tidak dialihkan (cth. penonton terbina dalam Chrome), anda akan melihat pemberitahuan dan gesaan untuk membukanya dalam IPA Reader.
+
+### Ciri Pembaca PDF
+
+- **Penjelasan IPA** — Semua ciri IPA berfungsi pada teks PDF, termasuk mod seluruh halaman dan tooltip hover
+- **Kamus Klik** — Klik pada mana-mana perkataan untuk melihat takrifnya (dalam PDF, klik digunakan berbanding hover untuk pengalaman membaca tanpa gangguan)
+- **Bar Alat Pilihan** — Pilih teks untuk bercakap, terjemah, atau salin
+- **Bar Sisi** — Garis besar kandungan dan lakaran kecil halaman
+- **Carian** — Cari teks dalam PDF, termasuk carian pinyin-ke-aksara untuk PDF bahasa Cina
+- **Tema** — Tema membaca Gelap, Cerah, dan Sepia
+- **Zum** — Pelbagai tahap zum termasuk Automatik, Muat Halaman, dan Lebar Halaman
+- **Pintasan Papan Kekunci** — Kekunci anak panah untuk navigasi, +/- untuk zum, Ctrl/Cmd+F untuk carian
 
 ---
 
@@ -146,11 +195,12 @@ Anda boleh menukar enjin terjemahan dan bahasa sasaran dalam tetapan sambungan. 
 | **Enable IPA** | Suis induk untuk mendayakan atau menyahdayakan ciri penjelasan IPA |
 | **Whole Page IPA** | Apabila didayakan, memaparkan IPA berkod warna untuk semua perkataan Inggeris di atas teks |
 | **IPA Style** | Pilih antara IPA dan sebutan Inggeris Amerika dan British |
-| **Show hover tooltip** | Tunjuk tooltip IPA dengan butang sebutan apabila menunjuk tetikus |
+| **Hover Mode** | Pilih kelakuan hover: Kamus (IPA + takrif + audio), Tooltip (IPA + audio), Hanya sebut (klik untuk mendengar), atau Mati |
 | **Show weak/strong forms** | Paparkan varian sebutan lemah dan kuat untuk kata fungsi biasa |
 | **Sentence Speech Rate** | Laraskan kelajuan bacaan ayat (ucapan perkataan tunggal tidak terjejas) |
 | **Translation Engine** | Pilih antara Bing Translate dan Google Translate |
 | **Target Language** | Tetapkan bahasa sasaran terjemahan (dikesan automatik daripada bahasa pelayar) |
+| **PDF Smart Detection** | Apabila didayakan, secara automatik mengalihkan URL PDF ke pembaca terbina dalam dan menunjukkan pemberitahuan apabila PDF dikesan |
 
 ---
 
@@ -160,7 +210,7 @@ Anda boleh menukar enjin terjemahan dan bahasa sasaran dalam tetapan sambungan. 
 J: Atas sebab keselamatan, sambungan pelayar tidak boleh berjalan pada halaman khas seperti `chrome://`, tetapan pelayar, atau Chrome Web Store.
 
 **S: Bagaimana jika IPA hilang untuk sesetengah perkataan?**  
-J: Kamus IPA merangkumi perkataan Bahasa Inggeris biasa. Untuk perkataan di luar kamus, sambungan menggunakan lematisasi dan penukaran G2P berasaskan peraturan untuk menjana IPA anggaran. Ini ditanda dengan ≈ atau ~ dalam tooltip.
+J: Kamus IPA merangkumi 134,000+ perkataan Inggeris Amerika dan 67,000+ Inggeris British. Untuk perkataan di luar kamus, sambungan menggunakan lematisasi dan penukaran G2P berasaskan peraturan untuk menjana IPA anggaran. Ini ditanda dengan ≈ atau ~ dalam tooltip.
 
 **S: Tiada bunyi dari teks-ke-suara?**  
 J: Sila semak tetapan volum sistem anda dan pastikan pakej suara Inggeris telah dipasang. Sokongan ucapan berbeza mengikut pelayar dan sistem pengendalian.
@@ -173,6 +223,15 @@ J: Simbol ~ menunjukkan IPA dijana oleh penukaran berasaskan peraturan (G2P) dan
 
 **S: Terjemahan tidak berfungsi?**  
 J: Terjemahan memerlukan sambungan internet. Jika Bing Translate gagal, cuba tukar kepada Google Translate dalam tetapan. Sesetengah persekitaran rangkaian mungkin menyekat akses kepada perkhidmatan terjemahan.
+
+**S: Bagaimana saya membuka PDF dengan IPA Reader?**  
+J: Anda boleh membuka PDF dengan beberapa cara: klik "Open PDF Reader" dalam popup, klik kanan pautan PDF dan pilih "Open PDF with IPA Reader", atau dayakan "PDF Smart Detection" dalam tetapan untuk secara automatik mengalihkan URL PDF ke pembaca terbina dalam.
+
+**S: PDF Smart Detection didayakan tetapi sesetengah PDF tidak dialihkan?**  
+J: Pengalihan automatik berfungsi untuk URL yang berakhir dengan `.pdf`. Untuk PDF yang dihidangkan tanpa sambungan `.pdf` atau dilihat dalam penonton terbina dalam Chrome, anda akan melihat pemberitahuan dan lencana yang menggesa anda membukanya dalam IPA Reader.
+
+**S: Bolehkah saya menggunakan kamus luar talian?**  
+J: Ya. Kamus WordNet (82,000+ perkataan) dibundel sepenuhnya dalam sambungan. Semua carian dilakukan secara tempatan tanpa sambungan rangkaian.
 
 ---
 

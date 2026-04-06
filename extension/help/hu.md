@@ -6,23 +6,24 @@ lang: hu
 
 # IPA Reader - Felhasználói útmutató
 
-> Verzió: v1.3.0
+> Verzió: v1.4.0
 
 ## Bevezetés
 
-Az IPA Reader egy böngészőbővítmény angol tanulóknak készítve. IPA (Nemzetközi Fonetikai Ábécé) kiejtési megjegyzéseket ad hozzá az angol szavakhoz a weboldalakon, amerikai és brit angol akcentussal, segítve könnyebben megtanulni az angol kiejtést.
+Az IPA Reader egy böngészőbővítmény angol tanulóknak készítve. IPA (Nemzetközi Fonetikai Ábécé) kiejtési megjegyzéseket ad hozzá az angol szavakhoz a weboldalakon és PDF-eken, amerikai és brit angol akcentussal. Beépített angol szótárat, szövegfelolvasást és fordítást is kínál — így könnyebben sajátíthatja el az angol kiejtést.
 
 ---
 
 ## Főbb funkciók
 
 - **Teljes oldal IPA mód** — Egy kattintással IPA megjegyzéseket adhat minden angol szóhoz az oldalon; az IPA szimbólumok típus szerint színkódoltak (magánhangzók, mássalhangzók, hangsúlyjelek) a könnyű olvashatóság érdekében
+- **Lebegő szótár** — Vigye az egeret a szavak fölé az angol definíciók (82 000+ szó a WordNetből), a színkódolt IPA és a kiejtésgombok megjelenítéséhez; válasszon Szótár, Tooltip, Csak beszéd vagy Ki módot
+- **PDF-olvasó** — Beépített PDF-olvasó IPA megjegyzésekkel, szótárral, beszéddel és fordítással; támogatja a húzd és ejtsd megnyitást, URL-ből betöltést és az intelligens PDF-észlelést átirányítással
 - **Gyenge/erős alakok** — Funkciószavak (pl. „the”, „to”, „can”) gyenge és erős kiejtési változatainak automatikus megjelenítése a természetes összefüggő beszéd elsajátításához
 - **Amerikai és brit akcentus** — Válthat amerikai angol (en-US) és brit angol (en-GB) IPA között
 - **Text-to-Speech** — Kattintson a hangszóró gombra a kiválasztott akcentusnak megfelelő kiejtés meghallgatásához
 - **Kijelölés beszéd karaoke effekttel** — Jelöljön ki bármilyen angol szöveget; megjelenik egy kompakt eszköztár beszéd- és fordításgombokkal; a beszéd valós idejű, szóról szóra kiemeléssel (karaoke effekt) szinkronban az audióval
 - **Kijelölés fordítása** — Jelöljön ki bármilyen szöveget, kattintson az eszköztár fordítás gombjára az azonnali Bing vagy Google Fordítás eredményéhez, beágyazott buborékban
-- **Hover tooltipek** — Vigye az egeret a megjegyzett szavak fölé az IPA színkódolt szimbólumokkal és kiejtésgombokkal
 - **Homográfok felismerése** — Több kiejtéssel rendelkező szavak (pl. „read”, „live”) automatikus azonosítása és a helyes kiejtés kiválasztása a szövegkörnyezet alapján
 - **Billentyűparancsok** — Gyors hozzáférés a fő funkciókhoz testreszabható billentyűparancsokkal
 - **Többnyelvű felület** — 38 felületi nyelvet támogat
@@ -55,7 +56,7 @@ Jelöljön ki bármilyen angol szöveget az egérrel. Megjelenik egy kompakt esz
 
 Jobb klikkel is választhatja az „IPA Reader > Speak Selection” vagy „IPA Reader > Translate Selection” lehetőséget.
 
-> **Tipp:** Kattintson a bővítmény ikonjára a böngésző eszköztárán a beállítások panel megnyitásához: akcentus típus, beszédsebesség, fordítómotor és egyebek.
+> **Tipp:** Kattintson a bővítmény ikonjára a böngésző eszköztárán a beállítások panel megnyitásához: akcentus típus, beszédsebesség, lebegő mód, fordítómotor és egyebek.
 
 ---
 
@@ -69,6 +70,54 @@ Ha a teljes oldal IPA mód be van kapcsolva, minden angol szóhoz az oldalon rub
 - **Hosszúságjelek** (ː) — lila kiemeléssel
 
 A bővítmény automatikusan állítja a sormagasságot, hogy a megjegyzések ne fedjék a szöveget, és az IPA betűméretét a szó hossza szerint skálázza a rendezett elrendezésért.
+
+---
+
+## Lebegő szótár
+
+A bővítmény beépített angol szótárat tartalmaz, amely a WordNetre épül (82 000+ szó). A beállításokban több lebegő mód közül választhat:
+
+| Mód | Viselkedés |
+|------|------------|
+| **Szótár** | Az egér fölé vitelkor IPA + angol definíció + kiejtésgomb |
+| **Tooltip** | Az egér fölé vitelkor IPA + kiejtésgomb (definíciók nélkül) |
+| **Csak beszéd** | Szóra kattintva hallható a kiejtés (nincs tooltip) |
+| **Ki** | Nincs lebegő effekt |
+
+**Szótár** módban a tooltip tartalmazza:
+- A szót és IPA átírását
+- Kiejtésgombot (kattintásra lejátszás)
+- Angol definíciókat a WordNetből
+
+> **Tipp:** A szótár adatai igény szerint töltődnek, ha a Szótár mód be van kapcsolva, és memóriát takarít meg, ha más módra vált.
+
+---
+
+## PDF-olvasó
+
+Az IPA Reader beépített PDF-olvasót kínál, amellyel PDF dokumentumokat olvashat IPA megjegyzésekkel, szótárral, beszéddel és fordítással — ugyanazok a funkciók, mint a weboldalakon, most PDF-en is.
+
+### PDF megnyitása
+
+**1. módszer: A felugró ablakból**  
+Kattintson a bővítmény ikonjára, majd az „Open PDF Reader” (PDF-olvasó megnyitása) lehetőségre. Húzza ide a PDF fájlt, vagy kattintson a fájl választására egy helyi PDF megnyitásához. Beilleszthet PDF URL-t is.
+
+**2. módszer: Kontextusmenü**  
+Kattintson jobb gombbal bármely `.pdf` hivatkozásra a weboldalon, és válassza az „Open PDF with IPA Reader” lehetőséget.
+
+**3. módszer: Automatikus észlelés**  
+Ha a beállításokban be van kapcsolva a „PDF Smart Detection”, a bővítmény automatikusan átirányítja a `.pdf` végű URL-eket a beépített olvasóba. Ha a PDF észlelésre kerül, de nincs átirányítás (pl. a Chrome beépített nézője), értesítések és felszólítások jelennek meg az IPA Readerben való megnyitáshoz.
+
+### A PDF-olvasó funkciói
+
+- **IPA megjegyzések** — Minden IPA funkció működik a PDF szövegén, beleértve a teljes oldal módot és a lebegő tooltipeket
+- **Kattintásos szótár** — Bármely szóra kattintva megjelenik a definíció (PDF-ben a kattintás helyettesíti a lebegést a zavarmentes olvasásért)
+- **Kijelölés eszköztár** — Jelöljön ki szöveget felolvasáshoz, fordításhoz vagy másoláshoz
+- **Oldalsáv** — Tartalomjegyzék vázlat és oldal miniatűrök
+- **Keresés** — Keresés a PDF szövegében, beleértve a pinjin–karakter keresést kínai PDF-ekhez
+- **Témák** — Sötét, világos és szépia olvasótémák
+- **Nagyítás** — Több nagyítási szint, beleértve az Automatikus, Oldal illesztés és Oldalszélesség lehetőségeket
+- **Billentyűparancsok** — Nyílbillentyűk navigációhoz, +/- nagyításhoz, Ctrl/Cmd+F kereséshez
 
 ---
 
@@ -146,11 +195,12 @@ A fordítómotort és a célnyelvet a bővítmény beállításaiban válthatja.
 | **IPA engedélyezése** | Főkapcsoló az IPA megjegyzés funkció be- vagy kikapcsolásához |
 | **Teljes oldal IPA** | Bekapcsolva színkódolt IPA jelenik meg minden angol szó fölött |
 | **IPA stílus** | Válasszon amerikai és brit angol IPA és kiejtés között |
-| **Hover tooltip megjelenítése** | IPA tooltip kiejtésgombbal egér fölé vitelkor |
+| **Lebegő mód** | Válasszon viselkedést: Szótár (IPA + definíciók + hang), Tooltip (IPA + hang), Csak beszéd (kattintásra hallgatás), Ki |
 | **Gyenge/erős alakok megjelenítése** | Gyenge és erős kiejtési változatok gyakori funkciószavaknál |
 | **Mondat beszédsebesség** | A mondat felolvasás sebességének beállítása (az egyéni szó beszéd nem érintett) |
 | **Fordítómotor** | Válasszon Bing Translate és Google Translate között |
 | **Célnyelv** | A fordítás célnyelvének beállítása (a böngésző nyelve alapján automatikus) |
+| **PDF Smart Detection** | Bekapcsolva automatikusan átirányítja a PDF URL-eket a beépített olvasóba, és értesít, ha PDF észlelhető |
 
 ---
 
@@ -160,19 +210,28 @@ A fordítómotort és a célnyelvet a bővítmény beállításaiban válthatja.
 V: Biztonsági okokból a böngészőbővítmények nem futtathatók speciális oldalakon, mint a `chrome://`, böngésző beállítások vagy a Chrome Web Store.
 
 **K: Mi van, ha hiányzik az IPA néhány szóhoz?**  
-V: Az IPA szótár a gyakori angol szavakat fedi le. A szótárban nem szereplő szavakhoz a bővítmény közelítő IPA-t generál lemmatizálással és szabályalapú G2P (grafem–foném) konverzióval. Ezek ≈ vagy ~ jelöléssel jelennek meg a tooltipben.
+V: Az IPA szótár több mint 134 000 amerikai és több mint 67 000 brit angol szót fed le. A szótárban nem szereplő szavakhoz a bővítmény közelítő IPA-t generál lemmatizálással és szabályalapú G2P (grafem–foném) konverzióval. Ezek ≈ vagy ~ jelöléssel jelennek meg a tooltipben.
 
 **K: Nincs hang a text-to-speech-től?**  
 V: Ellenőrizze a rendszer hangerő beállításait és győződjön meg róla, hogy angol hangcsomagok telepítve vannak. A beszéd támogatás böngészők és operációs rendszerek között változik.
 
 **K: A teljes oldal mód befolyásolja az elrendezést?**  
-V: Az IPA megjegyzések extra helyet igényelnek. A bővítmény automatikusan állítja a sormagasságot a hatás minimalizálásához. Ha még mindig zavarja az olvasást, kapcsolja ki a teljes oldal módot és használjon hover tooltipeket.
+V: Az IPA megjegyzések extra helyet igényelnek. A bővítmény automatikusan állítja a sormagasságot a hatás minimalizálásához. Ha még mindig zavarja az olvasást, kapcsolja ki a teljes oldal módot és használjon lebegő tooltipeket.
 
 **K: Mit jelentenek a ~ és ≈ szimbólumok az eszköztippekben?**  
 V: A ~ azt jelenti, hogy az IPA szabályalapú (G2P) konverzióval készült, nem a szótárból. Az ≈ azt jelenti, hogy kapcsolódó alapszó lemmatizálásával származtatott. Ezek kevésbé pontosak lehetnek a szótári bejegyzéseknél.
 
 **K: Nem működik a fordítás?**  
 V: A fordításhoz internetkapcsolat szükséges. Ha a Bing Translate nem működik, próbálja a Google Translate-et a beállításokban. Egyes hálózatok blokkolhatják a fordítószolgáltatásokat.
+
+**K: Hogyan nyitok meg PDF-et az IPA Readerrel?**  
+V: Több módon: kattintson a felugró ablakban az „Open PDF Reader” lehetőségre, kattintson jobb gombbal egy PDF hivatkozásra és válassza az „Open PDF with IPA Reader” lehetőséget, vagy kapcsolja be a „PDF Smart Detection” opciót a beállításokban, hogy a PDF URL-ek automatikusan a beépített olvasóba kerüljenek.
+
+**K: A PDF Smart Detection be van kapcsolva, de egyes PDF-ek nem irányítanak át?**  
+V: Az automatikus átirányítás a `.pdf` végződésű URL-ekre működik. Ha a PDF `.pdf` kiterjesztés nélkül érkezik, vagy a Chrome beépített nézőjében jelenik meg, értesítést és jelvényt láthat, amely az IPA Readerben való megnyitásra hív.
+
+**K: Használhatom a szótárt offline?**  
+V: Igen. A WordNet szótár (82 000+ szó) teljes egészében a bővítményben van csomagolva. Minden keresés helyben történik, hálózat nélkül.
 
 ---
 

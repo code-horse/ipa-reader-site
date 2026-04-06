@@ -6,23 +6,24 @@ lang: fil
 
 # IPA Reader - Gabay ng Gumagamit
 
-> Bersyon: v1.3.0
+> Bersyon: v1.4.0
 
 ## Panimula
 
-Ang IPA Reader ay isang browser extension na dinisenyo para sa mga nag-aaral ng Ingles. Nagdadagdag ito ng IPA (International Phonetic Alphabet) pronunciation annotations sa mga English na salita sa mga web page, sumusuporta sa parehong American at British English accent, na tumutulong sa iyo na matutuhan ang English pronunciation nang mas madali.
+Ang IPA Reader ay isang browser extension na dinisenyo para sa mga nag-aaral ng Ingles. Nagdadagdag ito ng IPA (International Phonetic Alphabet) pronunciation annotations sa mga English na salita sa mga web page at PDF, sumusuporta sa parehong American at British English accent. Kasama rin ang built-in English dictionary, text-to-speech, at translation features — tumutulong sa iyo na matutuhan ang English pronunciation nang mas madali.
 
 ---
 
 ## Mga Pangunahing Feature
 
 - **Whole Page IPA Mode** — Magdagdag ng IPA annotation sa lahat ng English na salita sa page sa isang click; ang mga IPA symbol ay may kulay ayon sa uri (vowels, consonants, stress marks) para madaling basahin
+- **Hover Dictionary** — Mag-hover sa mga salita para makita ang English definitions (82K+ na salita mula sa WordNet), IPA na may color-coded na symbols, at pronunciation buttons; pumili sa pagitan ng Dictionary mode, Tooltip mode, Speak-only mode, o Off
+- **PDF Reader** — Built-in PDF reader na may IPA annotations, dictionary, speech, at translation; sumusuporta sa drag & drop, URL loading, at automatic PDF detection na may smart redirect
 - **Weak/Strong Forms** — Awtomatikong ipakita ang mahina at malakas na mga variant ng pronunciation para sa mga karaniwang function word (hal. "the", "to", "can"), para matutunan mo ang natural na connected speech
 - **American at British Accent** — Lumipat sa pagitan ng American English (en-US) at British English (en-GB) IPA
 - **Text-to-Speech** — I-click ang speaker button para marinig ang pronunciation na tumutugma sa iyong napiling accent
 - **Selection Speech na may Karaoke Effect** — Pumili ng anumang English text, may lilitaw na compact toolbar na may speak at translate buttons; ang speech ay may real-time na word-by-word highlighting (karaoke effect) na naka-sync sa audio
 - **Selection Translation** — Pumili ng anumang text, i-click ang translate button sa toolbar para sa instant translation sa pamamagitan ng Bing o Google Translate, ipinapakita sa inline bubble
-- **Hover Tooltips** — Mag-hover sa mga annotated na salita para makita ang IPA na may color-coded na symbols at pronunciation buttons
 - **Heteronym Disambiguation** — Awtomatikong kilalanin ang mga salitang may maraming pronunciation (hal. "read", "live") at piliin ang tamang isa batay sa konteksto
 - **Keyboard Shortcuts** — Mabilis na access sa core features sa pamamagitan ng customizable keyboard shortcuts
 - **Multilingual Interface** — Sumasuporta sa 38 na wika ng interface
@@ -55,7 +56,7 @@ Pumili ng anumang English text gamit ang mouse. May lilitaw na compact toolbar m
 
 Maaari mo ring mag-right-click at piliin ang "IPA Reader > Speak Selection" o "IPA Reader > Translate Selection".
 
-> **Tip:** I-click ang extension icon sa browser toolbar mo para buksan ang settings panel at i-adjust ang accent type, speech rate, translation engine, at iba pa.
+> **Tip:** I-click ang extension icon sa browser toolbar mo para buksan ang settings panel at i-adjust ang accent type, speech rate, hover mode, translation engine, at iba pa.
 
 ---
 
@@ -69,6 +70,54 @@ Kapag naka-on ang whole page IPA mode, ang bawat English na salita sa page ay ma
 - **Length marks** (ː) — naka-highlight sa lila
 
 Awtomatikong ina-adjust ng extension ang line height para hindi mag-overlap ang annotations sa text, at ini-scale ang IPA font size batay sa haba ng salita para malinis ang layout.
+
+---
+
+## Hover Dictionary
+
+Kasama sa extension ang built-in English dictionary na pinapagana ng WordNet (82,000+ na salita). Maaari kang pumili mula sa maraming hover mode sa settings:
+
+| Mode | Kilos |
+|------|-------|
+| **Dictionary** | Ang hover ay nagpapakita ng IPA + English definition + pronunciation button |
+| **Tooltip** | Ang hover ay nagpapakita ng IPA + pronunciation button (walang definitions) |
+| **Speak only** | I-click ang salita para marinig ang pronunciation (walang tooltip) |
+| **Off** | Walang hover effect |
+
+Sa **Dictionary mode**, ang tooltip ay nagpapakita ng:
+- Ang salita at ang IPA transcription nito
+- Pronunciation button (i-click para marinig)
+- English definitions mula sa WordNet
+
+> **Tip:** Ang dictionary data ay na-load on-demand kapag naka-enable ang Dictionary mode, at na-unload kapag lumipat sa ibang mode para makatipid ng memory.
+
+---
+
+## PDF Reader
+
+Kasama sa IPA Reader ang built-in PDF reader na nagpapahintulot na basahin ang PDF documents na may IPA annotations, dictionary, speech, at translation — lahat ng features na ginagamit mo sa web pages, available na rin para sa PDF.
+
+### Pagbubukas ng PDF
+
+**Paraan 1: Mula sa Popup**  
+I-click ang extension icon, pagkatapos i-click ang "Open PDF Reader". I-drag & drop ang PDF file o i-click ang "Choose File" para buksan ang lokal na PDF. Maaari mo ring i-paste ang PDF URL.
+
+**Paraan 2: Context Menu**  
+Mag-right-click sa anumang `.pdf` link sa web page at piliin ang "Open PDF with IPA Reader".
+
+**Paraan 3: Automatic Detection**  
+Kapag naka-enable ang "PDF Smart Detection" sa settings, awtomatikong nire-redirect ng extension ang `.pdf` URLs sa built-in reader. Kapag na-detect ang PDF pero hindi na-redirect (hal. built-in viewer ng Chrome), makikita mo ang mga notification at prompt para buksan ito sa IPA Reader.
+
+### Mga Feature ng PDF Reader
+
+- **IPA Annotations** — Lahat ng IPA features ay gumagana sa PDF text, kasama ang whole-page mode at hover tooltips
+- **Click Dictionary** — I-click ang anumang salita para makita ang definition (sa PDF, click ang ginagamit sa halip na hover para distraction-free na pagbabasa)
+- **Selection Toolbar** — Pumili ng text para magsalita, magsalin, o kopyahin
+- **Sidebar** — Outline ng table of contents at page thumbnails
+- **Search** — Maghanap ng text sa PDF, kasama ang pinyin-to-character search para sa Chinese PDFs
+- **Themes** — Dark, Light, at Sepia reading themes
+- **Zoom** — Maraming zoom level kasama ang Auto, Page Fit, at Page Width
+- **Keyboard Shortcuts** — Arrow keys para sa navigation, +/- para sa zoom, Ctrl/Cmd+F para sa search
 
 ---
 
@@ -119,7 +168,7 @@ Pumili ng text at pindutin ang `Alt+Shift+T` (Mac: `Ctrl+Shift+T`) para magsalin
 - **Bing Translate** (default) — Pinapagana ng Microsoft Translator
 - **Google Translate** — Pinapagana ng Google
 
-Parehong engine ay sumusuporta ng **108 target languages**.
+Parehong engine ay sumasuporta ng **108 target languages**.
 
 Maaari mong palitan ang translation engine at target language sa extension settings. Awtomatikong natutukoy ang target language mula sa wika ng browser mo.
 
@@ -146,11 +195,12 @@ Maaari mong palitan ang translation engine at target language sa extension setti
 | **Enable IPA** | Master switch para i-enable o i-disable ang IPA annotation feature |
 | **Whole Page IPA** | Kapag naka-enable, nagpapakita ng color-coded IPA para sa lahat ng English na salita sa ibabaw ng text |
 | **IPA Style** | Pumili sa pagitan ng American English at British English IPA at pronunciation |
-| **Show hover tooltip** | Ipakita ang IPA tooltip na may pronunciation button kapag nag-hover ang mouse |
+| **Hover Mode** | Piliin ang hover behavior: Dictionary (IPA + definitions + audio), Tooltip (IPA + audio), Speak only (click para marinig), o Off |
 | **Show weak/strong forms** | Ipakita ang weak at strong pronunciation variants para sa karaniwang function words |
 | **Sentence Speech Rate** | I-adjust ang bilis ng pagbasa ng pangungusap (hindi apektado ang single word speech) |
 | **Translation Engine** | Pumili sa pagitan ng Bing Translate at Google Translate |
 | **Target Language** | Itakda ang target language ng pagsasalin (awto-detect mula sa wika ng browser) |
+| **PDF Smart Detection** | Kapag naka-enable, awtomatikong nire-redirect ang PDF URLs sa built-in reader at nagpapakita ng notification kapag na-detect ang mga PDF |
 
 ---
 
@@ -160,7 +210,7 @@ Maaari mong palitan ang translation engine at target language sa extension setti
 S: Para sa mga dahilan ng seguridad, ang mga browser extension ay hindi maaaring tumakbo sa mga espesyal na page tulad ng `chrome://`, mga setting ng browser, o ang Chrome Web Store.
 
 **T: Paano kung walang IPA para sa ilang mga salita?**  
-S: Ang IPA dictionary ay sumasaklaw sa mga karaniwang English na salita. Para sa mga salitang wala sa dictionary, ang extension ay gumagawa ng approximate na IPA sa pamamagitan ng lemmatization at rule-based G2P (grapheme-to-phoneme) conversion. Ang mga ito ay minamarkahan ng ≈ o ~ sa tooltip.
+S: Ang IPA dictionary ay sumasaklaw sa 134,000+ American at 67,000+ British English na salita. Para sa mga salitang wala sa dictionary, ang extension ay gumagawa ng approximate na IPA sa pamamagitan ng lemmatization at rule-based G2P (grapheme-to-phoneme) conversion. Ang mga ito ay minamarkahan ng ≈ o ~ sa tooltip.
 
 **T: Walang tunog mula sa text-to-speech?**  
 S: Pakisuri ang mga volume setting ng iyong system at tiyaking naka-install ang mga English voice pack. Ang suporta sa speech ay nag-iiba-iba sa iba't ibang browser at operating system.
@@ -173,6 +223,15 @@ S: Ang ~ ay nangangahulugang ang IPA ay na-generate sa pamamagitan ng rule-based
 
 **T: Hindi gumagana ang pagsasalin?**  
 S: Ang pagsasalin ay nangangailangan ng internet connection. Kung nabigo ang Bing Translate, subukang lumipat sa Google Translate sa mga setting. Maaaring harangin ng ilang network environment ang access sa translation services.
+
+**T: Paano ko bubuksan ang PDF gamit ang IPA Reader?**  
+S: Maaari mong buksan ang mga PDF sa ilang paraan: i-click ang "Open PDF Reader" sa popup, mag-right-click sa PDF link at piliin ang "Open PDF with IPA Reader", o i-enable ang "PDF Smart Detection" sa settings para awtomatikong i-redirect ang PDF URLs sa built-in reader.
+
+**T: Naka-enable ang PDF Smart Detection pero hindi nire-redirect ang ilang PDF?**  
+S: Ang auto-redirect ay gumagana para sa mga URL na nagtatapos sa `.pdf`. Para sa mga PDF na isinerve nang walang `.pdf` extension o tiningnan sa built-in viewer ng Chrome, makikita mo ang notification at badge na nag-uudyok na buksan ito sa IPA Reader.
+
+**T: Pwede bang gumana ang dictionary offline?**  
+S: Oo. Ang WordNet dictionary (82,000+ na salita) ay buong naka-bundle sa extension. Lahat ng lookup ay ginagawa nang lokal nang walang network connection.
 
 ---
 

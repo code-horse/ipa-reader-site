@@ -6,23 +6,24 @@ lang: ro
 
 # IPA Reader - Ghid utilizator
 
-> Versiune: v1.3.0
+> Versiune: v1.4.0
 
 ## Introducere
 
-IPA Reader este o extensie pentru browser concepută pentru elevii de engleză. Adaugă adnotări de pronunție IPA (Alfabetul Fonetic Internațional) la cuvintele englezești de pe paginile web, cu suport pentru accente americane și britanice, ajutându-vă să învățați pronunția engleză mai ușor.
+IPA Reader este o extensie pentru browser concepută pentru elevii de engleză. Adaugă adnotări de pronunție IPA (Alfabetul Fonetic Internațional) la cuvintele englezești de pe paginile web și din PDF-uri, cu suport pentru accente americane și britanice. Include și un dicționar englezesc integrat, sinteză vocală și funcții de traducere — ajutându-vă să învățați pronunția engleză mai ușor.
 
 ---
 
 ## Caracteristici principale
 
 - **Mod IPA pagină întreagă** — Adăugați adnotări IPA la toate cuvintele englezești de pe pagină cu un singur clic; simbolurile IPA sunt codificate prin culori după tip (vocale, consoane, semne de accent) pentru o lectură ușoară
+- **Dicționar la trecere** — Treceți mouse-ul peste cuvinte pentru a vedea definiții în engleză (peste 82 000 de cuvinte din WordNet), IPA cu simboluri codificate prin culori și butoane de pronunție; alegeți între modul Dicționar, modul Tooltip, modul Doar vorbire sau Dezactivat
+- **Cititor PDF** — Cititor PDF integrat cu adnotări IPA, dicționar, vorbire și traducere; suportă drag & drop, încărcare din URL și detectare automată PDF cu redirecționare inteligentă
 - **Forme slabe/puternice** — Afișarea automată a variantelor slabe și puternice de pronunție pentru cuvintele funcționale uzuale (ex. „the”, „to”, „can”), pentru a stăpâni vorbirea naturală legată
 - **Accente americane și britanice** — Comutați între engleza americană (en-US) și engleza britanică (en-GB) IPA
 - **Text-to-Speech** — Faceți clic pe butonul difuzor pentru a auzi pronunția în funcție de accentul selectat
 - **Vorbire selecție cu efect karaoke** — Selectați orice text englezesc; apare o bară de instrumente compactă cu butoane pentru vorbire și traducere; redarea se face cu evidențiere cuvânt cu cuvânt în timp real (efect karaoke) sincronizată cu audio-ul
 - **Traducere selecție** — Selectați orice text, faceți clic pe butonul de traducere din bară pentru traducere instantanee prin Bing sau Google Translate, afișată într-o bulă inline
-- **Tooltip-uri la trecere** — Treceți mouse-ul peste cuvintele adnotate pentru a vedea IPA cu simboluri codificate prin culori și butoane de pronunție
 - **Dezambiguizare omografe** — Identificarea automată a cuvintelor cu pronunții multiple (ex. „read”, „live”) și selectarea celei corecte în funcție de context
 - **Scurtături de tastatură** — Acces rapid la funcțiile principale prin scurtături personalizabile
 - **Interfață multilingvă** — Suportă 38 de limbi de interfață
@@ -55,7 +56,7 @@ Selectați orice text englezesc cu mouse-ul. Apare o bară de instrumente compac
 
 Puteți face și clic dreapta și alegeți „IPA Reader > Speak Selection” sau „IPA Reader > Translate Selection”.
 
-> **Sfat:** Faceți clic pe pictograma extensiei în bara de instrumente pentru a deschide panoul de setări și a ajusta tipul de accent, viteza vorbirii, motorul de traducere și altele.
+> **Sfat:** Faceți clic pe pictograma extensiei în bara de instrumente pentru a deschide panoul de setări și a ajusta tipul de accent, viteza vorbirii, modul la trecere, motorul de traducere și altele.
 
 ---
 
@@ -69,6 +70,54 @@ Când modul IPA pe pagină întreagă este activat, fiecare cuvânt englezesc de
 - **Semne de lungime** (ː) — evidențiate în violet
 
 Extensia ajustează automat înălțimea rândului pentru a evita suprapunerea adnotărilor cu textul și scalează dimensiunea fontului IPA în funcție de lungimea cuvântului pentru un aspect curat.
+
+---
+
+## Dicționar la trecere
+
+Extensia include un dicționar englezesc integrat bazat pe WordNet (peste 82 000 de cuvinte). Puteți alege din mai multe moduri la trecere în setări:
+
+| Mod | Comportament |
+|------|----------------|
+| **Dicționar** | La trecere: IPA + definiție în engleză + buton de pronunție |
+| **Tooltip** | La trecere: IPA + buton de pronunție (fără definiții) |
+| **Doar vorbire** | Faceți clic pe un cuvânt pentru a auzi pronunția (fără tooltip) |
+| **Dezactivat** | Fără efect la trecere |
+
+În **modul Dicționar**, tooltip-ul afișează:
+- Cuvântul și transcrierea IPA
+- Un buton de pronunție (clic pentru a asculta)
+- Definiții în engleză din WordNet
+
+> **Sfat:** Datele dicționarului se încarcă la cerere când modul Dicționar este activ și se eliberează la trecerea la alte moduri, pentru a economisi memorie.
+
+---
+
+## Cititor PDF
+
+IPA Reader include un cititor PDF integrat care vă permite să citiți documente PDF cu adnotări IPA, dicționar, vorbire și traducere — aceleași funcții ca pe paginile web, acum și pentru PDF-uri.
+
+### Deschiderea unui PDF
+
+**Metoda 1: Din popup**  
+Faceți clic pe pictograma extensiei, apoi pe „Deschide cititor PDF”. Trageți și plasați un fișier PDF sau faceți clic pe „Alege fișier” pentru a deschide un PDF local. Puteți lipi și un URL de PDF.
+
+**Metoda 2: Meniu contextual**  
+Faceți clic dreapta pe orice link `.pdf` de pe o pagină web și alegeți „Deschide PDF cu IPA Reader”.
+
+**Metoda 3: Detectare automată**  
+Când „Detectare inteligentă PDF” este activată în setări, extensia redirecționează automat URL-urile `.pdf` către cititorul integrat. Când un PDF este detectat dar nu este redirecționat (ex.: vizualizatorul integrat Chrome), veți vedea notificări și solicitări de deschidere în IPA Reader.
+
+### Funcții ale cititorului PDF
+
+- **Adnotări IPA** — Toate funcțiile IPA funcționează pe textul PDF, inclusiv modul pagină întreagă și tooltip-uri la trecere
+- **Dicționar la clic** — Faceți clic pe orice cuvânt pentru a vedea definiția (în PDF se folosește clicul în locul trecerii, pentru lectură fără distrageri)
+- **Bară selecție** — Selectați text pentru vorbire, traducere sau copiere
+- **Panou lateral** — Cuprins și miniaturi de pagină
+- **Căutare** — Căutare text în PDF, inclusiv căutare pinyin–caracter pentru PDF-uri în chineză
+- **Teme** — Teme de lectură Întunecat, Luminos și Sepia
+- **Zoom** — Mai multe niveluri de zoom, inclusiv Automat, Potrivire pagină și Lățime pagină
+- **Scurtături de tastatură** — Săgeți pentru navigare, +/- pentru zoom, Ctrl/Cmd+F pentru căutare
 
 ---
 
@@ -146,11 +195,12 @@ Puteți schimba motorul de traducere și limba țintă în setările extensiei. 
 | **Activați IPA** | Comutator principal pentru activarea sau dezactivarea funcției de adnotare IPA |
 | **IPA pagină întreagă** | Când este activată, afișează IPA codificat prin culori pentru toate cuvintele englezești deasupra textului |
 | **Stil IPA** | Alegeți între engleza americană și engleza britanică IPA și pronunție |
-| **Afișare tooltip la trecere** | Afișați tooltip IPA cu buton de pronunție la trecerea mouse-ului |
+| **Mod la trecere** | Alegeți comportamentul la trecere: Dicționar (IPA + definiții + audio), Tooltip (IPA + audio), Doar vorbire (clic pentru a asculta) sau Dezactivat |
 | **Afișare forme slabe/puternice** | Afișați variantele slabe și puternice de pronunție pentru cuvintele funcționale uzuale |
 | **Viteza vorbirii propoziții** | Ajustați viteza citirii propozițiilor (vorbirea cuvintelor individuale nu este afectată) |
 | **Motor de traducere** | Alegeți între Bing Translate și Google Translate |
 | **Limba țintă** | Setați limba țintă a traducerii (detectată automat din limba browserului) |
+| **Detectare inteligentă PDF** | Când este activată, redirecționează automat URL-urile PDF către cititorul integrat și afișează notificări când sunt detectate PDF-uri |
 
 ---
 
@@ -160,7 +210,7 @@ Puteți schimba motorul de traducere și limba țintă în setările extensiei. 
 R: Din motive de securitate, extensiile pentru browser nu pot rula pe pagini speciale precum `chrome://`, setări browser sau Chrome Web Store.
 
 **Î: Ce se întâmplă dacă lipsește IPA pentru unele cuvinte?**  
-R: Dicționarul IPA acoperă cuvintele engleze comune. Pentru cuvintele din afara dicționarului, extensia generează IPA aproximativ prin lematizare și conversie G2P (grafem–fonem) bazată pe reguli. Acestea sunt marcate cu ≈ sau ~ în indiciu.
+R: Dicționarul IPA acoperă peste 134 000 de cuvinte în engleza americană și peste 67 000 în engleza britanică. Pentru cuvintele din afara dicționarului, extensia generează IPA aproximativ prin lematizare și conversie G2P (grafem–fonem) bazată pe reguli. Acestea sunt marcate cu ≈ sau ~ în tooltip.
 
 **Î: Fără sunet de la text-to-speech?**  
 R: Verificați setările de volum ale sistemului și asigurați-vă că sunt instalate pachete de voci englezești. Suportul vocal variază în funcție de browser și sistem de operare.
@@ -173,6 +223,15 @@ R: ~ înseamnă că IPA a fost generat prin conversie bazată pe reguli (G2P), n
 
 **Î: Traducerea nu funcționează?**  
 R: Traducerea necesită conexiune la internet. Dacă Bing Translate eșuează, încercați să treceți la Google Translate în setări. Unele medii de rețea pot bloca accesul la serviciile de traducere.
+
+**Î: Cum deschid un PDF cu IPA Reader?**  
+R: Puteți deschide PDF-uri în mai multe moduri: faceți clic pe „Deschide cititor PDF” în popup, clic dreapta pe un link PDF și alegeți „Deschide PDF cu IPA Reader”, sau activați „Detectare inteligentă PDF” în setări pentru a redirecționa automat URL-urile PDF către cititorul integrat.
+
+**Î: Detectare inteligentă PDF este activată dar unele PDF-uri nu se redirecționează?**  
+R: Redirecționarea automată funcționează pentru URL-uri care se termină cu `.pdf`. Pentru PDF-uri servite fără extensia `.pdf` sau deschise în vizualizatorul integrat Chrome, veți vedea o notificare și un indicator care vă invită să deschideți în IPA Reader.
+
+**Î: Pot folosi dicționarul offline?**  
+R: Da. Dicționarul WordNet (peste 82 000 de cuvinte) este inclus integral în extensie. Toate căutările se fac local, fără conexiune la rețea.
 
 ---
 

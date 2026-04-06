@@ -6,23 +6,24 @@ lang: it
 
 # IPA Reader - Guida utente
 
-> Versione: v1.3.0
+> Versione: v1.4.0
 
 ## Introduzione
 
-IPA Reader è un'estensione per browser progettata per chi studia l'inglese. Aggiunge annotazioni di pronuncia IPA (alfabeto fonetico internazionale) alle parole in inglese nelle pagine web, supportando sia l'accento americano che quello britannico, aiutandoti a imparare più facilmente la pronuncia dell'inglese.
+IPA Reader è un'estensione per browser progettata per chi studia l'inglese. Aggiunge annotazioni di pronuncia IPA (alfabeto fonetico internazionale) alle parole in inglese nelle pagine web e nei PDF, supportando sia l'accento americano che quello britannico. Include anche un dizionario inglese integrato, sintesi vocale e funzioni di traduzione — per imparare la pronuncia dell'inglese con maggiore facilità.
 
 ---
 
 ## Funzionalità principali
 
 - **Modalità IPA pagina intera** — Aggiunge annotazioni IPA a tutte le parole in inglese della pagina con un clic; i simboli IPA sono codificati a colori per tipo (vocali, consonanti, segni d'accento) per una lettura più chiara
+- **Dizionario al passaggio (WordNet)** — Passa il mouse sulle parole per vedere le definizioni in inglese (oltre 82.000 parole da WordNet), IPA con simboli a colori e pulsanti di pronuncia; scegli tra modalità Dizionario, Tooltip, Solo lettura o Disattivato
+- **Lettore PDF** — Lettore PDF integrato con annotazioni IPA, dizionario, sintesi vocale e traduzione; supporta trascinamento, caricamento da URL e rilevamento automatico dei PDF con reindirizzamento intelligente
 - **Forme deboli/forti** — Mostra automaticamente le varianti di pronuncia debole e forte delle parole funzionali comuni (es. "the", "to", "can"), per padroneggiare il parlato naturale collegato
 - **Accento americano e britannico** — Passa tra IPA americano (en-US) e britannico (en-GB)
 - **Testo-to-Speech** — Clicca il pulsante altoparlante per ascoltare la pronuncia corrispondente all'accento selezionato
 - **Lettura selezione con effetto karaoke** — Seleziona testo in inglese: compare una barra compatta con pulsanti per parlare e tradurre; la lettura evidenzia le parole in tempo reale (effetto karaoke) sincronizzata all'audio
 - **Traduzione della selezione** — Seleziona qualsiasi testo, clicca traduci nella barra per ottenere una traduzione istantanea tramite Bing o Google Translate, mostrata in un fumetto inline
-- **Tooltip al passaggio** — Passa il mouse sulle parole annotate per vedere IPA con simboli a colori e pulsanti di pronuncia
 - **Disambiguazione omografi** — Identifica automaticamente le parole con più pronunce (es. "read", "live") e sceglie quella corretta in base al contesto
 - **Scorciatoie da tastiera** — Accesso rapido alle funzioni principali tramite scorciatoie personalizzabili
 - **Interfaccia multilingue** — Supporta 38 lingue dell'interfaccia
@@ -56,7 +57,7 @@ Seleziona testo in inglese con il mouse. Vicino alla selezione compare una barra
 
 Puoi anche fare clic destro e scegliere "IPA Reader > Leggi selezione" o "IPA Reader > Traduci selezione".
 
-> **Suggerimento:** Clicca l'icona dell'estensione nella barra degli strumenti per aprire il pannello impostazioni e regolare tipo di accento, velocità di lettura, motore di traduzione e altro.
+> **Suggerimento:** Clicca l'icona dell'estensione nella barra degli strumenti per aprire il pannello impostazioni e regolare tipo di accento, velocità di lettura, modalità al passaggio del mouse, motore di traduzione e altro.
 
 ---
 
@@ -70,6 +71,54 @@ Con la modalità IPA pagina intera attiva, ogni parola in inglese sulla pagina r
 - **Segni di lunghezza** (ː) — in viola
 
 L'estensione regola automaticamente l'altezza delle righe per evitare sovrapposizioni e scala la dimensione del font IPA in base alla lunghezza della parola.
+
+---
+
+## Dizionario al passaggio (WordNet)
+
+L'estensione include un dizionario inglese integrato basato su WordNet (oltre 82.000 parole). Nelle impostazioni puoi scegliere tra diverse modalità al passaggio del mouse:
+
+| Modalità | Comportamento |
+|----------|----------------|
+| **Dizionario** | Al passaggio: IPA + definizione in inglese + pulsante pronuncia |
+| **Tooltip** | Al passaggio: IPA + pulsante pronuncia (senza definizioni) |
+| **Solo lettura** | Clic sulla parola per ascoltare (nessun tooltip) |
+| **Disattivato** | Nessun effetto al passaggio |
+
+In **modalità Dizionario**, il tooltip mostra:
+- La parola e la trascrizione IPA
+- Un pulsante pronuncia (clic per ascoltare)
+- Le definizioni in inglese da WordNet
+
+> **Suggerimento:** I dati del dizionario si caricano su richiesta quando la modalità Dizionario è attiva e vengono scaricati quando passi ad altre modalità, per risparmiare memoria.
+
+---
+
+## Lettore PDF
+
+IPA Reader include un lettore PDF integrato che consente di leggere documenti PDF con annotazioni IPA, dizionario, sintesi vocale e traduzione — tutte le funzioni disponibili sulle pagine web sono ora disponibili anche per i PDF.
+
+### Aprire un PDF
+
+**Metodo 1: Dal popup**  
+Clicca l'icona dell'estensione, poi "Open PDF Reader". Trascina un file PDF o clicca "Choose File" per aprire un PDF locale. Puoi anche incollare l'URL di un PDF.
+
+**Metodo 2: Menu contestuale**  
+Clic destro su un collegamento `.pdf` in una pagina e scegli "Open PDF with IPA Reader".
+
+**Metodo 3: Rilevamento automatico**  
+Con "PDF Smart Detection" attivo nelle impostazioni, l'estensione reindirizza automaticamente gli URL che terminano in `.pdf` al lettore integrato. Se un PDF viene rilevato ma non reindirizzato (ad esempio nel visualizzatore integrato di Chrome), vedrai notifiche e inviti ad aprirlo in IPA Reader.
+
+### Funzioni del lettore PDF
+
+- **Annotazioni IPA** — Tutte le funzioni IPA funzionano sul testo del PDF, inclusa la modalità pagina intera e i tooltip al passaggio
+- **Dizionario al clic** — Clic su una parola per la definizione (nei PDF si usa il clic invece del passaggio per una lettura meno dispersiva)
+- **Barra di selezione** — Seleziona il testo per parlare, tradurre o copiare
+- **Barra laterale** — Indice e miniature di pagina
+- **Ricerca** — Cerca testo nel PDF, inclusa la ricerca pinyin–carattere per PDF in cinese
+- **Temi** — Temi di lettura Scuro, Chiaro e Seppia
+- **Zoom** — Più livelli di zoom, tra cui Automatico, Adatta pagina e Larghezza pagina
+- **Scorciatoie da tastiera** — Frecce per navigare, +/- per zoom, Ctrl/Cmd+F per la ricerca
 
 ---
 
@@ -148,11 +197,12 @@ Puoi cambiare motore e lingua di destinazione nelle impostazioni dell'estensione
 | **Attiva IPA** | Interruttore principale per attivare o disattivare le annotazioni IPA |
 | **IPA pagina intera** | Se attivo, mostra IPA a colori per tutte le parole in inglese sopra il testo |
 | **Stile IPA** | Scegli tra inglese americano e britannico per IPA e pronuncia |
-| **Tooltip al passaggio** | Mostra tooltip IPA con pulsante pronuncia al passaggio del mouse |
+| **Modalità al passaggio** | Comportamento al passaggio del mouse: Dizionario (IPA + definizioni + audio), Tooltip (IPA + audio), Solo lettura (clic per ascoltare) o Disattivato |
 | **Forme deboli/forti** | Mostra varianti debole e forte per le parole funzionali comuni |
 | **Velocità lettura frasi** | Regola la velocità della lettura delle frasi (le singole parole non sono influenzate) |
 | **Motore di traduzione** | Scegli tra Bing Translate e Google Translate |
 | **Lingua di destinazione** | Imposta la lingua di destinazione della traduzione (rilevata automaticamente dalla lingua del browser) |
+| **Rilevamento intelligente PDF** | Se attivo, reindirizza automaticamente gli URL dei PDF al lettore integrato e mostra notifiche quando vengono rilevati PDF |
 
 ---
 
@@ -162,7 +212,7 @@ Puoi cambiare motore e lingua di destinazione nelle impostazioni dell'estensione
 R: Per motivi di sicurezza, le estensioni non possono essere eseguite su pagine speciali come `chrome://`, impostazioni del browser o Chrome Web Store.
 
 **D: E se manca l'IPA per alcune parole?**  
-R: Il dizionario IPA copre le parole inglesi comuni. Per le parole assenti, l'estensione usa lemmatizzazione e G2P basato su regole per generare IPA approssimativo, contrassegnato con ≈ o ~ nel tooltip.
+R: Il dizionario IPA copre oltre 134.000 parole in inglese americano e oltre 67.000 in inglese britannico. Per le parole assenti, l'estensione usa lemmatizzazione e G2P basato su regole per generare IPA approssimativo, contrassegnato con ≈ o ~ nel tooltip.
 
 **D: Nessun suono con text-to-speech?**  
 R: Controlla il volume di sistema e assicurati che i pacchetti vocali in inglese siano installati. Il supporto varia tra browser e sistemi operativi.
@@ -175,6 +225,15 @@ R: ~ indica IPA generato da conversione basata su regole (G2P) anziché dal dizi
 
 **D: La traduzione non funziona?**  
 R: Serve una connessione Internet. Se Bing Translate fallisce, prova Google Translate nelle impostazioni. Alcune reti possono bloccare l'accesso ai servizi di traduzione.
+
+**D: Come apro un PDF con IPA Reader?**  
+R: Puoi farlo in diversi modi: clic su "Open PDF Reader" nel popup, clic destro su un collegamento PDF e "Open PDF with IPA Reader", oppure attiva "PDF Smart Detection" nelle impostazioni per reindirizzare automaticamente gli URL dei PDF al lettore integrato.
+
+**D: PDF Smart Detection è attivo ma alcuni PDF non vengono reindirizzati?**  
+R: Il reindirizzamento automatico funziona per URL che terminano in `.pdf`. Per PDF serviti senza estensione `.pdf` o nel visualizzatore integrato di Chrome compariranno notifica e badge che invitano ad aprire il file in IPA Reader.
+
+**D: Posso usare il dizionario offline?**  
+R: Sì. Il dizionario WordNet (oltre 82.000 parole) è incluso interamente nell'estensione. Tutte le ricerche avvengono in locale, senza connessione di rete.
 
 ---
 

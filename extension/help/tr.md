@@ -6,23 +6,24 @@ lang: tr
 
 # IPA Reader - Kullanıcı Kılavuzu
 
-> Sürüm: v1.3.0
+> Sürüm: v1.4.0
 
 ## Giriş
 
-IPA Reader, İngilizce öğrenenler için tasarlanmış bir tarayıcı eklentisidir. Web sayfalarındaki İngilizce kelimelere IPA (Uluslararası Fonetik Alfabesi) telaffuz açıklamaları ekler, hem Amerikan hem de Britanya İngilizcesi aksanlarını destekler ve İngilizce telaffuzu daha kolay öğrenmenize yardımcı olur.
+IPA Reader, İngilizce öğrenenler için tasarlanmış bir tarayıcı eklentisidir. Web sayfalarındaki ve PDF dosyalarındaki İngilizce kelimelere IPA (Uluslararası Fonetik Alfabesi) telaffuz açıklamaları ekler; hem Amerikan hem de Britanya İngilizcesi aksanlarını destekler. Ayrıca yerleşik bir İngilizce sözlük, metinden konuşma ve çeviri özellikleri sunar — İngilizce telaffuzu daha kolay öğrenmenize yardımcı olur.
 
 ---
 
 ## Ana Özellikler
 
 - **Tüm Sayfa IPA Modu** — Tek tıklamayla sayfadaki tüm İngilizce kelimelere IPA açıklamaları ekleyin; IPA sembolleri türe göre renk kodludur (ünlüler, ünsüzler, vurgu işaretleri) ve okumayı kolaylaştırır
+- **Üzerinde Sözlük** — Kelimelerin üzerine geldiğinizde İngilizce tanımları (WordNet’ten 82 binden fazla kelime), renk kodlu sembollerle IPA ve telaffuz düğmelerini görün; Sözlük, İpucu, Yalnızca konuş veya Kapalı arasında seçim yapın
+- **PDF Okuyucu** — IPA açıklamaları, sözlük, konuşma ve çeviri ile yerleşik PDF okuyucu; sürükle-bırak, URL ile yükleme ve akıllı yönlendirme ile otomatik PDF algılamayı destekler
 - **Zayıf/Güçlü Formlar** — İşlev sözcüklerinin (örn. „the”, „to”, „can”) zayıf ve güçlü telaffuz varyantlarını otomatik göstererek doğal bağlı konuşmayı öğrenin
 - **Amerikan ve Britanya Aksanları** — Amerikan İngilizcesi (en-US) ve Britanya İngilizcesi (en-GB) IPA arasında geçiş yapın
 - **Metinden Konuşmaya** — Seçtiğiniz aksana uygun telaffuzu duymak için hoparlör düğmesine tıklayın
 - **Karaoke Etkili Seçim Konuşması** — Herhangi bir İngilizce metni seçin; konuş ve çevir düğmeleri olan kompakt bir araç çubuğu görünür; ses, gerçek zamanlı kelime kelime vurgulama (karaoke etkisi) ile senkron oynatılır
 - **Seçim Çevirisi** — Herhangi bir metni seçin, araç çubuğundaki çevir düğmesine tıklayın; Bing veya Google Translate ile anında çeviri, satır içi bir balon içinde gösterilir
-- **Üzerine Gelme İpuçları** — Açıklamalı kelimelerin üzerine gelerek renk kodlu sembollerle IPA ve telaffuz düğmelerini görün
 - **Eşyazımlı Sözcük Tanıma** — Birden fazla telaffuzu olan sözcükleri (örn. read, live) otomatik tanıyarak bağlama göre doğru olanı seçer
 - **Klavye Kısayolları** — Özelleştirilebilir kısayollarla temel özelliklere hızlı erişim
 - **Çokdilli Arayüz** — 38 arayüz dilini destekler
@@ -55,7 +56,7 @@ Fareyle herhangi bir İngilizce metni seçin. Seçimin yakınında iki düğmeli
 
 Ayrıca sağ tıklayıp „IPA Reader > Speak Selection” veya „IPA Reader > Translate Selection” seçebilirsiniz.
 
-> **İpucu:** Aksan türü, konuşma hızı, çeviri motoru ve daha fazlası için tarayıcı araç çubuğundaki eklenti simgesine tıklayarak ayarları açın.
+> **İpucu:** Aksan türü, konuşma hızı, üzerine gelme modu, çeviri motoru ve daha fazlası için tarayıcı araç çubuğundaki eklenti simgesine tıklayarak ayarları açın.
 
 ---
 
@@ -69,6 +70,54 @@ Tüm sayfa IPA modu etkinken, sayfadaki her İngilizce kelimenin üzerinde ruby 
 - **Uzunluk işaretleri** (ː) — mor vurgulu
 
 Eklenti, açıklamaların metinle çakışmaması için satır yüksekliğini otomatik ayarlar ve kelime uzunluğuna göre IPA yazı tipi boyutunu ölçekler.
+
+---
+
+## Üzerinde Sözlük
+
+Eklenti, WordNet tabanlı yerleşik bir İngilizce sözlük içerir (82 binden fazla kelime). Ayarlarda birden fazla üzerine gelme modu seçebilirsiniz:
+
+| Mod | Davranış |
+|------|----------|
+| **Sözlük** | Üzerine gelindiğinde IPA + İngilizce tanım + telaffuz düğmesi |
+| **İpucu** | Üzerine gelindiğinde IPA + telaffuz düğmesi (tanım yok) |
+| **Yalnızca konuş** | Telaffuzu duymak için kelimeye tıklayın (ipucu yok) |
+| **Kapalı** | Üzerine gelme etkisi yok |
+
+**Sözlük** modunda ipucu şunları gösterir:
+- kelime ve IPA yazımı
+- telaffuz düğmesi (duymak için tıklayın)
+- WordNet’ten İngilizce tanımlar
+
+> **İpucu:** Sözlük verileri Sözlük modu açıkken ihtiyaç duyuldukça yüklenir; diğer modlara geçildiğinde bellek tasarrufu için boşaltılır.
+
+---
+
+## PDF Okuyucu
+
+IPA Reader, web sayfalarındaki tüm özelliklerin PDF’ler için de kullanılabildiği — IPA açıklamaları, sözlük, konuşma ve çeviri — yerleşik bir PDF okuyucu içerir.
+
+### PDF Açma
+
+**Yöntem 1: Açılır pencereden**  
+Eklenti simgesine tıklayın, ardından „PDF Okuyucuyu Aç”a tıklayın. Bir PDF dosyasını sürükleyip bırakın veya yerel bir PDF için „Dosya Seç”e tıklayın. PDF URL’sini de yapıştırabilirsiniz.
+
+**Yöntem 2: Bağlam menüsü**  
+Bir web sayfasındaki herhangi bir `.pdf` bağlantısına sağ tıklayıp „IPA Reader ile PDF Aç”ı seçin.
+
+**Yöntem 3: Otomatik algılama**  
+Ayarda „PDF Akıllı Algılama” etkinse, eklenti `.pdf` URL’lerini yerleşik okuyucuya otomatik yönlendirir. PDF algılanıp yönlendirilmezse (ör. Chrome’un yerleşik görüntüleyicisi), IPA Reader’da açmanız için bildirim ve istemler görürsünüz.
+
+### PDF Okuyucu Özellikleri
+
+- **IPA açıklamaları** — Tüm sayfa modu ve üzerine gelme ipuçları dahil tüm IPA özellikleri PDF metninde çalışır
+- **Tıklamalı sözlük** — Tanımı görmek için herhangi bir kelimeye tıklayın (PDF’de dikkat dağıtmayan okuma için üzerine gelme yerine tıklama kullanılır)
+- **Seçim araç çubuğu** — Konuşmak, çevirmek veya kopyalamak için metin seçin
+- **Kenar çubuğu** — İçindekiler özeti ve sayfa küçük resimleri
+- **Arama** — PDF içinde metin arama; Çince PDF’ler için pinyin–karakter araması dahil
+- **Temalar** — Koyu, açık ve sepia okuma temaları
+- **Yakınlaştırma** — Otomatik, Sayfaya sığdır ve Sayfa genişliği dahil birden fazla yakınlaştırma düzeyi
+- **Klavye kısayolları** — Gezinme için ok tuşları, yakınlaştırma için +/-, arama için Ctrl/Cmd+F
 
 ---
 
@@ -129,8 +178,8 @@ Her iki motor da **108 hedef dili** destekler.
 
 ## Klavye Kısayolları
 
-| Kısayol | Mac | Eylem |
-|---------|-----|--------|
+| Kısayol | Mac kısayolu | Eylem |
+|---------|-------------|--------|
 | `Alt+Shift+I` | `Ctrl+Shift+I` | IPA açıklamalarını aç/kapat |
 | `Alt+Shift+S` | `Ctrl+Shift+S` | Seçili metni seslendir |
 | `Alt+Shift+T` | `Ctrl+Shift+T` | Seçili metni çevir |
@@ -146,11 +195,12 @@ Her iki motor da **108 hedef dili** destekler.
 | **IPA'yı Etkinleştir** | IPA açıklama özelliğini açmak veya kapatmak için ana anahtar |
 | **Tüm Sayfa IPA** | Etkinleştirildiğinde tüm İngilizce kelimelerin üzerinde renk kodlu IPA gösterir |
 | **IPA Stili** | Amerikan ve Britanya İngilizcesi IPA ve telaffuz arasında seçim |
-| **Üzerine gelince ipucu göster** | Fareyle üzerine gelindiğinde telaffuz düğmeli IPA ipucu |
+| **Üzerine gelme modu** | Üzerine gelme davranışı: Sözlük (IPA + tanımlar + ses), İpucu (IPA + ses), Yalnızca konuş (duymak için tıklama) veya Kapalı |
 | **Zayıf/güçlü formları göster** | İşlev sözcüklerinin zayıf ve güçlü telaffuz varyantları |
 | **Cümle Konuşma Hızı** | Cümle okuma hızı (tek kelime konuşması etkilenmez) |
 | **Çeviri Motoru** | Bing Translate ve Google Translate arasında seçim |
 | **Hedef Dil** | Çeviri hedef dili (varsayılan olarak tarayıcı dilinden algılanır) |
+| **PDF Akıllı Algılama** | Etkinleştirildiğinde PDF URL'lerini yerleşik okuyucuya otomatik yönlendirir ve PDF algılandığında bildirim gösterir |
 
 ---
 
@@ -160,7 +210,7 @@ Her iki motor da **108 hedef dili** destekler.
 C: Güvenlik nedeniyle tarayıcı eklentileri `chrome://`, tarayıcı ayarları veya Chrome Web Store gibi özel sayfalarda çalışamaz.
 
 **S: Bazı kelimelerde IPA eksikse ne olur?**  
-C: IPA sözlüğü yaygın İngilizce kelimeleri kapsar. Sözlük dışı kelimeler için eklenti lemmatizasyon ve kural tabanlı G2P ile yaklaşık IPA üretir; ipucunda ≈ veya ~ ile işaretlenir.
+C: IPA sözlüğü 134 binden fazla Amerikan ve 67 binden fazla Britanya İngilizcesi kelimeyi kapsar. Sözlük dışı kelimeler için eklenti lemmatizasyon ve kural tabanlı G2P ile yaklaşık IPA üretir; ipucunda ≈ veya ~ ile işaretlenir.
 
 **S: Metinden konuşmada ses yok mu?**  
 C: Lütfen sistem ses ayarlarınızı kontrol edin ve İngilizce ses paketlerinin yüklü olduğundan emin olun. Konuşma desteği tarayıcılar ve işletim sistemleri arasında değişir.
@@ -174,6 +224,15 @@ C: ~ IPA'nın sözlük yerine kurallarla (G2P) üretildiğini, ≈ ise ilgili bi
 **S: Çeviri çalışmıyor mu?**  
 C: Çeviri için internet bağlantısı gerekir. Bing Translate başarısız olursa ayarlardan Google Translate'e geçmeyi deneyin. Bazı ağ ortamlarında çeviri hizmetlerine erişim engellenebilir.
 
+**S: IPA Reader ile PDF'yi nasıl açarım?**  
+C: PDF'yi birkaç şekilde açabilirsiniz: açılır pencerede „PDF Okuyucuyu Aç”a tıklayın, bir PDF bağlantısına sağ tıklayıp „IPA Reader ile PDF Aç”ı seçin veya ayarlarda „PDF Akıllı Algılama”yı etkinleştirerek PDF URL'lerinin yerleşik okuyucuya otomatik yönlendirilmesini sağlayın.
+
+**S: PDF Akıllı Algılama açık ama bazı PDF'ler yönlendirilmiyor?**  
+C: Otomatik yönlendirme `.pdf` ile biten URL'ler için çalışır. Uzantısız sunulan veya Chrome'un yerleşik görüntüleyicisinde açılan PDF'ler için IPA Reader'da açmanızı isteyen bir bildirim ve rozet görürsünüz.
+
+**S: Sözlüğü çevrimdışı kullanabilir miyim?**  
+C: Evet. WordNet sözlüğü (82 binden fazla kelime) eklentinin içine tamamen paketlenmiştir. Tüm aramalar ağ bağlantısı olmadan yerel olarak yapılır.
+
 ---
 
 ## İlgili Bağlantılar
@@ -182,8 +241,3 @@ C: Çeviri için internet bağlantısı gerekir. Bing Translate başarısız olu
 - [Support & Feedback](../support)
 
 ---
-</think>
-Fixing a formatting error in the Turkish settings table.
-
-<｜tool▁calls▁begin｜><｜tool▁call▁begin｜>
-StrReplace

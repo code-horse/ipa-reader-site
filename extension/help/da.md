@@ -6,23 +6,24 @@ lang: da
 
 # IPA Reader — Brugervejledning
 
-> Version: v1.3.0
+> Version: v1.4.0
 
 ## Introduktion
 
-IPA Reader er en browserudvidelse designet til engelskstuderende. Den tilføjer IPA-udtaleannoteringer (International Phonetic Alphabet) til engelske ord på websider og understøtter både amerikansk og britisk engelsk, så du lettere kan lære engelsk udtale.
+IPA Reader er en browserudvidelse designet til engelskstuderende. Den tilføjer IPA-udtaleannoteringer (International Phonetic Alphabet) til engelske ord på websider og i PDF-filer og understøtter både amerikansk og britisk engelsk. Den indeholder også en indbygget engelsk ordbog, tekst-til-tale og oversættelsesfunktioner — så du lettere kan lære engelsk udtale.
 
 ---
 
 ## Hovedfunktioner
 
 - **Helsides IPA-tilstand** — Tilføj IPA-annoteringer til alle engelske ord på siden med ét klik; IPA-symboler er farvekodet efter type (vokaler, konsonanter, trykmarkeringer) for let læsning
+- **Svæveordbog** — Hold musen over ord for at se engelske definitioner (82.000+ ord fra WordNet), IPA med farvekodede symboler og udtaleknapper; vælg mellem tilstandene Ordbog, Tooltip, Kun tale eller Fra
+- **PDF-læser** — Indbygget PDF-læser med IPA-annoteringer, ordbog, tale og oversættelse; understøtter træk-og-slip, URL-indlæsning og automatisk PDF-detektion med smart omdirigering
 - **Svage/stærke former** — Vis automatisk svage og stærke udtalevarianter af almindelige funktionsord (f.eks. "the", "to", "can") for at mestre naturlig sammenhængende tale
 - **Amerikansk og britisk accent** — Skift mellem amerikansk engelsk (en-US) og britisk engelsk (en-GB) IPA
 - **Tekst-til-tale** — Klik på højttalerknappen for at høre udtale, der matcher din valgte accent
 - **Markeringstale med karaokeeffekt** — Markér enhver engelsk tekst; en kompakt værktøjslinje vises med tale- og oversættelsesknapper; tale afspilles med ord-for-ord-fremhævelse i realtid (karaokeeffekt) synkroniseret med lyden
 - **Markeringsoversættelse** — Markér enhver tekst, klik på oversættelsesknappen på værktøjslinjen for øjeblikkelig oversættelse via Bing eller Google Translate vist i en inline-boble
-- **Svævetooltips** — Hold musen over annoterede ord for at se IPA med farvekodede symboler og udtaleknapper
 - **Homograf-disambiguation** — Identificerer automatisk ord med flere udtaler (f.eks. "read", "live") og vælger den korrekte baseret på kontekst
 - **Tastaturgenveje** — Hurtig adgang til kernefunktioner via tilpasselige tastaturgenveje
 - **Flersproget grænseflade** — Understøtter 38 grænsefladesprog
@@ -55,7 +56,7 @@ Markér enhver engelsk tekst med musen. En kompakt værktøjslinje vises nær ma
 
 Du kan også højreklikke og vælge "IPA Reader > Speak Selection" eller "IPA Reader > Translate Selection".
 
-> **Tip:** Klik på udvidelsesikonet i din browsers værktøjslinje for at åbne indstillingspanelet og justere accenttype, talehastighed, oversættelsesmotor og mere.
+> **Tip:** Klik på udvidelsesikonet i din browsers værktøjslinje for at åbne indstillingspanelet og justere accenttype, talehastighed, svævetilstand, oversættelsesmotor og mere.
 
 ---
 
@@ -69,6 +70,54 @@ Når helsides IPA-tilstand er aktiveret, får hvert engelske ord på siden en IP
 - **Længdemarkeringer** (ː) — fremhævet i lilla
 
 Udvidelsen justerer automatisk linjehøjde for at forhindre overlap mellem annoteringer og tekst og skalerer IPA-skriftstørrelse baseret på ordlængde for et rent layout.
+
+---
+
+## Svæveordbog
+
+Udvidelsen indeholder en indbygget engelsk ordbog baseret på WordNet (mere end 82.000 ord). Du kan vælge mellem flere svævetilstande i indstillingerne:
+
+| Tilstand | Adfærd |
+|----------|--------|
+| **Ordbog** | Svæv viser IPA + engelsk definition + udtaleknap |
+| **Tooltip** | Svæv viser IPA + udtaleknap (ingen definitioner) |
+| **Kun tale** | Klik på et ord for at høre udtalen (ingen tooltip) |
+| **Fra** | Ingen svæveeffekt |
+
+I **Ordbog**-tilstand viser tooltip:
+- Ordet og dets IPA-transkription
+- En udtaleknap (klik for at høre)
+- Engelske definitioner fra WordNet
+
+> **Tip:** Ordbogsdata indlæses efter behov, når Ordbog-tilstand er aktiveret, og frigives ved skift til andre tilstande for at spare hukommelse.
+
+---
+
+## PDF-læser
+
+IPA Reader indeholder en indbygget PDF-læser, så du kan læse PDF-dokumenter med IPA-annoteringer, ordbog, tale og oversættelse — de samme funktioner som på websider, nu også til PDF.
+
+### Åbne en PDF
+
+**Metode 1: Fra popup**  
+Klik på udvidelsesikonet og derefter på "Open PDF Reader". Træk og slip en PDF-fil eller klik på "Choose File" for at åbne en lokal PDF. Du kan også indsætte en PDF-URL.
+
+**Metode 2: Kontekstmenu**  
+Højreklik på et `.pdf`-link på en webside og vælg "Open PDF with IPA Reader".
+
+**Metode 3: Automatisk detektion**  
+Når "PDF Smart Detection" er aktiveret i indstillingerne, omdirigerer udvidelsen automatisk `.pdf`-URL'er til den indbyggede læser. Når en PDF registreres uden omdirigering (f.eks. Chromes indbyggede fremviser), vises meddelelser og opfordringer til at åbne i IPA Reader.
+
+### PDF-læserfunktioner
+
+- **IPA-annoteringer** — Alle IPA-funktioner virker på PDF-tekst, herunder helsidestilstand og svævetooltips
+- **Klikordbog** — Klik på et ord for at se definitionen (i PDF bruges klik i stedet for svæv for en rolig læseoplevelse)
+- **Markeringsværktøjslinje** — Markér tekst for at tale, oversætte eller kopiere
+- **Sidebjælke** — Indholdsfortegnelse og sideskabeloner
+- **Søgning** — Søg efter tekst i PDF, herunder pinyin-til-tegn-søgning til kinesiske PDF'er
+- **Temaer** — Mørkt, lyst og sepia-læsetema
+- **Zoom** — Flere zoomniveauer, herunder Auto, Side passer og Sidebredde
+- **Tastaturgenveje** — Piletaster til navigation, +/- til zoom, Ctrl/Cmd+F til søgning
 
 ---
 
@@ -146,11 +195,12 @@ Du kan skifte oversættelsesmotor og målsprog i udvidelsesindstillingerne. Mål
 | **Aktivér IPA** | Hovedkontakt til at aktivere eller deaktivere IPA-annoteringsfunktionen |
 | **Helsides IPA** | Når aktiveret, vises farvekodet IPA for alle engelske ord over teksten |
 | **IPA Style** | Vælg mellem amerikansk og britisk engelsk IPA og udtale |
-| **Show hover tooltip** | Vis IPA-tooltip med udtaleknap ved museover |
+| **Svævetilstand** | Vælg adfærd ved svæv: Ordbog (IPA + definitioner + lyd), Tooltip (IPA + lyd), Kun tale (klik for at høre), eller Fra |
 | **Show weak/strong forms** | Vis svage og stærke udtalevarianter af almindelige funktionsord |
 | **Sætningstalehasighed** | Justér hastigheden for sætningsoplæsning (enkelordstale påvirkes ikke) |
 | **Translation Engine** | Vælg mellem Bing Translate og Google Translate |
 | **Target Language** | Angiv oversættelsens målsprog (autodetekteret fra browsersprog) |
+| **PDF Smart Detection** | Når aktiveret, omdirigeres PDF-URL'er automatisk til den indbyggede læser, og der vises meddelelser ved registrering af PDF |
 
 ---
 
@@ -160,7 +210,7 @@ Du kan skifte oversættelsesmotor og målsprog i udvidelsesindstillingerne. Mål
 Sv: Af sikkerhedsmæssige årsager kan browserudvidelser ikke køre på specialsider som `chrome://`, browserindstillinger eller Chrome Web Store.
 
 **Sp: Hvad hvis IPA mangler for nogle ord?**  
-Sv: IPA-ordbogen dækker almindelige engelske ord. For ord uden for ordbogen bruger udvidelsen lemmatisering og regelbaseret G2P til at generere omtrentlig IPA markeret med ≈ eller ~ i tooltip.
+Sv: IPA-ordbogen dækker mere end 134.000 amerikanske og mere end 67.000 britiske engelske ord. For ord uden for ordbogen bruger udvidelsen lemmatisering og regelbaseret G2P til at generere omtrentlig IPA markeret med ≈ eller ~ i tooltip.
 
 **Sp: Ingen lyd fra tekst-til-tale?**  
 Sv: Kontrollér venligst dine systemlydindstillinger og sørg for, at engelske stemmepakker er installeret. Taleunderstøttelse varierer på tværs af browsere og operativsystemer.
@@ -173,6 +223,15 @@ Sv: ~ betyder, at IPA er genereret af regelbaseret konvertering (G2P) snarere en
 
 **Sp: Oversættelse virker ikke?**  
 Sv: Oversættelse kræver internetforbindelse. Hvis Bing Translate fejler, kan du prøve at skifte til Google Translate i indstillingerne. Nogle netværksmiljøer kan blokere adgang til oversættelsestjenester.
+
+**Sp: Hvordan åbner jeg en PDF med IPA Reader?**  
+Sv: Du kan åbne PDF'er på flere måder: klik på "Open PDF Reader" i popup'en, højreklik på et PDF-link og vælg "Open PDF with IPA Reader", eller aktivér "PDF Smart Detection" i indstillingerne for automatisk at omdirigere PDF-URL'er til den indbyggede læser.
+
+**Sp: PDF Smart Detection er aktiveret, men nogle PDF'er omdirigeres ikke?**  
+Sv: Auto-omdirigering virker for URL'er, der ender på `.pdf`. For PDF'er uden `.pdf`-endelse eller vist i Chromes indbyggede fremviser vises en meddelelse og et badge, der opfordrer til at åbne i IPA Reader.
+
+**Sp: Kan jeg bruge ordbogen offline?**  
+Sv: Ja. WordNet-ordbogen (mere end 82.000 ord) er fuldt indlejret i udvidelsen. Alle opslag sker lokalt uden netværksforbindelse.
 
 ---
 

@@ -6,23 +6,24 @@ lang: pl
 
 # IPA Reader — Przewodnik użytkownika
 
-> Wersja: v1.3.0
+> Wersja: v1.4.0
 
 ## Wprowadzenie
 
-IPA Reader to rozszerzenie przeglądarki stworzone dla osób uczących się języka angielskiego. Dodaje adnotacje wymowy IPA (Międzynarodowy Alfabet Fonetyczny) do angielskich słów na stronach internetowych, obsługując zarówno akcent amerykański, jak i brytyjski, ułatwiając naukę angielskiej wymowy.
+IPA Reader to rozszerzenie przeglądarki stworzone dla osób uczących się języka angielskiego. Dodaje adnotacje wymowy IPA (Międzynarodowy Alfabet Fonetyczny) do angielskich słów na stronach internetowych i w plikach PDF, obsługując zarówno akcent amerykański, jak i brytyjski. Zawiera też wbudowany słownik angielski, zamianę tekstu na mowę oraz funkcje tłumaczenia — ułatwiając naukę angielskiej wymowy.
 
 ---
 
 ## Główne funkcje
 
 - **Tryb IPA na całej stronie** — Dodaj adnotacje IPA do wszystkich angielskich słów na stronie jednym kliknięciem; symbole IPA są kolorowo oznaczone według typu (samogłoski, spółgłoski, akcenty) dla łatwiejszego czytania
+- **Słownik po najechaniu** — Najedź na słowo, aby zobaczyć definicje po angielsku (82 tys.+ wyrazów z WordNet), IPA z kolorowymi symbolami i przyciski wymowy; wybierz tryb Słownik, Dymek, Tylko mowa lub Wyłączone
+- **Czytnik PDF** — Wbudowany czytnik PDF z adnotacjami IPA, słownikiem, mową i tłumaczeniem; obsługa przeciągnij i upuść, wczytywanie z adresu URL oraz automatyczne wykrywanie PDF z inteligentnym przekierowaniem
 - **Formy słabe/mocne** — Automatyczne wyświetlanie słabych i mocnych wariantów wymowy wyrazów funkcyjnych (np. „the”, „to”, „can”) do opanowania naturalnej mowy
 - **Akcent amerykański i brytyjski** — Przełączaj między IPA angielskiego amerykańskiego (en-US) i brytyjskiego (en-GB)
 - **Text-to-Speech** — Kliknij przycisk głośnika, aby usłyszeć wymowę dopasowaną do wybranego akcentu
 - **Mówienie zaznaczenia z efektem karaoke** — Zaznacz dowolny angielski tekst: pojawi się kompaktowy pasek z przyciskami odczytu i tłumaczenia; mowa jest odtwarzana z podświetlaniem słów w czasie rzeczywistym (efekt karaoke), zsynchronizowanym z dźwiękiem
 - **Tłumaczenie zaznaczenia** — Zaznacz dowolny tekst, kliknij przycisk tłumaczenia na pasku — natychmiastowe tłumaczenie przez Bing lub Google Translate w dymku pod paskiem
-- **Etykiety po najechaniu** — Najedź kursorem na adnotowane słowa, aby zobaczyć IPA z kolorowymi symbolami i przyciski wymowy
 - **Rozpoznawanie homografów** — Automatyczna identyfikacja wyrazów o wielu wymowach (np. read, live) i wybór właściwej na podstawie kontekstu
 - **Skróty klawiszowe** — Szybki dostęp do głównych funkcji dzięki konfigurowalnym skrótom
 - **Wielojęzyczny interfejs** — Obsługuje 38 języków interfejsu
@@ -55,7 +56,7 @@ Zaznacz dowolny angielski tekst myszą. Obok zaznaczenia pojawi się kompaktowy 
 
 Możesz też kliknąć prawym przyciskiem i wybrać „IPA Reader > Speak Selection” lub „IPA Reader > Translate Selection”.
 
-> **Wskazówka:** Kliknij ikonę rozszerzenia na pasku narzędzi, aby otworzyć ustawienia: typ akcentu, szybkość mowy, silnik tłumaczenia i więcej.
+> **Wskazówka:** Kliknij ikonę rozszerzenia na pasku narzędzi, aby otworzyć ustawienia: typ akcentu, szybkość mowy, tryb po najechaniu, silnik tłumaczenia i więcej.
 
 ---
 
@@ -69,6 +70,54 @@ Gdy włączony jest tryb IPA na całej stronie, nad każdym angielskim słowem w
 - **Znaki długości** (ː) — na fioletowo
 
 Rozszerzenie automatycznie dostosowuje interlinię, aby adnotacje nie nachodziły na tekst, i skaluje rozmiar czcionki IPA w zależności od długości słowa.
+
+---
+
+## Słownik po najechaniu
+
+Rozszerzenie zawiera wbudowany słownik angielski oparty na WordNet (ponad 82 000 wyrazów). W ustawieniach możesz wybrać jeden z trybów po najechaniu:
+
+| Tryb | Zachowanie |
+|------|------------|
+| **Słownik** | Po najechaniu: IPA + definicja po angielsku + przycisk wymowy |
+| **Dymek** | Po najechaniu: IPA + przycisk wymowy (bez definicji) |
+| **Tylko mowa** | Kliknij słowo, aby usłyszeć wymowę (bez dymka) |
+| **Wyłączone** | Brak efektu po najechaniu |
+
+W **trybie Słownik** dymek pokazuje:
+- Słowo i transkrypcję IPA
+- Przycisk wymowy (kliknij, aby odsłuchać)
+- Definicje po angielsku z WordNet
+
+> **Wskazówka:** Dane słownika są wczytywane na żądanie, gdy włączony jest tryb Słownik, i zwalniane po przełączeniu na inne tryby — oszczędność pamięci.
+
+---
+
+## Czytnik PDF
+
+IPA Reader zawiera wbudowany czytnik PDF, dzięki któremu czytasz dokumenty z adnotacjami IPA, słownikiem, mową i tłumaczeniem — te same funkcje co na stronach WWW, teraz także dla plików PDF.
+
+### Otwieranie pliku PDF
+
+**Metoda 1: Z wyskakującego okna**  
+Kliknij ikonę rozszerzenia, potem „Open PDF Reader”. Przeciągnij i upuść plik PDF lub kliknij „Choose File”, aby otworzyć plik lokalny. Możesz też wkleić adres URL pliku PDF.
+
+**Metoda 2: Menu kontekstowe**  
+Kliknij prawym przyciskiem dowolny link `.pdf` na stronie i wybierz „Open PDF with IPA Reader”.
+
+**Metoda 3: Automatyczne wykrywanie**  
+Gdy w ustawieniach włączone jest „PDF Smart Detection”, rozszerzenie automatycznie przekierowuje adresy URL kończące się na `.pdf` do wbudowanego czytnika. Gdy PDF zostanie wykryty, ale nie przekierowany (np. w wbudowanej przeglądarce Chrome), zobaczysz powiadomienia i zachętę do otwarcia w IPA Reader.
+
+### Funkcje czytnika PDF
+
+- **Adnotacje IPA** — Wszystkie funkcje IPA działają na tekście PDF, w tym tryb całej strony i dymki po najechaniu
+- **Słownik po kliknięciu** — Kliknij dowolne słowo, aby zobaczyć definicję (w PDF zamiast najechania używane jest kliknięcie — wygodniejsze czytanie)
+- **Pasek zaznaczenia** — Zaznacz tekst, aby mówić, tłumaczyć lub kopiować
+- **Panel boczny** — Spis treści i miniatury stron
+- **Wyszukiwanie** — Szukanie tekstu w PDF, także pinyin → znaki dla chińskich PDF-ów
+- **Motywy** — Ciemny, jasny i sepia do czytania
+- **Powiększenie** — Wiele poziomów, m.in. Auto, Dopasuj stronę, Szerokość strony
+- **Skróty klawiszowe** — Strzałki do nawigacji, +/- do powiększenia, Ctrl/Cmd+F do wyszukiwania
 
 ---
 
@@ -146,11 +195,12 @@ Silnik i język docelowy można zmienić w ustawieniach rozszerzenia. Język doc
 | **Włącz IPA** | Główny przełącznik do włączania lub wyłączania funkcji adnotacji IPA |
 | **IPA na całej stronie** | Po włączeniu wyświetla kolorowe IPA dla wszystkich angielskich słów nad tekstem |
 | **Styl IPA** | Wybór między amerykańskim i brytyjskim angielskim IPA oraz wymową |
-| **Pokaż dymek po najechaniu** | Dymek IPA z przyciskiem wymowy po najechaniu |
+| **Tryb po najechaniu** | Zachowanie po najechaniu: Słownik (IPA + definicje + audio), Dymek (IPA + audio), Tylko mowa (klik, aby usłyszeć) lub Wyłączone |
 | **Pokaż formy słabe/mocne** | Słabe i mocne warianty wymowy wyrazów funkcyjnych |
 | **Szybkość mówienia zdań** | Szybkość odczytu zdań (pojedyncze słowa bez zmian) |
 | **Silnik tłumaczenia** | Wybór między Bing Translate a Google Translate |
 | **Język docelowy** | Język tłumaczenia (domyślnie wykrywany z języka przeglądarki) |
+| **PDF Smart Detection** | Po włączeniu automatycznie przekierowuje adresy PDF do wbudowanego czytnika i pokazuje powiadomienia przy wykrytych plikach PDF |
 
 ---
 
@@ -160,7 +210,7 @@ Silnik i język docelowy można zmienić w ustawieniach rozszerzenia. Język doc
 O: Ze względów bezpieczeństwa rozszerzenia przeglądarki nie mogą działać na specjalnych stronach, takich jak `chrome://`, ustawienia przeglądarki lub Chrome Web Store.
 
 **P: Co zrobić, jeśli brakuje IPA dla niektórych słów?**  
-O: Słownik IPA obejmuje popularne angielskie słowa. Dla słów spoza słownika rozszerzenie generuje przybliżone IPA przez lematyzację i G2P oparte na regułach; w dymku oznaczone to jest ≈ lub ~.
+O: Słownik IPA obejmuje ponad 134 000 słów w amerykańskim angielskim i ponad 67 000 w brytyjskim. Dla słów spoza słownika rozszerzenie generuje przybliżone IPA przez lematyzację i G2P oparte na regułach; w dymku oznaczone to jest ≈ lub ~.
 
 **P: Brak dźwięku z text-to-speech?**  
 O: Sprawdź głośność systemu i pakiety głosowe angielskie. Obsługa mowy różni się w zależności od przeglądarki i systemu.
@@ -173,6 +223,15 @@ O: ~ oznacza IPA wygenerowane regułami (G2P), a nie ze słownika. ≈ — że I
 
 **P: Tłumaczenie nie działa?**  
 O: Tłumaczenie wymaga połączenia z internetem. Jeśli Bing Translate nie odpowiada, spróbuj przełączyć na Google Translate w ustawieniach. W niektórych sieciach dostęp do usług tłumaczenia może być zablokowany.
+
+**P: Jak otworzyć PDF w IPA Reader?**  
+O: Możesz na kilka sposobów: kliknij „Open PDF Reader” w wyskakującym oknie, kliknij prawym przyciskiem link do PDF i wybierz „Open PDF with IPA Reader”, albo włącz „PDF Smart Detection” w ustawieniach, aby adresy PDF były automatycznie przekierowywane do wbudowanego czytnika.
+
+**P: Włączone jest PDF Smart Detection, ale część PDF-ów się nie przekierowuje?**  
+O: Automatyczne przekierowanie działa dla adresów URL kończących się na `.pdf`. Dla plików PDF serwowanych bez rozszerzenia `.pdf` lub otwieranych w wbudowanej przeglądarce Chrome pojawi się powiadomienie i znacznik zachęcający do otwarcia w IPA Reader.
+
+**P: Czy słownik działa offline?**  
+O: Tak. Słownik WordNet (ponad 82 000 wyrazów) jest w całości dołączony do rozszerzenia. Wszystkie wyszukiwania odbywają się lokalnie, bez połączenia sieciowego.
 
 ---
 

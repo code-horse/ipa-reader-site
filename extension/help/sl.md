@@ -6,23 +6,24 @@ lang: sl
 
 # IPA Reader - Uporabniški priročnik
 
-> Različica: v1.3.0
+> Različica: v1.4.0
 
 ## Uvod
 
-IPA Reader je razširitev brskalnika, zasnovana za učence angleščine. Na spletnih straneh dodaja IPA (Mednarodna fonetična abeceda) izgovorne oznake angleškim besedam, podpira tako ameriški kot britanski poudarek in vam pomaga lažje učiti angleško izgovorjavo.
+IPA Reader je razširitev brskalnika, zasnovana za učence angleščine. Na spletnih straneh in v datotekah PDF doda IPA (Mednarodna fonetična abeceda) izgovorne oznake angleškim besedam, podpira tako ameriški kot britanski poudarek. Vključuje tudi vgrajen angleški slovar, besedilo-v-govor in prevajanje — vam pomaga lažje učiti angleško izgovorjavo.
 
 ---
 
 ## Glavne funkcije
 
 - **IPA celotne strani** — Z enim klikom dodajte IPA oznake vsem angleškim besedam na strani; IPA simboli so barvno kodirani po vrsti (samoglasniki, soglasniki, poudarki) za enostavno branje
+- **Slovar ob lebdenju** — Ob lebdenju nad besedami vidite angleške definicije (več kot 82 000 besed iz WordNeta), IPA z barvno kodiranimi simboli in gumbe za izgovorjavo; izberete lahko način Slovar, Način namiga, Samo govor ali Izklopljeno
+- **Bralnik PDF** — Vgrajen bralnik PDF z IPA oznakami, slovarjem, govorom in prevodom; podpira povleci-in-spusti, nalaganje z URL in samodejno zaznavanje PDF s pametnim preusmerjanjem
 - **Šibke/močne oblike** — Samodejni prikaz šibkih in močnih izgovornih različic običajnih funkcijskih besed (npr. „the“, „to“, „can“) za obvladovanje naravnega povezanega govora
 - **Ameriški in britanski poudarek** — Preklapljanje med ameriško angleščino (en-US) in britansko angleščino (en-GB) IPA
 - **Izgovorjava** — Kliknite gumb zvočnika za poslušanje izgovorjave, ki ustreza vašemu izbranemu poudarku
 - **Branje izbire s karaoke učinkom** — Izberite poljubno angleško besedilo; prikaže se kompaktna orodna vrstica z gumbi za govor in prevod; govor se predvaja z označevanjem besedo za besedo v realnem času (karaoke učinek), usklajenim z zvokom
 - **Prevod izbire** — Izberite poljubno besedilo, kliknite gumb za prevod na orodni vrstici za takojšen prevod prek Binga ali Google Translate, prikazan v vgradni mehurčku
-- **Namigi ob lebdenju** — Premaknite miško nad označene besede za prikaz IPA z barvno kodiranimi simboli in gumbi za izgovorjavo
 - **Prepoznavanje homografov** — Samodejna identifikacija besed z več izgovorjavami (npr. „read“, „live“) in izbira pravilne glede na kontekst
 - **Bližnjice na tipkovnici** — Hiter dostop do osnovnih funkcij prek prilagodljivih bližnjic
 - **Večjezični vmesnik** — Podpira 38 jezikov vmesnika
@@ -55,7 +56,7 @@ Izberite poljubno angleško besedilo z miško. Pri izbiri se prikaže kompaktna 
 
 Lahko tudi z desnim klikom izberete »IPA Reader > Speak Selection« ali »IPA Reader > Translate Selection«.
 
-> **Namig:** Kliknite ikono razširitve v orodni vrstici brskalnika za odprtje plošče z nastavitvami in prilagoditev vrste poudarka, hitrosti govora, prevajalskega mehanizma in več.
+> **Namig:** Kliknite ikono razširitve v orodni vrstici brskalnika za odprtje plošče z nastavitvami in prilagoditev vrste poudarka, hitrosti govora, načina lebdenja, prevajalskega mehanizma in več.
 
 ---
 
@@ -69,6 +70,54 @@ Ko je omogočen način IPA celotne strani, dobi vsaka angleška beseda na strani
 - **Dolžinski znaki** (ː) — označeni z vijolično
 
 Razširitev samodejno prilagodi višino vrstice, da se oznake ne prekrivajo z besedilom, in prilagodi velikost pisave IPA glede na dolžino besede za urejen videz.
+
+---
+
+## Slovar ob lebdenju
+
+Razširitev vključuje vgrajen angleški slovar na osnovi WordNeta (več kot 82 000 besed). V nastavitvah lahko izberete več načinov lebdenja:
+
+| Način | Obnašanje |
+|------|----------|
+| **Slovar** | Ob lebdenju: IPA + angleška definicija + gumb za izgovorjavo |
+| **Namig** | Ob lebdenju: IPA + gumb za izgovorjavo (brez definicij) |
+| **Samo govor** | Klik na besedo za poslušanje izgovorjave (brez namiga) |
+| **Izklopljeno** | Brez učinka ob lebdenju |
+
+V **načinu Slovar** namig prikaže:
+- besedo in njen IPA zapis
+- gumb za izgovorjavo (klik za poslušanje)
+- angleške definicije iz WordNeta
+
+> **Namig:** Podatki slovarja se naložijo po potrebi, ko je omogočen način Slovar, in se razbremenijo pri preklopu na druge načine, da se prihrani pomnilnik.
+
+---
+
+## Bralnik PDF
+
+IPA Reader vključuje vgrajen bralnik PDF, s katerim lahko berete dokumente PDF z IPA oznakami, slovarjem, govorom in prevodom — vse funkcije, ki jih imate na spletnih straneh, zdaj tudi za PDF.
+
+### Odpiranje PDF
+
+**Metoda 1: Iz pojavnega okna**  
+Kliknite ikono razširitve, nato »Odpri bralnik PDF«. Povlecite in spustite datoteko PDF ali kliknite »Izberi datoteko« za lokalni PDF. Lahko tudi prilepite URL PDF.
+
+**Metoda 2: Kontekstni meni**  
+Z desnim klikom na povezavo `.pdf` na spletni strani izberite »Odpri PDF z IPA Reader«.
+
+**Metoda 3: Samodejno zaznavanje**  
+Ko je v nastavitvah omogočeno »Pametno zaznavanje PDF«, razširitev samodejno preusmeri URL-je `.pdf` na vgrajeni bralnik. Če je PDF zaznan, vendar ni preusmerjen (npr. vgrajeni pregledovalnik Chroma), boste videli obvestila in pozive za odpiranje v IPA Reader.
+
+### Funkcije bralnika PDF
+
+- **IPA oznake** — Vse IPA funkcije delujejo na besedilo PDF, vključno z načinom celotne strani in namigi ob lebdenju
+- **Slovar s klikom** — Klik na besedo prikaže definicijo (v PDF se namesto lebdenja uporabi klik za branje brez motenj)
+- **Orodna vrstica izbire** — Izberite besedilo za govor, prevod ali kopiranje
+- **Stranska vrstica** — Oris vsebine in sličice strani
+- **Iskanje** — Iskanje besedila v PDF, vključno z iskanjem pinjin–znak za kitajske PDF
+- **Teme** — Teme za branje: temna, svetla in sepija
+- **Povečava** — Več ravni povečave, vključno z Samodejno, Prilagodi stran in Širina strani
+- **Bližnjice na tipkovnici** — Puščice za navigacijo, +/- za povečavo, Ctrl/Cmd+F za iskanje
 
 ---
 
@@ -146,11 +195,12 @@ Prevajalski mehanizem in ciljni jezik lahko zamenjate v nastavitvah razširitve.
 | **Omogoči IPA** | Glavno stikalo za vklop ali izklop funkcije IPA označevanja |
 | **IPA celotne strani** | Ko je omogočeno, prikaže barvno kodiran IPA za vse angleške besede nad besedilom |
 | **Slog IPA** | Izberite med ameriško angleščino in britansko angleščino IPA in izgovorjavo |
-| **Prikaži namig ob lebdenju** | Prikažite IPA namig z gumbom za izgovorjavo ob premiku miške |
+| **Način lebdenja** | Izberite obnašanje ob lebdenju: Slovar (IPA + definicije + zvok), Namig (IPA + zvok), Samo govor (klik za poslušanje) ali Izklopljeno |
 | **Prikaži šibke/močne oblike** | Prikažite šibke in močne izgovorne različice običajnih funkcijskih besed |
 | **Hitrost branja stavkov** | Prilagodite hitrost branja stavkov (izgovorjava posameznih besed ni prizadeta) |
 | **Prevajalski mehanizem** | Izberite med Bing Translate in Google Translate |
 | **Ciljni jezik** | Nastavite ciljni jezik prevoda (samodejno zaznan iz jezika brskalnika) |
+| **Pametno zaznavanje PDF** | Ko je omogočeno, samodejno preusmeri URL-je PDF na vgrajeni bralnik in prikaže obvestila, ko so PDF zaznani |
 
 ---
 
@@ -160,7 +210,7 @@ Prevajalski mehanizem in ciljni jezik lahko zamenjate v nastavitvah razširitve.
 O: Iz varnostnih razlogov razširitve brskalnika ne morejo delovati na posebnih straneh, kot so `chrome://`, nastavitve brskalnika ali Chrome Web Store.
 
 **V: Kaj če IPA manjka za nekatere besede?**  
-O: IPA slovar pokriva pogoste angleške besede. Za besede zunaj slovarja razširitev ustvari približni IPA s pomočjo lematizacije in pravčilne G2P (grafem–fonem) pretvorbe. Označeno je z ≈ ali ~ v namigu.
+O: IPA slovar pokriva več kot 134 000 ameriških in več kot 67 000 britanskih angleških besed. Za besede zunaj slovarja razširitev ustvari približni IPA s pomočjo lematizacije in pravčilne G2P (grafem–fonem) pretvorbe. Označeno je z ≈ ali ~ v namigu.
 
 **V: Ni zvoka iz besedilno-govornega sistema?**  
 O: Preverite nastavitve glasnosti sistema in se prepričajte, da so nameščeni angleški glasovni paketi. Podpora govoru se razlikuje med brskalniki in operacijskimi sistemi.
@@ -173,6 +223,15 @@ O: ~ pomeni, da je IPA ustvarjen s pravčilno pretvorbo (G2P), ne iz slovarja. �
 
 **V: Prevajanje ne deluje?**  
 O: Prevajanje zahteva internetno povezavo. Če Bing Translate ne uspe, poskusite preklopiti na Google Translate v nastavitvah. Nekatera omrežja lahko blokirajo dostop do prevajalskih storitev.
+
+**V: Kako odprem PDF z IPA Reader?**  
+O: PDF lahko odprete na več načinov: kliknite »Odpri bralnik PDF« v pojavnem oknu, z desnim klikom na povezavo PDF izberite »Odpri PDF z IPA Reader« ali v nastavitvah omogočite »Pametno zaznavanje PDF« za samodejno preusmeritev URL-jev PDF na vgrajeni bralnik.
+
+**V: Pametno zaznavanje PDF je vklopljeno, vendar nekateri PDF se ne preusmerijo?**  
+O: Samodejno preusmerjanje deluje za URL-je, ki se končajo z `.pdf`. Za PDF, ki se strežejo brez končnice `.pdf` ali so odprti v vgrajenem pregledovalniku Chroma, boste videli obvestilo in značko, ki vas pozove k odpiranju v IPA Reader.
+
+**V: Ali lahko slovar uporabljam brez povezave?**  
+O: Da. Slovar WordNet (več kot 82 000 besed) je v celoti vključen v razširitev. Vse poizvedbe potekajo lokalno brez omrežne povezave.
 
 ---
 

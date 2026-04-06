@@ -6,23 +6,24 @@ lang: hr
 
 # IPA Reader - Korisnički vodič
 
-> Verzija: v1.3.0
+> Verzija: v1.4.0
 
 ## Uvod
 
-IPA Reader je proširenje preglednika dizajnirano za učenike engleskog jezika. Dodaje IPA (Međunarodna fonetska abeceda) napomene izgovora engleskim riječima na web stranicama, s podrškom za američki i britanski engleski naglasak, pomažući vam lakše učiti engleski izgovor.
+IPA Reader je proširenje preglednika dizajnirano za učenike engleskog jezika. Dodaje IPA (Međunarodna fonetska abeceda) napomene izgovora engleskim riječima na web stranicama i u PDF-ovima, s podrškom za američki i britanski engleski naglasak. Uključuje i ugrađeni engleski rječnik, pretvaranje teksta u govor i značajke prijevoda — pomažući vam lakše učiti engleski izgovor.
 
 ---
 
 ## Glavne značajke
 
 - **IPA na cijeloj stranici** — Dodajte IPA napomene svim engleskim riječima na stranici jednim klikom; IPA simboli su kodirani bojama prema vrsti (samoglasnici, suglasnici, naglasni znakovi) za lako čitanje
+- **Rječnik pri prelasku (WordNet)** — Prijeđite mišem preko riječi da vidite engleske definicije (82 000+ riječi iz WordNeta), IPA s bojom kodiranim simbolima i gumbe za izgovor; odaberite način Rječnik, Tooltip, Samo govor ili Isključeno
+- **Čitač PDF-a** — Ugrađeni čitač PDF-a s IPA napomenama, rječnikom, govorom i prijevodom; podržava povuci i ispusti, učitavanje URL-a te automatsku detekciju PDF-a sa pametnim preusmjeravanjem
 - **Slabi/jaki oblici** — Automatski prikaz slabih i jakih izgovornih varijanti uobičajenih funkcijskih riječi (npr. "the", "to", "can") za svladavanje prirodnog povezanog govora
 - **Američki i britanski naglasak** — Prelazite između američkog engleskog (en-US) i britanskog engleskog (en-GB) IPA
 - **Text-to-Speech** — Kliknite na gumb zvučnika da biste čuli izgovor prema odabranom naglasku
 - **Govor odabira s karaoke efektom** — Odaberite bilo koji engleski tekst; pojavljuje se kompaktna alatna traka s gumbima za govor i prijevod; govor se reproducira s istovremenim naglašavanjem riječ po riječ (karaoke efekt) sinkroniziranim s audioom
 - **Prijevod odabira** — Odaberite bilo koji tekst, kliknite gumb za prijevod na alatnoj traci za trenutni prijevod putem Binga ili Google Translatea, prikazan u ugrađenom balončiću
-- **Tooltipovi pri prelasku** — Prijeđite mišem preko označenih riječi da vidite IPA s bojom kodiranim simbolima i gumbe za izgovor
 - **Prepoznavanje homografa** — Automatska identifikacija riječi s više izgovora (npr. "read", "live") i odabir ispravnog prema kontekstu
 - **Tipkovni prečaci** — Brz pristup glavnim značajkama putem prilagodljivih tipkovnih prečaca
 - **Višejezično sučelje** — Podržava 38 jezika sučelja
@@ -55,7 +56,7 @@ Odaberite bilo koji engleski tekst mišem. Pojavljuje se kompaktna alatna traka 
 
 Možete i desnim klikom odabrati "IPA Reader > Speak Selection" ili "IPA Reader > Translate Selection".
 
-> **Savjet:** Kliknite na ikonu proširenja u alatnoj traci preglednika da otvorite ploču postavki i prilagodite vrstu naglaska, brzinu govora, mehanizam prijevoda i drugo.
+> **Savjet:** Kliknite na ikonu proširenja u alatnoj traci preglednika da otvorite ploču postavki i prilagodite vrstu naglaska, brzinu govora, način pri prelasku, mehanizam prijevoda i drugo.
 
 ---
 
@@ -69,6 +70,54 @@ Kada je omogućen način IPA na cijeloj stranici, svaka engleska riječ na stran
 - **Znakovi duljine** (ː) — istaknuti ljubičastom bojom
 
 Proširenje automatski prilagođava visinu retka kako bi se napomene ne preklapale s tekstom i skalira veličinu fonta IPA prema duljini riječi za čist raspored.
+
+---
+
+## Rječnik pri prelasku (WordNet)
+
+Proširenje uključuje ugrađeni engleski rječnik temeljen na WordNetu (82 000+ riječi). U postavkama možete odabrati više načina pri prelasku:
+
+| Način | Ponašanje |
+|-------|-----------|
+| **Rječnik** | Pri prelasku: IPA + engleska definicija + gumb za izgovor |
+| **Tooltip** | Pri prelasku: IPA + gumb za izgovor (bez definicija) |
+| **Samo govor** | Klik na riječ za izgovor (bez tooltipa) |
+| **Isključeno** | Nema efekta pri prelasku |
+
+U **načinu Rječnik**, tooltip prikazuje:
+- Riječ i njezin IPA prijepis
+- Gumb za izgovor (kliknite za slušanje)
+- Engleske definicije iz WordNeta
+
+> **Savjet:** Podaci rječnika učitavaju se na zahtjev kada je omogućen način Rječnik, a uklanjaju pri prelasku na druge načine kako bi se uštedjela memorija.
+
+---
+
+## Čitač PDF-a
+
+IPA Reader uključuje ugrađeni čitač PDF-a koji vam omogućuje čitanje PDF dokumenata s IPA napomenama, rječnikom, govorom i prijevodom — sve značajke koje imate na web stranicama sada su dostupne i za PDF-ove.
+
+### Otvaranje PDF-a
+
+**Metoda 1: Iz skočnog prozora**  
+Kliknite na ikonu proširenja, zatim na "Open PDF Reader". Povucite i ispustite PDF datoteku ili kliknite "Choose File" da otvorite lokalni PDF. Možete i zalijepiti URL PDF-a.
+
+**Metoda 2: Kontekstni izbornik**  
+Desnim klikom na bilo koju `.pdf` poveznicu na stranici odaberite "Open PDF with IPA Reader".
+
+**Metoda 3: Automatska detekcija**  
+Kada je u postavkama omogućeno "PDF Smart Detection", proširenje automatski preusmjerava URL-ove koji završavaju na `.pdf` na ugrađeni čitač. Kada se PDF otkrije, ali se ne preusmjeri (npr. ugrađeni preglednik Chromea), vidjet ćete obavijesti i upite za otvaranje u IPA Readeru.
+
+### Značajke čitača PDF-a
+
+- **IPA napomene** — Sve IPA značajke rade na tekstu PDF-a, uključujući način cijele stranice i tooltipove pri prelasku
+- **Rječnik klikom** — Kliknite na bilo koju riječ za definiciju (u PDF-u se umjesto prijelaza mišem koristi klik radi čitanja bez ometanja)
+- **Alatna traka odabira** — Odaberite tekst za govor, prijevod ili kopiranje
+- **Bočna traka** — Pregled sadržaja i minijature stranica
+- **Pretraga** — Pretraživanje teksta u PDF-u, uključujući pretragu pinyin–znak za kineske PDF-ove
+- **Teme** — Tamna, svijetla i sepija tema za čitanje
+- **Zumiranje** — Više razina zumiranja uključujući Automatski, Prilagodba stranice i Širina stranice
+- **Tipkovni prečaci** — Strelicama za navigaciju, +/- za zum, Ctrl/Cmd+F za pretragu
 
 ---
 
@@ -146,11 +195,12 @@ Mehanizam prijevoda i ciljni jezik možete promijeniti u postavkama proširenja.
 | **Omogući IPA** | Glavni prekidač za omogućavanje ili onemogućavanje značajke IPA napomena |
 | **IPA na cijeloj stranici** | Kada je omogućeno, prikazuje bojom kodirani IPA za sve engleske riječi iznad teksta |
 | **Stil IPA** | Odaberite između američkog i britanskog engleskog IPA i izgovora |
-| **Prikaži tooltip pri prelasku** | Prikažite IPA tooltip s gumbom za izgovor pri prelasku mišem |
+| **Način pri prelasku** | Odaberite ponašanje: Rječnik (IPA + definicije + audio), Tooltip (IPA + audio), Samo govor (klik za slušanje) ili Isključeno |
 | **Prikaži slabe/jake oblike** | Prikažite slabe i jake izgovorne varijante uobičajenih funkcijskih riječi |
 | **Brzina govora rečenica** | Prilagodite brzinu čitanja rečenica (govor pojedinačnih riječi nije zahvaćen) |
 | **Mehanizam prijevoda** | Odaberite između Bing Translate i Google Translate |
 | **Ciljni jezik** | Postavite ciljni jezik prijevoda (automatski prepoznat iz jezika preglednika) |
+| **Pametna detekcija PDF-a** | Kada je omogućeno, automatski preusmjerava URL-ove PDF-a na ugrađeni čitač i prikazuje obavijesti kada se otkriju PDF-ovi |
 
 ---
 
@@ -160,7 +210,7 @@ Mehanizam prijevoda i ciljni jezik možete promijeniti u postavkama proširenja.
 O: Iz sigurnosnih razloga, proširenja preglednika ne mogu se pokretati na posebnim stranicama poput `chrome://`, postavki preglednika ili Chrome Web Store.
 
 **P: Što ako nedostaje IPA za neke riječi?**  
-O: IPA rječnik pokriva uobičajene engleske riječi. Za riječi izvan rječnika, proširenje generira približni IPA putem lematizacije i pravila G2P (grafem–fonem). Označeno je s ≈ ili ~ u savjetu.
+O: IPA rječnik pokriva više od 134 000 američkih i više od 67 000 britanskih engleskih riječi. Za riječi izvan rječnika, proširenje generira približni IPA putem lematizacije i pravila G2P (grafem–fonem). Označeno je s ≈ ili ~ u savjetu.
 
 **P: Nema zvuka iz text-to-speech?**  
 O: Provjerite postavke glasnoće sustava i osigurajte da su instalirani engleski glasovni paketi. Podrška za govor varira među preglednicima i operacijskim sustavima.
@@ -173,6 +223,15 @@ O: ~ znači da je IPA generiran pravila pretvorbe (G2P), a ne iz rječnika. ≈ 
 
 **P: Prijevod ne radi?**  
 O: Prijevod zahtijeva internetsku vezu. Ako Bing Translate ne uspije, pokušajte prebaciti na Google Translate u postavkama. Neke mreže mogu blokirati pristup uslugama prijevoda.
+
+**P: Kako otvoriti PDF u IPA Readeru?**  
+O: Možete na nekoliko načina: kliknite "Open PDF Reader" u skočnom prozoru, desnim klikom na poveznicu PDF-a odaberite "Open PDF with IPA Reader", ili omogućite "PDF Smart Detection" u postavkama za automatsko preusmjeravanje URL-ova PDF-a na ugrađeni čitač.
+
+**P: PDF Smart Detection je uključen, ali neki PDF-ovi se ne preusmjeravaju?**  
+O: Automatsko preusmjeravanje radi za URL-ove koji završavaju na `.pdf`. Za PDF-ove poslužene bez nastavka `.pdf` ili ugrađeni preglednik Chromea vidjet ćete obavijest i značku koja vas poziva da otvorite u IPA Readeru.
+
+**P: Mogu li koristiti rječnik izvan mreže?**  
+O: Da. WordNet rječnik (više od 82 000 riječi) u potpunosti je uključen u proširenje. Sva pretraživanja izvode se lokalno bez internetske veze.
 
 ---
 
