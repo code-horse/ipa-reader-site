@@ -6,7 +6,7 @@ lang: ms
 
 # IPA Reader - Panduan Pengguna
 
-> Versi: v1.4.0
+> Versi: v1.4.1
 
 ## Pengenalan
 
