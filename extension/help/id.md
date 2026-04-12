@@ -6,7 +6,7 @@ lang: id
 
 # IPA Reader - Panduan Pengguna
 
-> Versi: v1.4.1
+> Versi: v1.4.3
 
 ## Pendahuluan
 

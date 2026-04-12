@@ -5,9 +5,9 @@ title: Privacy Policy — IPA Reader Extension
 
 # Privacy Policy — IPA Reader Extension
 
-**Last updated**: April 6, 2026
+**Last updated**: April 13, 2026
 
-**Effective date**: April 6, 2026
+**Effective date**: April 13, 2026
 
 ---
 

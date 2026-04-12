@@ -6,7 +6,7 @@ lang: no
 
 # IPA Reader - Brukerveiledning
 
-> Versjon: v1.4.1
+> Versjon: v1.4.3
 
 ## Introduksjon
 
