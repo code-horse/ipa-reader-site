@@ -22,7 +22,7 @@ These Terms of Service ("Terms") govern your use of the IPA Reader mobile applic
 
 ### 2. App Description
 
-IPA Reader is an English pronunciation learning tool that adds IPA (International Phonetic Alphabet) annotations to web pages. Features include a built-in browser, reader mode, listening mode, vocabulary management, sentence collection, notes, and pronunciation practice.
+IPA Reader is an English pronunciation learning tool that adds IPA (International Phonetic Alphabet) annotations to web pages. Features include a built-in browser, reader mode, listening mode, vocabulary management, sentence collection, notes, article translation, and pronunciation practice.
 
 ### 3. Purchase Models
 
@@ -58,8 +58,14 @@ All users can access the following features without a subscription:
 - Browse and read web pages with IPA annotations
 - Reader mode and listening mode
 - Text-to-Speech playback
-- Pronunciation practice (shadowing)
-- Basic vocabulary and sentence saving (with daily limits)
+- Pronunciation practice (shadowing and scoring)
+- Basic vocabulary saving (up to 10 per day)
+- Basic sentence collection (up to 5 per day)
+- Basic note-taking (up to 3 per day)
+- Basic listening & flashcard practice (up to 6 sessions per day, shared across all practice modes)
+- Basic article translation (up to 3 per day)
+
+Daily free quotas reset automatically at midnight each day.
 
 #### 4.2 Pro Features
 
@@ -67,9 +73,9 @@ Subscribing to Pro unlocks:
 
 - Unlimited vocabulary saving
 - Unlimited sentence collection
-- Unlimited listening practice sessions
-- Unlimited flashcard practice sessions
-- Sentence notes
+- Unlimited listening & flashcard practice
+- Unlimited sentence notes
+- Unlimited article translation
 
 #### 4.3 Billing and Auto-Renewal
 

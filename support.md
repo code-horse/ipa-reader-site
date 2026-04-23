@@ -7,7 +7,7 @@ title: IPA Reader - Support
 
 ## About IPA Reader
 
-IPA Reader is an English pronunciation learning tool that adds IPA (International Phonetic Alphabet) annotations to web pages. It features a built-in browser, reader mode, listening mode, vocabulary management, sentence collection, notes, and pronunciation practice with shadowing and scoring.
+IPA Reader is an English pronunciation learning tool that adds IPA (International Phonetic Alphabet) annotations to web pages. It features a built-in browser, reader mode, listening mode, vocabulary management, sentence collection, notes, article translation, and pronunciation practice with shadowing and scoring.
 
 ---
 
@@ -30,7 +30,7 @@ A: No. IPA Reader is ad-free and does not include any advertising SDKs.
 A: Tap the IPA button in the toolbar to turn IPA annotations on or off. To switch between American and British pronunciation, go to Settings > Accent Type.
 
 **Q: How do I enter Reader Mode?**  
-A: Tap the reader mode icon in the bottom toolbar when viewing a web page. The app will extract the article content and display it in a clean reading view.
+A: When a webpage has article content, a reader icon appears in the address bar — tap it to enter a clean, ad-free reading view. If the page doesn't qualify, you can try the "Force Enter" option.
 
 **Q: Some pages cannot enter Reader Mode. Why?**  
 A: Not all web pages are suitable for reader mode. Pages with complex layouts, heavy JavaScript, or no main article content may not be parseable. You can try "Force Enter" to attempt it anyway.
@@ -67,6 +67,14 @@ A: Pronunciation scoring uses the device's built-in speech recognition and a loc
 **Q: Does the app send my voice to a server?**  
 A: No. The app uses the device's built-in speech recognition engine with on-device (offline) recognition enforced on both iOS and Android. Your audio is processed entirely on your device and is never sent to any cloud service or third-party server.
 
+### Translation
+
+**Q: How do I translate an article?**  
+A: In reader mode, tap the Translate button in the bottom toolbar to translate the entire article into your language. You can choose between Bing Translate and Google Translate in Settings.
+
+**Q: Is the translation feature free?**  
+A: On Android, free users can translate up to 3 articles per day. When the daily quota is used up, a lock icon appears on the Translate button. The quota resets automatically at midnight. Pro subscribers have unlimited translations. On iOS, all features including translation are included with the one-time purchase.
+
 ### Archive & Practice
 
 **Q: What is the Archive?**  
@@ -80,6 +88,21 @@ A: In listening mode, tap the heart icon next to any sentence. In reading mode, 
 
 **Q: How do I add notes?**  
 A: Tap the pencil icon in the floating toolbar to add a note to a word or sentence. Each note supports a color tag (pink, yellow, green, blue) for organization. View all notes in the page knowledge panel.
+
+### Android Free Quotas
+
+**Q: What are the daily free quotas on Android?**  
+A: Android free users can use all features with the following daily limits:
+
+| Feature | Daily Free Quota |
+|---------|-----------------|
+| Save vocabulary | 10 words per day |
+| Collect sentences | 5 sentences per day |
+| Add notes | 3 notes per day |
+| Listening & flashcard practice | 6 sessions per day (shared across all practice modes) |
+| Article translation | 3 articles per day |
+
+All quotas reset automatically at midnight each day. Pro subscribers have no limits. iOS users who purchased the app have no limits.
 
 ### Data Management
 
