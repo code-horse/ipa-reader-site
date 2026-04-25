@@ -6,7 +6,7 @@ lang: hu
 
 # IPA Reader - Felhasználói útmutató
 
-> Verzió: v1.4.3
+> Verzió: v1.4.4
 
 ## Bevezetés
 

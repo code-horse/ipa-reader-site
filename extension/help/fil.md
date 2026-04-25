@@ -6,7 +6,7 @@ lang: fil
 
 # IPA Reader - Gabay ng Gumagamit
 
-> Bersyon: v1.4.3
+> Bersyon: v1.4.4
 
 ## Panimula
 

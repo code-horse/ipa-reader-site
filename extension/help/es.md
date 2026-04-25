@@ -6,7 +6,7 @@ lang: es
 
 # IPA Reader - Guía de usuario
 
-> Versión: v1.4.3
+> Versión: v1.4.4
 
 ## Introducción
 

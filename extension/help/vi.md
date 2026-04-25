@@ -6,7 +6,7 @@ lang: vi
 
 # IPA Reader - Hướng dẫn sử dụng
 
-> Phiên bản: v1.4.3
+> Phiên bản: v1.4.4
 
 ## Giới thiệu
 

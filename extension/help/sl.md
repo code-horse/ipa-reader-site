@@ -6,7 +6,7 @@ lang: sl
 
 # IPA Reader - Uporabniški priročnik
 
-> Različica: v1.4.3
+> Različica: v1.4.4
 
 ## Uvod
 
