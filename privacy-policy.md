@@ -5,7 +5,7 @@ title: Privacy Policy - IPA Reader
 
 # Privacy Policy
 
-**Last updated**: April 1, 2026
+**Last updated**: April 26, 2026
 
 **Effective date**: February 26, 2026
 

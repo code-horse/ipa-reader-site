@@ -5,7 +5,7 @@ title: Terms of Service - IPA Reader
 
 # Terms of Service
 
-**Last updated**: April 1, 2026
+**Last updated**: April 26, 2026
 
 **Effective date**: April 1, 2026
 
@@ -32,7 +32,7 @@ The App is available under different purchase models depending on the platform:
 
 The iOS version of IPA Reader is a **one-time paid download** from the Apple App Store. All features are fully unlocked with your purchase — no subscriptions or additional in-app purchases are required.
 
-- **Price**: $3.99 USD (or equivalent in your local currency, as determined by Apple)
+- **Price**: $6.99 USD (or equivalent in your local currency, as determined by Apple)
 - **Payment**: Processed entirely by Apple through the App Store
 - **Refunds**: Subject to Apple's [refund policy](https://support.apple.com/en-us/HT204084)
 
@@ -42,8 +42,8 @@ The Android version of IPA Reader is **free to download** with basic features av
 
 | Plan | Price (USD) | Billing Cycle |
 |------|-------------|---------------|
-| Monthly | $0.99 / month | Billed monthly |
-| Annual | $4.99 / year | Billed annually |
+| Monthly | $2.99 / month | Billed monthly |
+| Annual | $14.99 / year | Billed annually |
 
 Prices may vary by region. The actual price displayed in Google Play at the time of purchase applies.
 
